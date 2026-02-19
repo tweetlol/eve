@@ -25,7 +25,8 @@ def summarize_node(state: ArticleState):
     summary = summarize_paper(filepath=state["paper_path"])
 
     return {
-        "summary": summary
+        "summary": summary,
+        "llm_calls": state["llm_calls"] + 1
         }
 
 def write_node(state: ArticleState):
