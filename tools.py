@@ -134,7 +134,7 @@ def save_article_english(article: str) -> str:
         Confirmation message with file path
     """
 
-    filepath = f"/home/fj/eve/final_article_english.md"
+    filepath = "/home/fj/eve/final_article_english.md"
     with open(filepath, 'w') as f:
         f.write(article)
 
@@ -167,7 +167,7 @@ def save_article_czech(article: str) -> str:
         Confirmation message with file path
     """
 
-    filepath = f"/home/fj/eve/final_article_czech.md"
+    filepath = "/home/fj/eve/final_article_czech.md"
     with open(filepath, 'w') as f:
         f.write(article)
 
