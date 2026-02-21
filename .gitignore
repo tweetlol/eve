@@ -1,3 +1,4 @@
 venv/
 .env
-final_*
+final_article_*
+paper*
