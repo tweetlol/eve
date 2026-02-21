@@ -24,6 +24,7 @@ def summarize_node(state: ArticleState):
     from tools import summarize_paper
     summary = summarize_paper(filepath=state["paper_path"])
 
+    print(f"SUMMARIZE SUCCES:\n{summary}\n\n")
     return {
         "summary": summary,
         "llm_calls": state["llm_calls"] + 1
@@ -33,6 +34,10 @@ def write_node(state: ArticleState):
     from tools import write_article
     article = write_article(paper_summary=state["summary"])
 
+    # extract the text
+    #article_text = state["current_article"]
+
+    print(f"WRITE SUCCESS:\n{article}\n\n")
     return {
         "current_article": article,
         "revision_count": 0,
@@ -43,6 +48,7 @@ def review_node(state: ArticleState):
     from tools import review_article
     response = review_article(article=state["current_article"])
 
+    print(f"REVIEW SUCCESS, APPROVED: {response.approved}\n{response}\n\n")
     return {
         "feedback": "\n".join(response.feedback),
         "approved": response.approved,
@@ -55,7 +61,10 @@ def revise_node(state: ArticleState):
         article=state["current_article"],
         feedback=state["feedback"]
         )
-
+    
+    #revised_text = 
+    
+    print(f"REVISION SUCCESS\n{revised}\n\n")
     return {
         "current_article": revised,
         "revision_count": state["revision_count"] + 1,
@@ -66,12 +75,14 @@ def save_english_node(state: ArticleState):
     from tools import save_article_english
     result = save_article_english(article=state["current_article"])
 
+    print(f"SAVE_ENGLISH SUCCESS\n\n")
     return {"article_path_english": result}
 
 def translate_node(state: ArticleState):
     from tools import translate_article
     translated = translate_article(article=state["current_article"])
 
+    print(f"TRANSLATE SUCCESS\n{translated}\n\n")
     return {
         "translated_article": translated,
         "llm_calls": state["llm_calls"] + 1
@@ -81,6 +92,7 @@ def save_czech_node(state: ArticleState):
     from tools import save_article_czech
     result = save_article_czech(article=state["translated_article"])
 
+    print(f"SAVE_CZECH SUCCESS\n\n")
     return {"article_path_czech": result}
 
 

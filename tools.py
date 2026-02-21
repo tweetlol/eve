@@ -3,53 +3,12 @@ from langchain.messages import SystemMessage
 import system_messages
 from langchain_community.document_loaders import PyPDFLoader, TextLoader
 from typing import cast
-from pydantic import BaseModel
-
-
-class ReviewOutput(BaseModel):
-    approved: bool
-    feedback: list[str]
-
-
-##### THE GEMINI GANG #####
-from langchain_google_genai import ChatGoogleGenerativeAI
-models = [
-    "gemma-3-27b-it", # CANNOT DO TOOLS AT ALL
-    "gemini-2.5-flash-lite", # THIS BE A GOOD ONE MATEY
-    "gemini-2.5-flash-preview-tts", # TOO LOW LIMITS
-    "gemini-3-flash-preview", # **FUCKING 10/10 AMAZING** (A BIT LOW LIMIT)
-    "gemini-flash-latest"
-]
-summarizer_agent = ChatGoogleGenerativeAI(model=models[3], temperature=0.3)
-
-writer_agent = ChatGoogleGenerativeAI(model=models[3], temperature=0.6)
-
-reviewer_agent = ChatGoogleGenerativeAI(model=models[3], temperature=0.4)
-reviewer_agent = reviewer_agent.with_structured_output(ReviewOutput)
-
-reviser_agent = ChatGoogleGenerativeAI(model=models[3], temperature=0.5)
-
-translator_agent = ChatGoogleGenerativeAI(model=models[3], temperature=0.5)
-
-
-
-##### THE DEEPINFRA GANG #####
-from langchain_openai.chat_models.base import BaseChatOpenAI
-#summarizer_agent = BaseChatOpenAI(model='deepseek-ai/DeepSeek-V3.2', base_url='https://api.deepinfra.com/v1/openai/', max_tokens=1024, temperature=0.4)
-
-#writer_agent = BaseChatOpenAI(model='deepseek-ai/DeepSeek-V3.2', base_url='https://api.deepinfra.com/v1/openai/', max_tokens=1024, temperature=0.7)
-
-#reviewer_agent = BaseChatOpenAI(model='deepseek-ai/DeepSeek-V3.2', base_url='https://api.deepinfra.com/v1/openai/', temperature=0.4)
-#reviewer_agent = reviewer_agent.with_structured_output(ReviewOutput)
-
-#reviser_agent = BaseChatOpenAI(model='deepseek-ai/DeepSeek-V3.2', base_url='https://api.deepinfra.com/v1/openai/', max_tokens=1024, temperature=0.7)
-
-#translator_agent = BaseChatOpenAI(model='deepseek-ai/DeepSeek-V3.2', base_url='https://api.deepinfra.com/v1/openai/', max_tokens=1024, temperature=0.5)
-
-
+from models import summarizer_agent, writer_agent, reviewer_agent, reviser_agent, translator_agent
 
 from time import sleep
 from parameters import RATE_LIMIT_DELAY
+from models import ReviewOutput
+
 
 def summarize_paper(filepath: str) -> str:
 
@@ -69,7 +28,7 @@ def summarize_paper(filepath: str) -> str:
         {"role": "user", "content": paper_text}
     ])
 
-    return str(response.content)
+    return str(response.content[0]['text'])
 
 def write_article(paper_summary: str) -> str:
 
@@ -86,7 +45,7 @@ def write_article(paper_summary: str) -> str:
     ])
     sleep(RATE_LIMIT_DELAY)
 
-    return str(response.content)
+    return str(response.content[0]['text'])
 
 
 def review_article(article: str) -> ReviewOutput:
@@ -122,7 +81,7 @@ def revise_article(article: str, feedback: str) -> str:
     ])
     sleep(RATE_LIMIT_DELAY)
 
-    return str(response.content)
+    return str(response.content[0]['text'])
 
 
 def save_article_english(article: str) -> str:
@@ -155,7 +114,7 @@ def translate_article(article: str) -> str:
         {"role": "user", "content": f"Please, translate the following article to Czech:\n\n{article}"}
     ])
 
-    return str(response.content)
+    return str(response.content[0]['text'])
 
 
 def save_article_czech(article: str) -> str:
