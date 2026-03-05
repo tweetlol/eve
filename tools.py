@@ -9,11 +9,9 @@ from time import sleep
 from parameters import RATE_LIMIT_DELAY
 from models import ReviewOutput
 
+def extract_text(filepath: str) -> str:
 
-def summarize_paper(filepath: str) -> str:
-
-    """Summarize a scientific paper from a PDF or text file."""
-
+    """extract the text from the original scientific paper"""
     if filepath.endswith(".pdf"):
         loader = PyPDFLoader(filepath)
         pages = loader.load()
@@ -22,6 +20,12 @@ def summarize_paper(filepath: str) -> str:
         loader = TextLoader(filepath)
         docs = loader.load()
         paper_text = docs[0].page_content
+
+    return paper_text
+
+def summarize_paper(paper_text: str) -> str:
+
+    """Summarize a scientific paper from a PDF or text file."""
 
     response = summarizer_agent.invoke([
         SystemMessage(content=system_messages.summarizer),
@@ -48,18 +52,19 @@ def write_article(paper_summary: str) -> str:
     return str(response.content[0]['text'])
 
 
-def review_article(article: str) -> ReviewOutput:
+def review_article(article: str, original_text: str) -> ReviewOutput:
 
     """Review a pop-science article for accessibility and engagement.
     Args:
         article: The article to review
+        original_text: The original research paper text
     Returns:
         ReviewOutput with approved status and feedback list
     """
 
     response = reviewer_agent.invoke([
         SystemMessage(content=system_messages.reviewer),
-        {"role": "user", "content": f"Please, review the following article:\n\n{article}"}
+        {"role": "user", "content": f"Please, review the following article:\n\n{article}\n\nCompare it with the original research paper: {original_text}"}
     ])
     sleep(RATE_LIMIT_DELAY)
 

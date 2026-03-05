@@ -2,3 +2,4 @@ venv/
 .env
 final_article_*
 paper*
+state_outputs/
