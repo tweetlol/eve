@@ -15,3 +15,4 @@ using langgraph
 - [X] move temperatures to parameters.py
 - [X] logging every node to see them in action
 - [ ] image generation based on article content (at least thumbnail)
+- [ ] track headlines and add penalized words? (too many tug-of-wars)
