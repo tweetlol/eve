@@ -3,11 +3,12 @@ from langchain.messages import SystemMessage
 import system_messages
 from langchain_community.document_loaders import PyPDFLoader, TextLoader
 from typing import cast
-from models import summarizer_agent, writer_agent, reviewer_agent, reviser_agent, translator_agent
-
 from time import sleep
+from pathlib import Path
+
+
 from parameters import RATE_LIMIT_DELAY
-from models import ReviewOutput
+from models import summarizer_agent, writer_agent, reviewer_agent, reviser_agent, translator_agent, ReviewOutput
 
 def extract_text(filepath: str) -> str:
 
@@ -136,3 +137,18 @@ def save_article_czech(article: str) -> str:
         f.write(article)
 
     return filepath
+
+## LOG WRITING AND CLEARING FUNCTIONS
+def clear_state_outputs_txt() -> None:
+    output_dir = Path(__file__).resolve().parent / "state_outputs"
+    if not output_dir.exists():
+        return
+
+    for txt_file in output_dir.glob("*.txt"):
+        txt_file.unlink()
+
+
+def write_to_file(filename: str, content: str):
+    filepath = f"/home/fj/eve/state_outputs/{filename}"
+    with open(filepath, 'w') as f:
+        f.write(content)

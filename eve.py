@@ -3,7 +3,6 @@ from typing import TypedDict, Literal
 from langgraph.graph import StateGraph, START, END
 from parameters import MAX_REVISIONS, PAPER_PATH
 from dotenv import load_dotenv
-from utils import write_to_file
 
 
 load_dotenv()
@@ -192,9 +191,12 @@ graph_image = agent.get_graph(xray=True).draw_mermaid_png()
 with open("agent_graph.png", "wb") as f:
     f.write(graph_image)
 
+from tools import write_to_file, clear_state_outputs_txt
+
 
 # invoke
 if __name__ == "__main__":
+    clear_state_outputs_txt()
     result = agent.invoke({
         "paper_path": PAPER_PATH,
         "original_text": "",
