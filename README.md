@@ -2,11 +2,7 @@
 
 eve, popsci-writer-agent 2.0
 
-using langgraph
-
-## workflow
-
-![Agent Graph](./agent_graph.png)
+using langgraph and gemini api
 
 ## todo
 
@@ -16,3 +12,7 @@ using langgraph
 - [X] logging every node to see them in action
 - [ ] image generation based on article content (at least thumbnail)
 - [ ] track headlines and add penalized words? (too many tug-of-wars)
+
+## workflow
+
+![Agent Graph](./agent_graph.png)
