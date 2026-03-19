@@ -12,6 +12,7 @@ using langgraph and gemini api
 - [X] logging every node to see them in action
 - [ ] image generation based on article content (at least thumbnail)
 - [ ] track headlines and add penalized words? (too many tug-of-wars)
+- [ ] original article cross check during translation too?
 
 ## workflow
 
