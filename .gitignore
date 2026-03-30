@@ -3,3 +3,5 @@ venv/
 final_article_*
 paper*
 state_outputs/
+sent_to_author/
+published/
