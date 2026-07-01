@@ -14,16 +14,17 @@ models = [
     "gemini-2.5-flash-lite", # THIS BE A GOOD ONE MATEY
     "gemini-2.5-flash-preview-tts", # TOO LOW LIMITS
     "gemini-3-flash-preview", # **FUCKING 10/10 AMAZING** (A BIT LOW LIMIT)
-    "gemini-flash-latest"
+    "gemini-flash-latest",
+    "gemini-3.5-flash" # NEW SHERIFF IN TOWN
 ]
-summarizer_agent = ChatGoogleGenerativeAI(model=models[3], temperature=summarizer_temp)
+summarizer_agent = ChatGoogleGenerativeAI(model=models[5], temperature=summarizer_temp)
 
-writer_agent = ChatGoogleGenerativeAI(model=models[3], temperature=writer_temp)
+writer_agent = ChatGoogleGenerativeAI(model=models[5], temperature=writer_temp)
 
-reviewer_agent = ChatGoogleGenerativeAI(model=models[3], temperature=reviser_temp)
+reviewer_agent = ChatGoogleGenerativeAI(model=models[5], temperature=reviser_temp)
 reviewer_agent = reviewer_agent.with_structured_output(ReviewOutput)
 
-reviser_agent = ChatGoogleGenerativeAI(model=models[3], temperature=reviewer_temp)
+reviser_agent = ChatGoogleGenerativeAI(model=models[5], temperature=reviewer_temp)
 
 
 ##### THE DEEPINFRA GANG #####

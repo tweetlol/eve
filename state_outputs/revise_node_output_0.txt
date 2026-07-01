@@ -1,8 +1,14 @@
+Zde je revidovaná verze článku, ve které byly implementovány všechny připomínky recenzenta. 
+
+V textu bylo upřesněno, že u rotujících černých děr (Kerrův časoprostor) má singularita tvar prstence (nikoli bezrozměrného bodu), což je klíčové pro pochopení vzniku uzavřených časových smyček („stroje času“) a jejich následného maskování strunovou slupkou superspinaru. Dále byla opravena věcná a jazyková nepřesnost týkající se rotace černé díry kolem vlastní osy (záměna slov „obíhat“ a „otáčet se/rotovat“).
+
+---
+
 # Za hranicemi černých děr: Jak čeští fyzici modelují stíny teoretických monster ovládaných strunami
 
 Když v roce 2019 vědecké konsorcium *Event Horizon Telescope* (EHT) zveřejnilo první historický snímek supermasivní černé díry v srdci galaxie M87, svět byl u vytržení. Viděli jsme temný kruh obklopený zářícím oranžovým prstencem – přesně tak, jak to předpovídala Einsteinova obecná teorie relativity. O tři roky později následoval podobný snímek objektu Sagittarius A* ve středu naší vlastní Galaxie. Pro většinu lidí to byl definitivní důkaz, že černé díry existují přesně tak, jak si je představujeme.
 
-Pro teoretické fyziky však tyto fascinující snímky nebyly koncem příběhu, ale spíše začátkem nové, vzrušující kapitoly. Obecná teorie relativity je sice neuvěřitelně úspěšná, ale má své limity. V samotném srdci černé díry se podle ní nachází bod s nekonečnou hustotou – takzvaná singularita –, kde se hroutí samotný prostor a čas a kde známé fyzikální zákony přestávají platit. 
+Pro teoretické fyziky však tyto fascinující snímky nebyly koncem příběhu, ale spíše začátkem nové, vzrušující kapitoly. Obecná teorie relativity je sice neuvěřitelně úspěšná, ale má své limity. V samotném srdci černé díry se podle ní nachází oblast s nekonečnou hustotou – takzvaná singularita. Zatímco u zjednodušených, statických černých děr jde o bezrozměrný bod, u rotujících objektů má tato singularita tvar prstence. Právě v této prstencové singularitě se hroutí samotný prostor a čas a známé fyzikální zákony přestávají platit.
 
 Co když ale objekty, které ve vesmíru pozorujeme, nejsou klasické černé díry? Co když se díváme na něco mnohem exotičtějšího, co namísto destrukce fyziky nabízí pohled do nitra dosud nepolapitelné „teorie všeho“?
 
@@ -14,23 +20,23 @@ Tým českých vědců z Fyzikálního ústavu Slezské univerzity v Opavě – 
 
 Abychom pochopili, co je to superspinar, musíme se nejprve seznámit s konceptem, který fyziky straší už desítky let: s **nahou singularitou**.
 
-Když masivní hvězda kolabuje pod vlastní vahou, vytvoří kolem sebe neviditelnou hranici zvanou *horizont událostí*. Cokoli tuto hranici překročí – včetně světla –, je nenávratně ztraceno v nitru černé díry. Horizont událostí funguje jako dokonalá kosmická opona. Skrývá před námi samotnou singularitu a s ní i všechny fyzikální absurdity, které by v jejím sousedství mohly nastat.
+Když masivní hvězda kolabuje pod vlastní vahou, vytvoří kolem sebe neviditelnou hranici zvanou *horizont událostí*. Cokoli tuto hranici překročí – včetně světla –, je nenávratně ztraceno v nitru černé díry. Horizont událostí funguje jako dokonalá kosmická opona. Skrývá před námi samotnou singularitu a s nimi i všechny fyzikální absurdity, které by v jejím sousedství mohly nastat.
 
 Slavný britský fyzik Roger Penrose v roce 1969 formuloval takzvanou *hypotézu kosmické cenzury*. Ta zjednodušeně říká, že příroda se stydí za své singularity, a proto je vždy obléká do horizontu událostí. Nahé singularity – tedy singularity bez ochranného pláště horizontu – by podle Penrose neměly ve skutečném vesmíru existovat.
 
-Proč? Pokud by totiž rotující černá díra obíhala extrémně rychle, její odstředivá síla by mohla horizont událostí doslova roztrhat. Odhalená singularita by pak začala působit jako brutální anomálie. V její blízkosti by docházelo k narušení kauzality – příčiny a následku. Vznikly by zde uzavřené časové smyčky, které by v podstatě fungovaly jako stroje času. Mohli byste se vydat na cestu prostorem a vrátit se dříve, než jste odstartovali. To s sebou přináší logické paradoxy, které fyzika odmítá tolerovat.
+Proč? Pokud by se totiž rotující černá díra otáčela extrémně rychle, její odstředivá síla by mohla horizont událostí doslova roztrhat. Odhalená prstencová singularita by pak začala působit jako brutální anomálie. Právě v jejím nitru a těsném sousedství by docházelo k narušení kauzality – příčiny a následku. Vznikly by zde uzavřené časové smyčky, které by v podstatě fungovaly jako stroje času. Mohli byste se vydat na cestu prostorem a vrátit se dříve, než jste odstartovali. To s sebou přináší logické paradoxy, které fyzika odmítá tolerovat.
 
 ---
 
 ## Superspinar: Když teorie strun zachraňuje vesmír
 
-V roce 2009 přišli fyzici Emil Gimon a Petr Hořava s elegantním řešením. Co když se objekt skutečně točí tak rychle, že by měl horizont událostí zmizet, ale dříve, než se odhalí patologická singularita, zasáhne nová fyzika?
+V roce 2009 přišli fyzici Emil Gimon a Petr Hořava s elegantním řešením. Co když se objekt skutečně točí tak rychle, že by měl horizont událostí zmizet, ale dříve, než se odhalí patologická prstencová singularita a s ní spojený stroj času, zasáhne nová fyzika?
 
 Tímto zachráncem je **teorie strun** – horký kandidát na sjednocení kvantové mechaniky a gravitace. Podle teorie strun nejsou základními stavebními kameny vesmíru bodové částice, ale nepatrné vibrující struny. V extrémních podmínkách, kde by měla vzniknout singularita, se začnou projevovat strunové efekty.
 
-Gimon a Hořava navrhli, že vnitřek takto extrémně rotujícího tělesa je vyplněn exotickým „strunovým“ stavem hmoty. Tento vnitřek má pevný fyzikální povrch, který se nachází těsně nad oblastí, kde by jinak vznikal stroj času. Tento hypotetický objekt nazvali **superspinar**. 
+Gimon a Hořava navrhli, že vnitřek takto extrémně rotujícího tělesa je vyplněn exotickým „strunovým“ stavem hmoty. Tento vnitřek má pevný fyzikální povrch (s poloměrem $R > 0$), který se nachází nad oblastí prstencové singularity. Tímto způsobem je patologický stroj času bezpečně překryt a izolován od vnějšího vesmíru. Tento hypotetický objekt nazvali **superspinar**.
 
-Z vnějšího pohledu se superspinar chová téměř jako nahá singularita, ale jeho problematické nitro je bezpečně schované pod strunovou slupkou. Vědci ve své práci modelují tento povrch jako „jednosměrnou membránu“ – tedy jako povrch, který veškeré dopadající světlo a hmotu pohltí a sám nic nevyzařuje, čímž částečně napodobuje chování černé díry, ale s jedním zásadním rozdílem: nemá horizont událostí a může rotovat rychlostí, která je pro běžné černé díry tabu.
+Z vnějšího pohledu se superspinar chová téměř jako nahá singularita, ale jeho problematické prstencové nitro je bezpečně schované pod strunovou slupkou. Vědci ve své práci modelují tento povrch jako „jednosměrnou membránu“ – tedy jako povrch, který veškeré dopadající světlo a hmotu pohltí a sám nic nevyzařuje, čímž částečně napodobuje chování černé díry, ale s jedním zásadním rozdílem: nemá horizont událostí a může rotovat rychlostí, která je pro běžné černé díry tabu.
 
 ---
 

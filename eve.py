@@ -110,7 +110,7 @@ def save_article_node(state: ArticleState):
     from tools import save_article
     result = save_article(article=state["current_article"])
 
-    print(f"SAVE_ENGLISH SUCCESS")
+    print(f"SAVE SUCCESS")
     write_to_file(
         filename="save_article_node_output.txt",
         content=result
