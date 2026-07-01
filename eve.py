@@ -17,9 +17,7 @@ class ArticleState(TypedDict):
     feedback: str
     revision_count: int
     approved: bool
-    translated_article: str
     llm_calls: int
-    article_english_path: str
     article_czech_path: str
 
 
@@ -56,8 +54,8 @@ def summarize_node(state: ArticleState):
 
 
 def write_node(state: ArticleState):
-    from tools import write_article
-    article = write_article(paper_summary=state["summary"])
+    from tools import write_article_czech
+    article = write_article_czech(paper_summary=state["summary"], original_text=state["original_text"])
 
     print(f"WRITE SUCCESS")
     write_to_file(
@@ -92,6 +90,7 @@ def revise_node(state: ArticleState):
     from tools import revise_article
     revised = revise_article(
         article=state["current_article"],
+        original_text=state["original_text"],
         feedback=state["feedback"]
         )
     
@@ -107,53 +106,26 @@ def revise_node(state: ArticleState):
     }
 
 
-def save_english_node(state: ArticleState):
-    from tools import save_article_english
-    result = save_article_english(article=state["current_article"])
+def save_article_node(state: ArticleState):
+    from tools import save_article
+    result = save_article(article=state["current_article"])
 
     print(f"SAVE_ENGLISH SUCCESS")
     write_to_file(
-        filename="save_english_node_output.txt",
-        content=result
-    )
-    return {"article_english_path": result}
-
-
-def translate_node(state: ArticleState):
-    from tools import translate_article
-    translated = translate_article(article=state["current_article"])
-
-    print(f"TRANSLATE SUCCESS")
-    write_to_file(
-        filename="translate_node_output.txt",
-        content=translated
-    )
-    return {
-        "translated_article": translated,
-        "llm_calls": state["llm_calls"] + 1
-        }
-
-
-def save_czech_node(state: ArticleState):
-    from tools import save_article_czech
-    result = save_article_czech(article=state["translated_article"])
-
-    print(f"SAVE_CZECH SUCCESS")
-    write_to_file(
-        filename="save_czech_node_output.txt",
+        filename="save_article_node_output.txt",
         content=result
     )
     return {"article_czech_path": result}
 
 
-# conditional edge function
-def should_revise(state: ArticleState) -> Literal["revise", "save_english"]:
+# conditional edge function -> save or revise the article?
+def should_revise(state: ArticleState) -> Literal["revise", "save"]:
     """Decide whether to revise or save"""
     if state["approved"]:
-        return "save_english"
+        return "save"
     elif state["revision_count"] >= MAX_REVISIONS:
         # Max revisions reached, save anyway
-        return "save_english"
+        return "save"
     else:
         return "revise"
 
@@ -168,9 +140,7 @@ workflow.add_node("summarize", summarize_node)
 workflow.add_node("write", write_node)
 workflow.add_node("review", review_node)
 workflow.add_node("revise", revise_node)
-workflow.add_node("save_english", save_english_node)
-workflow.add_node("translate", translate_node)
-workflow.add_node("save_czech", save_czech_node)
+workflow.add_node("save", save_article_node)
 
 # the flow
 workflow.add_edge(START, "extract")
@@ -179,9 +149,7 @@ workflow.add_edge("summarize", "write")
 workflow.add_edge("write", "review")
 workflow.add_conditional_edges("review", should_revise)
 workflow.add_edge("revise", "review")
-workflow.add_edge("save_english", "translate")
-workflow.add_edge("translate", "save_czech")
-workflow.add_edge("save_czech", END)
+workflow.add_edge("save", END)
 
 agent = workflow.compile()
 
@@ -205,9 +173,7 @@ if __name__ == "__main__":
         "feedback": "",
         "revision_count": 0,
         "approved": False,
-        "translated_article": "",
         "llm_calls": 0,
-        "article_english_path": "",
         "article_czech_path": ""
     })
     

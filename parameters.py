@@ -7,4 +7,3 @@ summarizer_temp = 0.3
 writer_temp = 0.6
 reviewer_temp = 0.4
 reviser_temp = 0.6
-translator_temp = 0.5

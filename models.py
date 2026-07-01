@@ -5,7 +5,7 @@ class ReviewOutput(BaseModel):
     approved: bool
     feedback: list[str]
 
-from parameters import summarizer_temp, writer_temp, reviser_temp, reviewer_temp, translator_temp
+from parameters import summarizer_temp, writer_temp, reviser_temp, reviewer_temp
 
 ##### THE GEMINI GANG #####
 from langchain_google_genai import ChatGoogleGenerativeAI
@@ -25,9 +25,6 @@ reviewer_agent = reviewer_agent.with_structured_output(ReviewOutput)
 
 reviser_agent = ChatGoogleGenerativeAI(model=models[3], temperature=reviewer_temp)
 
-translator_agent = ChatGoogleGenerativeAI(model=models[3], temperature=translator_temp)
-
-
 
 ##### THE DEEPINFRA GANG #####
 from langchain_openai.chat_models.base import BaseChatOpenAI
@@ -39,6 +36,4 @@ from langchain_openai.chat_models.base import BaseChatOpenAI
 #reviewer_agent = reviewer_agent.with_structured_output(ReviewOutput)
 
 #reviser_agent = BaseChatOpenAI(model='deepseek-ai/DeepSeek-V3.2', base_url='https://api.deepinfra.com/v1/openai/', max_tokens=1024, temperature=reviser_temp)
-
-#translator_agent = BaseChatOpenAI(model='deepseek-ai/DeepSeek-V3.2', base_url='https://api.deepinfra.com/v1/openai/', max_tokens=1024, temperature=translator_temp)
 
