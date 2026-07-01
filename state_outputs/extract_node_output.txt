@@ -1,0 +1,4111 @@
+Shadows of Kerr –de Sitter naked singularities
+Zdeněk Stuchlík * and Daniel Charbulák †
+Research Centre for Theoretical Physics and Astrophysics, Institute of Physics,
+Silesian University in Opava, Bezru čovo nám. 13, CZ-746 01 Opava, Czech Republic
+(Received 3 November 2021; revised 27 September 2023; accepted 29 January 2024; published 5 March 2024)
+We present a classification of Kerr –de Sitter spacetimes based on the presence of horizons, ergospheres,
+and the characteristics of photon motion. We utilize the concept of local escape cones for isotropically
+radiating point sources to create shadows of the Kerr –de Sitter naked singularities within a class containing
+astrophysically relevant parameters. For completeness, we also consider in the construction photons entering
+the region of negative radii of the naked singularity spacetimes. The shadow construction is associated with
+two astrophysically significant families of local reference frames (or local observers). The first family
+represents locally nonrotating frames that, near the so-called static radius in Kerr –de Sitter spacetimes,
+exhibit characteristics similar to those of static observers at large distances in asymptotically flat spacetimes.
+The second family involves radially escaping geodesic frames, which are suitable for constructing the
+shadow near the cosmological horizon of Kerr –de Sitter spacetimes. We explore how the aberration effect,
+caused by the motion of free observers due to the repulsive influence of the cosmological constant, modifies
+the shadow in comparison to those related to stationary locally nonrotating observers.
+DOI: 10.1103/PhysRevD.109.064008
+I. INTRODUCTION
+The appearance of the shadow of a black hole (BH) has
+generated considerable interest in the astrophysical com-
+munity, especially after the first image of the neighborhood
+of the BH located at the center of the galaxy M87 was taken
+by the Event Horizon Telescope (EHT) [1–8], and we can
+therefore expect a further increase in this interest after the
+image of the neighborhood of the BH at the center of our
+Galaxy, known as the source SgrA* [9–14].
+Starting from the pioneering work on the modeling the
+shadow shape of BHs in the asymptotically flat spacetimes,
+namely nonrotating Schwarzschild BHs [15,16],t h e
+Schwarzschild BHs surrounded by an accretion disk [17],
+and the rotating Kerr BHs [18–20], shadows of BHs or other
+compact (no-horizon) objects, such as wormholes, have
+been modeled in the framework of general relativity (GR)
+by considering many variants of the BH configurations,
+using different spacetime geometries, with or without the
+presence of matter, using different approaches, and also
+using alternative theories of gravity [21].
+For example, the braneworld Kerr-Newman BHs have
+been studied in [22–26]. Of particular interest are optical
+phenomena around the regular BHs [27,28] constructed in
+the framework of GR combined with various variants of
+nonlinear electrodynamics [29–33]. BHs surrounded by the
+test fields or dark matter were examined in [34–39]. Some
+remarkable results have been obtained in alternative models
+of gravity, including the M-theory [40], Einstein-Æther
+theory [41], Einstein-Cartan-Sciama-Kibble theory [42],o r
+Gauss-Bonnet gravity [43]. A comprehensive review of
+variants of BH spacetimes in which the optical phenomena
+have been studied, can be found in [44].
+The shadows associated with the no-horizon compact
+objects have also been studied for spherically symmetric
+naked singularities (NSs) [45,46], deformed NSs [47],
+wormholes [48–52], Kerr NSs [53,54], braneworld Kerr-
+Newman NSs [55–57], or standard Kerr-Newman BH and
+NS [15,58]. So-called BH impostors have also been treated,
+e.g., in [59].
+Considerable effort has also gone into finding an alter-
+native to the Kerr NS spacetime, which does not show the
+region of causality violations (time machine [60]), which is
+predicted to be in the vicinity of the ring singularity [61].
+For this reason, “stringy
+” solutions corresponding to rapidly
+rotating compact objects, so-called superspinars, have been
+introduced, where the interior is described by assumed
+stringy effects, and the exterior is described by the standard
+Kerr NS geometry [62–64]; their astrophysical properties
+have been studied in [65,66]. The pathological causality
+violation region is then covered by the correctly behaving
+region, the boundary of the inner solution is expected at a
+radius r ≥ 0. Optical phenomena associated with Kerr
+superspinars have been studied in [53,54], where it has
+been shown that the superspinar shadow depends on the
+position of the boundary of the external Kerr spacetime and
+*zdenek.stuchlik@physics.slu.cz
+†daniel.charbulak@physics.slu.cz
+PHYSICAL REVIEW D 109, 064008 (2024)
+2470-0010=2024=109(6)=064008(49) 064008-1 © 2024 American Physical Society
+
+differs significantly from the BH shadow. The distinction
+between Kerr NSs and BHs has been studied in [54,66,67].
+A comprehensive review of analytical studies of the
+shadows of BHs and other compact objects with a presen-
+tation of different approaches has recently been published
+in [68]. A common feature of these studies is the focus on
+the area of the photon spheres in the case of spherically
+symmetric spacetimes, or photon shells in the case of the
+axially symmetric and stationary spacetimes, surrounding
+the central gravitating objects, as they play a crucial role in
+defining the shadow.
+The validity of the weak cosmic censorship conjecture,
+which forbids the appearance of naked singularities,
+clothing each one in an event horizon [69],i ss t i l la n
+open question [70,71]. The conversion of a BH into a NS
+due to particle capture or perturbation processes seems
+highly improbable as possible conversions due to pertur-
+bations considered in the linear regime [72–74] are
+corrected by the inclusion of backreaction (second order)
+effects [75–80]. However, it has been shown that gravi-
+tational collapse can lead to NSs [81–84],a n d ,f u r t h e r -
+more, the Kerr superspinars having exterior with the Kerr
+NS geometry can be considered as primordial, being
+remnants of the initial stringy phase of the evolution
+of the Universe [62,63,66,85] . Therefore, we believe that
+it is worthwhile to study the construction of the shadow
+of both the complete Kerr NS spacetimes and the
+Kerr superspinars to test their observational relevance,
+as we can expect that in the near future we will be able
+to distinguish very subtle details of the compact
+objects due to the use of the long baseline interferometric
+measurements.
+The accelerated expansion of the Universe caused by
+dark energy, that can be related to the vacuum energy [86],
+can be conveniently represented by the relic cosmological
+constant [87]. This constant is thought to have a significant
+impact not only in cosmology [15,88,89], but also in
+astrophysical processes related to the formation of large
+galaxies and the accretion onto supermassive black holes
+[90–94], as well as on the dark matter halos in large
+galaxies or their clusters [95,96]. Therefore, the shadows
+of BHs in asymptotically de Sitter spacetimes, specifically
+those of Kerr –de Sitter (KdS) BHs, were found for locally
+nonrotating reference frames (LNRFs), frames related to
+circular geodesic orbits, and for radially freely falling/
+escaping (geodesic) frames [97]. For an alternative KdS
+BH solution and its shadow see [98,99]. Furthermore,
+the impact of the observer ’s state of motion on the BH
+shadow was considered, including that of the Sgr A*, as
+described in [100]. In other recent works, BHs embedded
+in the expanding de Sitter universe have been studied in
+[101–103], including rotating [97] and charged and rotat-
+ing BHs [104], while the connection with the Friedman-
+Lemaître-Robertson-Walker cosmological metric has been
+considered in [105].
+In the present paper we deal with the shadow of KdS NS
+spacetimes, taking into account also the photons entering
+the sheet of r< 0
+in terms of the complete Kerr geometry—
+we must stress that, for completeness, we also consider the
+influence of this region, which is controversial because it
+requires reinterpretation of the Kerr geometry for distant
+observers at r< 0, and it also includes the causality
+violation region [61]. Therefore, in the calculations of the
+KdS NS shadow we consider the ring singularity at r ¼ 0,
+θ ¼ π=2, and photons moving in both the sheets r> 0 and
+r< 0, focusing attention on the special class of the KdS NS
+spacetimes (see Sec. III D 3) that enables the existence of
+spherical photon shells at radii r< 0, which determine the
+shadow along with the spherical photon shells at r> 0.
+V arious methods exist for calculating the shadow of
+compact objects, including one which incorporates astro-
+metric observables [106].I nt h i ss t u d y ,w ee m p l o yt h e
+concept of light escape cones (LECs) and complementary
+light capture cones (LCCs) related to the locally nonrotating
+frames (LNRFs) to determine the shadow. In a given
+reference frame, the LEC (LCC) is defined as the set of
+directions, given by the directional angles related to the
+frame sky, of the emitted photons that escape to infinity
+(cannot escape to infinity). The LNRFs are a very conven-
+ient platform for describing the optical effects [18], repre-
+senting the most natural generalization of the static
+observers of the Schwarzschild spacetimes, and a relevant
+tool in studies of astrophysical phenomena in the vicinity of
+rotating black holes [19]. Of course, the shadow of a
+compact object (a BH or a NS) can be constructed for
+any observer moving in the spacetime related to the compact
+object. Usually, we construct the shadow as seen by distant
+free observers, i.e., observers for whom the relativistic
+effects can be considered negligible, namely observers
+located on Earth. In the asymptotically flat Kerr spacetimes,
+the distant observers are ideally realized by the static
+observers (LNRFs) at infinity. The KdS spacetimes are
+not asymptotically flat, so to keep the similarity with the
+Kerr spacetimes, we have to look for a region that can be
+considered as nearly flat, where free observers can be
+defined as being nearly static. Intuitively, it is clear that
+in an expanding universe such near-flat regions correspond
+to the outer regions and close vicinity of gravitationally
+bound systems such as galaxies and their clusters, where the
+influence of gravity and universe expansion is sufficiently
+suppressed. Of course, the situation is quite different for an
+observer orbiting close to a K(dS)BH or NS with or without
+an accretion disk [54,57,97]. For the construction of the
+shadow for BH objects in the expanding universe with the
+cosmological constant (see [102]).
+We follow the KdS BH shadow calculation method used
+in [97], where the LECs were calculated relative to different
+reference frames, namely the accelerated LNRFs, the
+geodesic radially falling/escaping frames, and the circular
+geodesic frames. In this paper, due to the extended
+ZDENĚ K STUCHLÍK and DANIEL CHARBULÁK PHYS. REV . D 109, 064008 (2024)
+064008-2
+
+variability and complexity of the KdS NS spacetimes, we
+limit ourselves to the KdS NS spacetimes of the class
+containing the parameters allowed by the observational
+constraints, given namely by enormously low value of the
+relic cosmological constant ( Λ ∼ 10
+−52 m−2) implied by
+cosmic observations, and the constraints on the mass and
+spin of the compact object given by observations of
+active galactic nuclei in large galaxies, or even by the
+whole galactic clusters [93,95].T h i sc l a s so fK d SN S
+spacetimes allows the existence of the so-called static
+radius [88,91,94,107,108] —the spacetime at and around
+this radius represents the best local approximation to
+the asymptotically flat region of the Kerr spacetimes
+[107,108]; the static radius also represents an upper limit
+on the extent of gravitationally bound systems (dark
+matter halos) in spacetimes with the relic cosmological
+constant [95,109]. At the static radius, the LNRF observ-
+ers can be thought of as geodesic stationary observers
+located at an unstable equilibrium point where the gravi-
+tational attraction of the central object is just balanced by
+the cosmic repulsion of the dark energy (cosmological
+constant).
+To simulate the appearance of the KdS NS shadow to a
+freely escaping observer near the cosmological horizon, we
+use the radially escaping geodesic reference frames, which
+move purely radially relative to the LNRFs [54].
+The concept of LECs (and complementary LCC) allows
+to construct the BH or NS shadows relative to any observer,
+including those orbiting very close to the central object
+(see, e.g., [54,57]). Here we consider the standard case of a
+shadow (silhouette) cast by a compact object located
+between a very distant observer and an illuminating source
+much larger than the compact object [18]. To construct the
+LEC and the shadow, we assume the source of light
+(emitter) located at the position of the observer and study
+the motion of photons emitted in different directions. We
+then use the results of the LEC construction to construct the
+shadows. In our analysis we concentrate on special classes
+of geodesics, namely so-called principal null congruence
+geodesics remaining on fixed latitude [88], and in particular
+the null geodesics corresponding to the spherical photon
+orbits, which can be located in regions of both positive and
+negative radii.
+The present paper is organized as follows. In Sec. II we
+briefly summarize the basic geometric properties of the KdS
+backgrounds, namely, the event horizons and the ergo-
+sphere, and present the corresponding separation of the KdS
+spacetimes in the ða
+2 − yÞ–parameter plane. This separation
+is related to the classification of the KdS spacetimes
+introduced in [110]. In the following, the construction of
+the shadow refers only to the KdS NS spacetimes with
+parameters that are realistic from the point of view of
+astrophysics, i.e., with the relict cosmological constant and
+masses observed in the centers of active galactic nuclei.
+In such spacetimes, at the so-called static radius, the
+gravitational attraction of the central object is just balanced
+by the cosmic repulsion [111].I nS e c . III we study the
+motion of photons entering the region of negative radii in
+the selected class of the KdS NS spacetimes, thus extending
+the detailed study of [110] concentrated on the region of
+positive radii. First, the constants of the photon motion are
+introduced and the Carter equations of motion are presented.
+Then the range of allowed motion constants is investigated.
+Furthermore, special photon trajectories are studied,
+namely, constant latitude trajectories and the spherical
+photon orbits (SPOs). A special subsection is devoted to
+the study of the locally measured orientation of the SPOs
+with respect to the azimuthal direction, including orbits in
+the region of negative radii. In Sec. IV the directional angles
+of photons in the LNRFs are defined and their relation to the
+motion constants is established. The section concludes with
+the construction of the NS shadows as seen in LNRFs
+located at the static radius, which is chosen because it
+represents, together with its surroundings, the best local
+approximation to flat spacetime in the KdS spacetimes
+[107,108].I nS e c . V the local reference frames radially
+moving (escaping) in the LNRFs are introduced, following
+geodesics of the spacetime, and the shadow is constructed in
+these frames as they approach the cosmological horizon.
+Section VI presents a discussion and some conclusions.
+II. KERR –DE SITTER GEOMETRY
+AND ITS BASIC PROPERTIES
+The Kerr –de Sitter spacetimes [61] are determined by
+the mass parameter M, the spin parameter a ¼ J=M,
+where J is the angular momentum of the central object,
+and the cosmological constant Λ, which can be conven-
+iently replaced by the dimensionless cosmological param-
+eter y ¼
+1
+3 ΛM2.
+A. Line element
+To describe the Kerr –de Sitter geometry we use the
+standard Boyer-Lindquist spheroidal coordinates
+t; r; θ; ϕ , expressed in the geometric unit system with
+c ¼ G ¼ 1. In the following, for simplicity, we use the
+dimensionless ratios of the parameter a introduced
+above and coordinates —s=M → s, t=M → t; r=M → r; a=
+M → a. In the following we assume M> 0;a > 0;
+Λ > 0. The line element of the geometry then takes the
+form [88,89]
+ds2 ¼ − Δr
+I2ρ2 ðdt − a sin2 θdϕ Þ2
+þ Δθ sin2 θ
+I2ρ2 ½adt − ðr2 þ a2Þdϕ /C138 2
+þ ρ2
+Δr
+dr2 þ ρ2
+Δθ
+dθ2; ð1Þ
+SHADOWS OF KERR –DE SITTER NAKED SINGULARITIES PHYS. REV . D 109, 064008 (2024)
+064008-3
+
+where
+Δr ¼ð 1 − yr2Þðr2 þ a2Þ − 2r; ð2Þ
+Δθ ¼ 1 þ a2y cos2 θ; ð3Þ
+I ¼ 1 þ a2y; ð4Þ
+ρ2 ¼ r2 þ a2 cos2 θ: ð5Þ
+B. Singularities
+The behavior of the Riemann invariant RαβγδRαβγδ of the
+Kerr–de Sitter geometry [61] demonstrates the existence of
+a physical singularity determined by the condition,
+ρ2 ¼ 0; ð6Þ
+which is satisfied when
+r ¼ 0; cos θ ¼ 0: ð7Þ
+Thus the singularity is a ring of radius a located in the
+equatorial plane θ ¼ π=2. Using the interior of the ring
+singularity, the Kerr –de Sitter geometry can be extended
+into the region of negative radii, see, e.g., [61,112–114].
+C. Horizons
+The coordinate pseudosingularities of the KdS geometry
+occur at radii where
+Δr ¼ 0 ð8Þ
+and define the horizons of the KdS spacetimes.
+Equation (8) can alternatively be written in the form
+a2 ¼ a2
+hðr; yÞ ≡ yr4 − r2 þ 2r
+1 − yr2 : ð9Þ
+The function a2
+hðr; yÞ was analyzed in [108]—here we
+present a summary of the results of that paper.
+In the following we concentrate on the study of the
+repulsive cosmological constant, i.e., we assume y> 0.
+Then the function a2
+hðr; yÞ defined in the relation (9) has
+two divergent points
+r/C6
+dðhÞ ¼/C6 1ﬃﬃ ﬃyp ; ð10Þ
+which represents limits on the loci of the cosmological
+horizons—the radius rþ
+dðhÞ ¼ 1= ﬃﬃ ﬃyp limits the cosmological
+horizon at the region of positive radii, while r−
+dðhÞ ¼ −1= ﬃﬃ ﬃyp
+limits the secondary cosmological horizon at the region of
+negative radii.
+The behavior of the function a2
+hðr; yÞ is illustrated in
+Fig. 1. It must be emphasized that only the regions where
+a2 ≥ 0 are physically relevant.
+The separation of the KdS spacetimes is governed by the
+existence of the local extrema of the function a2
+hðr; yÞ
+depending on the cosmological parameter y, i.e., the local
+maximum, a2
+maxðhÞðyÞ, and the local minimum, a2
+minðhÞðyÞ,
+induce the partition into the BH and NS spacetimes in the
+parameter space ða2 − yÞ [108]. We therefore present the
+following classification.
+(1) Case 0 <y ≤ ycritðSdSÞ ≡ 1=27 ≐ 0.03704
+(i) The function a2
+hðr; yÞ has a positive maxi-
+mum a2
+maxðhÞðyÞ > 0 and negative minimum
+a2
+minðhÞðyÞ < 0 (see the red curve in Fig. 1).
+(ii) for y ¼ ycritðSdSÞ, a2
+minðhÞðyÞ¼ 0 (see the blue
+curve in Fig. 1); ycritðSdSÞ denotes the critical
+value of the cosmological parameter which
+allows existence of the Schwarzschild-de Sitter
+BH spacetimes.
+(a) 0 <a 2 <a 2
+maxðhÞðyÞ
+The geometry describes a BH space-
+times; Eq. (8) has four real distinct roots
+FIG. 1. Top: plot of the functions a2
+hðr; yÞ given for some
+appropriately chosen values of the cosmological parameter y.
+These functions are steeply increasing near the discontinuity
+point at r ¼ r−
+dðhÞ ¼ −1= ﬃﬃ ﬃyp , where a2
+hðr; yÞ → þ∞ as r → r−
+dðhÞ
+from the left, which is illustrated by the almost vertical lines at
+r< 0. Bottom: the same in detail focusing on the region r> 0
+and the admissible part a2 > 0.
+ZDENĚ K STUCHLÍK and DANIEL CHARBULÁK PHYS. REV . D 109, 064008 (2024)
+064008-4
+
+r−c < 0 <r i <r o <r c, corresponding re-
+spectively to the radius of the secondary
+cosmological horizon in the region r< 0,
+the inner BH horizon, the outer BH horizon
+and the cosmological horizon (at the standard
+region of positive radii).
+(b) a
+2 ¼ a2
+maxðhÞðyÞ
+Extreme BH spacetimes where the inner
+and outer BH horizons merge, ri ¼ ro.
+(c) a2
+maxðhÞðyÞ <a 2
+The geometry describes the NS space-
+times, which are only equipped with the two
+cosmological horizons r
+−c < 0 <r c.
+(2) Case ycritðSdSÞ <y ≤ ycritðKdSÞ
+≡16ð26
+ﬃﬃ ﬃ
+3
+p
+− 45Þ=9 ≐ 0.05924
+(i) The function a2
+hðr; yÞ has both local extrema
+a2
+maxðhÞðyÞ and a2
+minðhÞ positive, 0 <a 2
+minðhÞ <
+a2
+maxðhÞðyÞ (see green curve in Fig. 1)—these
+extrema converge for y ¼ ycritðKdSÞ to an
+inflection point at
+a2
+crit ≡ 3ð3 þ 2
+ﬃﬃ ﬃ
+3
+p
+Þ=16 ≐ 1.21202
+(see the orange curve in Fig. 1); ycritðKdSÞ and
+a2
+crit denote the critical values of the cosmo-
+logical parameter and the spin parameter,
+respectively, for which the Kerr –de Sitter BH
+spacetimes can still exist.
+(a) a2 <a 2
+minðhÞðyÞ or a2
+maxðhÞðyÞ <a 2
+The geometry describes a NS spacetimes
+with two cosmological horizons, as in the
+previous NS case.
+(b) a2
+minðhÞðyÞ <a 2
+maxðhÞðyÞ
+The geometry describes a BH spacetimes
+with two cosmological horizons and two BH
+horizons as in the previous BH case.
+(3) Case y>y critðKdSÞ
+The function a2
+hðr; yÞ has no local extrema (see
+the black curve in Fig. 1), and the geometry
+describes NS spacetimes with two cosmological
+horizons as in the previous NS cases.
+For completeness, we also describe all limit cases of
+BH-NS spacetimes.
+The limit case a2 ¼ a2
+minðhÞðyÞ corresponds to the coa-
+lescence of the BH outer horizon and the cosmological
+horizon ro ¼ rc—the marginal NS spacetime.
+The limit case a2 ¼ a2
+maxðhÞðyÞ corresponds to the merg-
+ing of the inner and outer BH horizons ri ¼ ro—the
+extreme BH spacetime.
+The extreme case y ¼ ycritðKdSÞ and a2 ¼ a2
+crit corre-
+sponds to the ultraextreme NS spacetime with ri ¼ ro ¼
+rc [108].
+The behavior of the local extrema a2
+maxðhÞðyÞ and
+a2
+minðhÞðyÞ as a function of the cosmological parameter y
+is shown in Fig. 2.
+In this article we pay special attention to the sheet of
+negative r, so we specify the position of the secondary
+cosmological horizon r−c . Its position should be constrained
+by the relations r−
+zðhÞ <r −c <r −
+dðhÞ < 0, where r−
+zðhÞ < 0 is
+the zero point of the function a2
+hðr; yÞ, which is located at
+r−
+zðhÞ ¼
+8
+><
+>:
+−2ﬃﬃﬃ ﬃ3yp cos
+h
+1
+3 arccos ﬃﬃﬃﬃﬃﬃﬃ ﬃ27yp i
+; for y ≤ ycritðSdSÞ
+−2ﬃﬃﬃ ﬃ3yp cosh
+h
+1
+3 arg cosh ﬃﬃﬃﬃﬃﬃﬃ ﬃ27yp i
+; for y>y critðSdSÞ;
+ð11Þ
+and the upper limit r−
+dðhÞ is the negative one from the two
+divergent points r/C6
+dðhÞ ¼/C6 1= ﬃﬃ ﬃyp of the function a2
+hðr; yÞ.
+Note that the negative roots r−
+zðhÞ of the function a2
+hðr; yÞ
+can have no physical meaning by themselves, since no
+analytic extension of the Schwarzschild –de Sitter manifold
+(a2 ¼ 0;y > 0) to negative radii over the ring singularity at
+r ¼ 0 exists. In the pure Kerr spacetimes ( a2 > 0;y ¼ 0)
+there are at most two positive roots of Eq. (8).
+D. Ergosphere
+The ergosphere is the space-time region that allows the
+extraction of rotational energy, which is part of the total
+gravitational mass M, from the BH or NS by the so-called
+Penrose process and its variants [19,115–120]. In the
+FIG. 2. Plot of the functions a2
+maxðhÞðyÞ (black curve) and
+a2
+minðhÞðyÞ (gray curve) and the induced partition of the KdS
+spacetimes into the KdS BH spacetimes (gray area) and the KdS
+NS spacetimes (white area). Critical values of the spacetime
+parameters are included.
+SHADOWS OF KERR –DE SITTER NAKED SINGULARITIES PHYS. REV . D 109, 064008 (2024)
+064008-5
+
+ergosphere also photons with negative covariant energy can
+exist [97,110], allowing the so-called radiative Penrose
+process [115]. The ergosphere is bounded by the surfaces
+of the static limit (ergosurfaces) and the horizons
+[61,97,108]. All matter within the ergosphere is dragged
+by the rotation of spacetime and is corotating in the positive
+ϕ -direction, with an angular velocity of Ω ¼ dϕ
+dt > 0 [15].
+Matter in the ergosphere corotates relative to observers
+whose proper time is equal to or very close to the
+coordinate time. In the asymptotically flat Kerr spacetimes,
+the coordinate time t is the proper time of static observers at
+infinity (and very close for static distant observers). In the
+KdS spacetimes the coordinate time t is close to the proper
+time of static observers in unstable equilibrium at the static
+radius, where the spacetime is closest to the flat space-
+time [107].
+For the Kerr spacetimes, the ergosphere has recently
+been studied in [121–125], the influence of the cosmo-
+logical constant has been studied, e.g., in [56,108,126].
+Here we briefly discuss for the KdS NS spacetimes the
+existence and extension of the ergosphere as a function of
+on the spacetime parameters a
+2;y and its relation to other
+relevant surfaces representing the spacetimes.
+The ergoshere is characterized by the condition gtt > 0.
+Its boundary, i.e., the ergosurface (the surface of the static
+limit) is given by the condition,
+gtt ≡ a2 sin2 θΔθ − Δr
+I2ρ2 ¼ 0; ð12Þ
+which leads to a quartic equation with respect to the
+variable r. However, in the equatorial plane ( θ ¼ π=2) that
+is of most interest because of the strongest effects induced
+by the rotation of the spacetime; Eq. (12) is reduced to
+a
+2 − Δr ¼ 0; ð13Þ
+which has the solution
+r ¼ 0; ð14Þ
+independent of the space-time parameters, while the other
+solutions are given by the cubic equation
+yr3 þð a2y − 1Þr þ 2 ¼ 0: ð15Þ
+In the case y> 0, Eq. (15) always has just one negative root
+rð−Þ
+erg , which reads
+rð−Þ
+erg ¼
+8
+>>
+>>>
+>
+>
+<
+>>
+>
+>
+>
+>
+>:
+−2
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+1−a2y
+3y
+q
+cos
+/C20
+1
+3 arccos
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+27y
+ð1−a2yÞ3
+q /C21
+; for a2 < 1=y;
+−
+ﬃﬃ
+2
+y
+3
+q
+; for a2 ¼ 1=y;
+−2
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+a2y−1
+3y
+q
+sinh
+/C20
+1
+3 sinh−1
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+27y
+ða2y−1Þ3
+q /C21
+; for a2 > 1=y:
+ð16Þ
+Under the conditions we are dealing with, a2 > 0, y> 0,
+the inequality r−
+ðcÞ <r ð−Þ
+erg < 0 holds; these surfaces thus
+restrict the ergoregion in the region of negative radii,
+r< 0—this part of the ergoregion lies between the cos-
+mological horizon and the ergosurface that touches the
+cosmological horizon at the symmetry axis θ ¼ 0; π.N o t e
+that the ergoregion at negative radii has character indepen-
+dent of the spacetime parameters. In the following dis-
+cussion we concentrate on the properties of the ergosurfaces
+in the region of positive radii, r> 0.
+If 0 <a
+2 <a 2erg−sðyÞ and 0 <y<y critðSdSÞ, then
+Eq. (15) has, in addition to the negative solution (16),
+two positive roots r/C6erg, which read
+r/C6erg ¼ 2
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+1 − a2y
+3y
+s
+cos
+2
+4π
+3 /C6 1
+3 arccos
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ ﬃ
+27y
+ð1 − a2yÞ3
+s 3
+5; ð17Þ
+which satisfies the relation 0 <r þerg <r −
+erg
+. Here the func-
+tion a2erg−sðyÞ, which is related to the existence of the
+ergosphere, is given in the form
+a2erg−sðyÞ ≡ 1 − 3y1=3
+y : ð18Þ
+In the relevant interval 0 <y ≤ ycritðSdSÞ, where the function
+a2erg−sðyÞ takes positive values, 0 ≤ a2erg−sðyÞ < 1=y. The
+critical parameter ycritðSdSÞ is zero of the function a2erg−sðyÞ.
+Its asymptotic behavior reads a2erg−sðyÞ → ∞ for y → 0þ.
+For a2 ¼ a2erg−sðyÞ, these radii merge at the static
+radius [127]
+rs ¼ y−1=3; ð19Þ
+as can be checked by inserting the function a2erg−sðyÞ into
+expression (17).
+If a2 >a 2erg−sðyÞ,o r ycritðSdSÞ <y , the two roots are
+irrelevant, since they become to be complex.
+Furthermore, the static radius does not exist for spacetimes
+with a2 >a 2erg−sðyÞ, as shown in [108]. We will not
+consider such spacetimes for the construction of the
+shadow, as they do not conform to the astrophysical
+constraints.
+ZDENĚ K STUCHLÍK and DANIEL CHARBULÁK PHYS. REV . D 109, 064008 (2024)
+064008-6
+
+In the region of positive radii, the ergosphere interferes
+with the equatorial plane at radii limited by the conditions
+0 ≤ r ≤ rþerg and r−erg ≤ r< ∞
+for a2 <a 2erg−sðyÞ and 0 <y ≤ ycritðSdSÞ; ð20Þ
+or
+0 ≤ r< ∞ for a2erg−sðyÞ ≤ a2 or ycritðSdSÞ <y : ð21Þ
+In the Kerr case ( y ¼ 0), Eq. (15) becomes linear and has
+the well-known solution r ¼ 2, which is the limit for radius
+of the “inner” ergosurface r ¼ rþerg as y → 0þ, while the
+“outer” ergosurface r ¼ r−erg does not exist, with r−erg → ∞
+as y → 0þ. the behavior of both radii as a function of the
+spacetime parameters a2;y is illustrated in Fig. 3. Recall
+that in the BH spacetimes the region between the outer and
+inner horizons, where grr < 0, must be excluded, since the
+BH rotational energy (covariant) cannot be extracted from
+this region by classical processes. Considering the energy
+extraction from a BH we restrict the ergospheres to the
+regions above the outer horizon and below the cosmologi-
+cal horizon.
+The function a
+2erg−sðyÞ has the inverse form
+yergða2Þ ≡ 1
+a2 þ 3
+ﬃﬃ ﬃ
+2
+3p
+ða10 þ
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+4a18 þ a20p
+Þ1=3
+− 3ða10 þ
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+4a18 þ a20p
+Þ1=3
+ﬃﬃ ﬃ
+2
+3p
+a6 : ð22Þ
+It has been shown in [110] that the inverse function yergða2Þ
+in the parameter plane ( y − a2) determines the boundary
+between the KdS spacetimes where the radial photon
+motion exhibits the-so called divergent repulsive barrier
+(DRB), in the spacetimes where two separated ergoregions
+exist, one near the BH horizon and the other near the
+cosmological horizon, and the restricted repulsive barrier
+(RRB), in the BH spacetimes where only one ergoregion
+exists between the BH and cosmological horizons. Note
+that in the case of RRB (DRB) the photons incoming with
+high-axial angular momentum Φ [see Eq. (37)] from the
+vicinity of the cosmological horizon can (cannot) reach the
+surface r ¼ 0. The notion of these concepts is illustrated in
+Sec. III C. The structure of the ergosphere is thus related to
+the character of the photon motion.
+Outside the equatorial plane, the distribution of the
+points of the ergosurface can be described by the depend-
+ence of their latitudinal coordinate on the radial coordinate
+in the form
+θ
+ergðrÞ¼ arcsin
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ ﬃ
+I −
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ ﬃ
+I2 − 4yΔr
+p
+2a2y
+s
+: ð23Þ
+The extension of the ergosphere is then given by the
+inequality θergðrÞ ≤ θ ≤ π − θergðrÞ.F r o mE q . (23) it fol-
+lows that for a2 ≤ 1=y, the ergosurface is connected to the
+ring singularity, i.e., θergð0Þ¼ π=2. However, for a2 > 1=y,
+it is separated from the singularity and it intersects the disc
+r ¼ 0 at the latitudinal coordinate
+θergð0Þ ≡ θergð0Þ ¼ arcsin
+ﬃﬃﬃﬃﬃﬃﬃ
+1
+a2y
+s
+: ð24Þ
+From Eq. (24) it can be seen that for a2y → ∞ ,t h e
+ergosurface shrinks to infinitesimal extension in the neigh-
+borhood of the symmetry axis.
+E. Division of the KdS spacetimes by relations
+of horizons and ergosurfaces
+From the discussion of Eqs. (16), (17), (23),a n d (24) it
+follows that the functions a
+2erg−sðyÞ and 1=y play a crucial
+role in determining of the character of the ergosphere. The
+behavior of these functions, together with the functions
+a2
+min = maxðhÞðyÞ, induces the partitioning of the KdS space-
+times according to the relations of horizons and ergosur-
+faces, shown in Fig. 4.I nF i g . 5 we show the 3D
+representation of the distribution of the horizons, ergosur-
+faces and the static radius for some selected representative
+values of the spacetime parameters a
+2;y , corresponding to
+individual cases of the spacetime division shown in Fig. 4,
+including the borderline cases. For convenience, we have
+used the so-called Kerr-Schild coordinates x, y, z (here the
+coordinate y should not be confused with the cosmological
+parameter), which appropriately represent the neighborhood
+FIG. 3. Dependence of radii rþerg;r −
+erg
+on the spacetime param-
+eters a2;y . The lower 3D-graph has constant value rþerg ¼ 2 for
+y ¼ 0 independently of the spin a2, while the upper 3D-graph
+tends to infinity. These graphs are connected by an edge whose
+projection into the ( a2 − y)-plane is the function a2erg−sðyÞ, while
+the projection into the ( r − y)-plane is the dependence of the
+static radius rs on the cosmological constant rs ¼ y−1=3.
+SHADOWS OF KERR –DE SITTER NAKED SINGULARITIES PHYS. REV . D 109, 064008 (2024)
+064008-7
+
+of the ring singularity, related to the Boyer-Lindquist
+coordinates r, θ by the relations
+x2 þ y2 ¼ð r2 þ a2Þ sin2 θ;
+z2 ¼ r2 cos2 θ: ð25Þ
+The ergosphere of KdS BH spacetimes was discussed in
+[108], where the existence of the ergosphere was demon-
+strated also in the vicinity of the cosmological horizon. The
+Penrose process in both BH and cosmological ergoregions
+was also studied in [128].
+We must emphasize that in the following the construc-
+tion of the shadow is concentrated on the KdS NS space-
+times with the static radius and the DRB of the photon
+motion, since only this type of the NS spacetimes can be
+relevant from the point of view of the restrictions coming
+from astrophysical and cosmological observations [94].
+In Sec. III F, we present a complete classification of the
+KdS spacetimes based on the properties of the horizons,
+ergosurfaces and the static radius, taking into account also
+the properties of the null geodesics. We use the results of
+the previous study presented in [110], focusing on the
+existence and properties of the spherical photon orbits
+(SPOs) governing the shadows of KdS BHs or KdS NSs.
+F. LNRFs
+The LNRFs were introduced (see [19]) as orthonormal
+reference frames related to accelerated observers orbiting at
+fixed coordinates r, θ, with zero angular momentum Φ;
+observers related to the LNRFs are also called zero-angular
+momentum observers (ZAMOs) [18,117]. Only these
+frames treat the þϕ and −ϕ directions as equivalent with
+respect to the local geometry, i.e., they can be regarded as
+nonrotating with respect to the local geometry [15]. The
+world lines of these frames (observers) are perpendicular to
+the spacelike hypersurfaces t ¼ const, as can be seen from
+the orthonormal tetrad of the basis vectors, whose angular
+velocity is given by the metric coefficients,
+Ω
+LNRF ¼ − gtϕ
+gϕϕ
+¼ a½Δθðr2 þ a2Þ − Δr/C138
+A ; ð26Þ
+where
+A ¼ð r2 þ a2Þ2Δθ − a2Δr sin2 θ: ð27Þ
+It is easy to show that both these functions A and ΩLNRF are
+positive at the stationary regions Δr > 0 of the KdS
+spacetime at positive radii r> 0. However, in the case
+of negative radii, a small region near the ring singularity
+where A< 0 exists. This inequality defines the causality
+violation region where g
+ϕϕ < 0; see Sec. III E.
+The tetrad of the basis vectors reads
+eðtÞ ¼
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+I2A
+ΔrΔθρ2
+s /C18∂
+∂t þ ΩLNRF
+∂
+∂ϕ
+/C19
+; ð28Þ
+eðrÞ ¼
+ﬃﬃﬃﬃﬃ ﬃ
+Δr
+ρ2
+s
+∂
+∂r ; ð29Þ
+FIG. 4. Plot of the functions a2
+maxðhÞðyÞ (black curve), a2
+minðhÞðyÞ
+(gray curve), a2erg−sðyÞ (black dashed curve) and 1=y (black dash-
+dotted curve) and the induced separation of the KdS spacetimes
+according to the relations of horizons and ergosurfaces; critical
+values of the spacetime parameters are included. The functions
+a
+2
+maxðhÞðyÞ, a2
+minðhÞðyÞ represent the partitioning of the spacetimes
+into the BH and NS cases, as in Fig. 2. The function a2erg−sðyÞ
+determines the partition into the spacetimes endowed with two
+separated ergoregions and the static radius (below the curve) and
+one ergoregion and no static radius (the rest of the parametric
+plane). The accompanying captions (a) –(h) refer to the individual
+cases shown in Fig. 5. The dark gray region corresponds to the
+BH spacetimes with two ergoregions and the static radius [see
+Fig. 5(a)]; the light gray region corresponds to the BH spacetimes
+with one ergoregion and no static radius [see Fig. 5(c)]; the blue
+region represents the NS spacetimes with two separated ergo-
+regions and the static radius [see Fig. 5(d)]; the green region
+represents the NS spacetimes with one ergoregion and no static
+radius [see Fig. 5(f)]. The function 1=y, represented as a straight
+line due to the logarithmic scale on both axes, separates the
+spacetimes with a
+2 > 1=y (the red region), whose ergosurface is
+separated from and surrounded by the ring singularity; the
+ergosphere then extends outside the ergosurface, which has the
+shape of a rotating ellipsoid, while the inner region, where
+g
+tt < 0, is restricted to the vicinity of the spin axis [see Fig. 5(h)].
+The boundary cases are shown in Figs. 5(b), 5(e), and 5(g). The
+spacetimes with a2 ≶ 1=y also differ in the character of the
+latitudinal photon motion (see [110]). As shown in the text below,
+the different character of the ergoregions is directly related to the
+properties of the photon motion, namely the spacetimes with two
+ergospheres are characterized by the divergent barrier DRB of the
+radial photon motion, while the spacetimes with one ergosphere
+are characterized by the repulsive barrier RRB of the radial
+photon motion (see Sec. III C for explanation). The displayed
+value y
+e−h, which gives the intersection of the functions a2erg−sðyÞ,
+a2
+maxðhÞðyÞ, yields ye−h ¼ 0.033185, the corresponding value a2
+e−h
+(not shown) is a2
+e−h ¼ 1.0832.
+ZDENĚ K STUCHLÍK and DANIEL CHARBULÁK PHYS. REV . D 109, 064008 (2024)
+064008-8
+
+FIG. 5. Significant surfaces, i.e., horizons, ergosurfaces and static radius, if any, of the basic types of the KdS spacetimes, shown in the
+Kerr-Schild coordinates x, y, z in the region of positive radii (here the coordinate y should not be confused with the cosmological
+parameter y). The ergosurfaces are shown as orange lattice surfaces, the cosmological horizon as blue surface, the black spheres/rings
+represent the BH event horizon/ring singularity, the green spheres represent the static radius. The individual figures are plotted for the
+spacetime parameters representing the basic cases of the division of the KdS spacetimes shown in Fig. 4, so that the labels (a) –(h) in
+Figs. 4 and 5 correspond to each other: (a) represents the KdS BH spacetime with two separated ergospheres; the inner BH ergosphere
+and the outer cosmological ergosphere with the static radius and the DRB of the radial photon motion; (c) represents the KdS BH
+spacetime with the single ergosphere bounded between two closed ergosurfaces, one in each half-space, with no static radius and with
+the RRB of the radial photon motion; (d) describes the KdS NS spacetime with two separate ergospheres; the inner toroidal ergosphere
+connected to the ring singularity, and the cosmological ergosphere, with the static radius and the DRB of the photon motion;
+(f) describes the KdS NS spacetime with the only ergosphere extending outside the closed ergosurface, connected to the ring singularity,
+with DRB of the photon motion and no static radius; (h) represents the extreme case of the NS spacetime with the only ergosurface
+surrounded by the ring singularity; its latitudinal extension in the disc r ¼ 0 is, according to Eq. (24), given by θ
+0 ¼ 45°; (b)/(e)
+correspond to the boundary case between BH/NS spacetime with DRB/RRB, when the inner and outer ergosurfaces meet each other at
+the static radius; (g) shows the marginal case of NS spacetimes with ergosurfaces still connected to the ring singularity. In the BH cases
+we do not reflect the region below the event (outer) BH horizon; the spacetime structure is of the same character as in the Kerr BH
+spacetimes (see [61]). As far as naked singularities are concerned, we have to stress that only case (d) corresponds to the situations
+relevant from the point of view of astrophysics and cosmology implying that the parameter y must be very small. Note that the r< 0
+region, not shown here, always contains the secondary cosmological horizon for both BH and NS spacetime, along with the ergosphere
+and ergoregion just between them.
+SHADOWS OF KERR –DE SITTER NAKED SINGULARITIES PHYS. REV . D 109, 064008 (2024)
+064008-9
+
+eðθÞ ¼
+ﬃﬃﬃﬃﬃ ﬃ
+Δθ
+ρ2
+s
+∂
+∂θ ; ð30Þ
+eðϕ Þ ¼
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ ﬃ
+I2ρ2
+A sin2 θ
+s
+∂
+∂ϕ : ð31Þ
+The complementary tetrad of the differential 1-forms of
+the LNRFs is given by the relations
+ω ðtÞ ¼
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+ΔrΔθρ2
+I2A
+r
+dt; ð32Þ
+ω ðrÞ ¼
+ﬃﬃﬃﬃﬃ ﬃ
+ρ2
+Δr
+s
+dr; ð33Þ
+ω ðθÞ ¼
+ﬃﬃﬃﬃﬃ ﬃ
+ρ2
+Δθ
+s
+dθ; ð34Þ
+ω ðϕ Þ ¼
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ ﬃ
+A sin2 θ
+I2ρ2
+s
+ðdϕ − ΩLNRFdtÞ: ð35Þ
+The quantities characterizing a moving test particle as
+energy and components of angular momentum, measured
+locally in the LNRFs, are given by the projection of the
+particle 4-momentum p
+μ onto the corresponding vectors of
+the orthonormal LNRF tetrad [18].
+In the asymptotically flat Kerr spacetimes, the angular
+velocity of these frames ΩLNRF ¼ dϕ
+dt gives their angular
+velocity relative to infinity, i.e., relative to static observers
+located at infinity. At infinity, ΩLNRF ¼ 0; LNRFs corre-
+spond to the static (free or geodesic) reference frames at
+FIG. 5. (Continued).
+ZDENĚ K STUCHLÍK and DANIEL CHARBULÁK PHYS. REV . D 109, 064008 (2024)
+064008-10
+
+infinity. In calculations of astrophysical phenomena in
+realistic situations, distant static frames (observers) are
+well approximated by the LNRFs, which are realistic
+approximations of the idealized static observers at infinity
+(see e.g. [54]).
+The KdS geometry is not asymptotically flat, so the
+notion of the static free frames (observers) at infinity is not
+appropriate in such spacetimes. Therefore, we need to look
+for a suitable region of the KdS spacetimes that allows the
+existence of distant static frames that can be considered as
+free or nearly free, similarly to the static-free observers at
+infinity of the asymptotically flat Kerr spacetimes. It was
+shown in [107] that the region fulfilling this condition of
+being nearly flat is the static radius (and its vicinity), where
+test particles can be free in an unstable equilibrium[88,108].
+The static radius exists in all the KdS NS spacetimes of
+astrophysical relevance that are included in class IV a
+considered here for the shadow construction.
+We have chosen the parameters of the considered KdS
+spacetimes in such a way as to allow a clear and illustrative
+representation of the optical phenomena and properties of
+the NS shadow, but the values of the cosmological param-
+eter y are much larger than those corresponding to astro-
+physically relevant spacetimes; for astrophysically relevant
+values of the parameter y we have to use logarithmic scales
+in demonstrating the effects on the magnitude of the shadow
+(see e.g. [93]).
+G. Equations of geodesic motion
+Due to the time and axial symmetry of the KdS
+spacetime, there are two Killing vector fields; the time
+Killing vector field ξ
+ðtÞ ¼ ∂=∂t and the axial Killing vector
+field ξðϕ Þ ¼ ∂=∂ϕ , such that projections
+E ¼ −ξμ
+ðtÞpμ ¼ −pt; ð36Þ
+and
+Φ ¼ ξν
+ðϕ Þpν ¼ pϕ ð37Þ
+of the test particle coordinate 4-momentum pμ, where
+pμ ¼ dxμ
+dλ ; ð38Þ
+onto the Killing vectors are constants of motion along the
+geodesic (representing the covariant energy and the covar-
+iant axial angular momentum). Here λ is the affine
+parameter normalized so that
+pμpμ ¼ −m2; ð39Þ
+where m is a trivial motion constant —the rest mass of
+the particle ( m ¼ 0 for photons). The energy and momen-
+tum components in a reference frame, related to local
+measurements in the considered frames, e.g. in
+the LNRFs, are given by the projections pðtÞ ¼
+−ELNRF ¼ eμ
+ðtÞpμ, pðϕ Þ ¼ ΦLNRF ¼ eμ
+ðϕ Þpμ, pðrÞ ¼ eμ
+ðrÞpμ,
+pðθÞ ¼ eμ
+ðθÞpμ. These quantities are not constants of the
+motion and depend on the position and velocity of the
+observer (frame). For definitions of the 3-vector of
+velocity with respect to reference frames see [19].I n
+the LNRFs particles with zero covariant-angular momen-
+tum, Φ ¼ 0, move perpendicular to the ϕ -direction, i.e.,
+with p
+ϕ ¼ 0.
+Recall that in the KdS spacetimes, the covariant (con-
+served) quantities E, Φ cannot be interpreted as the energy
+and axial component of the angular momentum with respect
+to static observers at infinity, as in the Kerr spacetimes, since
+the KdS spacetimes are not asymptotically flat [88,89]; they
+are close to this interpretation for static observers near the
+static radius, if it exists, as shown in [107]. There is a
+nontrivial (fourth) motion constant, the so-called Carter
+constant K, associated with the hidden symmetry of the KdS
+spacetime expressed by the Stachel-Killing tensor discussed
+in [61,129]. The geodesic motion of test particles in the KdS
+spacetimes is given by the Carter equations [61],
+ρ
+2pr ¼/C6
+ﬃﬃﬃ ﬃ
+R
+p
+; ð40Þ
+ρ2pθ ¼/C6
+ﬃﬃﬃﬃ ﬃ
+W
+p
+; ð41Þ
+ρ2pϕ ¼ I
+/C18aPr
+Δr
+− Pθ csc2 θ
+Δθ
+/C19
+ð42Þ
+ρ2pt ¼ I
+/C20ðr2 þ a2ÞPr
+Δr
+− aPθ
+Δθ
+/C21
+; ð43Þ
+where
+RðrÞ¼ P2r − Δrðm2r2 þ KÞ; ð44Þ
+WðθÞ¼ð K − a2m2 cos2 θÞΔθ − P2
+θ csc2 θ; ð45Þ
+Pr ¼ I½Eðr2 þ a2Þ − aΦ/C138 ; ð46Þ
+Pθ ¼ IðaE sin2 θ − ΦÞ: ð47Þ
+III. MOTION OF PHOTONS
+The motion of photons in the KdS spacetimes has been
+studied extensively in [110] for regions of positive radii
+r> 0. Here we extend this study and discuss the passage of
+a photon from the region of positive radii through the disc
+r ¼ 0; θ ≠ π=2 to the region of negative radii r ≤ 0, or its
+hit of the ring singularity at r ¼ 0; θ ¼ π=2.
+For the photon motion at positive radii r> 0, there are
+clear qualitative differences in the properties of the radial
+motion depending on the parameters a and y, and an
+SHADOWS OF KERR –DE SITTER NAKED SINGULARITIES PHYS. REV . D 109, 064008 (2024)
+064008-11
+
+appropriate classification of the KdS spacetimes based on
+the character of the photon motion has been introduced
+[110]. In the present paper, we focus on the KdS NS
+spacetimes of the class IV a. This class corresponds to the
+KdS NS spacetimes with DRB, where there are two
+ergospheres and the static radius.
+A. Constants of photon motion
+Following previous works [97,110,130], for E ≠ 0 we
+introduce the impact parameter
+l ≡ Φ=E; ð48Þ
+and the associated motion constant
+X ≡ l − a: ð49Þ
+The fourth Carter ’s constant K must be non-negative [61];
+K ¼ 0 for photons moving along the rotational axis of
+the spacetime θ ¼ 0; π, or for so-called principal null
+congruence (PNC) photons moving along the curves with
+θ ¼ const [131]. However, K is usually replaced by the
+combination
+Q ≡ K − I
+2ðaE − ΦÞ2; ð50Þ
+called the modified Carter ’s constant, which must be zero
+for the motion confined to the equatorial plane. For photon
+motion it is useful to consider the impact parameter related
+to the modified Carter constant
+q ≡ Q=I
+2E2 ¼ K=I2E2 − X2: ð51Þ
+B. The coordinate and locally measured components
+of photon four-momentum
+It is customary to denote the 4-momentum of a photon by
+k and its coordinate components by kμ. Therefore, in the
+case of photons, Eqs. (38) and (39) become
+kμ ¼ dxμ
+dλ ð52Þ
+and
+kμkμ ¼ 0; ð53Þ
+respectively, where λ is an affine parameter. Due to the
+introduced motion constants X, q, Eqs. (40)–(43) then take
+the form,
+ρ2kr ¼/C6
+ﬃﬃﬃ ﬃ
+R
+p
+; ð54Þ
+ρ2kθ ¼/C6
+ﬃﬃﬃﬃ ﬃ
+W
+p
+; ð55Þ
+ρ2kϕ ¼ I2E
+/C20aðr2 − aXÞ
+Δr
+þ X þ a cos2θ
+sin2θΔθ
+/C21
+; ð56Þ
+ρ2kt ¼ I2E
+/C20ðr2 þ a2Þðr2 − aXÞ
+Δr
+þ aðX þ a cos2θÞ
+Δθ
+/C21
+; ð57Þ
+where the functions R, W, governing the radial and
+latitudinal motion are of the form
+RðrÞ ≡ I2E2½ðr2 − aXÞ2 − ΔrðX2 þ qÞ/C138 ; ð58Þ
+WðθÞ ≡ I2E2
+/C20
+ðX2 þ qÞΔθ − ða cos2θ þ XÞ2
+sin2θ
+/C21
+: ð59Þ
+In a given reference frame, the locally measured
+4-momentum components kðaÞ are given by the projections
+of the photon 4-momentum k onto the vectors of the
+tetrad—here considered as the LNRF tetrad introduced
+above—we arrive at the formula
+kðaÞ ¼ ω ðaÞ
+μ kμ: ð60Þ
+We can also project the covari ant coordinate components
+kμ to the local tetrad of vectors by introducing
+kðaÞ ¼ kμeμ
+ðaÞ: ð61Þ
+The orthonormality relations
+eðaÞ:eðbÞ ¼ ηðaÞðbÞ; ð62Þ
+where
+ηðaÞðbÞ ¼ diagf−1; 1; 1; 1gð 63Þ
+is the Minkowski metric, and the duality relations
+ω ðaÞ½eðbÞ/C138¼ δðaÞ
+ðbÞ ð64Þ
+then make sure that these quantities are related in a special
+relativistic way
+kðaÞ ¼ ηðaÞðbÞkðbÞ: ð65Þ
+C. Motion constants of photons reaching the disc r =0
+and the region of negative radii r < 0
+We determine the range of values of the motion constants
+q, X corresponding to photons coming from the region of
+positive radii r> 0 and either hitting the ring singularity at
+r ¼ 0, or continuing into the region of negative radii. the
+motion of these photons in the region of r< 0 will be
+considered in the next section concentrating on the SPOs
+and the θ ¼ const. motion governing the shadow.
+ZDENĚ K STUCHLÍK and DANIEL CHARBULÁK PHYS. REV . D 109, 064008 (2024)
+064008-12
+
+It is convenient to first determine the range of relevant
+values of the motion constant q.
+1. Range of the parameter q
+The reality condition of the radial motion at a given
+radius re
+Rðre; X; qÞ ≥ 0 ð66Þ
+implies that no photons with q> 0 can reach the ring
+singularity or the disc r ¼ 0, nor enter the region of r< 0,
+as shown by the equality
+Rðr ¼ 0; X; qÞ¼ −a2q: ð67Þ
+The surface r ¼ 0 can only be reached by photons in the so-
+called vortical type of the motion, with the motion constant
+q ≤ 0 [88,131]; the upper limit q ¼ 0 corresponds to the
+equatorial motion terminating at the ring singularity.
+The reality condition of the radial motion expressed by
+the inequality (66) implies a restrictive condition on the
+values of the motion constant q, at a given radius r
+e, in the
+form
+q ≤ qmaxðX; reÞ; ð68Þ
+where
+qmaxðX; rÞ ≡ ðr2 − aXÞ2
+Δr
+− X2: ð69Þ
+The constraint implied by the radial equation of motion
+thus gives the upper limit on the parameter q.
+For a given value of the motion constant q, we can define
+an effective potential related to the motion constant X. The
+radial motion is governed by the effective potential (see
+[110,130])
+Xr
+/C6 ðr; q; y; a2Þ ≡ ar2 /C6
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+Δr½r4 þ qða2 − ΔrÞ/C138
+p
+a2 − Δr
+; ð70Þ
+the equality X ¼ Xr
+/C6 ðr; q; y; a2Þ determines the turning
+points of the radial motion. The functions Xr
+/C6 ðr; q; y; a2Þ,
+discussed in detail in [110], delimit the forbidden region in
+the ( r − X)-plane, acting as a repulsive barrier (RB) of the
+radial photon motion, where the inequality (66) is not
+satisfied. This barrier can be either divergent (DRB) or
+restricted (RRB), independent of the spacetime parameters;
+the DRBs diverge at two radii r> 0, while the RRBs have
+no divergent points at r> 0, thus being restricted from
+above for values of the axial angular momentum parameter
+X [130,132]. A detailed discussion of the properties of the
+effective potential of the radial motion can be found in[110]
+and for KdS BHs also in [97]. Here, for illustration,
+we present in Fig. 6 typical cases of the behavior of
+X
+r
+/C6 ðr; q; y; a2Þ, relevant for the motion near the disk
+r ¼ 0. For completeness, both DRB and RRB cases are
+included—we can see that in both types of spacetimes the
+photons with q ¼ 0 cannot enter the r< 0 region, while in
+the q< 0 case the r< 0 region is available for some family
+of photons, while it is unavailable for the other family.
+The lower limit of the parameter q follows from the
+reality condition of the latitudinal motion at given latitu-
+dinal angle θe
+Wðθe; X; qÞ ≥ 0: ð71Þ
+For a given latitudinal angle θe, the condition (71) can be
+rewritten in the form
+q ≥ qminðX; θeÞ; ð72Þ
+where
+qminðX;θeÞ ≡ cot2θe
+Δθe
+½ð1 −a2ysin2θeÞX2 þ 2aX þ a2cos2θe/C138 :
+ð73Þ
+The condition that guarantees the possibility of the lat-
+itudinal motion for at least some angle 0 ≤ θe ≤ π is then
+(see [110])
+q ≥ qθ
+minðXÞ; ð74Þ
+where qθ
+minðXÞ is defined piecewise as
+qθ
+minðXÞ ≡
+8
+>>
+>
+<
+>>
+>
+:
+0; for X<X
+maxðq2Þ or X> 0;
+q2ðX; y; aÞ; for Xmaxðq2Þ ≤ X< −a;
+q1ðXÞ; for − a ≤ X ≤ 0;
+ð75Þ
+and the auxiliary functions q1ðXÞ, q2ðX; y; aÞ are defined
+by the relations
+q1ðXÞ ≡ −X2 ð76Þ
+and
+q2ðX; y; aÞ ≡ − ½2a þ Xð1 − a2yÞ/C138 2
+I2 : ð77Þ
+The limit value
+Xmaxðq2Þ ¼ 2a
+a2y − 1 ð78Þ
+is the local maximum of the function q2ðX; y; aÞ.
+The function qθ
+minðXÞ has a global minimum q ¼ −a2 at
+X ¼ −a, i.e., at the intersection of the functions q1ðXÞ,
+SHADOWS OF KERR –DE SITTER NAKED SINGULARITIES PHYS. REV . D 109, 064008 (2024)
+064008-13
+
+q2ðX; y; aÞ. It is therefore the lower limit of the allowed
+values of the parameter q. The relationship between the
+functions q1ðXÞ, q2ðX; y; aÞ, qθ
+minðXÞ and qminðX; θeÞ is
+illustrated in Fig. 7.
+We can conclude that the values of the parameter q, that
+allow photons to pass from the region of positive radii to the
+region of negative radii, cover the interval
+−a2 ≤ q ≤ 0: ð79Þ
+The admissible values of the impact parameter X depend on
+the given motion constant q. In the following section we
+will show that there are qualitative differences between the
+cases −a2 ≤ q< 0 and q ¼ 0, so we will consider these
+cases separately.
+2. The case − a2 ≤ q < 0
+As shown in [110], in the case of q< 0, the restrictions
+imposed on the latitudinal motion give stronger constraints
+on the value of the parameter X than the reality conditions
+of the radial motion (66) in the region of r ≥ 0. The limits
+of the allowed values of the impact parameter X resulting
+from the condition (74) are given by the inequality
+Xθ
+þðθ; q; a2;y Þ ≤ X ≤ Xθ−ðθ; q; a2;y Þ; ð80Þ
+where the functions Xθ
+/C6 ðθ; q; a2;y Þ, defined as
+Xθ
+/C6 ðθÞ ≡ a cos θ /C6 sin θ ﬃﬃﬃﬃﬃ ﬃΔθ
+p ½a2 cos2 θ þ qð1 þ a2y sin2 θÞ/C138
+cos θða2y sin2 θ − 1Þ ;
+ð81Þ
+are the effective potentials governing the latitudinal motion.
+Note that the following relationship holds
+Xθ
+þðθÞ¼ Xθ−ðπ − θÞ; ð82Þ
+and the inequality (80) holds for 0 ≤ θ ≤ π=2.F o r π=2 ≤
+θ ≤ π the labels “þ,”“ −” have to be interchanged.
+FIG. 6. Types of the effective barriers to the radial motion of photons that are relevant for entry into the r< 0 region. Upper row: the
+effective potentials Xþ=−ðrÞ of the radial photon motion (full/dashed black curves) in the KdS NS spacetime with parameters a2 ¼ 1.2,
+y ¼ 0.02 representing the spacetimes with divergent barrier of the radial photon motion (DRB); (a) for photons with motion constant
+q ¼ −0.5; (b) the same in detail; (c) for photons with the motion constant q ¼ 0. Bottom row: behavior of the effective potentials
+Xþ=−ðrÞ in the KdS NS spacetime with parameters a2 ¼ 16, y ¼ 0.02 representing the spacetimes with restricted barrier of the radial
+photon motion (RRB); (d) for photons with motion constant q ¼ −0.5; (e) the same in detail; (f) for photons with the motion constant
+q ¼ 0. In the case q< 0 (left and middle column), photon motion in both types of spacetimes is allowed for Xθ
+min ≤ X ≤ Xθmax [see
+Eqs. (83)–(85)]. The allowed area is represented by a white band whose boundaries, indicated by a horizontal gray solid/gray dashed
+line, correspond to the values Xθ
+min=max. In this case, for r> 0 no radial turning point exists, so the nature of the repulsive barrier is not
+significant, while for r< 0 it is, and some photons can continue to the area of negative radii while others are repelled by the repulsive
+barrier back into the positive radius region. In the case q ¼ 0 (right column), photons with X ≤ Xmaxðq2Þ or X ≥ 0 are confined to the
+equatorial plane (see Sec. III C 3). The value of Xmaxðq2Þ [see Eq. (78) below] is indicated by the horizontal gray line. They may terminate
+in the ring singularity or are repelled towards the cosmological horizon. Photons with Xmaxðq2Þ <X< 0 travel from r> 0 through the
+interior of the disc r ¼ 0; θ ≠ π=2 back to region of r> 0.
+ZDENĚ K STUCHLÍK and DANIEL CHARBULÁK PHYS. REV . D 109, 064008 (2024)
+064008-14
+
+The functions Xθ
+/C6 ðθ;q < 0Þ meet at their common points
+at θ ¼ 0, θcom ≡ arcsin
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ ﬃ
+a2þq
+a2ð1−qyÞ
+q
+, and π − θcom, π, so that
+their graphs form closed curves, placed symmetrically with
+respect to θ ¼ π=2, whose interiors in the ( θ − X)-plane
+form the regions of allowed θ-motion. In the range
+θcom ≤ θ ≤ π − θcom, the functions Xθ
+/C6 ðθÞ are not defined.
+The functions Xθ
+/C6 ðθ;q ¼ 0Þ are not defined at θ ¼ π=2,b u t
+lim
+θ→π=2þ
+Xθ
+þðθ;q ¼ 0Þ¼ lim
+θ→π=2−
+Xθ−ðθ;q ¼ 0Þ¼ 0
+and
+lim
+θ→π=2−
+Xθ
+þðθ;q ¼ 0Þ¼ lim
+θ→π=2þ
+Xθ−ðθ;q ¼ 0Þ¼ Xmaxðq2Þ;
+(see Fig. 8).
+The function Xθ
+þðθ;q < 0Þ has a local minimum
+Xθ
+minða2;y ;q Þ¼ I ﬃﬃﬃﬃﬃﬃ−qp − 2a
+1 − a2y ð83Þ
+on the interval 0 < θ < π=2, while the function
+Xθ−ðθ;q < 0Þ has a local maximum
+XθmaxðqÞ¼ − ﬃﬃﬃﬃﬃﬃ−qp ð84Þ
+on this interval. Of course, for π=2 ≤ θ ≤ π the extrema
+(83) and (84) correspond to the local minimum and local
+maximum of the function Xθ−, Xθ
+þ, respectively. The above
+statement about the constraints on the value of the parameter
+X means that the latitudinal motion is allowed for
+Xθ
+min ≤ X ≤ Xθmax ð85Þ
+in the case of q< 0; in the limit q → 0− this interval
+approaches the interval
+Xmaxðq2Þ ≤ X ≤ 0; ð86Þ
+or, in terms of the impact parameter l,
+lmaxðq2Þ ≡ Xmaxðq2Þ þ a ≤ l ≤ a: ð87Þ
+In the Sec. III D 1 we will show that the local maxima Xθmax
+and the local minima Xθ
+min correspond to the impact
+parameters XPNC and X/C3 , respectively, of photons of a
+special type that follow trajectories with constant latitude.
+The case q< 0 corresponds to the “vortical” motion
+(see, e.g., [88]), while for r> 0 no radial turning point of
+the vortical motion exists. However, there may be a radial
+turning point at r< 0 due to the radial potential barrier
+formed at r< 0 (see Fig. 6). Typical orbits of this type are
+constructed in the ( r − θ)-plane by the numerical integra-
+tion of the equation
+sr
+Z r
+re
+drﬃﬃﬃ ﬃ
+R
+p ¼ sθ
+Z θ
+θe
+dθﬃﬃﬃﬃ ﬃ
+W
+p ð88Þ
+with appropriately chosen integration limits and signs
+sr;θ ¼/C6 1. The results are shown in Fig. 9.
+FIG. 7. The functions q1ðXÞ, q2ðX; y; aÞ, qθ
+minðXÞ and
+qminðX; θeÞ given for the spacetime parameters y ¼ 0.02,
+a2 ¼ 9, representing the case a2y< 1. The function
+qminðX; θeÞ is shown in different shades of gray for different
+angles θe.G i v e nθe, the latitudinal motion is allowed in the region
+q ≥ qminðX; θeÞ. The graph of qminðX; θe ¼ π=2Þ is partially
+overlapped by the graph of the function qθ
+minðXÞ shown in red.
+The range of parameters that allow negative radii is highlighted
+by a light red shading. The points of contact of the functions
+q
+minðX; θeÞ with the function q1ðXÞ represent the motion con-
+stants of the PNC photons maintaining the initial coordinate
+θ
+e ¼ θPNC; correspondingly, points of contact with the graph
+q2ðX; y; aÞ correspond to another class of the θ/C3 photons, but with
+different properties than the PNC photons (cf. [131]).
+FIG. 8. The functions Xθ
+þ (full curves), Xθ− (dashed curves) for
+spacetime parameters y ¼ 0.02, a2 ¼ 9 and for the motion
+constant q decreasing from q ¼ 0 (black) to q ¼ −8 in steps
+of δq ¼ −2, shown in decreasing shades of gray. The interior of
+the closed curves delimit the region that allows latitudinal motion.
+SHADOWS OF KERR –DE SITTER NAKED SINGULARITIES PHYS. REV . D 109, 064008 (2024)
+064008-15
+
+3. The case q = 0
+For q ¼ 0 and
+X ≤ Xmaxðq2Þ or X ≥ 0 ð89Þ
+only the equality W ¼ 0 in the condition (71) is fulfilled for
+the emission angle θe ¼ π=2, thus the motion is restricted
+to the equatorial plane. However, there is now an additional
+restriction of the intervals in (89) induced by the reality
+condition of the radial motion (66) and the associated
+effective potential X
+r
+/C6 ðr; q; y; a2Þ.
+In Fig. 6 we show that for q ¼ 0 some kind of the RB is
+formed at r> 0 for incoming photons from large radii and
+an infinitely high barrier exists at r ¼ 0. Therefore, these
+photons cannot enter the region of r< 0 and either
+terminate at the ring singularity at r ¼ 0, θ ¼ π=2,o r
+are repelled backwards by the repulsive barrier at the
+radius r ¼ 0.
+For Xmaxðq2Þ <X< 0 and the emission angle θe ≠ π=2,
+W> 0 holds and the photon has a latitudinal turning points
+between latitudes given by the inequality (80). However,
+for θ ¼ π=2 it is now d θ=dλ ¼ 0 and d 2θ=dλ2 ¼ 0, hence
+the possible achievement of θ ¼ π=2 means stopping in the
+FIG. 9. Photon trajectories entering the r< 0 region, shown in the (r − θ)-plane. The trajectories are obtained by integrating Eq.(88) in
+the KdS NS spacetime with parametersa2 ¼ 1.2, y ¼ 0.02. Black semiellipses indicate surfaces of constant Boyer-Lindquist radius, black
+dashed hyperbolic curves indicate surfaces of constant latitudinal coordinate. The photons start their motion near the cosmological horizon
+at r
+c ¼ 5.77 with motion constants q< 0 and Xmaxðq2 Þ <X< 0 allowing the entry of the r< 0 sheet. The coordinate surfaces in the
+r> 0=r < 0 sheet are labeled in black/purple. Note that the upper half of the figures shows the “northern” half-space of the r> 0 -sheet
+and the lower half of the figures shows the “northern” half-space of the r< 0 sheet, as follows from the construction of the connection of
+both sheets according to[112]. Red/orange color (left figure) corresponds to the locally prograde photons emitted atθe ¼ π=4 with motion
+constant X ¼ −0.74 > −a, q ¼ −0.3, giving trajectories with the latitudinal turning points θN , θS at θN ¼ π=8; θS ≈ 1 and allowing the
+continuation of the trajectories in the northern half-space of the r< 0 region, without radial turning point, to r → r−c , initially oriented in
+positive/negative latitudinal direction. the blue/green color (right figure) describes the locally retrograde photons starting at θe ¼ π=5,
+X ¼ −1.44 < −a, q ¼ −0.5 with the latitudinal turning pointθN ≈ π=7, θS ¼ π=4 and the radial turning point atr ¼ −0.2 in the northern
+half-space of the r< 0 region, which return back to the “northern” half-space of the r> 0 region, initially oriented in positive/negative
+latitudinal direction. The azimuthal motion is suppressed, so the full 3D orbits can spiral many times around the spin axis.
+ZDENĚ K STUCHLÍK and DANIEL CHARBULÁK PHYS. REV . D 109, 064008 (2024)
+064008-16
+
+equatorial plane. If θe ¼ π=2 at the beginning of the
+motion, the motion is unstably confined to the equatorial
+plane and terminates at the ring singularity. For θe ≠ π=2
+the photons travel from r> 0 through the interior of the
+disc r ¼ 0, θ ≠ π=2 back to r> 0.
+In Fig. 10 we show typical trajectories of photons with
+q ¼ 0 and Xmaxðq2Þ <X< 0 obtained by direct integration
+of Eq. (88). It is shown that none of these photons terminate
+at the ring singularity, regardless of whether they are locally
+prograde with respect to the LNRF ( kðϕ Þ=kðtÞ > 0), with
+X> −a, or retrograde [ kðϕ Þ=kðtÞ < 0], with X< −a
+(for clarification of the terms “prograde/retrograde,” see
+Sec. III E), and independent of the initial direction of the
+latitudinal motion. It is shown that the trajectories asymp-
+totically approach the equatorial plane after passing through
+the disc r ¼ 0.
+D. Some important cases of photon trajectories
+We now discuss cases of the null geodesics of the KdS
+NS spacetimes, which play a crucial role in the treatment of
+the shadow (silhouette) of the NS spacetimes, taking into
+account the region of negative radii; namely, we study the
+photons following trajectories with constant latitudinal
+coordinate or constant radial coordinate.
+1. Trajectories of constant latitude
+The motion constants X, q corresponding to the local
+maxima X
+θmax of the functions Xθ
+þ=−ðθÞ [see Eq. (84)]
+satisfy the equality
+q ¼ q1ðXÞ; ð90Þ
+FIG. 10. Photon trajectories crossing the surface r ¼ 0 from the “northern” to the “southern” half-space of the r> 0 region, shown in
+the (r − θ)-plane. The trajectories are obtained by integrating Eq. (88) in the KdS NS spacetime with parameters a2 ¼ 1.2, y ¼ 0.02 for
+photons arriving from the vicinity of the cosmological horizon at rc ¼ 5.77 with motion constants q ¼ 0 and Xmaxðq2 Þ <X< 0, which
+do not allow continuation to the r< 0 region, since a radial turning point occurs at r ¼ 0 according to the behavior of the effective
+potentials [see Figs. 6(c) and 6(f)]. This is interpreted as a transit through the r ¼ 0 surface and continuation to larger radii in the
+“southern” half-space of the r> 0 sheet. Red/orange curve (left figure) describes trajectory with no/one latitudinal turning point,
+corresponding to photons initially directed in a positive/negative latitudinal direction; both curves correspond to the locally prograde
+photons with motion constant X ¼ −0.67 > −a, giving the latitudinal turning point θ
+t ¼ π=8 (orange curve). Purple/magenta curve
+(middle figure) describes trajectory with no/one latitudinal turning point, corresponding to photons initially directed in a positive/
+negative latitudinal direction; both curves correspond to a photon with X ¼ −1.10 ¼ −a, i.e., with zero covariant angular momentum l,
+and thus with zero locally measured motion in the azimuthal direction [see Eq. (134)]; the magenta curve shows the trajectory crossing
+the spin axis. Blue/green color (right figure) describes trajectory with no/one latitudinal turning point, corresponding to photons initially
+directed in a positive/negative latitudinal direction; both curves correspond to the locally retrograde photons with X ¼ −1.90 < −a; the
+green curve shows a trajectory with latitudinal turning point θ
+t ¼ π=4. The trajectories without latitudinal turning point approach the
+final latitude θf ∼ π=2 in the “southern” half-space. The azimuthal motion is suppressed, so the real trajectories may spiral many times
+around the spin axis.
+SHADOWS OF KERR –DE SITTER NAKED SINGULARITIES PHYS. REV . D 109, 064008 (2024)
+064008-17
+
+and they belong to the special class of the PNC geodesics of
+the KdS geometry, privileged by the geometry [15].T h e
+PNC photon 4-vectors appear in the Kerr-Schild coordinates
+as “generators” of the Kerr(dS) metric [112]—the KdS
+spacetime can be expressed as de Sitter-plus-squared-null
+form related to these photons [61], while the Kerr spacetime
+can be expressed as Minkowski-plus-squared-null form
+[15]. Photons moving along the PNC geodesics maintain
+a constant latitude θ ¼ θ
+PNC. This can be verified by
+inserting the equality in (76) into (59), which implies that
+the reality condition for the latitudinal motion reduces to
+WðθÞ¼ 0, which can only be true for
+θPNC ¼ arccos
+ﬃﬃﬃﬃﬃﬃﬃ ﬃ
+− X
+a
+r
+¼ constant: ð91Þ
+The motion constants are then
+XPNC ¼ −a cos2 θPNC; ð92Þ
+or equivalently [88,131],
+lPNC ¼ a sin2 θPNC ð93Þ
+and
+qPNC ¼ −a2 cos4 θPNC: ð94Þ
+According to the relations (92) and (94), the following
+inequalities have to be satisfied:
+−a ≤ XPNC ≤ 0; ð95Þ
+or equivalently,
+0 ≤ lPNC ≤ a ð96Þ
+and
+−a2 ≤ qPNC ≤ 0; ð97Þ
+where the lower limits apply to photon emission on the spin
+axis and the upper limits to emission on the equatorial plane.
+According to the relation (96) [see Eq. (134)] the PNC
+photons are locally corotating with respect to the LNRF. Of
+course, the azimuthal coordinate component of the PNC
+photon 4-momentum is also in the positiveϕ direction in the
+stationary region Δ
+r > 0, as can be seen from the azimuthal
+Eq. (56), which now has the form
+dϕ
+dλ ¼ aI2E
+Δr
+: ð98Þ
+The “radial” equation (58) for the PNC photons with
+motion constants given by Eqs. (92)–(94) reduces to
+dr
+dλ ¼/C6 IE; ð99Þ
+where the þ=− sign corresponds to the outgoing/ingoing
+photons with E> 0. From Eq. (99) it follows that there are
+no turning points in the radial direction for the PNC
+photons with E ≠ 0, i.e., if they are initially directed
+inwards, they either reach r ¼ −∞ for θ
+PNC ≠ π=2,o r
+hit the ring singularity for θPNC ¼ π=2.
+It follows from the discussion above that of particular
+interest is the PNC photon at θPNC ¼ π=2, with qPNC ¼ 0,
+XPNC ¼ 0, which is the marginal photon confined in the
+equatorial plane that still hits the ring singularity. It also
+corresponds to the edge of the ring singularity silhouette as
+seen in the equatorial plane (cf. [133]).
+Another class of the null geodesics of constant latitude,
+which we denote θ ¼ θ/C3 for short, has the motion constant
+given by
+q ¼ q2ðX; y; aÞð 100Þ
+corresponding to the local minima Xθ
+min of the functions
+Xθ
+þ=−ðθÞ [see Eq. (83)]. The associated motion constants
+together
+X/C3 ¼ a cos2 θ/C3 ð1 − a2yÞ − 2
+Δ2θ/C3
+; ð101Þ
+or equivalently,
+l/C3 ¼ −aI sin2 θ/C3
+Δ2θ/C3
+; ð102Þ
+and
+q/C3 ¼ − a2I2 cos4 θ/C3
+Δ2
+2θ/C3
+; ð103Þ
+where we define
+Δ2θ/C3 ≡ 1 þ a2y cos 2θ/C3 > 0: ð104Þ
+From Eq. (102) it follows that l/C3 ≤ 0, i.e., such photons are
+oriented in negative ϕ -direction with respect to the LNRF.
+A comparison of Eqs. (93), (94) and (102), (103) indicates
+that in the pure Kerr case y ¼ 0, lPNC ¼ −l/C3 , qPNC ¼ q/C3
+(see [131]).
+Inspecting the radial motion of photons with motion
+constants given by Eqs. (101)–(103), we find the radial
+function in Eq. (54) in the form
+ZDENĚ K STUCHLÍK and DANIEL CHARBULÁK PHYS. REV . D 109, 064008 (2024)
+064008-18
+
+Rðr; X/C3 ;q /C3 Þ ≡ R/C3 ðr; θ/C3 Þ
+¼ I2r4 þ 2I2a2 cos2 θ/C3 r2 þ 8a2 sin2 θ/C3 Δθ/C3 r þ I2a4 cos4 θ/C3
+Δ2
+2θ/C3
+; ð105Þ
+which means that for this class of null geodesics there are
+no turning points of the radial motion at positive radii
+r> 0, but a turning point can exist at negative radii r ≤ 0
+for a sufficiently large latitude θ
+/C3 .
+Obviously, the θ/C3 ¼ π=2 photons must hit the ring
+singularity, so for the incoming photons a “turning” point
+at r ¼ 0 exists, as confirmed by the equality
+R/C3 ðr; θ/C3 ¼ π=2Þ¼ I2r4 þ 8a2r
+ð1 − a2yÞ2 : ð106Þ
+On the other hand, there is a free path to r → −∞ , at least
+for photons moving along the spin axis since
+R/C3 ðr; θ/C3 ¼ 0Þ¼ð r2 þ a2Þ2 > 0: ð107Þ
+The radial equation then has the form of Eq. (99) which is
+valid for the PNC photons. It can be shown that for any pair
+ða2;y Þ there exists indeed an angle θ/C3
+min, 0 < θ/C3
+min < π=2,
+such that for θ/C3 ≥ θ/C3
+min a radial turning point r/C3 < 0 exists
+for the incoming θ/C3 photons (see Fig. 11).
+The radial turning points descent from r/C3 ¼ 0 for θ/C3 ¼
+π=2 to the lowest value r/C3 ¼ r/C3
+SPO < 0 for θ/C3 ¼ θ/C3
+min, which
+is in fact an unstable off-equatorial circular photon orbit (see
+Fig. 11), which is, as shown in Sec. III E, locally counter-
+rotating. As we will show in the next section, the radiusr/C3
+SPO
+corresponds to the lowest ever spherical photon orbit, which
+represents the lower limit of the SPO region at negative radii
+of given spacetime [see Figs. 15(a), 18(f), and 20]. The
+dependence of both quantities, θ/C3
+min, r/C3
+SPO, on the spacetime
+parameters a2;y is shown in Figs. 12 and 13.
+According to Eqs. (101)–(103), for a2y< 1 the motion
+constants of the θ/C3 photons are restricted by the relations
+Xmaxðq2Þ ≤ X/C3 ≤− a; ð108Þ
+where the lower (upper) limit corresponds to θ/C3 ¼ π=2
+(θ/C3 ¼ 0) and
+−a2 ≤ q/C3 ≤ 0; ð109Þ
+FIG. 11. The null geodesics of constant latitude θ/C3 in the KdS
+NS spacetime with a2 ¼ 1.2, y ¼ 0.02, with radial turning points
+at negative radii. The phases in the region r> 0 are shown in red,
+those in the region r< 0 in light purple. The radial turning points
+r/C3 < 0 lie on the purple curve, the purple point represents the
+deepest “turning point ” at r/C3
+SPO ¼ −0.54 of a photon with
+θ/C3
+min ¼ 31.3°, which is actually an unstable circular photon orbit
+lying in a plane parallel with the equatorial plane with the
+symmetry axis aligned with the spin axis. As shown below, this
+radius corresponds to the lowest SPO of given spacetime. For θ
+/C3
+growing to θ/C3 ¼ π=2, the radial turning points approach the value
+r ¼ 0, i.e. the ðθ/C3 ¼ π=2Þ photons hit the ring singularity.
+FIG. 12. The dependence of the latitude θ/C3
+min, to which the lowest
+SPO of a given spacetime with radius r/C3
+SPO < 0, i.e., the unstable
+retrograde circular photon orbit, is confined, on the cosmological
+parameters a2, y.
+SHADOWS OF KERR –DE SITTER NAKED SINGULARITIES PHYS. REV . D 109, 064008 (2024)
+064008-19
+
+where, as in Eq. (97), the lower limit applies to the photon
+emission on the spin axis, the upper to emission in the
+equatorial plane.
+The pair X/C3 ¼ Xmaxðq2Þ;q /C3 ¼ 0 corresponds to the local
+maximum of the function q2ðX; y; aÞ. Photons with motion
+constants approaching these values, i.e., with θ/C3 → π=2,
+have a turning point at r< 0 close to the ring singularity.
+Thus, the θ/C3 photons, similarly to the PNC photons, delimit
+the angular size of the escape light cone coming through the
+ring singularity [see Fig. 29(a)]a s θ
+e ≈ π=2. Of course,
+when constructing the shadows, they also delineate the
+silhouette of the ring singularity as the observer ’s inclina-
+tion approaches the equatorial plane.
+2. Spherical photon orbits
+The SPOs are determined by the conditions
+RðrÞ¼ 0; dR
+dr ¼ 0; ð110Þ
+whose simultaneous solution gives the motion constants for
+the photons on the SPOs
+X ¼ XSPOðrÞ ≡ r½ð1 − ya2Þr2 − 3r þ 2a2/C138
+a½2yr3 þð ya2 − 1Þr þ 1/C138 ; ð111Þ
+or alternatively,
+l ¼ lSPOðrÞ ≡ Ir3 − 3r2 þ a2Ir þ a2
+a½2yr3 þð ya2 − 1Þr þ 1/C138 ; ð112Þ
+and
+q ¼ qSPOðrÞ
+≡ − r3
+a2
+y2a4r3 þ 2ya2r2ðr þ 3Þþ rðr −3Þ2 −4a2
+½2yr3 þð ya2 −1Þr þ 1/C138 2 : ð113Þ
+The functions XSPOðrÞ, lSPOðrÞ, qSPOðrÞ have common
+divergence points at radii rð−Þ
+dðSPOÞ, r/C6
+dðSPOÞ for a2y< 1,
+where
+rð−Þ
+dðSPOÞ ¼ −2
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+1 −a2y
+6y
+s
+cos
+2
+41
+3arccos
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+27y
+2ð1 −a2yÞ3
+s 3
+5; ð114Þ
+and
+r/C6
+dðSPOÞ ¼ 2
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+1 − a2y
+6y
+s
+cos
+2
+4π
+3 /C6 1
+3 arccos
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+27y
+2ð1 − a2yÞ3
+s 3
+5;
+ð115Þ
+which satisfies the relation rð−Þ
+dðSPOÞ < 0 <r þ
+dðSPOÞ <r −
+dðSPOÞ.
+The positive radii are related to the marginal spherical
+photon orbits. They coalesce for a2 ¼ a2
+dðSPOÞðyÞ, where
+a2
+dðSPOÞðyÞ ≡ 1
+y − 3
+ﬃﬃ ﬃ
+4
+3p
+2
+ﬃﬃﬃﬃ ﬃ
+y23
+p : ð116Þ
+Note that the function a2
+dðSPOÞðyÞ in the ða2 − yÞ plane
+determines the boundary between the KdS spacetime classes
+VI and VII, as introduced in [110].F o ra2 ≶ a2
+dðSPOÞðyÞ,t h e
+functions XSPOðrÞ, qSPOðrÞ have two/no divergence points.
+Their typical behavior is shown in Fig. 14.
+For the SPOs at negative radii, the point rð−Þ
+dðSPOÞ < 0 is
+relevant. It can be verified that for r → rð−Þ
+dðSPOÞ from the
+right, qSPOðrÞ → −∞ holds (see Fig. 14). Since − a2 ≤
+q ≤ 0 necessarily holds, it follows that the range of the
+SPOs with negative radii is restricted to the interval
+rð−Þ
+dðSPOÞ <r SPO < 0. More precisely, the radius of the
+lowest SPO is given by the equality
+qSPOðrÞ¼ qθ
+minðXSPOðrÞÞ; ð117Þ
+which is represented in Fig. 15 as the intersection of the
+curve qSPOðXSPOÞ, parametrized by the radii rSPO of the
+unstable spherical photon orbits [ ðXSPOðrSPOÞ;q SPOðrSPOÞ/C138 ,
+with the curve qθ
+minðXÞ. As follows from the comment to
+Fig. 7, this intersection corresponds to the θ/C3 photon. Since
+it is the lowest orbit, according to the notation introduced in
+the previous subsection, it corresponds to the designation
+r
+/C3
+SPO, to which the θ/C3
+min photons are wound (see Fig. 11).
+Due to the vortical character of the motion of photons with
+q< 0, the SPOs at negative radii have a different shape than
+FIG. 13. Dependence of the off-equatorial circular photon
+orbits with negative radii r/C3
+SPO on which the θ/C3
+min-photons are
+wound on the spacetime parameters a2;y . These are the radii of
+the lowest SPOs of a given spacetime that enclose the region of
+the SPOs from below.
+ZDENĚ K STUCHLÍK and DANIEL CHARBULÁK PHYS. REV . D 109, 064008 (2024)
+064008-20
+
+at r> 0 (cf. [134,135]). The lowest SPOs at r ¼ r/C3
+SPO are
+the special case of SPOs reduced to off-equatorial circular
+photon orbits, which are unstable and counterrotating (see
+Sec. III E).
+Formally we can get the solution rSPO ¼ 0, which
+however corresponds to the physical singularity and there-
+fore cannot be regarded as an orbit.
+Another solution of the system of equations (110) is
+X ¼ r2
+a ; ð118Þ
+and
+q ¼ − r4
+a2 : ð119Þ
+The relations (118) and (119) represent a parametric
+determination of the descending part of the function
+q1ðXÞ defined in the relation (76), where r is the parameter.
+However, this part is in the region that negates the
+inequalities (74) and (75) which reflects the reality of
+the latitudinal motion (see Fig. 7), and should therefore be
+excluded from further considerations.
+The condition for stable/marginally stable/unstable
+spherical orbits [136]
+d
+2R=dr2 ⋚ 0 ð120Þ
+implies the inequality
+8rð3yr4 − I2r3 þ 3ð1 − a2yÞr2 − 3r þ a2Þ ⋛ 0; ð121Þ
+which has been checked on the radii of the spherical orbits
+r ¼ rSPO considered here. The equality in (120) gives the
+radii rms of the marginally stable orbits.
+The curve qSPOðXSPOÞ plays crucial role in the con-
+struction of LECs/shadows, because in the parameter plane
+(X − q) the curve determines the boundary between the
+photons with radial turning point and the photons escaping
+to “our” infinity ( r → þ∞ ), or to the secondary infinity
+(r → −∞ ). Therefore, the curve forms a “critical locus” in
+the ( X − q)-plane (see [137]).
+In the case of photon motion in the region of negative
+radii r< 0, there are no qualitative changes in its character
+for the spacetimes with a
+2y< 1. This can be proved by
+analyzing the functions XSPOðrÞ, qSPOðrÞ using the so-
+called “Chinese boxes ” method (see [130]). The same
+applies to the critical locus, with typical behavior shown
+in Fig. 15.
+3. Polar SPOs
+The polar SPOs are of particular interest because the
+photons following these orbits cross the spin axis. The
+polar SPOs are characterized by the impact parameter
+XSPO ¼ −a ðlSPO ¼ 0Þ which allows crossing of the
+symmetry axis. Using the definition of the impact param-
+eter lSPO ¼ 0 in Eq. (112), we get the equation
+Ir3 − 3r2 þ a2Ir þ a2
+a½2yr3 þð ya2 − 1Þr þ 1/C138 ¼ 0; ð122Þ
+which has two positive roots
+r/C6
+pol ¼ 1
+I
+/C20
+1 þ 2
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ ﬃ
+1 − a2I2
+3
+r
+cos
+/C18π /C6 ψ
+3
+/C19/C21
+; ð123Þ
+FIG. 14. Illustration of the effective potentials governing the photon motion. Typical behavior of the functions XSPOðrÞ, qSPOðrÞ is
+shown. The solid lines correspond to the KdS NS spacetimes of the classes IV , V , as introduced in[110], characterized by the DRB of the
+radial photon motion and two divergences of XSPOðrÞ, qSPOðrÞ; the dashed lines correspond to the class VI with the RRB and two
+divergences of XSPOðrÞ, qSPOðrÞ, and the dot-dashed lines correspond to the classes VII, VIII with RRB and no divergences of XSPOðrÞ,
+qSPOðrÞ. Note the qualitatively unchanged behavior of both functions XSPOðrÞ, qSPOðrÞ for rð−Þ
+dðSPOÞ <r ≤ 0. Since − a2 ≤ q ≤ 0, the
+range of the spherical orbits at negative radii rSPO must be rð−Þ
+dðSPOÞ <r /C3
+SPO <r SPO < 0. The asymptotic behavior XSPO → þ∞ at
+r<r ð−Þ
+dðSPOÞ is therefore irrelevant.
+SHADOWS OF KERR –DE SITTER NAKED SINGULARITIES PHYS. REV . D 109, 064008 (2024)
+064008-21
+
+where
+cos ψ ¼ a2I2 − 1/C16
+1 − a2I2
+3
+/C173=2 : ð124Þ
+The maximum spin parameter a2
+maxðpolÞ allowing the exist-
+ence of the polar SPOs at positive radii, is determined by
+the condition
+cos ψ ¼ 1; ð125Þ
+which gives
+a2
+maxðpolÞðyÞ ≡ 2
+3y
+/C18
+cosh ξ
+3 − 1
+/C19
+: ð126Þ
+Here
+cosh ξ ¼ 27
+2 ya2
+maxðpolÞK þ 1 ð127Þ
+and
+a2
+maxðpolÞK ¼ 6
+ﬃﬃ ﬃ
+3
+p
+− 9 ¼ 1.3923 ð128Þ
+is the maximum value of a2 that allows for the existence of
+polar SPOs in the Kerr case (cf. [134]).
+There is always one other solution of Eq. (122) corre-
+sponding to the polar SPO at negative radii rð−Þ
+pol , which is as
+follows:
+rð−Þ
+pol ≡
+8
+>>>
+<
+>>
+>
+:
+1
+I
+/C20
+1 −2
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ ﬃ
+1 −a2I2
+3
+q
+cos
+/C16
+ˆψ
+3
+/C17/C21
+; for a2I2 < 3;
+1
+I
+/C20
+1 −2
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ ﬃ
+a2I2
+3 −1
+q
+sinh
+/C16
+¯ψ
+3
+/C17/C21
+; for a2I2 ≥ 3;
+ð129Þ
+where
+cos ˆψ ¼ a2I2 − 1/C16
+1 − a2I2
+3
+/C173=2 ð130Þ
+and
+sinh ¯ψ ¼ a2I2 − 1/C16
+a2I2
+3 − 1
+/C173=2 : ð131Þ
+E. Orientation of the SPOs
+We define the orientation of the SPOs in the LNRFs
+according to the sign of the azimuthal component kðϕ Þ of
+the four-momentum (wave vector) k of the future-directed
+FIG. 15. (a) Representation of the NS shadow in the space of the photon motion constants ( X − q). The boundary of the shadow
+corresponds to the motion constants associated with the SPOs. Typical behavior of the critical locus qSPOðXSPOÞ (orange curve)
+corresponding to SPOs with negative radii rSPO < 0 in spacetimes with a2y< 1, here represented by the case y ¼ 0.02, a2 ¼ 1.2.
+Above the locus there is a barrier (lighter purple area) which repels the incoming photons back to the region r> 0, while the area below
+(darker purple) corresponds to photons, which can reach the other infinity r → −∞ depending on the latitude θe, which determines the
+opening of the function qminðX; θeÞ. It is shown here for a deliberately chosen parameter θe ¼ θ/C3
+min, which represents a latitude of the off-
+equatorial unstable counter-rotating circular photon orbit, that is the lowest SPO of the given spacetime with radii r/C3
+SPO. The
+corresponding motion constants are represented by the black dot and θ/C3
+min ¼ 31.3°, r/C3
+SPO ¼ −0.54. The curve denoted as qexðXexÞ and
+shown in lighter orange is obtained from the parametric expression of the dependence of the function (119) on the function (118) by
+eliminating of the parameter r< 0. It coincides with the descending part of the function q1ðXÞ and is completely in forbidden region
+(gray area), so it does not matter. (b) Continuation of the left figure —behavior of the critical locus corresponding to the SPOs of positive
+radii rSPO > 0. The yellow area shows the allowed range of the motion constants determined by the conditions (68) and (72).
+ZDENĚ K STUCHLÍK and DANIEL CHARBULÁK PHYS. REV . D 109, 064008 (2024)
+064008-22
+
+photon, kðtÞ > 0. For this purpose it is convenient to
+introduce an angle Ψ (see [110]) such that
+sin Ψ ≡ kðϕ Þ=kðtÞ; ð132Þ
+i.e., Ψ ¼ 0 for motion in the direction of the latitudinal
+basis vector eðθÞ, Ψ ¼ π=2 for motion in the direction of the
+azimuthal basis vector eðϕ Þ. According to Eq. (65) it is
+kðϕ Þ ¼ kðϕ Þ;k ðtÞ ¼ −kðtÞ, and we can write
+sin Ψ ¼ − kðϕ Þ
+kðtÞ
+¼ −
+kμeμ
+ðϕ Þ
+kνeν
+ðtÞ
+¼ −
+kϕ eϕ
+ðϕ Þ
+ktet
+ðtÞ þ kϕ eϕ
+ðtÞ
+: ð133Þ
+Using the relations (36), (37), and (48), and after substitut-
+ing from Eqs. (28) and (31), we finally get
+sin Ψ ¼ ρ2
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ ﬃ
+ΔrΔθ
+A2 sin2 θ
+r
+· l
+1 − ΩLNRFl : ð134Þ
+In general, the function sin Ψ defined in relation (134)
+determines the instantaneous locally measured azimuthal
+orientation of a photon passing through the current coor-
+dinates ðr; θÞ, with a generally nonzero locally measured
+radial velocity, these measurements being made by the
+observer in the LNRF. As this equation implies, this
+instantaneous orientation at a given photon location
+depends only on the impact parameter l. In the case of
+SPO photons at a given radius r, the impact parameter l is
+fixed at l ¼ l
+SPOðrÞ, along with the impact parameter
+q ¼ qSPOðrÞ, which is irrelevant for the orientation of the
+motion.
+Now we can show that the sign of the function sin Ψ
+remains unchanged for the SPOs of a fixed radius,
+independently of the latitudinal coordinate of the photon,
+so that it does indeed express the orientation of any
+given SPO.
+1. Orientation and latitudinal range of the SPOs
+To discuss the locally measured orientation of the
+azimuthal motion of a photon at a given SPO in a given
+KdS spacetime, it is convenient to introduce the function
+Z
+θ ≡ ρ2
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ ﬃ
+ΔrΔθ
+A2 sin2 θ
+r
+; ð135Þ
+where the subscript θ indicates only the dependence on the
+photon latitude. It is obvious that Zθ > 0 for any latitude at
+the stationary region Δr > 0. Equation (134) can then be
+written in the form
+sin Ψ ¼ Zθl
+1 − ΩLNRFðr; θÞl : ð136Þ
+We can easily see that the metric coefficients imply the
+relation
+gtt ¼ gϕϕ ðΩ2
+LNRF − Z2
+θÞ: ð137Þ
+In the region of positive radii, gϕϕ > 0, so in the
+ergosphere, where gtt > 0, the inequality 0 <Z θ <
+ΩLNRF holds, while outside the ergosphere, gtt < 0, the
+inequality 0 < ΩLNRF <Z θ holds. At the ergosphere boun-
+dary, i.e., at the ergosurface where gtt ¼ 0, the equality
+ΩLNRF ¼ Zθ holds, so the quantity Zθ corresponds to the
+angular velocity of the LNRF observer located at the
+ergosurface.
+However, there is a causality violation region where
+gtt > 0 and gϕϕ < 0 in the region of negative radii. In such
+a case the function A, defined in relation (27), is negative
+and the relations (28)–(31) and (32)–(35) for the local
+tetrads and hence the locally measured quantities have to be
+redefined. We will leave the discussion for this case for the
+next study, and here we restrict ourselves to the noncausal
+violation region where g
+tt < 0 and gϕϕ > 0 in the case of
+negative radii.
+Now we can easily determine the sign of the function
+sin Ψ for given spacetime parameters a2;y and photons
+orbiting on a given SPO with radius r ¼ rSPO and with a
+given impact parameter lðrSPOÞ. A direct analysis of the
+function sin Ψ with respect to the variable θ is rather
+tedious, but, as we shall see below, it is sufficient for our
+purposes to compare the values of the expressions
+ðΩ
+LNRF − ZθÞ−1, ðΩLNRF þ ZθÞ−1 as a function of the angle
+θ with the motion constant l. Typical behavior of the
+functions ðΩLNRF þ ZθÞ−1, ðΩLNRF − ZθÞ−1 and the regions
+of the prograde and retrograde orbits defined by them are
+shown in Figs. 16–18, which provides an overview for the
+following discussion.
+We first investigate the condition for prograde orbits,
+which reads
+0 ≤ sin Ψ ≤ 1: ð138Þ
+We solve this double-sided inequality separately for the
+positivity condition
+0 ≤ sin Ψ; ð139Þ
+and separately for the reality condition
+sin Ψ ≤ 1; ð140Þ
+which must be satisfied simultaneously. Obviously, the
+positivity condition (139) implies
+0 ≤ l < Ω
+−1
+LNRF; ð141Þ
+as can be seen from the auxiliary Table I.
+SHADOWS OF KERR –DE SITTER NAKED SINGULARITIES PHYS. REV . D 109, 064008 (2024)
+064008-23
+
+FIG. 16. The latitudinal range of motion of the photons and the orientation of their azimuthal motion given for typical radii at the
+Kerr–de Sitter naked singularity spacetimes with parameters a2 ¼ 1.001, y ¼ 10−5. The extension in the latitudinal coordinate θ is given
+in terms of the impact parameter l. A photon with a certain impact parameter l moves in the latitudinal direction between two latitudinal
+turning points, symmetrically located with respect to the equatorial plane, which correspond to the intersections of the line l ¼ const.
+with the curves ðΩLNRF þ ZθÞ−1 (red curve), ðΩLNRF − ZθÞ−1 (blue curve), where the intersections with the curve ðΩLNRF þ
+ZθÞ−1=ðΩLNRF − ZθÞ−1 define motion in the positive/negative azimuthal direction, i.e., prograde/retrograde trajectories (red/blue
+region), with a generally nonzero radial component of motion. The SPO photons in a particular radius rSPO are determined by the special
+l ¼ lSPOðrÞ. Such photons have q ¼ qSPOðrÞ, that does not matter for the orientation of the motion. Such photons are forced to oscillate
+between two latitudes, represented as the red/blue dots, while the motion continues in fixed azimuthal direction. Photons with
+l ≠ l
+SPOðrÞ- case have the turning point of the θ-motion at this rSPO, if their impact parameter q is chosen properly, but they move in the
+radial direction. Therefore, the SPOs of photons with motion retrograde to the local LNRFs are shown in the blue region, while prograde
+SPOs are shown in the red region; the special case of retrograde SPOs of photons with l > 0 and E< 0, which lie entirely in the
+ergosphere, is shown in green. The region of the ergosphere is shown in Figs. 16(a) and 16(b) by a band of gray color overlaying other
+colored regions, defined by vertical dashed lines, which also represent asymptotes of the function ðΩ
+LNRF − ZθÞ−1. The latitudinal extent
+of the ergosphere at a given radius rSPO is θergðrSPOÞ ≤ θ ≤ π − θergðrSPOÞ, where θergðrSPOÞ is given by the relation (23). The radii of
+SPOs of a certain type of stability, orientation and sign of covariant energy E fall into intervals defined by specific values of rþ
+dðSPOÞ, r/C6
+pol,
+rms, r−
+ph as described in the text. (a) Radius rSPO ¼ 0.5 corresponds to the case 0 <r SPO <r þ
+dðSPOÞ; the SPO photons move in a retrograde
+direction along a stable SPO that is completely embedded in the ergosphere, with a positive impact parameter l and with a negative
+covariant energy E< 0. (b) Radius rSPO ¼ 1.7 corresponds to the case rms <r SPO <r −
+pol; the SPO photons move in a prograde direction
+along an unstable SPO that partially interferes with the ergosphere, with a positive impact parameter l and with a positive covariant
+energy E> 0. (c) Radius rSPO ¼ 2.15 is in the same interval as in case (b) but now the SPO is outside the ergosphere. (d) Radius
+rSPO ¼ 3.3 corresponds to the case r−
+pol <r SPO <r −
+ph
+; the SPO photons move retrogradely along an unstable SPO, completely outside
+the ergosphere, with a negative impact parameter and positive covariant energy E> 0. The selected radii are highlighted by horizontal
+dotted lines in Fig. 19(a), which shows the distribution of different types of SPOs in the considered spacetime. Other qualitatively
+different cases of orbits are shown in Fig. 17 for a spacetime with parameters a2 ¼ 1.2, y ¼ 0.02, for which they can be displayed more
+clearly, and which differs from the one considered here in that its ergosphere extends into a region of unstable retrograde orbits [cf. cases
+(a), (b) in Fig. 19].
+ZDENĚ K STUCHLÍK and DANIEL CHARBULÁK PHYS. REV . D 109, 064008 (2024)
+064008-24
+
+The reality condition (140) implies an inequality
+sin Ψ − 1 ¼ ðΩLNRF þ ZθÞl − 1
+1 − ΩLNRFl ≤ 0; ð142Þ
+which has solutions
+l ≤ ðΩLNRF þ ZθÞ−1 or Ω−1
+LNRF < l; ð143Þ
+as follows from the auxiliary Table II. The conjunction of
+the inequalities (141) and (143) gives the solution to the
+inequality (138) in the form
+0 ≤ l ≤ ðΩLNRF þ ZθÞ−1 < Ω−1
+LNRF; ð144Þ
+which corresponds to the red regions shown in Figs. 16–18.
+The condition for retrograde orbits
+−1 ≤ sin Ψ ≤ 0 ð145Þ
+is treated in the same way. From the Table I it can be seen
+that the negativity condition
+sin Ψ ≤ 0 ð146Þ
+is satisfied for
+−∞ < l ≤ 0 or Ω−1
+LNRF ≤ l: ð147Þ
+The reality condition
+−1 ≤ sin Ψ ð148Þ
+implies the inequality
+0 ≤ ðZθ − ΩLNRFÞl þ 1
+1 − ΩLNRFl ¼ sin Ψ þ 1; ð149Þ
+which must be solved separately for the motion inside the
+ergosphere, gtt > 0, where Zθ − ΩLNRF < 0, and outside
+the ergosphere, gtt < 0, where Zθ − ΩLNRF > 0 in the case
+of positive radii.
+In the case of motion inside the ergosphere, the inequal-
+ity (149) has solutions
+−∞ < l < Ω−1
+LNRF or ðΩLNRF − ZθÞ−1 ≤ l < ∞ ; ð150Þ
+as follows from the auxiliary Table III. The conjunction of
+the inequalities (147) and (150) then gives the solution of
+the inequality (145) in the form
+−∞ < l ≤ 0 ð151Þ
+or
+ðΩLNRF − ZθÞ−1 ≤ l < ∞ : ð152Þ
+The inequality (151)/(152) corresponds to the blue/green
+regions shown in Figs. 16(a), 16(b), and 17 between the
+vertical dashed lines. Note that by the relation (152) there
+are locally retrograde photons with positive-impact param-
+eter l. In order to preserve the standard physical meaning
+for the locally measured kðtÞ, i.e., kðtÞ > 0, we have to set
+FIG. 17. The latitudinal range of motion of the photons and the orientation of their azimuthal motion given for typical radii at the
+Kerr–de Sitter naked singularity spacetimes with parameters a2 ¼ 1.2, y ¼ 0.02. This figure follows Fig. 16 in an analogous way and
+shows other qualitatively different cases of SPOs, which for the spacetime case in Fig. 16 either do not occur or could not be displayed
+clearly due to disproportions. (a) Radius rSPO ¼ 1.15 corresponds to the case rþ
+dðSPOÞ <r SPO <r þ
+pol; the SPO photons move in a
+retrograde direction along a stable SPO that partially interferes with the ergosphere, with a negative impact parameter l and with a
+positive covariant energy E> 0. (b) Radius rSPO ¼ 1.5 corresponds to the case rþ
+pol <r SPO <r ms; the SPO photons move in a prograde
+direction along a stable SPO that partially interferes with the ergosphere, with a positive impact parameter l and with a positive covariant
+energy E> 0. (c) Radius rSPO ¼ 2.2 corresponds to the case r−
+pol <r SPO <r −
+ph
+; the SPO photons move in a retrograde direction along an
+unstable SPO that partially interferes with the ergosphere, with a negative impact parameter l and with a positive covariant energy
+E> 0. The selected radii are highlighted by horizontal dotted lines in Fig. 19(b), which shows the distribution of different types of SPOs
+in the considered spacetime.
+SHADOWS OF KERR –DE SITTER NAKED SINGULARITIES PHYS. REV . D 109, 064008 (2024)
+064008-25
+
+FIG. 18. The latitudinal range of motion of the photons and the orientation of their azimuthal motion given for selected negative radii
+in the Kerr –de Sitter naked singularity spacetimes with parameters a2 ¼ 1.2, y ¼ 0.02. The coloring follows Figs. 16 and 17 in an
+analogous way and shows other qualitatively different cases of SPOs. The black and gray horizontal lines define the range of allowed
+values of the impact parameter l, which are given by the constraints imposed on the latitudinal motion according to Eq. (87). The purple
+vertical band corresponds to the region of causality violation where g
+ϕϕ < 0 (A< 0), restricted in the latitudinal direction at a given
+radius r to the interval θCV ≤ θ ≤ π − θCV. Note that in the causality violation region the equations of motion have to be modified due to
+the interchange of the character of the ϕ ;t coordinates. Here we are not discussing these subtleties, as ϕ is not spacelike coordinate in the
+causality violation region being thus irrelevant for our discussion. Outside the causality violation region the behavior is standard, but
+partly it corresponds to the vortical motion. The individual cases correspond to the following situations: (a) Radius r
+SPO ¼ 0 does not
+correspond to a SPO, but the photon trajectory terminates in the ring singularity. (b) and (c) Unstable prograde SPOs; photons enter the
+causality violation region. (d) Unstable polar SPO at radius rð−Þ
+pol given by Eq. (129); photons oscillate above the “north”/”south” pole
+with latitudinal turning point θpol=ðπ − θpolÞ, which merges with the boundary point θCV=ðπ − θCVÞ of the causality violation region.
+(e) Unstable retrograde SPOs; vortical motion between two latitudinal turning points “above”/“below” the equatorial plane outside the
+area of causality violation. (f) Off-equatorial unstable retrograde circular photon orbit of the θ/C3 photons with the motion constants given
+by Eqs. (102) and (103), following the constant latitude θ/C3
+min ¼ 31.3°, cf. Figs. 11 and 15(a). The radius r/C3
+SPO corresponds to the
+“deepest” SPO enclosing the region of the SPOs.
+ZDENĚ K STUCHLÍK and DANIEL CHARBULÁK PHYS. REV . D 109, 064008 (2024)
+064008-26
+
+kðϕ Þ < 0, or, equivalently, Φ < 0, as follows from
+kðϕ Þ ¼ kðϕ Þ ¼ Φeϕ
+ðϕ Þ. Therefore, by the definition (48),
+such photons must have negative covariant energy E< 0
+and such SPOs must be completely immersed in the
+ergosphere (see [110]). The area of these orbits is marked
+in green.
+In the case of motion outside the ergosphere, the
+inequality (149) has a solution
+ðΩLNRF − ZθÞ−1 ≤ l < Ω−1
+LNRF; ð153Þ
+as follows from the auxiliary Table IV. The conjunction of
+inequalities (147) and (153) now gives the solution of the
+inequality (145) in the form
+ðΩLNRF − ZθÞ−1 ≤ l ≤ 0; ð154Þ
+which corresponds to the blue regions shown in Figs. 16(a),
+16(b), and 17 outside the belt bounded by the vertical
+dashed lines and the blue region shown in Figs. 16(c),
+16(d), and 18.
+As shown above, the orientation of the photon motion
+relative to the LNRFs is governed only by the impact
+parameter l. In Figs. 16 and 17, we show several typical
+cases of the extension of the latitudinal motion of the SPO
+photons at positive radii along with to the motion orienta-
+tion relative to the LNRFs for a given choice of the impact
+parameter l
+SPO for KdS NS spacetimes represented by the
+spacetime parameters a2 ¼ 0.001;y ¼ 10−5 with compari-
+son to the situation for the KdS NS spacetimes with larger
+parameters—a2 ¼ 1.2;y ¼ 0.02 where the retrograde
+SPOs enter the ergosphere.
+In the region of positive radii r> 0, for a given radius r,
+the allowed values of the impact parameter l are given by
+the constraints imposed on radial motion by Eq. (66).
+Therefore, in Figs. 16 and 17 the values of the local
+extrema of the functions ðΩLNRF þ ZθÞ−1ðθ; rÞ, ðΩLNRF −
+ZθÞ−1ðθ; rÞ at the point θ ¼ π=2, which determine the range
+of the allowed values of the impact parameter l at given
+radius r, are given by the values of the effective potentials
+lr
+/C6 ðr; q ¼ 0;y ;a 2Þ, i.e.,
+ðΩLNRF þ ZθÞ−1ðθ ¼ π=2;r Þ¼ lr−ðr; q ¼ 0Þ; ð155Þ
+ðΩLNRF − ZθÞ−1ðθ ¼ π=2;r Þ¼ lr
+þðr; q ¼ 0Þ; ð156Þ
+where we have introduced the notation
+lr
+/C6 ðr; qÞ ≡ Xr
+/C6 ðr; qÞþ a; ð157Þ
+with Xr
+/C6 ðr; qÞ defined in relation (70).
+In Fig. 18, we show for completeness the latitudinal
+extent of the SPOs and their orientation on the negative
+radii. The photon motion at negative radii does not differ
+qualitatively between the KdS spacetimes of different
+cosmological parameters, so we consider here the
+representative case of a spacetime with parameters
+a
+2 ¼ 1.2, y ¼ 0.02. The local extrema of the functions
+ðΩLNRF þ ZθÞ−1ðθ; rÞ, ðΩLNRF − ZθÞ−1ðθ; rÞ at θ ¼ π=2 in
+t h ec a s eo f r< 0 fall into the domain of causality
+violation, the discussion of which we postpone for another
+detailed study of the character of the motion in the
+causality violation region.
+From the comment to Figs. 16–18 it follows that although
+the individual functions ðΩ
+LNRF þ ZθÞ−1, ðΩLNRF − ZθÞ−1
+change their value depending on the latitude θ, a photon
+with a given impact parameter l does not change the
+azimuthal direction of motion with respect to the LNRF
+observer currently orbiting at the photon location, i.e., the
+photon remains to be at either a prograde or retrograde SPO.
+The photons following the prograde/retrograde SPO in
+given reference frame we also call locally corotating/
+counterrotating, but these attributes can be generalized to
+any motion, where the term corotating/counterrotating
+TABLE IV . Auxiliary table for solving the inequality −1 ≤
+sin Ψ in the case of gtt < 0.
+l ð−∞ ; 1
+ΩLNRF −Zθ
+/C138½ 1
+ΩLNRF −Zθ
+; 1
+ΩLNRF
+Þð 1
+ΩLNRF
+; ∞ Þ
+ðZθ − ΩLNRFÞl þ 1 − þþ
+1 − ΩLNRFl þþ −
+sin Ψ þ 1 − þ −
+TABLE II. Auxiliary table for solving the inequality sin Ψ ≤ 1.
+l ð−∞ ; 1
+ΩLNRF þZθ
+/C138½ 1
+ΩLNRF þZθ
+; 1
+ΩLNRF
+Þð 1
+ΩLNRF
+; ∞ Þ
+ðΩLNRF þ ZθÞl − 1 − þþ
+1 − ΩLNRFl þþ −
+sin Ψ − 1 − þ −
+TABLE III. Auxiliary table for solving the inequality −1 ≤
+sin Ψ in the case of gtt > 0.
+l ð−∞ ; 1
+ΩLNRF
+Þð 1
+ΩLNRF
+; 1
+ΩLNRF −Zθ
+/C138½ 1
+ΩLNRF −Zθ
+; ∞ Þ
+ðZθ − ΩLNRFÞl þ 1 þþ −
+1 − ΩLNRFl þ −−
+sin Ψ þ 1 þ − þ
+TABLE I. Auxiliary table for determining the sign of sin Ψ.
+l ð−∞ ;0 /C138½ 0; Ω−1
+LNRFÞð Ω−1
+LNRF; ∞ Þ
+Zθl − þþ
+1 − ΩLNRFl þþ −
+sin Ψ − þ −
+SHADOWS OF KERR –DE SITTER NAKED SINGULARITIES PHYS. REV . D 109, 064008 (2024)
+064008-27
+
+means a motion that satisfies the condition (138)/(145), i.e.,
+in accordance with our intuition, particles following them
+are proceeding in a positive/negative azimuthal direction
+relative to the local LNRF.
+2. Distribution of the SPOs
+In Figs. 19 and 20 we give for the same KdS NS
+spacetimes the dependence of the extension of the latitu-
+dinal motion and in Figs. 21 and 22 the dependence of the
+motion constants l
+SPO, qSPO of the SPO photon on the
+radius of the SPO. For a class IV a KdS NS which belongs
+to the family of observationally acceptable spacetimes, at
+the region of positive radii the SPOs are located in the
+interval 0 <r
+SPO <r −
+ph, where r−
+ph denotes the retrograde
+equatorial circular photon orbit (ECPO), which is given by
+the positive root of the function qSPOðrÞ. There are two
+polar SPOs, the stable one at rþ
+pol and unstable one at r−
+pol
+given by Eq. (123), rþ
+pol <r −
+pol <r −
+ph
+. The distribution of
+the SPOs is shown in Figs. 19 and 20. The prograde SPOs
+are located in the interval rþ
+pol <r<r −
+pol;s t a b l ea t
+rþ
+pol <r ms and unstable at rms <r −
+pol, where rms denotes
+the radius of the marginally stable SPO, which is given by
+the local maximum of the function lSPOðrÞ [or local
+minimum of the function qSPOðrÞ]. The retrograde unstable
+SPOs are at r−
+pol <r −
+ph
+, and stable at 0 <r<r þ
+pol.T h e
+SPOs that are completely embedded in the ergosphere,
+orbited by locally retrograde photons with positive impact
+parameter l
+SPO and with negative covariant energy E< 0,
+are in the interval 0 <r<r þ
+dðSPOÞ,o r b i t sw i t hp o s i t i v e
+covariant energy E> 0 are in the interval rþ
+dðSPOÞ <r<
+r−
+ph, where rþ
+dðSPOÞ is the point at which the functions
+lSPOðrÞ, qSPOðrÞ diverge, defined in relation (115).
+In the case of negative radii, only unstable SPOs exist.
+The prograde SPOs are at rð−Þ
+pol <r< 0, which enter the
+region of the causality violations in the vicinity of the
+equatorial plane θ ¼ π=2 and which study we postpone to
+another paper. The retrograde SPOs are in the interval
+r/C3
+SPO <r<r ð−Þ
+pol . Photons in these SPOs perform so-called
+vortical motion, during which they oscillate between two
+latitudinal turning points that are in the same half-space
+with the equatorial boundary plane. The lowest SPO at
+r ¼ r
+/C3
+SPO is purely circular.
+For completeness, we still investigate the radial extent of
+the causality violation region, which is given by the
+condition g
+ϕϕ < 0. As shown in Fig. 20, this radial extent
+is largest for θ ¼ π=2, where it is limited by the value of
+FIG. 19. Distribution of the SPOs in the class IV a KdS NS spacetimes. The red/blue color corresponds to the locally prograde/
+retrograde SPOs, the full/faint shades correspond to the stable/unstable SPOs. The green color corresponds to the locally retrograde
+SPOs with negative covariant energy E< 0. The gray area shows the ergosphere. The dashed/dotted lines indicate prominent orbits/
+orbits for which the latitudinal motion ranges are shown in Figs. 16 and 17. The intersections of the dotted horizontal lines with the gray
+curve determine the latitudinal extent of the ergosphere at a given radius r
+SPO. Figure 19(a) shows spacetimes where unstable prograde
+SPOs exist outside the ergosphere, while the Fig. 19(b) corresponds to spacetimes where the ergosphere extends into the region of
+unstable retrograde SPOs. The region of stable retrograde orbits in Fig. 19(a) a is faint due to the small scale, and the radii rms, rþ
+dðSPOÞ are
+not marked for clarity, since they almost merge with the radius rþ
+dðSPOÞ.
+ZDENĚ K STUCHLÍK and DANIEL CHARBULÁK PHYS. REV . D 109, 064008 (2024)
+064008-28
+
+rCV. This radius is given by the condition gϕϕ ¼ 0, which
+implies the equality A ¼ 0. Substituting θ ¼ π=2 into the
+definitional relation (27) for the function A gives the
+equation,
+rðIr3 þ a2Ir þ 2a2Þ¼ 0; ð158Þ
+which is obviously satisfied for r ¼ 0. The cubic poly-
+nomial in Eq. (158) always has two complex conjugate
+roots and one negative root,
+rCV ¼ −2
+ﬃﬃ ﬃ
+3
+p
+3 a sinh
+/C201
+3 sinh−1 3
+ﬃﬃ ﬃ
+3
+p
+Ia
+/C21
+: ð159Þ
+It can be shown that the following inequality holds
+rð−Þ
+erg <r ð−Þ
+dðSPOÞ <r CV <r /C3
+SPO <r ð−Þ
+pol < 0: ð160Þ
+The radial extent in the equatorial plane of the causality
+violation region is then given by the interval rCV ≤ r ≤ 0.
+3. Spacetime differentiation according to the relative
+position of the ergosphere and the SPOs region
+The KdS NS spacetimes represented by the spacetime
+parameters a2 ¼ 0.001;y ¼ 10−5 and a2 ¼ 1.2;y ¼ 0.02,
+for which we have constructed the figures above, differ in
+the extension of the SPOs relative to the ergosphere. The
+limiting values of the cosmological parameters that separate
+spacetimes with ergosphere in the region of unstable
+prograde orbits from spacetimes with ergosphere extending
+into the region of unstable retrograde orbits are given by
+r
+þerg ¼ r−
+pol; ð161Þ
+whose solution can be written in the parametric form,
+a2 ¼ a2
+erg−polðrÞ ≡ 3r2 − r3
+2r − 1 ; ð162Þ
+y ¼ yerg−polðrÞ ≡ 2r2 − 5r þ 2
+r3ðr þ 2Þ ; ð163Þ
+with respect to the variables a2, y. It follows from the
+Eqs. (162) and (163) that in the case of pure Kerr
+spacetime ( y ¼ 0) the ergosurface just meets the region
+FIG. 20. (a) Distribution of the SPOs in the region of negative radii in the class IV a KdS NS spacetimes. The color distinction has the
+same meaning as in Fig. 18. The dashed/dotted lines indicate prominent orbits/orbits for which the latitudinal motion ranges are shown
+in Fig. 18. The radius rcv denotes the radial extent of the causality violation region. (b) Distribution of the SPOs in the region of negative
+radii of the same KdS NS spacetime in comparison to the region of the SPOs at positive radii. The prominent radii and latitudes are
+marked.
+SHADOWS OF KERR –DE SITTER NAKED SINGULARITIES PHYS. REV . D 109, 064008 (2024)
+064008-29
+
+of unstable retrograde SPOs at r ¼ 2 for a2 ¼ 4=3,w h i c h
+corresponds to Kerr NS spacetime, while in the case of
+SdS spacetime ( a2 ¼ 0) this situation occurs at r ¼ 3 for
+y ¼ 1=27 ¼ ycritðSdSÞ, which corresponds to the extreme
+SdS BH spacetime.
+For completeness, let us note that equality rþerg ¼ r−
+ph is
+satisfied if and only if rþerg ¼ r−erg, i.e., the inner ergosphere
+reaches the limit of the unstable retrograde SPOs at r−
+ph
+simultaneously with the limit of the cosmological ergo-
+sphere, which occurs at the static radius rs. Therefore, in
+such situation, rþerg ¼ r−
+ph ¼ r−erg ¼ rs, and the spacetime
+parameters a2;y corresponding to this limiting case are
+described in the parameter plane ða2;y Þ by the a2erg−sðyÞ
+curve defined by the relation (18).
+Furthermore, in paper [110] we defined classes I, and II
+of the KdS BH spacetimes, which differ in that in the
+equatorial plane in class I the radius rþerg of the inner
+ergosphere boundary lies above the outer BH horizon at ro
+and below the unstable corotating equatorial circular
+photon orbit ECPO at rþ
+ph, forming the inner boundary
+of the SPOs region, ro <r þerg <r þ
+ph, while in class II
+the ergosphere extends into the SPOs region, rþ
+ph <r þerg.
+Here we denote the curve that separates the two classes of
+spacetimes in the parameter plane ða2;y Þ by a2
+I−II ðyÞ. The
+curve ( a2
+erg−polðrÞ;y erg−polðrÞ), hereafter denoted by
+a2
+erg−polðyÞ for short, parametrized by 2 <r< 3, and the
+curves a2
+I−II ðyÞ, a2erg−sðyÞ are shown in comparison to the
+curves a2
+minðhÞðyÞ, a2
+maxðhÞðyÞ, which determine the boun-
+dary between the BH and NS spacetimes, in Fig. 23.
+F. Classification of the KdS spacetimes
+due to photon motion
+The separation of the KdS BH and NS spacetimes in the
+parameter space ða2 − yÞ by the relations of the horizons
+and ergosurfaces is shown in Fig. 5. A more detailed
+classification of the KdS spacetimes into individual classes,
+first introduced in [110] and denoted by Roman numerals
+I–VIII, is shown in Fig. 24—it also takes into account the
+character of the SPOs, including their number, their stability
+with respect to the radial perturbations, their orientation,
+their relative position to the ergosphere and the existence of
+polar SPOs, i.e., SPOs crossing the symmetry axis. All these
+characteristics of the photon motion, together with the
+special class of the photons moving along constant latitudes,
+FIG. 21. Dependence of the motion constants lSPO, qSPO of the SPO photons on the radius rSPO of the corresponding orbit for the
+spacetimes considered above. The different sections of the curves are color-coded according to the orbital type in the color style as in
+Figs. 16–19. The colored dots highlight the radial coordinates of the characteristic SPOs considered in Figs. 16–19.
+ZDENĚ K STUCHLÍK and DANIEL CHARBULÁK PHYS. REV . D 109, 064008 (2024)
+064008-30
+
+are important for the appearance of astrophysical phenom-
+ena in the vicinity of BHs and NSs, in particular for
+determining the shape and extension of the shadow. We
+give a complete classification of the KdS spacetime due to
+the photon motion in the region of r> 0, but in the
+following we concentrate on the KdS NS spacetimes with
+parameters that do not contradict the astrophysical con-
+straints. It must be emphasized that this is the first time that
+we have presented a detailed discussion of the photons
+reaching the region of r< 0.
+In the KdS BH spacetimes, there are both corotating and
+counterrotating ECPOs, located at radii r
+þ
+ph;r −
+ph respec-
+tively, which in the equatorial plane delimit the range of
+SPOs, which can be both prograde or retrograde, but
+unstable. In all classes of the KdS NS spacetimes, only
+one unstable counterrotating ECPO exists at r ¼ r
+−
+ph.
+Furthermore, in contrast to the BH spacetimes, there exist
+stable SPOs in all the NS spacetimes. In each class of the
+KdS NS spacetimes there together retrograde SPOs, which
+are completely immersed in the ergoregion. It was shown in
+[110] that photons on such SPOs have positive locally
+measured energy only if they have negative covariant
+energy, E< 0. Such negative covariant energy SPOs also
+exist in the Class III KdS BH spacetimes (see below), i.e.,
+in BH spacetimes with RRB.
+In all previous studies of KdS spacetimes, we considered
+only the r> 0 region. Here we have for the first time
+discussed the region of negative radii, although we have not
+considered the region of causal disturbances, which we
+intend to address in a future study. From our analysis, we
+can conclude that the region of negative radii remains
+qualitatively the same for all types of KdS spacetimes and
+therefore does not affect the classification of the spacetimes
+as proposed in [110]. The classification of the KdS
+spacetimes according to the properties of their geodesic
+structure at r> 0 can be summarized as follows [110]:
+FIG. 23. Behavior of the curves a2
+I−II ðyÞ (black dotted),
+a2
+erg−polðyÞ (black dot-dashed) and a2erg−sðyÞ in comparison to
+the curves a2
+minðhÞðyÞ (full gray) and a2
+maxðhÞðyÞ (full black) that
+separates the cosmological parameters corresponding to the KdS
+BH spacetimes (gray region) from the cosmological parameters
+corresponding to the KdS NS spacetimes (white region). The
+purple curve is the function a
+2
+maxðpolÞðyÞ, determining the boun-
+dary of spacetimes, where the polar SPOs exist (blue region).
+FIG. 22. Dependence of the motion constants lSPO, qSPO of the SPO photons at the negative radii on the radius rSPO of the
+corresponding orbit for the spacetime considered above. The different sections of the curves are color coded according to the orbital type
+in the color style as in Figs. 18 and 20. The colored dots highlight the radial coordinates of the selected SPOs considered in Fig. 18.
+SHADOWS OF KERR –DE SITTER NAKED SINGULARITIES PHYS. REV . D 109, 064008 (2024)
+064008-31
+
+Class I: BH spacetimes with DRB of radial photon
+motion; the region of the SPOs, all of which
+are unstable, intersects the equatorial plane
+between the radii r ¼ r
+þ
+ph of the inner ECPO,
+which are corotating, and the radii r ¼ r−
+ph of
+the outer ECPO, which are counter-rotating.
+The prograde and retrograde SPOs are sepa-
+rated by the polar SPOs at radii r ¼ r
+pol. The
+characteristic radii are related by the inequal-
+ities 0 <r i <r o <r þerg <r þ
+ph <r pol <r −
+ph <r s <
+r−erg <r c. The structure of the outer BH and
+cosmological horizon, the inner and outer
+ergosurface and the static radius are shown
+in Fig. 5(a).
+Class II: BH spacetimes with the same properties as in
+the case of Class I, but now the region of the
+SPOs partially extends into the BH ergoregion.
+The corresponding inequalities together
+0 <r
+i <r o <r þ
+ph <r þerg <r pol <r −
+ph <r s <
+r−erg <r c.
+Class III: BH spacetimes with RRB. The SPOs com-
+pletely interfere with the ergoregion in the
+equatorial plane, since it extends over the entire
+stationary region in the range r
+o <r<r c,a s
+s h o w ni nF i g .5(c). The characteristic radii are
+related by the inequalities 0 <r i <r o <r þ
+ph <
+rpol <r −
+ph <r c. The borderline case, corre-
+sponding to the transition between classes II
+and III, is shown in Fig. 5(b).
+Class IV a: NS spacetimes with DRB, an unstable counter-
+rotatimg ECPO at r ¼ r−
+ph and two polar SPOs,
+t h ei n n e ro n ea tr ¼ rþ
+pol being stable, the outer
+one at r ¼ r−
+pol being unstable. The polar SPOs
+separate regions of SPOs with different ori-
+entations; the prograde SPOs are enclosed
+between the two polar SPOs at r ¼ r/C6
+pol; for
+rþ
+pol <r<r ms they are stable, for rms <r<
+r−
+pol they are unstable, where rms stands for the
+marginally stable SPO; the stable retrograde
+SPOs are located in the region 0 <r<r þ
+pol,
+the unstable retrograde SPOs are located in the
+region r−
+pol <r<r −
+ph
+. There are two separate
+ergoregions, the inner toroidal one touching the
+ring singularity, that partially overlaps the area
+of the SPOs of both types of orientation and
+stability, and the outer cosmological ergore-
+gion touching the cosmological horizon;
+the ergosurfaces are shown in Fig. 5(d).
+The characteristic radii are related by the
+inequalities 0 <r
+þ
+pol <r ms <r −
+pol <r þerg <r −
+ph <
+r−erg <r c.
+Class IVb: NS spacetimes that differ from the Class IV a by
+the absence of the polar SPOs. There are only
+counter-rotating SPOs, the stable ones being in
+the range 0 <r<r
+ms, the unstable ones are in
+the range rms <r −
+ph. The inner ergosphere
+partially covers both stable and unstable SPOs.
+The characteristic radii are related by the
+inequalities 0 <r ms <r þerg <r −
+ph <r −erg <r c.
+Class V: NS spacetimes with the same properties as in
+the case of Class IVb, but now the inner
+ergosphere partially covers the stable SPOs
+FIG. 24. Classification of the KdS BH and NS spacetimes in the parameter space ða2 − yÞ according to the properties of the horizons,
+the ergospheres, and the properties of the null geodesics. Here detailed character of SPOs is reflected, including their number, stability,
+orientation, relative position to the ergosphere, and existence of the polar SPOs. In order to clearly display distant regions of the
+parameter plane, the vertical axis in the left figure is in logarithmic scale, so that the individual regions, according to the induced
+classification first proposed in [110], are vertically compressed. The figure on the right shows in detail the blue region, where the black
+dot corresponds to the selected KdS NS spacetime discussed in this article, with parameters a
+2 ¼ 1.2;y ¼ 0.02 belonging to
+the astrophysically relevant region, but with values of the parameters large enough to enable a clear demonstration of all the relevant
+effects—in this region the NS spacetimes allow existence of the polar SPOs. The significance of each of the individual classes is
+described in the text of the Sec. III F.
+ZDENĚ K STUCHLÍK and DANIEL CHARBULÁK PHYS. REV . D 109, 064008 (2024)
+064008-32
+
+only. The relationships between the character-
+istic radii are given by the inequalities 0 <
+rþerg <r ms <r −
+ph <r −erg <r c.
+Class VIa: NS spacetimes with RRB and the same
+structure of the SPOs as in the Class IV a.
+The presence of the RRB is related to the
+modified structure of the ergoregion, depicted
+in Fig. 5(f). The ergoregion partially covers
+the area of the SPOs of both types of ori-
+entation and stability. The characteristic radii
+are ordered as follows: 0 <r
+þ
+pol <r ms <
+r−
+pol <r −
+ph
+<r c. The borderline case, corre-
+sponding to the transition between classes IV
+and VI, is illustrated in Fig. 5(e).
+Class VIb: NS spacetimes with RRB and the same struc-
+ture of the SPOs as in the Class IVb. The
+presence of the RRB is again related to the
+modified structure of the ergoregion, as shown
+in Fig. 5(f). The characteristic radii are ordered
+as follows: 0 <r
+ms <r −
+ph <r c.
+Class VII: NS spacetimes with RRB and the same
+structure of the SPOs as in the Class VIb,
+but now the SPOs are completely immersed in
+the ergosphere. As a consequence, there are
+only SPOs with negative covariant energy
+E< 0. The shape of the ergosurface is shown
+in Fig. 5(f) and approaches the shape shown in
+Fig. 5(g) as a
+2y → 1.
+Class VIII: NS spacetimes with RRB and the same
+structure of the SPOs as in the Class VII,
+but with different behavior of the latitudinal
+photon motion, allowing, unlike all previous
+cases, the vortical motion of retrograde
+photons with negative covariant energy,
+E< 0. The ergosurface is ellipsoidal in shape
+as shown in Fig. 5(h).
+The study of the SPOs, polar SPOs and their stability
+is extended to the region of negative radii, r< 0,i n
+Sec. III D 2. For the reasons of astrophysical relevance, we
+will consider in the following the KdS NS spacetimes with
+a
+2y< 1, similarly to the study realized for KdS BH
+spacetimes in [97])—we restrict the following investiga-
+tions to the KdS NS spacetimes of the Class IV a as they
+correspond to the astrophysically relevant spacetimes
+implied by the magnitude of the relic cosmological
+constant ( Λ ∼ 10−52 m−2) indicated by the recent cosmo-
+logical tests [94], and the observed high masses of central
+objects in the active galactic nuclei ( M ∼ 1010M⊙ ), or
+those assumed to be the largest gravitationally bounded
+systems in the dark matter halos of large galaxies or their
+clusters ( M ∼ 1015M⊙ ), for details see e.g. [91,93,95].
+IV. NS SHADOWS IN LOCALLY
+NONROTATING FRAMES
+We have analyzed special classes of null geodesics of the
+KdS NS spacetimes relevant the for construction of their
+shadow as seen by distant static observers, that could be well
+represented by observers located in the locally nonrotating
+reference frames near the static radius of the KdS space-
+times; such observers are similar to static observers at large
+distances in asymptotically flat spacetimes [88,91,107].T h e
+special geodesic classes include null geodesics terminating
+in the ring singularity, and null geodesics entering the region
+of negative radii; namely, null geodesics remaining on fixed
+latitude, and the null geodesics corresponding to the
+spherical photon orbits (SPOs) at negative radii. Of standard
+relevance are the photons that wind up onto the SPOs at
+positive radii.
+The shadow of a BH (compact object) was introduced in
+[18] as an apparent shape of the dark region seen by a distant
+observer in his celestial sphere, created by the BH located
+between the observer and an illumination source with an
+angular size exceeding that of the BH. This definition can
+also be useful in more complex situations, such as the
+appearance of a Keplerian disk or radiating torus orbiting
+the BH (compact object); see [17,54]
+The shadows (silhouettes) of a compact object on a
+bright background, constructed in a local reference frame of
+an axially symmetric stationary spacetime, are related to the
+LECs and the complementary LCCs. If the reference frame
+is considered as a source of radiation, the LECs (LCCs) are
+defined as complementary parts of the celestial sphere of
+isotropically radiating source located in the field of a
+compact object (BH or NS), corresponding to photons
+escaping to infinity (captured by the compact object) [54].
+The method of determining the shadow by using the LECs
+is especially useful when we are interested in determining
+FIG. 25. Definition of the locally measured directional angles
+α, β. The small circle represents the naked singularity, the dashed
+vertical line is its spin axis. The observer ’s radial and latitudinal
+coordinates are ro, θo. The arrows labeled ⃗eðrÞ; ⃗eðθÞ; ⃗eðϕ Þ illustrate
+the local radial, latitudinal and azimuthal orthonormal basis
+vectors, respectively; the red arrow marked ⃗k depicts a photon
+3-momentum, the red dashed arrow represents its projection into
+the local ðθ; ϕ Þ plane.
+SHADOWS OF KERR –DE SITTER NAKED SINGULARITIES PHYS. REV . D 109, 064008 (2024)
+064008-33
+
+the BH or NS shadow for observers orbiting in their close
+vicinity, where complex radiating structures such as accre-
+tion disks can exist.
+Here we concentrate on the construction of the shadow
+with relation to distant observers —in such a case, the
+shadow as seen on the observer ’s sky can be constructed
+directly by inverting the LCC of the photons emitted by the
+source, located at the same position, about the celestial
+projection of the symmetry axis of the spacetime. The
+boundary between the LEC and LCC at a given source is
+determined by the parameters of the photons corresponding
+to the SPOs. This feature is explained in the comment to
+Fig. 26, demonstrating the construction of the shadow.
+The shadows in the observer ’s sky are determined by the
+system of the angular coordinates representing the photon ’s
+directional angles. The angular coordinates are related to
+the components of the photon 3-momentum measured in
+the observer ’s frame that are generally governed by the
+photon motion constants [97].
+Here we present the resulting shadows of the KdS NSs for
+a representative spacetime with parameters a
+2 ¼ 1.2,
+y ¼ 0.02, corresponding to the class IV a of the KdS NS
+spacetimes with its structure expected in the realistic
+universe models with relic cosmological constant implied
+by cosmic observations of the accelerated expansion and
+the observed magnitude of the mass of cosmic objects. The
+parameter y is chosen high for the illustrative purposes; in
+situations that are realistic from an astrophysical point of
+view, the parametery ≪ 1, but the qualitative features of the
+shadow remain unchanged, only the scales are modified.
+In construction of the shadows we apply the method of
+establishing the boundary between the LEC and the LCC
+using the observers related to the LNRFs located near the
+static radius in the KdS spacetime, that are qualitatively
+close to the static distant observers in asymptotically flat
+spacetimes [107]. For more complex situations, see the
+discussion in [54,97].
+A. Directional angles of photons in the LNRFs
+The directional angles (α, β) (see Fig. 25) of a photon are
+related to the locally measured frame components k
+ðaÞ of
+the photon 4-momentum by the standard definitions ( [54])
+cos α ¼ kðrÞ=kðtÞ; ð164Þ
+sin α cos β ¼ kðθÞ=kðtÞ; ð165Þ
+sin α sin β ¼ kðϕ Þ=kðtÞ: ð166Þ
+In the relations (164)–(166) we can put kðtÞ ¼ 1 without
+loss of generality.
+Therefore, the Eqs. (54)–(57), (60), (61), and (164)–
+(166) give the correspondence between the pair of direc-
+tional angles (α, β) and the pair of motion constants ( X, q).
+To get an insight into the notion of the motion constants, we
+present the corresponding ( X − q) plane together with each
+of the constructed shadows.
+Note that there is a third directional angle γ used in the
+literature (e.g. [138]), defined by the relation
+cos γ ¼ kðϕ Þ=kðtÞ ð167Þ
+that can replace any of the angles α, β. For our purposes,
+however, the pair ðα; βÞ is a more appropriate choice.
+B. Construction of the KdS NS shadows
+and relation to the LECs (LCCs)
+the construction of the shadows of the KdS NS related to
+local observers, by using the LECs (and related LCCs) of
+these observers, requires a simple redefinition of the
+directional angles that should be related to photons reach-
+ing these observers, not to photons emitted by them. In
+Fig. 26 the construction of the shadows is explained and
+new coordinates ˜α; ˜β characterizing the shadows are intro-
+duced. The basic step is the construction of the shadow
+boundary by finding the directional angles related to the
+photons reaching the SPOs. Using Fig. 26 and its comment,
+the directional angles of the shadow boundary can be
+obtained by the following procedure:
+(1) For given radial and latitudinal coordinates r
+o, θo of
+the observer, we determine the motion constants
+XSPO;q SPO which, in the ( X − q) parameter plane,
+represent the so-called critical locus, for which the
+photon emitted from the observer ’s position reaches
+some unstable SPO with radius rSPO.
+(2) From the relations Eqs. (32)–(35), (54)–(57),
+(60), and (61) we determine the locally measured
+4-momentum components kðaÞ of this photon escap-
+ing towards the SPO. In the case of the radial
+component kðrÞ we get
+kðrÞ ¼ ω ðrÞ½k/C138¼ ω ðrÞ
+r kr; ð168Þ
+where we must correctly choose the sign for the
+radial component kr determined from the Eq. (54).
+Apparently we have to take kr ¼ srjkrj, where
+sr ¼ signðrSPO − roÞ.
+(3) According to the relations (164)–(166) we compute
+directional angles ˜α, ˜β corresponding to virtual
+photons with locally measured components
+ð−kðrÞ; /C6 kðθÞ; −kðϕ ÞÞ. These angles then correspond
+to two points of the shadow, which are placed
+symmetrically with respect to the axis perpendicular
+to the projection of the spin axis, (see the points
+L
+0;M 0 in Fig. 26).
+In the illustrations of the constructed shadows, the angle
+˜α ∈ h0; πi is used as a radial coordinate measured in radians
+in the polar plots, while ˜β ∈ h0°; 360°Þ is operated as the
+polar coordinate measured in degrees.
+ZDENĚ K STUCHLÍK and DANIEL CHARBULÁK PHYS. REV . D 109, 064008 (2024)
+064008-34
+
+FIG. 26. Construction of the shadow of a KdS NS on a local observer ’s sky with the use of the concept of the LEC and the
+complementary LCC of the observer; the boundary of these complementary cones is determined by the motion constants of the photons
+related to the SPOs. The observer (black dot) located at radial distance r
+o from the center of the ring singularity (RS) represented by the
+small black circle, at latitudinal coordinate θo, is endowed with a local tetrad of orthonormal basis vectors ⃗eðtÞ, ⃗eðrÞ, ⃗eðθÞ, ⃗eðϕ Þ. Let ⃗k be a
+3-momentum of a photon emitted from the observer location (red arrow) with locally measured radial, latitudinal and azimuthal
+components ðkðrÞ;k ðθÞ;k ðϕ ÞÞ, respectively, defining the directional anglesα, β on the observer’s sky according to the relations(164)–(166).
+The photon 3-momentum components correspond to motion constants XSPO, qSPO tuned so that the photons eventually wind up on some
+SPO (yellow sphere). The vector k0! is projection of the vector ⃗k into the local (θ; ϕ )-plane perpendicular to ⃗eðrÞ. The apparent point K (red
+point) on the observer ’s celestial sphere (consisting of two half-spheres of different shades of blue) in the direction of the 3-vector ⃗k
+defines a point of the boundary of the local LEC (LCC). Two 3-vectors, ⃗l ¼ð −kðrÞ;k ðθÞ;k ðϕ ÞÞ, ⃗m ¼ð −kðrÞ; −kðθÞ;k ðϕ ÞÞ, correspond to
+virtual photons with the same motion constants XSPO;q SPO, that cannot reach the observer from a distant bright background since they
+must be trapped on the photon sphere. Hence the directions of their arrival define two apparent points L, M on the observer ’s celestial
+sphere—the observer recognizes them as points constituting the boundary of the KdS NS shadow, appearing as a circlelike curve or an arc
+(see figures below). Of course, this curve itself is not observable, but is lined with images of stars in the background whose photons, with
+motion constants slightly different from X
+SPO;q SPO, had to orbit near the photon sphere many times before finally reaching the observer.
+The points K, M are placed symmetrically with respect to the celestial projection a0 (black dotted curve) of the spin axis a (black dashed
+line), the points L, M are placed symmetrically with respect to the local ( r; ϕ )–plane perpendicular to ⃗eðθÞ. It is apparent from the
+symmetry that the same construction would even apply to a photon radiated in the opposite latitudinal direction. Consequently, the LCCs
+and the shadows (silhouettes) are symmetric with respect to the projection a0 of the spin axis. We represent the celestial sphere in a two-
+dimensional plane defined by two mutually perpendicular axes; the vertical one corresponds to the spin axis a, the intersection of these
+axes corresponds to the image of a point lying on the celestial sphere in the direction towards the center of the RS. The angular
+displacement of a particular celestial point, e.g. L, from the direction to the center is used as the radial coordinate ˜α of its image L0 in this
+plane. It can be calculated from the relation (164) for a photon with 3-momentum ⃗l (see the yellow dashed arc overlapping the red dashed
+arc representing the angle α), hence ˜α ¼ π − α. The coordinate ˜β is introduced as the angular coordinate of a particular image. Here the
+coordinate ˜β of M0 can be calculated from the relations (165) and (166) for the 3-vector − ⃗m. In summary, the coordinates ˜α, ˜β of the point
+L0=M0 correspond to the directional angles of a virtual photon with locally measured components ð−kðrÞ; ∓ kðθÞ; −kðϕ ÞÞ.
+SHADOWS OF KERR –DE SITTER NAKED SINGULARITIES PHYS. REV . D 109, 064008 (2024)
+064008-35
+
+The shape of the KdS NS shadow depends on the
+latitudinal and radial coordinates of the observer ’s position.
+We present the construction of the shadows for some
+appropriately chosen latitudinal positions, namely the
+limiting cases on the spin axis θ
+o ¼ 0°, and in the equatorial
+plane θo ¼ 90°; as an intermediate position we chose the
+latitude θo ¼ 60°. In order to clearly display a continuous
+progression of the shape of the shadows as the latitude
+increases, some specific latitudes are used in addition to
+those given above. The radial coordinate of the observer is
+chosen at the static radius r
+s ¼ 3.68. We used this radial
+location as it is the most convenient local approximation to
+the flat Kerr spacetime [107,108].
+If we do not expect any source of radiation in the r< 0
+region of the KdS NS spacetime, the light rays escaping to
+the secondary infinity r → −∞ will cause an observer at the
+static radius to see a dark spot in the corresponding
+direction. This dark region, representing the shadow, is
+shown in Figs. 27–29 in purple color, as well as in the
+accompanying figures of the corresponding ( X − q) planes.
+Accordingly, the light rays that wind around the SPOs at
+both positive or negative radii are plotted as an orange
+curve, as they correspond to the critical locus in the (X − q)-
+plane depicted in the same color. The light rays with a radial
+turning point in the region r< 0 and returning to r> 0,a s
+illustrated in Fig. 9, make the corresponding region visible.
+This region is depicted in lighter purple. In addition, the
+characteristic directions corresponding to the PNC and the
+θ
+/C3 ¼ const photons are indicated by dots. The meaning of
+the other dots follows from the plots of the (X − q)-planes in
+Figs. 27–29.
+V. SHADOWS IN RADIALLY ESCAPING FRAMES
+Of special interest is the appearance of the KdS NS
+shadow for observers leaving the static Δr > 0 region of the
+spacetime, located near (or at) the cosmological horizon of
+the spacetime. Such observers (frames) are strongly influ-
+enced by the cosmic repulsion of the spacetime; the LNRFs
+(and the ZAMOs) must be kept on a fixed radius by forces
+that increase without limit as the radius approaches the
+cosmological horizon (or the BH horizon), and surely cannot
+be considered as physically realistic observers in these
+situations. In the vicinity of the cosmological horizon, the
+natural choice of a physically realistic observer is an
+observer moving freely under the influence of the cosmic
+repulsion, in particular an observer following radially
+escaping geodesic [97]. Since the frame dragging persists
+even up to the cosmological horizon in the KdS spacetimes,
+the observer moves purely radially with respect to the LNRF,
+which currently orbits at radius of the observer ’s position.
+We can naturally assume that the radially escaping observer
+starts its motion from the rest state at r ¼ 0 (near this radius
+in the equatorial plane) or at the static radius, where the
+effective potential of the radial motion demonstrates an
+unstable equilibrium point[88]; for relations to the Einstein-
+Straus vacuola model (see [89]).
+A. Radially escaping geodesic observer
+The locally measured 3-velocity components of a test
+particle (observer) in a given LNRF are generally deter-
+mined by the relations
+v
+ðjÞ ¼ uðjÞ
+uðtÞ ¼ ω ðjÞ
+μ uμ
+ω ðtÞ
+ν uν
+;j ¼ r; θ; ϕ : ð169Þ
+Here ω ðjÞ
+μ are the differential 1-forms given by the relations
+(32)–(35) and uμ ¼ dxμ
+dτ are the coordinate components
+of particle ’s four-velocity given by the Carter equa-
+tions (40)–(43), where we have replaced the affine param-
+eter λ by the particle proper time τ, i.e., we put λ ¼ τ=m.
+In order to keep the component vðrÞ in the LNRFs as the
+only nonzero 3-velocity component for geodesic motion
+along any latitude θ0, the particle motion constants Φ, E, Q
+have to be restricted to special values [97]. The requirement
+vðϕ Þ ¼ 0 implies that
+Φ ¼ 0: ð170Þ
+The requirement vðθÞ ¼ 0 implies
+Q ¼ −a4ym2 cos4 θ0: ð171Þ
+The requirement of stable motion along the latitude θ0 ¼
+const implies
+E ¼ Δθ0
+I
+ﬃﬃ
+I
+p m: ð172Þ
+It is explicitly demonstrated in [97] that particles with this
+particular choice of the motion constants follow purely
+radial trajectories in the LNRFs at the fixed latitude θ
+0,
+having no turning points in the region between r ¼ 0 and
+the cosmological horizon rc.
+The radial velocity vðrÞ for the outward directed motion
+takes the form
+vðrÞ ¼
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ ﬃ
+1 − Iρ2Δr
+AΔθ
+s
+; ð173Þ
+while it takes the opposite sign for the inward motion.
+During this purely radial motion relative to the LNRFs the
+particle persists on the constant latitude θ
+0, being stable
+against the perturbations in the latitudinal directions, as
+shown in [97]. Such radially escaping (falling) particles thus
+generalize the shell of radially escaping (falling) particles
+that are falling freely from infinity onto a Kerr naked
+singularity [117] (for the black hole case see [139]) in all the
+ZDENĚ K STUCHLÍK and DANIEL CHARBULÁK PHYS. REV . D 109, 064008 (2024)
+064008-36
+
+FIG. 27. Shadows for small observer inclination angles θo. The ( X − q) parameter plane (left column) and the corresponding NS
+shadows (middle column) and the detail of the dark spot (right column) for the observer latitude θo corresponding to the position on the
+spin axis (a), and the marginal angle θmaxðcircÞ for which a circle-shaped curve (outer orange curve) appears corresponding to photons
+winding up the unstable SPOs at r> 0 occurs (b). This circle exists in spacetimes with the polar SPOs for observer ’s latitude less than
+the critical value, θo ≤ θmaxðcircÞ. The dark spot (dark purple area) is delimited by photons winding up the unstable SPOs at r< 0 (inner
+orange curve). The photons with turning points at r< 0 (light purple area) are delimited by photons that hit the ring singularity (purple
+ellipse). Colored dots indicate the special photons; the PNC photon (red), the θ/C3 -photon (green), and the photons delimiting the angular
+diameter of the dark spot (yellow and white). The “polar” coordinate of the shadows is measured in radians and corresponds to the
+celestial coordinate ˜α, while the angular coordinate is measured in degrees and corresponds to the celestial coordinate ˜β.
+SHADOWS OF KERR –DE SITTER NAKED SINGULARITIES PHYS. REV . D 109, 064008 (2024)
+064008-37
+
+cases the particles move purely radially relative to the
+LNRFs.
+According to Eq. (172), the covariant energy of the
+radially escaping particles is in the range of
+m
+I
+ﬃﬃ
+I
+p ≤ E ≤ mﬃﬃ
+I
+p ; ð174Þ
+where the lower limit corresponds to the motion in the
+equatorial plane, with the motion constant Q ¼ 0, while the
+upper limit corresponds to the motion along the spin axis,
+with the motion constant Q ¼ −a4ym2. It was also shown
+in [97] that these energies do not allow radial turning point
+at any radius 0 <r ≤ rc, i.e., the radial velocity is always
+nonzero at any radial and latitudinal coordinate; the motion
+FIG. 28. Shadows for mediate inclination angles of the observer. Continuation of the preceding figure for θo corresponding to the case
+when the θ/C3 photon winds up the lowest SPO of the given spacetime at negative radii, i.e., the unstable counter-rotating off-equatorial
+circular orbit at r/C3
+SPO, thus defining the angular size of the dark spot (a), and when it is repelled in the region of r< 0 (b). In both cases
+the latitude of the observer θo > θmaxðcircÞ, and thus an arc has appeared.
+ZDENĚ K STUCHLÍK and DANIEL CHARBULÁK PHYS. REV . D 109, 064008 (2024)
+064008-38
+
+is fixed in the outward (inward) direction. Here we will
+focus on the outward directed motion, so we are consid-
+ering positive values of the radial velocity.
+The minimum radial velocity at any θ
+o ≠ π=2 corre-
+sponds to the location at r ¼ 0 and reads
+vðrÞðr ¼ 0Þ¼ cos2 θ0a2y
+1 þ cos2 θ0a2y : ð175Þ
+Of course, for θ0 ¼ π=2 the formula (175) gives zero, but at
+r ¼ 0 and θ0 ¼ π=2 there is a ring singularity, and
+analyzing Eq. (173) gives
+lim
+r→0þ
+vðrÞ ¼ 1: ð176Þ
+The behavior of the radial velocities depending on the
+radial coordinate is shown in Fig. 30 for some selected
+latitudes θ0.
+B. Radially escaping reference frame
+In the following we consider a local reference frame that
+moves outwards purely radially with respect to the LNRF,
+currently orbiting at the actual particle ðr; θÞ coordinates,
+with the velocity given by the relation (173). We call the
+system introduced in this way the radially escaping frame
+FIG. 29. Shadows for very large inclination angles of the observer. Continuation of Fig. 28 corresponding to the case of θo → 90°
+when the PNC photon and the θ/C3 -photon delimit the angular size of the RS shadow (a). The case (b) is exceptional in the sense that it
+corresponds to the observer ’s position in the equatorial plane, when the limits of the parameter X are given by the effective potentials
+X/C6 ðrÞ (left figure). Since the radial position of the observer is on the static radius rs >r −
+ph, the limits are Xph− ≤ X ≤ 0, where
+Xph− ¼ −18.0 is the impact parameter of the photon on the equatorial circular photon orbit (purple dot). The RS shadow is represented
+by the purple abscissa.
+SHADOWS OF KERR –DE SITTER NAKED SINGULARITIES PHYS. REV . D 109, 064008 (2024)
+064008-39
+
+(REF). The 4-momentum k of a photon can be expressed in
+this system as
+k ¼ kð ˆaÞeð ˆaÞ; ð177Þ
+where eð ˆaÞ, ˆa ¼ ˆr; ˆθ; ˆϕ ; ˆt, is the tetrad of the REF basis
+4-vectors, related to the LNRF tetrad eb, b ¼ t; r; θ; ϕ ,b y
+transformation equations
+eð ˆaÞ ¼ Λð ˆaÞðbÞeðbÞ; ð178Þ
+where Λð ˆaÞðbÞ are the elements of the Lorentz transforma-
+tion matrix
+Λð ˆaÞðbÞ ¼
+0
+BB
+B
+@
+γγ v 00
+γv γ 00
+00 1 0
+00 0 1
+1
+CC
+C
+A; ð179Þ
+with
+γ ¼
+1ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ ﬃ
+1 − v2p ð180Þ
+being the Lorentz factor. Here and beyond, for brevity, we
+use the notation v for the relative speed of the LNRF and
+REF systems, instead of vðrÞ. to find the locally measured
+4-momentum components kð ˆaÞ of the photon in the REF, we
+use the local tetrad of the REF differential 1-forms ω ð ˆaÞ
+introduced by the relation
+ω ð ˆaÞ½eð ˆbÞ/C138¼ δð ˆaÞ
+ð ˆbÞ; ð181Þ
+that are related to the LNRF differential 1-forms by the
+standard local Lorentz transformation
+ω ð ˆaÞ ¼ Λð ˆaÞ
+ðbÞω ðbÞ; ð182Þ
+where Λð ˆaÞ
+ðbÞ are the elements of the transformation matrix
+inverse to Λ ðbÞ
+ð ˆaÞ , i.e.,
+Λð ˆaÞðbÞ ¼
+0
+BBB@
+γ −γv 00
+−γv γ 00
+00 1 0
+00 0 1
+1
+CCCA: ð183Þ
+The locally measured photon ’s 4-momentum components
+are then given by
+k
+ð ˆaÞ ¼ ω ð ˆaÞ½k/C138¼ ω ð ˆaÞ
+μ kμ ¼ Λð ˆaÞðbÞω ðbÞ
+μ kμ ¼ Λð ˆaÞðbÞkðbÞ:
+ð184Þ
+C. Directional angles of photon measured in REFs
+We introduce the photon directional angles ð ˆα; ˆβÞ mea-
+sured in the REF, by using the quantities kð ˆaÞ in relations
+analogous to the Eqs. (164)–(166). Using the transforma-
+tion law given by (183) and (184), the directional angles
+measured in LNRF and REF at a given point can be related
+by the equations
+cos ˆα ¼ kðˆrÞ=kðˆtÞ ¼ cos α − v
+1 − v cos α ; ð185Þ
+and
+ˆβ ¼ β: ð186Þ
+Since we are concerned with reference frames under the
+cosmic repulsion, we take v ¼ vðrÞ > 0 and Eq. (185) then
+represents a standard formula for the aberration of light
+FIG. 30. V elocity of a test particle performing a purely radial
+motion with respect to the LNRFs currently orbiting at the
+particle’s position with coordinates ðr
+o; θoÞ. The KdS NS
+spacetime parameters are again a2 ¼ 1.2, y ¼ 0.02, the cosmo-
+logical radius is at rc ¼ 5.77. The motion is stably confined to
+any constant latitude θo, and the velocity is nonzero at any radius
+r> 0. Note that the curves are not drawn down to the inter-
+sections with the vertical axis, in order to clearly display the
+subtle differences between them at their higher values. The local
+minimum about the radius r ¼ 0.4 exists for θ
+0 exceeding some
+critical value, here θ0ðcrÞ ∼ 83°, that depends generally on the
+spacetime parameters.
+ZDENĚ K STUCHLÍK and DANIEL CHARBULÁK PHYS. REV . D 109, 064008 (2024)
+064008-40
+
+from a receding source. Equation (186) follows immedi-
+ately from the obvious transformation relations kðˆθÞ ¼
+kðθÞ, kð ˆϕ Þ ¼ kðϕ Þ.
+D. Shadows of the NS as seen by REF observer
+near the cosmological horizon
+Here we present the construction of the shadows of the
+KdS NSs, as seen by the REF observer approaching the
+cosmological horizon, for typical values of the latitude θo.
+The construction is carried out using the procedure
+described in Sec. IV B. If we denote the angles describing
+the resulting boundary of shadows in the local projection
+plane, which are analogous to the angles ð ˜α; ˜βÞ related to
+the LNRF observer, as ð
+α; ¯βÞ, then obviously the relations
+cos ¯α ¼ cos ˜α − v
+1 − v cos ˜α ; ð187Þ
+and
+¯β ¼ ˜β ð188Þ
+hold. In the figures below we demonstrate the effect of the
+aberration of light, given by the formula (187), on the dark
+spot determined by the photons arriving from the vicinity
+of the polar SPO in the region of negative radii, as it is
+probably the most conspicuous part of the NS image, when
+observed on an bright background. We present its angular
+diameter δ
+ax as seen from the position on the spin axis,
+which gives the maximum of the observable dark area.
+The angular diameter is defined as
+¯δ
+ax ≡ 2 ¯α; ð189Þ
+where the angle ¯α is computed from Eq. (187) for photons
+with the motion constants X ¼ −a (l ¼ 0) and q ¼
+qSPOðrð−Þ
+pol Þ, with rð−Þ
+pol given by relation (129) [see the
+corresponding yellow point in the ( X − q) parameter plane
+in the detail of Fig. 27(a), left below].
+Figures 31 and 32 clearly demonstrate the decrease of the
+angular diameter of the dark spot for an observer approach-
+ing the cosmological horizon. Since, according to the
+relations (164) and (173), cos ˜α → 1, v → 1 for r → r
+−c ,
+the formula (187) has a finite limit
+lim
+r→r−c
+cos ¯α < 1; ð190Þ
+corresponding to the marginal diameter ¯δax at the endpoints
+of the displayed curves, highlighted by dots. For compari-
+son, we have attached curves that describe the angular
+diameter as seen by the LNRF observer at the same radius,
+defined as
+˜δ
+ax ≡ 2 ˜α; ð191Þ
+and the angular magnification
+ζ ≡ ¯α
+˜α : ð192Þ
+In Fig. 33 we present the angular diameter of the dark
+spot as seen by the radially escaping observer near the
+cosmological horizon in dependence on the cosmological
+parameter y for several fixed values of the spin parametera
+2.
+In order to have dimensional estimates of the distances of
+the sources corresponding to some astrophysically relevant
+mass parameter M, we express the radii of the appropriate
+FIG. 31. (a) Angular diameter δax, measured in radians, of the dark spot bordered by the bright circle constituted of photons coming
+from the vicinity of the polar SPO at negative radii rð−Þ
+pol , as seen by the REF observer escaping along the spin axis, as a function of his
+radial distance r in the KdS spacetimes with fixed spin parameter a2 ¼ 1.2 and various cosmological parameters y (full curves),
+compared to the diameter observed by the LNRF observer at the same radii (dashed curves). The curves are constructed up to the radii
+corresponding to the loci of the individual cosmological horizons r
+c, highlighted by dots. (b) Magnification of the angular diameter due
+to the radial motion, given by the ratio ζ ¼ ¯α= ˜α. The zooming effect grows with increasing cosmological parameter y.
+SHADOWS OF KERR –DE SITTER NAKED SINGULARITIES PHYS. REV . D 109, 064008 (2024)
+064008-41
+
+cosmological horizon in standard astronomical units. It can
+be shown that for a sufficiently small parameter y, the
+solution of the Eq. (8) for the cosmological horizon rc is
+given with high accuracy in a simple form
+rc ¼ 1ﬃﬃ ﬃyp : ð193Þ
+To get an idea of the value of the parameter y for the
+currently estimated value of the cosmological constant Λ ∼
+1.1 × 10−52 m−2 and some selected mass parameter M,i ti s
+convenient to express the mass parameter M in units of
+the mass of the Sun, M⊙ , that is M ¼ n⊙ M⊙ , and to do the
+same for the parameter y. To do this, we need to express the
+Sun’s geometric mass as
+M⊙ ¼ G
+c2 M⊙ðdimÞ ¼
+/C18
+0.743 × 10−27 m
+kg
+/C19
+ð1.989 × 1030 kgÞ
+∼ 1.5 × 103 m; ð194Þ
+where M⊙ðdimÞ ¼ 1.989 × 1030 kg is the mass of the Sun in
+standard dimensional units. Now we can write
+y ¼ 1
+3 ΛM2 ¼ 1
+3 Λðn⊙ M⊙ Þ2
+¼ 1
+3 ð1.1 × 10−52 m−2Þð1.5 × 103 mÞ2n2⊙
+∼ 8 × 10−47n2
+⊙ : ð195Þ
+It follows from Eq. (195) that the sufficient smallness of the
+parameter y is safely satisfied for all astrophysically relevant
+values of n⊙ ≤ 1012. Now it follows from (193) and (195)
+that although the cosmological parameter y and the corre-
+sponding value rc can have very different values for
+different choices of n⊙ , the dimensional value
+FIG. 32. (a) Angular diameter δax, measured in radians, of the dark spot bordered by the bright circle constituted by photons coming
+from the vicinity of the polar SPO at negative radii rð−Þ
+pol as seen by the REF observer escaping along the spin axis, as a function of his
+radial distance r in the KdS spacetimes with fixed cosmological parameter y ¼ 0.02 and various spin parameters a2 (full curves),
+compared to the diameter observed by the LNRF observer at the same radii (dashed curves). The curves are constructed up to the radii
+corresponding to the loci of the individual cosmological horizons r
+c, highlighted by dots. (b) Magnification of the angular diameter due
+to the radial motion, given by the ratio ζ ¼ ¯α= ˜α. The zooming effect grows with decreasing spin parameter a2.
+TABLE V . Angular diameter of the dark spot.
+n⊙ δaxðμasÞ
+4 × 106 3 × 10−5
+6 × 109 4.6 × 10−2
+7 × 1010 0.53
+1012 7.6
+FIG. 33. The angular diameter δax, measured in radians, of the
+dark spot as seen by the REF observer radially approaching the
+cosmological horizon [ ro ¼ð 1 − 10−5Þrc] along the spin axis in
+the KdS spacetimes with fixed spin parameter a2 ¼ 1.2 as a
+function of the cosmological parameter y. The curves are
+constructed up to radii corresponding to the loci of the individual
+cosmological horizons r
+c, highlighted by dots.
+ZDENĚ K STUCHLÍK and DANIEL CHARBULÁK PHYS. REV . D 109, 064008 (2024)
+064008-42
+
+rcðdimÞ ¼ rcM ¼ Mﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+1=3ΛM2p ¼
+ﬃﬃﬃ ﬃ
+3
+Λ
+r
+ð196Þ
+is independent of the mass and spin parameters. Its value
+reads
+rcðdimÞ ¼
+0
+@
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ ﬃ
+3
+1.1 × 10−52
+r
+m
+1
+A
+0
+@ 1
+9.5 × 1015
+ly
+m
+1
+A
+¼ 1.74 × 1010 ly: ð197Þ
+In the following table we assume that the shadow is
+defined by a bright background composed of light sources
+at distances corresponding to the most distant galaxies
+observed so far at a redshift of z ≳ 10 [140]. We therefore
+put the observer at a radial distance of r
+oðdimÞ ¼ 1.45 ×
+1010 ly ¼ 0.83rcðdimÞ.
+The mass parameters M ¼ 4 × 106M⊙ , 6 × 109M⊙ , 7 ×
+1010M⊙ and 1012M⊙ correspond, respectively, to the BH
+mass at the center of our galaxy Sgr A*, the galaxy M87,
+the most massive BHs observed so far TON 618, and a
+theoretical limit for the BH mass expected in galaxy
+clusters. It follows from the Table V that the angular
+diameters are below the angular resolution of the EHT
+telescope ∼10 μas. However, this result shows that in the
+extreme cases such subtle details might be within the range
+of the future space observatories performing the interfero-
+metric measurements on long baselines.
+We end this section by presenting the KdS NS shadows
+as seen by the REF observer gradually approaching
+the cosmological horizon at representative latitudes
+θ
+o ¼ 0°; 45°; 90° and radii ro ¼ 0.8rc; 0.9rc; 0.999rc,
+(see Fig. 34).
+VI. DISCUSSION AND CONCLUDING REMARKS
+We have studied the geometric and geodesic properties
+of the KdS NS spacetimes, including the region of negative
+radii, and made a comparison with the properties of the
+KdS BH spacetimes. We have performed the construction
+of the shadows of the class IV a KdS NS spacetimes
+admitted by the astrophysical and cosmological restrictions
+on the mass and spin of the compact (or gravitationally
+bound) objects, and the cosmological restrictions on the
+dark energy or the cosmological constant.
+For the construction of the shadow of the considered KdS
+NSs, we have used two families of reference frames, the first
+one accelerated, so called LNRFs, where the most conven-
+ient choice of the observer ’s position is on the static radius,
+and the second one geodesic, so called REFs, where the
+frame (observer) is pulled outwards by the cosmic repul-
+sion, that can be astrophysically relevant for the construc-
+tion of the shadows as seen near the cosmological horizon.
+In all the constructions, the photons entering the region of
+negative radii are fully taken into account. We summarize
+some important results related to observations in these two
+families of reference frames:
+LNRF
+(1) The apparent shape of the KdS NS shadow, as
+appears on observer ’s celestial sky, consists of two
+parts; an arc or circle, related to the light rays
+incoming from the bright background and winding
+up the unstable spherical photon orbits at positive
+radial coordinates r> 0, and a dark spot, determined
+by the light entering the region of negative radii
+r< 0 and escaping to r → −∞ .
+(2) In the region of negative radii r< 0, there exists a
+potential barrier that repels the incoming photons
+back to r> 0. The borderline in the plane ( X − q),
+which divides the motion constants corresponding to
+repelled photons and photons escaping to r → −∞ ,
+is given by the curve ðX
+SPOðrSPOÞ;q SPOðrSPOÞÞ, i.e.,
+by “a critical locus ” (Fig. 15), where the parameter
+rSPO corresponds to unstable spherical photon orbits
+in the region r< 0. Behavior of this curve is
+qualitatively the same in all classes of the KdS
+spacetimes with spacetime parameters satisfying
+condition a2y< 1. Photons escaping to r → −∞
+are regarded as being captured by the NS.
+(3) The SPOs at negative radii determine the really
+observed boundary of the NS shadow.
+(4) The PNC photons and the θ/C3 photons delimit the
+angular size of the major axis of the ellipse, which is
+the NS silhouette for an observer located near the
+equatorial plane [see Fig. 29(a)].
+(5) For the exact position in the equatorial plane, this
+ellipse shrinks by a leap into the abscissa [Fig. 29(b)]
+with the angular size delimited by the PNC photon
+(cf. [133]) and the photon with the impact parameter
+corresponding to the equatorial circular photon
+orbit X ¼ X
+ph−.
+(6) The dark purple area represents a dark spot on the
+observer’s celestial sphere, since no photons from a
+bright background can come from these directions,
+while the light purple area represents a reflection of
+the light radiated from the region r> 0 at negative
+radii. the visibility of this region could be high-
+lighted, if there were some sources of illumination,
+e.g., radiating matter in the accretion disk orbiting
+the NS. The outer edge of this visible region is
+bounded by the NS.
+REF
+(1) The motion of the REF observer causes the aberra-
+tion of light, resulting in an angular magnification of
+the NS image compared to the LNRF observer ’s
+observation, without distortion.
+(2) The angular magnification increases as the cosmo-
+logical parameter y increases and as the spin
+parameter a
+2 decreases.
+SHADOWS OF KERR –DE SITTER NAKED SINGULARITIES PHYS. REV . D 109, 064008 (2024)
+064008-43
+
+FIG. 34. NS shadows observed in the radially escaping reference frames of the KdS spacetime with spin parameter a2 ¼ 1.2 and
+cosmological parameter y ¼ 0.02 at radii approaching the cosmological horizon at rc ¼ 5.77 and at appropriate observer ’s latitudes θ0.
+Dot-dashed, dashed and full curves correspond to observer ’s radii ro ¼ 0.8rc; 0.9rc; 0.999rc, respectively; the color of the curves
+corresponds to their significance as introduced in Figs. 27–29. The figures in pairs, if present, describe the whole ð ¯α; ¯βÞ plane (left
+column) and details of the central parts (right column). The shading corresponding to photons entering the region of negative radii is not
+displayed for clarity.
+ZDENĚ K STUCHLÍK and DANIEL CHARBULÁK PHYS. REV . D 109, 064008 (2024)
+064008-44
+
+(3) The aberration formula (187) implies that the angular
+diameter of the image of the spot has finite value even
+at the cosmological horizonr ¼ r
+c, although it is zero
+according to the LNRF observation.
+We can conclude that KdS NSs, of the type correspond-
+ing to the observational limits of their spacetime parameters,
+exhibit shadows and associated structures that allow them to
+be clearly distinguished from the BH shadows. Comparing
+our results with those presented in the case of the KdS BHs
+[97], we can stress the main differences in the character of
+the shadow. The main, qualitative difference is given by the
+existence of the arc, typical of the NS spacetimes; note that
+for sufficiently small inclination angles of the observer with
+respect to the rotation axis of the KdS spacetime, the arc is
+extended to a full circle (see Fig. 27). Inside of the arc an
+elongated shadow occurs, the elongation of which increases
+with the angle of inclination of the observer. Both these
+parts of the NSs shadow demonstrate clear differences from
+the BHs shadow. We can say that the current observations
+of the Event Horizon Telescope in the M87 galaxy [1–8],
+and the Sgr A* in the Galaxy center [9–14], i.e., two sources
+for which the shadows constructed relative to the LNRFs are
+relevant, clearly demonstrate the existence of the BH
+horizon, and give no signatures of the NS effects on the
+observed shadows.
+On the other hand, the hypothetical primordial rotating
+NSs (superspinars), advocated by some stringy theorists as
+possible remnants of the very early era of the Universe
+expansion [62,63], are still in the play, because their
+evolution by accretion processes suggests that the existence
+of such NSs could be possible at the cosmological redshifts
+z> 2, as they should later be transformed into BHs [65,66].
+Such hypothetical objects, located at large distances and
+high-cosmological redshifts could be observed by the
+A THENA satellite observatory, which is currently under
+development.
+ACKNOWLEDGMENTS
+The authors acknowledge support of the Research Centre
+for Theoretical Physics and Astrophysics, Institute of
+Physics, Silesian University in Opava.
+[1] K. Akiyama et al. , First M87 Event Horizon Telescope
+results. I. The shadow of the supermassive black hole,
+Astrophys. J. Lett. 875, L1 (2019) .
+[2] K. Akiyama et al. , First M87 Event Horizon Telescope
+results. II. Array and instrumentation, Astrophys. J. Lett.
+875, L2 (2019) .
+[3] K. Akiyama et al. , First M87 Event Horizon Telescope
+results. III. Data processing and calibration, Astrophys. J.
+Lett. 875, L3 (2019) .
+[4] K. Akiyama et al. , First M87 Event Horizon Telescope
+results. IV . Imaging the central supermassive black hole,
+Astrophys. J. Lett. 875, L4 (2019) .
+[5] K. Akiyama et al. , First M87 Event Horizon Telescope
+results. V . Physical origin of the asymmetric ring,
+Astrophys. J. Lett. 875, L5 (2019) .
+[6] K. Akiyama et al. , First M87 Event Horizon Telescope
+results. VI. The shadow and mass of the central black hole,
+Astrophys. J. Lett. 875, L6 (2019) .
+[7] K. Akiyama et al. , First M87 Event Horizon Telescope
+results. VII. Polarization of the ring, Astrophys. J. Lett.
+910, L12 (2021) .
+[8] K. Akiyama et al. , First M87 Event Horizon Telescope
+results. VIII. Magnetic field structure near the event
+horizon, Astrophys. J. Lett. 910, L13 (2021) .
+[9] K. Akiyama et al. , First Sagittarius A* Event Horizon
+Telescope results. I. The shadow of the supermassive black
+hole in the center of the Milky Way, Astrophys. J. Lett.
+930, L12 (2022) .
+[10] K. Akiyama et al. , First Sagittarius A* Event
+Horizon Telescope results. II. EHT and multiwavelength
+observations, data processing, and calibration, Astrophys.
+J. Lett. 930, L13 (2022) .
+[11] K. Akiyama et al. , First Sagittarius A* Event Horizon
+Telescope results. III. Imaging of the Galactic center
+supermassive black hole, Astrophys. J. Lett. 930,L 1 4
+(2022).
+[12] K. Akiyama et al. , First Sagittarius A* Event Horizon
+Telescope results. IV . V ariability, morphology, and black
+hole mass, Astrophys. J. Lett. 930, L15 (2022) .
+[13] K. Akiyama et al. , First Sagittarius A* Event Horizon
+Telescope results. V . Testing astrophysical models of the
+Galactic center black hole, Astrophys. J. Lett. 930,L 1 6
+(2022).
+[14] K. Akiyama et al. , First Sagittarius A* Event Horizon
+Telescope results. VI. Testing the black hole metric,
+Astrophys. J. Lett. 930, L17 (2022) .
+[15] C. W. Misner, K. S. Thorne, and J. A. Wheeler, Gravitation
+(W. H. Freeman and Company, San Francisco, 1973).
+[16] J. L. Synge, Escape of photons from gravitationally intense
+stars, Mon. Not. R. Astron. Soc. 131, 463 (1966) .
+[17] J.-P . Luminet, Image of a spherical black hole with thin
+accretion disk, Astron. Astrophys. 75, 228 (1979).
+[18] J. M. Bardeen, Timelike and null geodesics in the Kerr
+metric, in Black Holes (Les Astres Occlus) ,e d i t e db yC .
+Dewitt and B. S. Dewitt (Gordon and Breach Science
+Publishers, New Y ork, London, Paris, 1973), pp. 215–239.
+[19] J. M. Bardeen, W. H. Press, and S. A. Teukolsky, Rotating
+black holes: Locally nonrotating frames, energy extraction,
+and scalar synchrotron radiation, Astrophys. J. 178, 347
+(1972).
+SHADOWS OF KERR –DE SITTER NAKED SINGULARITIES PHYS. REV . D 109, 064008 (2024)
+064008-45
+
+[20] C. T. Cunningham and J. M. Bardeen, The optical appear-
+ance of a star orbiting an extreme Kerr black hole,
+Astrophys. J. 173, L137 (1972) .
+[21] R. Konoplya, Z. Stuchlík, and A. Zhidenko, Echoes of
+compact objects: New physics near the surface and matter
+at a distance, Phys. Rev. D 99, 024007 (2019) .
+[22] U. Alam and V . Sahni, Confronting braneworld cosmology
+with supernova data and baryon oscillations, Phys. Rev. D
+73, 084024 (2006) .
+[23] A. Kotrlová, Z. Stuchlík, and G. Török, Quasiperiodic
+oscillations in a strong gravitational field around neutron
+stars testing braneworld models, Classical Quantum Grav-
+ity 25, 225016 (2008) .
+[24] J. Schee and Z. Stuchlík, Optical phenomena in the field of
+braneworld Kerr black holes, Int. J. Mod. Phys. D 18, 983
+(2009).
+[25] J. Schee and Z. Stuchlík, Profiles of emission lines
+generated by rings orbiting braneworld Kerr black holes,
+Gen. Relativ. Gravit. 41, 1795 (2009) .
+[26] Z. Stuchlík and A. Kotrlová, Orbital resonances in discs
+around braneworld Kerr black holes, Gen. Relativ. Gravit.
+41, 1305 (2009) .
+[27] A. Abdujabbarov, M. Amir, B. Ahmedov, and S. G. Ghosh,
+Shadow of rotating regular black holes, Phys. Rev. D 93,
+104004 (2016) .
+[28] J. Bardeen, Non-singular general-relativistic gravitational
+collapse, in Conference Proceedings of GR5 (World
+Scientific Publ Co PTE LTD, Singapore, 1968).
+[29] J. Schee and Z. Stuchlík, Effective geometry of
+the Bardeen spacetimes: Gravitational lensing and fre-
+quency mapping of Keplerian disks, Astrophys. J. 874,1 2
+(2019).
+[30] Z. Stuchlík and J. Schee, Circular geodesic of Bardeen and
+Ayon-Beato-Garcia regular black-hole and no-horizon
+spacetimes, Int. J. Mod. Phys. D 24, 1550020 (2015) .
+[31] Z. Stuchlík, J. Schee, and D. Ovchinnikov, Generic regular
+black holes related to nonlinear electrodynamics with
+Maxwellian weak-field limit: Shadows and images of
+Keplerian disks, Astrophys. J. 887, 145 (2019) .
+[32] Z. Stuchlík and J. Schee, Shadow of the regular Bardeen
+black holes and comparison of the motion of photons and
+neutrinos, Eur. Phys. J. C 79, 44 (2019) .
+[33] A. Abdujabbarov, B. Toshmatov, J. Schee, Z. Stuchlík, and
+B. Ahmedov, Gravitational lensing by regular black holes
+surrounded by plasma, Int. J. Mod. Phys. D 26, 1741011
+(2017).
+[34] E. Contreras, J. Ovalle, and R. Casadio, Gravitational
+decoupling for axially symmetric systems and rotating
+black holes, Phys. Rev. D 103, 044020 (2021) .
+[35] R. Konoplya, Shadow of a black hole surrounded by dark
+matter, Phys. Lett. B 795, 1 (2019)
+.
+[36] B.-H. Lee, W. Lee, and Y . S. Myung, Shadow cast by a
+rotating black hole with anisotropic matter, Phys. Rev. D
+103, 064026 (2021) .
+[37] R. C. Pantig and E. T. Rodulfo, Rotating dirty black hole
+and its shadow, Chin. J. Phys. 68, 236 (2020) .
+[38] Z. Stuchlík and J. Vrba, Supermassive black holes sur-
+rounded by dark matter modeled as anisotropic fluid:
+Epicyclic oscillations and their fitting to observed QPOs,
+J. Cosmol. Astropart. Phys. 11 (2021) 059.
+[39] Z. Stuchlík and J. Vrba, Geodesic model of HF QPOs
+tested for black holes in spacetimes reflecting the effect of
+surrounding dark matter, Astrophys. J. 935, 91 (2022) .
+[40] A. Belhaj, M. Benali, A. El Balali, W. El Hadri, H. El
+Moumni, and E. Torrente-Lujan, Black hole shadows in
+M-theory scenarios, Int. J. Mod. Phys. D 30, 2150026
+(2021).
+[41] T. Zhu, Q. Wu, M. Jamil, and K. Jusufi, Shadows and
+deflection angle of charged and slowly rotating black holes
+in Einstein-Æther theory, Phys. Rev. D 100, 044055
+(2019).
+[42] A. Övgün and z. Sakall ı (I. Sakalli), Testing generalized
+Einstein-Cartan-Kibble-Sciama gravity using weak deflec-
+tion angle and shadow cast, Classical Quantum Gravity 37,
+225003 (2020) .
+[43] A. Abdujabbarov, F. Atamurotov, N. Dadhich, B.
+Ahmedov, and Z. Stuchlík, Energetics and optical proper-
+ties of 6-dimensional rotating black hole in pure Gauss –
+Bonnet gravity, Eur. Phys. J. C 75, 399 (2015) .
+[44] M. Shahzadi, M. Kolos, Z. Stuchlík, and Y . Habib, Testing
+alternative theories of gravity by fitting the hot-spot data of
+Sgr A*, Eur. Phys. J. C 82, 407 (2022) .
+[45] K. Nakao, N. Kobayashi, and H. Ishihara, How does
+a naked singularity look, Phys. Rev. D 67, 084002
+(2003) .
+[46] R. Shaikh, P . Kocherlakota, R. Narayan, and P . S. Joshi,
+Shadows of spherically symmetric black holes and
+naked singularities, Mon. Not. R. Astron. Soc. 482,5 2
+(2018).
+[47] P . Bambhaniya, D. Dey, A. B. Joshi, P . S. Joshi, D. N.
+Solanki, and A. Mehta, Shadows and negative precession
+in non-Kerr spacetime, Phys. Rev. D 103, 084005 (2021) .
+[48] M. Churilova, R. Konoplya, Z. Stuchlík, and A. Zhidenko,
+Wormholes without exotic matter: Quasinormal modes,
+echoes and shadows, J. Cosmol. Astropart. Phys. 10 (2021)
+010.
+[49] J. Schee and Z. Stuchlík, Appearance of Keplerian discs
+orbiting on both sides of reflection-symmetric wormholes,
+J. Cosmol. Astropart. Phys. 01 (2022) 054.
+[50] Z. Stuchlík and J. Vrba, Epicyclic orbits in the field of
+Einstein–Dirac–Maxwell traversable wormholes applied to
+the quasiperiodic oscillations observed in microquasars
+and active galactic nuclei, Eur. Phys. J. Plus 136, 1127
+(2021).
+[51] M. Wielgus, J. Horák, F. Vincent, and M. Abramowicz,
+Reflection-asymmetric wormholes and their double shad-
+ows, Phys. Rev. D 102, 084044 (2020) .
+[52] A. Abdujabbarov, B. Juraev, B. Ahmedov, and Z. Stuchlík,
+Shadow of rotating wormhole in plasma environment,
+Astrophys. Space Sci. 361, 226 (2016) .
+[53] J. Schee and Z. Stuchlík, Profiled spectral lines generated
+in the field of Kerr superspinars, J. Cosmol. Astropart.
+Phys. 04 (2013) 005.
+[54] Z. Stuchlík and J. Schee, Appearance of Keplerian discs
+orbiting Kerr superspinars, Classical Quantum Gravity 27,
+215017 (2010) .
+[55] M. Blaschke and Z. Stuchlík, Efficiency of the Keplerian
+accretion in braneworld Kerr-Newman spacetimes and
+mining instability of some naked singularity spacetimes,
+Phys. Rev. D 94, 086006 (2016) .
+ZDENĚ K STUCHLÍK and DANIEL CHARBULÁK PHYS. REV . D 109, 064008 (2024)
+064008-46
+
+[56] P . Slaný and Z. Stuchlík, Equatorial circular orbits in Kerr-
+Newman-de Sitter spacetimes, Eur. Phys. J. C 80, 587
+(2020).
+[57] Z. Stuchlík, M. Blaschke, and J. Schee, Particle collisions
+and optical effects in the mining Kerr-Newman spacetimes,
+Phys. Rev. D 96, 104050 (2017) .
+[58] V . Balek, J. Bi čák, and Z. Stuchlík, The motion of the
+charged particles in the field of rotating charged black
+holes and naked singularities. II. The motion in the
+equatorial plane, Bull. Astron. Inst. Czech. 40, 133 (1989).
+[59] M. A. Abramowicz, W. Klu źniak, and J.-P . Lasota,
+No observational proof of the black-hole event-horizon,
+Astron. Astrophys. 396, L31 (2002) .
+[60] M. Calvani, F. de Felice, B. Muchotrzeb, and F.
+Salmistraro, Time machine and geodesic motion in Kerr
+metric, Gen. Relativ. Gravit. 9, 155 (1978) .
+[61] B. Carter, Black hole equilibrium states, in Black Holes
+(Les Astres Occlus) , edited by C. Dewitt and B. S. Dewitt
+(Elsevier, Taiwan, 1973), pp. 57 –214.
+[62] E. K. Boyda, S. Ganguli, P . Ho ˇrava, and U. V aradarajan,
+Holographic protection of chronology in universes of the
+Gödel type, Phys. Rev. D 67, 106003 (2003) .
+[63] E. G. Gimon and P . Hoˇrava, Astrophysical violations of the
+Kerr bound as a possible signature of string theory, Phys.
+Lett. B 672, 299 (2009) .
+[64] E. G. Gimon and P . Ho ˇrava, Over-rotating black holes,
+Godel holography and the hypertube (2004).
+[65] Z. Stuchlík, S. Hledík, and K. Truparová, Evolution of
+Kerr superspinars due to accretion counterrotating thin
+discs, Classical Quantum Gravity 28, 155017 (2011) .
+[66] Z. Stuchlík and J. Schee, Observational phenomena related
+to primordial Kerr superspinars, Classical Quantum Grav-
+ity 29, 065002 (2012) .
+[67] C. Chakraborty, P . Kocherlakota, and P . S. Joshi, Spin
+precession in a black hole and naked singularity space-
+times, Phys. Rev. D 95, 044006 (2017) .
+[68] V . Perlick and O. Y . Tsupko, Calculating black hole
+shadows: Review of analytical studies, Phys. Rep. 947,
+1 (2022) .
+[69] R. Penrose, Gravitational collapse: The role of general
+relativity, Nuovo Cimento B 1, 252 (1969) .
+[70] Y . C. Ong, Spacetime singularities and cosmic censorship
+conjecture: A review with some thoughts, Int. J. Mod.
+Phys. A
+35, 2030007 (2020) .
+[71] S. Shaymatov and N. Dadhich, Extending the weak cosmic
+censorship conjecture to the charged Buchdahl star by
+employing the gedanken experiments, J. Cosmol. Astro-
+part. Phys. 06 (2023) 010.
+[72] V . E. Hubeny, Overcharging a black hole and cosmic
+censorship, Phys. Rev. D 59, 064013 (1999) .
+[73] S. Shaymatov, M. Patil, B. Ahmedov, and P . S. Joshi,
+Destroying a near-extremal Kerr black hole with a charged
+particle: Can a test magnetic field serve as a cosmic
+censor?, Phys. Rev. D 91, 064025 (2015) .
+[74] R. Wald, Gedanken experiments to destroy a black hole,
+Ann. Phys. (N.Y .) 82, 548 (1974) .
+[75] T. Jacobson and T. P . Sotiriou, Overspinning a black hole
+with a test body, Phys. Rev. Lett. 103, 141101 (2009) .
+[76] J. Natario and R. Vicente, Test fields cannot destroy
+extremal de Sitter black holes, Gen. Relativ. Gravit. 52,
+5 (2020) .
+[77] J. Natário, L. Queimada, and R. Vicente, Test fields cannot
+destroy extremal black holes, Classical Quantum Gravity
+33, 175002 (2016) .
+[78] S. Shaymatov, N. Dadhich, and B. Ahmedov, The higher
+dimensional Myers –Perry black hole with single rotation
+always obeys the cosmic censorship conjecture, Eur. Phys.
+J. C 79, 585 (2019) .
+[79] S. Shaymatov, N. Dadhich, and B. Ahmedov, Six-
+dimensional Myers-Perry rotating black hole cannot be
+overspun, Phys. Rev. D 101, 044028 (2020) .
+[80] J. Sorce and R. M. Wald, Gedanken experiments to destroy
+a black hole. II. Kerr-Newman black holes cannot be
+overcharged or overspun, Phys. Rev. D 96, 104014 (2017).
+[81] I. Dwivedi and P . Joshi, Cosmic censorship violation in
+non-self-similar Tolman-Bondi models, Classical Quan-
+tum Gravity 9, L69 (1992) .
+[82] P . Joshi and I. Dwivedi, Naked singularities in spherically
+symmetric inhomogeneous Tolman-Bondi dust cloud col-
+lapse, Phys. Rev. D 47, 5357 (1993) .
+[83] P . S. Joshi, N. Dadhich, and R. Maartens, Why do naked
+singularities form in gravitational collapse?, Phys. Rev. D
+65, 101501 (2002) .
+[84] P . S. Joshi, R. Goswami, and N. Dadhich, Why do naked
+singularities form in gravitational collapse? II, Phys. Rev.
+D 70, 087502 (2004) .
+[85] K.-i. Nakao, P . S. Joshi, J.-Q. Guo, P . Kocherlakota,
+H. Tagoshi, T. Harada, M. Patil, and A. Królak, On the
+stability of a superspinar, Phys. Lett. B 780
+, 410 (2018) .
+[86] A. D. Dolgov, J. B. Zeldovich, and M. V . Sazhin, Kosmo-
+logia Rannej Vcelennoy (Izd. Moskovskovo Universiteta,
+Bristol, 1988).
+[87] M. Kamionkowski, T. Smith, and A. Heavens, The CMB
+bispectrum, trispectrum, non-Gaussianity, and the Cramer-
+Rao bound, Phys. Rev. D 83, 023007 (2010) .
+[88] Z. Stuchlík, The motion of test particles in black-hole
+backgrounds with non-zero cosmological constant, Bull.
+Astron. Inst. Czech. 34, 129 (1983).
+[89] Z. Stuchlík, An Einstein –Strauss–de Sitter model of the
+universe, Bull. Astron. Inst. Czech. 35, 205 (1984).
+[90] P . Slaný and Z. Stuchlík, Relativistic thick discs in the
+Kerr–de Sitter backgrounds, Classical Quantum Gravity
+22, 3623 (2005) .
+[91] Z. Stuchlík, Influence of the relict cosmological constant
+on accretion discs, Mod. Phys. Lett. A 20, 561 (2005) .
+[92] Z. Stuchlík, P . Slaný, and S. Hledík, Equilibrium configu-
+rations of perfect fluid orbiting Schwarzschild –de Sitter
+black holes, Astron. Astrophys. 363, 425 (2000).
+[93] Z. Stuchlík, P . Slaný, and J. Kováˇr, Pseudo-Newtonian and
+general relativistic barotropic tori in Schwarzschild –de
+Sitter spacetimes, Classical Quantum Gravity 26, 215013
+(2009).
+[94] Z. Stuchlík, M. Kolo š, J. Kováˇr, P . Slaný, and A. Tursunov,
+Influence of cosmic repulsion and magnetic fields on
+accretion disks rotating around Kerr black holes, Universe
+6, 26 (2020) .
+SHADOWS OF KERR –DE SITTER NAKED SINGULARITIES PHYS. REV . D 109, 064008 (2024)
+064008-47
+
+[95] Z. Stuchlík, S. Hledík, and J. Novotný, General relativistic
+polytropes with a repulsive cosmological constant, Phys.
+Rev. D 94, 103513 (2016) .
+[96] Z. Stuchlík and J. Schee, Influence of the cosmological
+constant on the motion of magellanic clouds in the
+gravitational field of Milky Way, J. Cosmol. Astropart.
+Phys. 09 (2011) 018.
+[97] Z. Stuchlík, D. Charbulák, and J. Schee, Light escape
+cones in local reference frames of Kerr–de Sitter black hole
+spacetimes and related black hole shadows, Eur. Phys. J. C
+78, 180 (2018) .
+[98] E. Omwoyo, H. Belich, J. C. Fabris, and H. V elten,
+Remarks on the black hole shadows in Kerr-de Sitter
+space times, Eur. Phys. J. C 82, 395 (2022) .
+[99] J. Ovalle, E. Contreras, and Z. Stuchlík, Kerr –de Sitter
+black hole revisited, Phys. Rev. D 103, 084016 (2021) .
+[100] Z. Chang and Q.-H. Zhu, Influence of Earth ’s Orbit on the
+Shadow of Sgr A* (2021).
+[101] I. I. Cot ăescu, Light from Schwarzschild black holes in de
+Sitter expanding universe, Eur. Phys. J. C 81, 32 (2021) .
+[102] V . Perlick, O. Y . Tsupko, and G. S. Bisnovatyi-Kogan,
+Black hole shadow in an expanding universe with a
+cosmological constant, Phys. Rev. D 97, 104062 (2018) .
+[103] R. Roy and S. Chakrabarti, Study on black hole shadows in
+asymptotically de Sitter spacetimes, Phys. Rev. D 102,
+024059 (2020) .
+[104] A. Belhaj, M. Benali, A. E. Balali, W. E. Hadri, and H. El
+Moumni, Shadows of charged and rotating black holes
+with a cosmological constant (2020).
+[105] P .-C. Li, M. Guo, and B. Chen, Shadow of a spinning black
+hole in an expanding universe, Phys. Rev. D 101, 084041
+(2020).
+[106] Z. Chang and Q.-H. Zhu, Revisiting a rotating black hole
+shadow with astrometric observables, Phys. Rev. D 101,
+084029 (2020) .
+[107] Z. Stuchlík and S. Hledík, Some properties of the
+Schwarzschild–de Sitter and Schwarzschild –anti-de Sitter
+spacetimes, Phys. Rev. D 60, 044006 (1999) .
+[108] Z. Stuchlík and P . Slaný, Equatorial circular orbits in the
+Kerr–de Sitter spacetimes, Phys. Rev. D 69, 064001
+(2004).
+[109] Z. Stuchlík, J. Schee, B. Toshmatov, J. Hladík, and J.
+Novotný, Gravitational instability of polytropic spheres
+containing region of trapped null geodesics: A possible
+explanation of central supermassive black holes in galactic
+halos, J. Cosmol. Astropart. Phys. 17 (2017) 056.
+[110] D. Charbulák and Z. Stuchlík, Photon motion in Kerr –de
+Sitter spacetimes, Eur. Phys. J. C 77, 897 (2017) .
+[111] Z. Stuchlík, The motion of test particles in black-hole
+backgrounds with non-zero cosmological constant, Bull.
+Astron. Inst. Czech. 34, 129 (1983).
+[112] R. H. Boyer and R. W. Lindquist, Maximal analytic ex-
+tension of the Kerr metric, J. Math. Phys. (N.Y .) 8, 265
+(1967).
+[113] P . T. Chruściel, C. R. Ölz, and S. J. Szybka, Space-time
+diagrammatics, Phys. Rev. D 86, 124041 (2012) .
+[114] S. Akcay and R. A. Matzner, The Kerr –de Sitter universe,
+Classical Quantum Gravity 28, 085012 (2011) .
+[115] M. Kolo š, A. Tursunov, and Z. Stuchlík, Radiative Penrose
+process: Energy gain by a single radiating charged particle
+in the ergosphere of rotating black hole, Phys. Rev. D 103,
+024021 (2021) .
+[116] R. Penrose and R. M. Floyd, Extraction of rotational
+energy from a black hole, Nat. Phys. Sci. 229, 177
+(1971).
+[117] Z. Stuchlík, Equatorial circular orbits and the motion of the
+shell of dust in the field of a rotating naked singularity,
+Bull. Astron. Inst. Czech. 31, 129 (1980).
+[118] Z. Stuchlík, M. Kolo š, and A. Tursunov, Penrose process:
+Its variants and astrophysical applications, Universe 7, 416
+(2021).
+[119] A. Tursunov, Z. Stuchlík, M. Kolo š, N. Dadhich, and B.
+Ahmedov, Supermassive black holes as possible sources of
+ultrahigh-energy cosmic rays, Astrophys. J. 895,1 4
+(2020).
+[120] N. Dadhich, A. Tursunov, B. Ahmedov, and Z. Stuchlík,
+The distinguishing signature of magnetic Penrose process,
+Mon. Not. R. Astron. Soc. 478, L89 (2018) .
+[121] D. Pugliese and H. Quevedo, The ergoregion in the Kerr
+spacetime: Properties of the equatorial circular motion,
+Eur. Phys. J. C 75, 234 (2015) .
+[122] D. Pugliese and H. Quevedo, Observers in Kerr space-
+times: The ergoregion on the equatorial plane, Eur. Phys. J.
+C 78, 69 (2018) .
+[123] D. Pugliese and H. Quevedo, Disclosing connections
+between black holes and naked singularities: Horizon
+remnants, Killing throats and bottlenecks, Eur. Phys. J.
+C 79, 209 (2019) .
+[124] D. Pugliese and Z. Stuchlík, Embedded BHS and multipole
+globules: Clustered misaligned thick accretion disks
+around static SMBHs, Classical Quantum Gravity 37,
+195025 (2020) .
+[125] D. Pugliese and Z. Stuchlík, General relativistic rotational
+energy extraction from black holes-accretion disk systems,
+Classical Quantum Gravity 38, 145014 (2021) .
+[126] K. Lake and T. Zannias, Global structure of Kerr-de Sitter
+spacetimes, Phys. Rev. D 92, 084003 (2015) .
+[127] At the static radius, introduced for spherically symmetric
+Schwarzschild-de Sitter spacetimes in[88], the gravitational
+attraction of the central object is just balanced by the cosmic
+repulsion, and a “geodesic” observer located at the static
+radius in an unstable equilibrium position has only a non-
+zero time component U
+t of its four-velocity. In the KdS
+spacetimes, the unstable equilibrium position of an observer
+at the static radius again exists in the equatorial plane; the
+radius is independent of the spin parameter a—for details
+see [108].
+[128] S. Bhattacharya, Kerr-de Sitter spacetime, Penrose process,
+and the generalized area theorem, Phys. Rev. D 97, 084049
+(2018).
+[129] B. Carter, Global structure of the Kerr family of gravita-
+tional fields, Phys. Rev. 174, 1559 (1968) .
+[130] Z. Stuchlík and S. Hledík, Equatorial photon motion in the
+Kerr–Newman spacetimes with a non-zero cosmological
+constant, Classical Quantum Gravity 17, 4541 (2000) .
+[131] J. Bi čák and Z. Stuchlík, On the latitudinal and radial
+motion in the field of a rotating black hole, Bull. Astron.
+Inst. Czech. 27, 129 (1976).
+[132] Z. Stuchlík, G. Bao, E. Østgaard, and S. Hledík, Kerr-
+Newman-de Sitter black holes with a restricted repulsive
+ZDENĚ K STUCHLÍK and DANIEL CHARBULÁK PHYS. REV . D 109, 064008 (2024)
+064008-48
+
+barrier of equatorial photon motion, Phys. Rev. D 58,
+084003 (1998) .
+[133] K. Hioki and K.-i. Maeda, Measurement of the Kerr spin
+parameter by observation of a compact object ’s shadow,
+Phys. Rev. D 80, 024042 (2009) .
+[134] D. Charbulák and Z. Stuchlík, Spherical photon orbits in
+the field of Kerr naked singularities, Eur. Phys. J. C 78, 879
+(2018).
+[135] E. Teo, Spherical photon orbits around a Kerr black hole,
+Gen. Relativ. Gravit. 35, 1909 (2003) .
+[136] In the Kerr and KdS NS sp acetimes, there exists a stable
+SPO located below the unstable SPO, and a vortex of
+photons following trapped null geodesics is determined
+by these two SPOs [54,110]. Such vortex of photons may
+be important in the case of Keplerian accretion disks
+entering the region of their existence [54], but it is
+irrelevant for the determination of the shadow of NSs
+by distant observers, so we do not consider the stable
+SPOs in the present paper.
+[137] S. U. Viergutz, Image generation in Kerr geometry. I.
+Analytical investigations on the stationary emitter-observer
+problem, Astron. Astrophys. 272, 355 (1993).
+[138] J. Schee, Z. Stuchlík, and J. Jurá ˇn, Light escape cones and
+raytracing in Kerr geometry, in RAGtime 6/7: Workshops
+on Black Holes and Neutron Stars , edited by S. Hledík and
+Z. Stuchlík (Silesian University in Opava, Hradec nad
+Moravicí, Opava, 2005), pp. 143 –155.
+[139] J. Bi čák and Z. Stuchlík, The fall of the shell of dust on
+to a rotating black hole, Mon. Not. R. Astron. Soc. 175,
+381 (1976) .
+[140] R. P . Naidu et al. , Two remarkably luminous galaxy
+candidates at z ≈ 10–12 revealed by JWST, Astrophys.
+J. Lett. 940, L14 (2022) .
+SHADOWS OF KERR –DE SITTER NAKED SINGULARITIES PHYS. REV . D 109, 064008 (2024)
+064008-49
