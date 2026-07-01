@@ -1,4 +1,4 @@
-**Stíny nahých singularit: Když vesmír odloží svůj černý závoj**
+**Nahé singularity: Když vesmír odloží svůj černý závoj**
 
 Před pár lety obletěl svět fascinující snímek. Oranžově zářící prstenec obklopující temné nic uprostřed galaxie M87. Byl to první přímý důkaz existence černé díry, objektu tak hmotného a hustého, že z jeho sevření neunikne ani světlo. Pro astronomy to byl triumf, pro veřejnost potvrzení něčeho, co jsme dosud znali jen z vědeckofantastických filmů. Ale co kdybych vám řekl, že vesmír může skrývat něco ještě mnohem exotičtějšího? Něco, co vypadá skoro jako černá díra, ale chybí tomu její nejdůležitější součást – onen pověstný „bod, odkud není návratu“?
 
