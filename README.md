@@ -11,7 +11,7 @@ using langgraph and gemini api
 - [X] move temperatures to parameters.py
 - [X] logging every node to see them in action
 - [ ] image generation based on article content (at least thumbnail)
-- [ ] track headlines and add penalized words? (too many tug-of-wars)
+- [ ] track headlines and add penalized words? (tug-of-wars every time there is an equilibrium)
 
 ## workflow
 
