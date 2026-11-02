@@ -1,2952 +1,550 @@
-Light escape cones in the locally nonrotating reference frames
-of the Kerr –de Sitter superspinars and related superspinar shadows
-Daniel Charbulák * and Zden ěk Stuchlík †
-Research Centre for Theoretical Physics and Astrophysics, Institute of Physics,
-Silesian University in Opava , Bezru čovo nám. 13, CZ-746 01 Opava, Czech Republic
-(Received 20 August 2024; accepted 24 October 2024; published 19 December 2024)
-The construction of local escape cones and their complementary cones, related to the locally nonrotating
-frames (LNRFs) orbiting superspinars with the external field described by the Kerr –de Sitter (KdS) naked
-singularity (NS) spacetimes, is described for all possible classes of the KdS NS spacetimes and all possible
-positions of the photon emitter. The notion of the local escape cones is then applied to construct the shadow
-of the KdS superspinars related to the distant static observers represented by the LNRFs located near the
-so-called static radius where the spacetime is close to the asymptotically flat region of the Kerr spacetimes.
-The shadow construction is focused on the KdS superspinars limited by the cosmological and astrophysical
-restrictions on the spacetime parameters, namely, the superspinar dimensionless spin and the dimensionless
-cosmological parameter relating the cosmological constant and the superspinar ’s mass.
-DOI: 10.1103/PhysRevD.110.124050
-I. INTRODUCTION
-Event Horizon Telescope observations of the central
-regions of the galaxy M87 [1–9] and our Galaxy [source
-Sagittarius (Sgr) A*][10–16] have opened an intensive study
-of the black hole (BH) shadow and the physics of processes
-close to the BH horizon. The observations are consistent with
-the expectation that the central object in both observed
-sources is a supermassive Kerr black hole. However, the Kerr
-geometry can also describe Kerr naked singularities (NSs),
-which contain a region of causality violation.
-The Penrose cosmic censorship hypothesis forbids the
-existence of NSs, however, the hypothesis was not proved,
-and the validity of the weak cosmic censorship conjecture,
-which forbids the appearance of NSs clothing each one in an
-event horizon[17], is still an open question[18,19]. A variety
-of realistic NS spacetimes have been found —it has been
-shown that gravitational collapse can lead to NSs [20–24].
-1
-Therefore, the properties of Kerr NS spacetimes have
-been studied intensively in [25–27], while the optical
-phenomena related to the Kerr NS spacetimes were studied
-in [28–30] or for their generalizations in [31].
-The optical phenomena around Kerr-Newman BHs and
-NSs, along with the braneworld Kerr BHs and NSs, have
-been studied in [32–41], and for the regular BHs [42–45]
-constructed in the framework of general relativity in
-combination with various variants of nonlinear electrody-
-namics, these phenomena have been treated, e.g., in[46–48].
-Gravitational lensing by spherically symmetric static naked
-singularities modeled in the framework of the Einstein
-massless scalar field theory has been studied in [49–52].
-It has been shown that naked singularities can be observa-
-tionally differentiated from black holes.
-A modification of the Kerr NS spacetimes that does not
-exhibit the region of causality violations (time machine,
-see [53]), located in the vicinity of the ring singularity,
-has been proposed, being based on the stringy solution
-corresponding to rapidly rotating compact objects, so-
-called Kerr superspinars, where the interior is assumed to
-be governed by the string theory, and the exterior is des-
-cribed by the standard Kerr NS geometry [54]. The patho-
-logical time machine region is then covered by correctly
-behaving “stringy region, ” which is expected to have a
-boundary at radius R > 0. The Kerr superspinars can be
-considered as primordial, being remnants of the initial
-stringy phase of the evolution of the Universe [54,55].
-Their properties have been extensively studied, yielding
-some extraordinary results [56–59].
-The optical phenomena associated with the Kerr super-
-spinars have been studied, e.g., in[30,60]—it was shown that
-the superspinar shadow depends on the edge atr ¼ R,w h e r e
-the external Kerr spacetime and the internal spacetime join
-each other and is significantly different from the BH shadow.
-It is worth studying in detail the construction of the
-shadow of both the complete Kerr NS spacetimes and the
-Kerr superspinars external geometry, and in their exten-
-sions, to test their observational relevance, since we can
-expect that in the near future, due to the rapid development
-of the observational and data analysis techniques, we will
-be able to distinguish very subtle details of the compact
-*Contact author: daniel.charbulak@physics.slu.cz
-†Contact author: zdenek.stuchlik@physics.slu.cz
-1The big bang itself represents a NS.
-PHYSICAL REVIEW D 110, 124050 (2024)
-2470-0010=2024=110(12)=124050(43) 124050-1 © 2024 American Physical Society
-
-objects, thus obtaining important information on various
-physical phenomena.
-Because of the cosmological observations related to both
-the cosmic microwave background measurements and
-supernova tests that indicate the existence of dark energy
-with properties very close to the vacuum energy repre-
-sented by the cosmological constant [61,62], it is important
-to clarify the role of the cosmological constant Λ in
-astrophysical phenomena related to Kerr superspinars.
-The role of Λ in accretion processes in active galactic
-nuclei has been discussed in [63–66] and the motion of
-the gravitationally bound galaxies in [67]. The optical
-phenomena and the BH shadow have been studied for
-Kerr–de Sitter (KdS) BHs in [68], namely, for locally
-nonrotating reference frames (LNRFs), frames related to
-circular geodesic orbits, and for radially freely falling/
-escaping (geodesic) frames. For an alternative KdS BH
-solution and its shadow see [69,70]. Furthermore, the
-influence of the observer ’s state of motion on the BH
-shadow, related to that of the Sgr A* BH, is described
-in [71]. The shadows of BHs embedded in the expanding
-de Sitter universe have been studied in [72–74], and for
-charged and rotating BHs in [75], while the connection
-with the Friedman-Lemaître-Robertson-Walker cosmologi-
-cal metric has been considered in [76]. For Kerr –de Sitter
-NSs the shadow was treated, with inclusion of the region of
-negative radii, in [77], considering LNRFs, and radially
-freely falling/escaping (geodesic) frames.
-In the present paper we focus attention on the shadow of
-the KdS superspinars, whose surface at r ¼ const ¼ R > 0
-functions similar to the BH horizon, thus excluding the
-possibility of reaching the causality violation region. We
-discuss in detail the construction of the light escape cones
-(LECs) related to the LNRFs, which are important from an
-astrophysical point of view [66]. The LECs are then applied
-in the construction of the KdS superspinar ’s shadow.
-Due to the variability and complexity of the KdS NS
-spacetimes, which represent the exterior of the KdS super-
-spinars, we restrict our study of the shadows to the class
-of KdS spacetimes whose parameters are allowed by the
-observational constraints. We use the relict cosmological
-constant Λ ∼ 10
-−52m−2 implied by cosmic observations
-[78,79] and the constraints on the mass and spin of the
-compact objects imposed by observations of active galactic
-nuclei in large galaxies or even in the galactic clusters
-[65,80]. This class of the KdS NS spacetimes allows the
-existence of static radii [77,81,82]—the spacetime at (and
-around) this radius represents in the KdS spacetimes the
-best local approximation to the asymptotically flat region of
-the Kerr spacetimes [82,83]. Furthermore, the static radius
-also represents an upper limit on the extension of gravi-
-tationally bound systems (e.g., the dark matter halos) in
-spacetimes with the relict cosmological constant [80,84].
-At the static radius, the LNRF observers approximate the
-geodetic stationary observers at an unstable equilibrium
-point where the gravitational attraction of the BH or super-
-spinar is just balanced by the cosmic repulsion.
-The concept of LECs [and complementary light capture
-cones (LCCs)] enables construction of the KdS superspinar
-shadow (silhouette) in the same way as in the case of the
-BH or NS shadows [30,39,68,77], with respect to any
-observer, including those orbiting very close to the central
-object. Here, we restrict our attention to the standard case of
-a shadow (silhouette) cast by a KdS superspinar located
-between a very distant observer and an illuminating source
-much larger than the compact object [85]. To construct
-the LEC and the shadow, we assume the light source at the
-position of the observer and determine the motion of the
-photons emitted in different directions. The results obtained
-for the construction of the LEC are then inverted to obtain
-the shadow (for details see [77]). A special class of null
-geodesics is considered in the analysis, namely, null geo-
-desics corresponding to spherical photon orbits, which are
-now considered only at the radii corresponding to the
-external spacetime of the superspinars. The construction of
-the LEC and the complementary LCC for the superspinars
-is compared with the construction in the NS case.
-II. KERR –DE SITTER SUPERSPINAR (NS)
-GEOMETRY
-We assume that, similar to the pure Kerr case, the exterior
-of the Kerr–de Sitter superspinar spacetimes are determined
-by the standard Kerr–de Sitter naked singularity parameters,
-namely, the superspinar massM, its spin J, which is replaced
-in a standard way by the dimensionless rotational parameter
-a ¼ J=M
-2 > 1, and the cosmological constant Λ,w h i c h
-is replaced by the dimensionless cosmological parameter
-y ¼ 1
-3 ΛM2. Another parameter R is important for the
-description of the Kerr–de Sitter superspinar, as it determines
-its boundary, separating its interior, which is assumed to be
-described by the string theory, from the exterior, where the
-stringy effects are assumed to be irrelevant and the spacetime
-is described by the standard Kerr –de Sitter geometry. The
-value of the boundary parameter R can be set arbitrarily, at
-R ¼ r ¼ const > 0; usually it is assumed at R ¼ 0 or
-slightly above.
-As usual, we use the Boyer-Lindquist spheroidal co-
-ordinates t; r; θ; ϕ with geometric system of units
-(c ¼ G ¼ 1). We also introduce the dimensionless line
-element and the coordinates s=M → s, t=M → t; r=M → r.
-This is equivalent to putting M ¼ 1. The line element then
-reads
-ds2 ¼ a2sin2 θΔθ − Δr
-I2ρ2 dt2 þ ρ2
-Δr
-dr2 þ ρ2
-Δθ
-dθ2
-þ sin2 θ
-I2ρ2 Adϕ 2 þ 2asin2 θ
-I2ρ2 ½Δr − Δθðr2 þ a2Þ/C138 dtdϕ ;
-ð1Þ
-DANIEL CHARBULÁK and ZDEN Ě K STUCHLÍK PHYS. REV . D 110, 124050 (2024)
-124050-2
-
-where
-Δr ¼ð 1 − yr2Þðr2 þ a2Þ − 2r; ð2Þ
-Δθ ¼ 1 þ a2ycos2 θ; ð3Þ
-I ¼ 1 þ a2y; ð4Þ
-ρ2 ¼ r2 þ a2cos2 θ; ð5Þ
-and
-A ¼ð r2 þ a2Þ2Δθ − a2Δrsin2 θ: ð6Þ
-In some special cases, such as the situation in the vicinity
-of the spacetime ring singularity, it is convenient to
-construct the figures in the so-called Kerr-Schild coordi-
-nates, which are related to the Boyer-Lindquist coordinates
-by the relations
-x
-2 þ y2 ¼ð r2 þ a2Þsin2 θ;
-z2 ¼ r2cos2 θ: ð7Þ
-Note that in the relations (7) y denotes a Cartesian
-coordinate, not a cosmological parameter.
-A. Event horizons
-The roots of the quartic equation
-Δr ¼ 0; ð8Þ
-which can be rewritten in the form
-y ¼ yhðr; a2Þ ≡ r2 − 2r þ a2
-r2ðr2 þ a2Þ ; ð9Þ
-determine the coordinate pseudosingularities of the KdS
-geometry. Following the notation used in our previous
-paper [77], we denote them as r−c ;r i;r o;r c, where
-r−c < 0 <r i <r o <r c, corresponding to the cosmological
-horizon in the negative radius region, the inner BH
-(Cauchy) horizon, the outer BH horizon, and the cosmo-
-logical horizon. The number and position of the horizons
-for a given parameter y
-0 can be illustrated by the inter-
-section of the horizontal y0 line with the graph of the
-function yhðr; a2Þ, whose behavior is shown in Fig. 1(a) for
-different values of spin parameter a2. It can be observed
-that the cosmological horizon r−c in region of negative
-radii exists for any positive values of y> 0 and a2 > 0.
-However, we have to stress that in our study in this paper
-we consider only the KdS NS spacetimes excluding the
-region of r< 0, since it is assumed to be irrelevant because
-of the assumption R ≥ 0. Thus, it is clear that only the
-cosmological horizon in the region of r> 0 is relevant in
-our study. The number and nature of horizons in the r> 0
-region, which we discuss separately below, depends on
-the value of y0 compared to the extremes yminðhÞða2
-0Þ,
-ymaxðhÞða2
-0Þ, for a given spin parameter a2
-0 > 0. Here and
-in the following enumeration the functions ymin = maxðhÞða2Þ
-describe the minima/maxima of the function yhðr; a2Þ.
-(1) Case 0 ≤ a2
-0 ≤ 1.
-The function yhðr; a2
-0Þ has a positive maxi-
-mum ymaxðhÞða2
-0Þ > 0 and nonpositive minimum
-yminðhÞða2
-0Þ ≤ 0 [see the gray, red, and blue curves
-in Fig. 1(a)]; for a2
-0 ¼ 0 the function yhðr; a2
-0Þ has no
-minimum, since yhðr;0 Þ → −∞ as r → 0þ, while
-ymaxðhÞða2
-0Þ¼ ycritðSdSÞ ≡ 1=27 ≐ 0.03704 [see the
-gray curve in Fig. 1(a)]; ycritðSdSÞ denotes the critical
-value of the cosmological parameter that allows
-the Schwarzschild–de Sitter BH spacetimes to exist.
-For a2
-0 ¼ 1, yminðhÞða2
-0Þ¼ 0 [ s e et h eb l u ec u r v ei n
-Fig. 1(a)].
-(i) 0 <y 0 <y maxðhÞða2
-0Þ.
-The geometry describes a BH spacetime;
-the radii 0 <r i <r o <r c correspond, respec-
-tively, to the inner BH horizon, the outer BH
-horizon, and the cosmological horizon; the
-spacetime is dynamic in regions ri <r<r o.
-(ii) y0 ¼ ymaxðhÞða2
-0Þ.
-Marginal NS spacetimes, where the outer BH
-and the cosmological horizons merge atro ¼ rc.
-(iii) ymaxðhÞða2
-0Þ <y 0.
-The geometry describes the NS spacetimes
-with one cosmological horizon 0 <r c in the
-region of positive radii.
-(2) Case 1 <a 2
-0 ≤ a2
-crit ≡ 3ð3 þ 2
-ﬃﬃ ﬃ
-3
-p
-Þ=16 ≐ 1.21202.
-Both local extrema yminðhÞða2
-0Þ and ymaxðhÞða2
-0Þ
-of the function yhðr; a2
-0Þ are positive, 0 <
-yminðhÞða2
-0Þ <y maxðhÞða2
-0Þ ≤ ycritðKdSÞ ≡ 16ð26
-ﬃﬃ ﬃ
-3
-p
-−
-45Þ=9 ≐ 0.05924 [see the green curve in Fig. 1(a)]—
-these extrema merge for a2
-0 ¼ a2
-crit at the inflec-
-tion point in y ¼ ycritðKdSÞ [see the orange curve in
-Fig. 1(a)]; ycritðKdSÞ and a2
-crit have the meaning of the
-critical values of the cosmological and spin param-
-eters, respectively, that still allow the existence of
-Kerr–de Sitter BH spacetimes.
-(i) y0 <y minðhÞða2
-0Þ or ymaxðhÞða2
-0Þ <y 0.
-The geometry describes a NS spacetime with
-properties analogous to the previous NS case.
-(ii) yminðhÞða2
-0Þ <y 0 <y maxðhÞða2
-0Þ.
-Geometry describes the BH spacetimes with
-properties analogous to the previous BH case.
-(iii) y0 ¼ yminðhÞða2
-0Þ.
-Limit case of the extreme BH spacetimes
-with a merging inner and outer BH horizon.
-(iv) y0 ¼ ymaxðhÞða2
-0Þ.
-Limit case of the marginal NS spacetimes
-with properties analogous to the previous mar-
-ginal NS case.
-LIGHT ESCAPE CONES IN THE LOCALL Y NONROTA TING … PHYS. REV . D 110, 124050 (2024)
-124050-3
-
-(v) a2
-0 ¼ a2
-crit, y0 ¼ ycritðKdSÞ.
-Extreme case of geometry that describes the
-ultraextreme NS spacetime with ri ¼ r0 ¼ rc.
-(3) Case a2
-0 >a 2
-critðKdSÞ.
-There are no local extrema of the function
-yhðr; a2
-0Þ [see the black curve in Fig. 1(a)], and
-for any value of y0 the geometry corresponds to the
-NS spacetimes with properties analogous to the
-previous NS cases.
-The behavior of the functions ymin = maxðhÞða2Þ is shown in
-Fig. 1(b). They can be expressed as follows:
-yminðhÞða2Þ ≡ 1
-12
-/C20
-X −
-ﬃﬃ ﬃ
-6
-p
-a6
-ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
-Y þ Z
-p
-þ
-ﬃﬃ ﬃ
-3
-p
-z
-/C21
-; ð10Þ
-and
-ymaxðhÞða2Þ ≡
-( y−
-maxðhÞða2Þ; for 0 ≤ a2 <a 2
-∓ðhÞ;
-yþ
-maxðhÞða2Þ; for a2
-∓ðhÞ ≤ a2 <a 2
-crit;
-ð11Þ
-where a2
-∓ðhÞ ≡ 1
-48 ð3 þ 2
-ﬃﬃ ﬃ
-3
-p
-Þ¼ 0.135, a2
-crit ≡ 3
-16 ð3 þ 2
-ﬃﬃ ﬃ
-3
-p
-Þ¼
-1.212 is the maximum spin parameter allowing the exist-
-ence of the BH spacetimes,
-y/C6
-maxðhÞða2Þ ≡ 1
-12
-/C20
-X þ
-ﬃﬃ ﬃ
-6
-p
-a6
-ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
-Y /C6 Z
-p
-/C6
-ﬃﬃ ﬃ
-3
-p
-z
-/C21
-; ð12Þ
-X ¼ − 3ð1 þ 4a2Þ
-a4 ;
-Y ¼ 3a4ð1 − 80a2Þ − 2 × 31=3u1=3a2 − 2 × 32=3pþa8
-u1=3 ;
-Z ¼ 3
-ﬃﬃ ﬃ
-3
-p
-ð768a4 − 96a2 − 1Þ
-z ; ð13Þ
-z ¼
-ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ ﬃ
-u1=3ð4 × 31=3u1=3 þ 3a2 − 240a4Þþ 4 × 32=3pþa6
-u1=3a10
-s
-;
-ð14Þ
-u ¼ 1944a10 þ 18432a14 þ
-ﬃﬃ ﬃ
-3
-p ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
-−p3−a18
-q
-; ð15Þ
-and
-p/C6 ¼ 256a4 /C6 288a2 − 27: ð16Þ
-The exterior of KdS superspinar spacetimes is thus
-described by the KdS NS geometry. In the ðy-a2Þ plane,
-the parameters y; a2 of such spacetimes correspond to the
-region shown in white in Fig. 1(b).
-Since our intention here is to deal with astrophysically
-relevant objects, we admit that the mass parameter M of the
-central object can be as large as M ∼ 1011M⊙ , as suggested
-by the case of the most massive BH observed so far, with
-mass of M ¼ 7.1010M⊙ in the source Tonantzintla 618.
-Here M⊙ ¼ 1.5 × 103m is the mass of the Sun in geometric
-units. Considering the current cosmological observations,
-which imply a very small value for the cosmological
-constant, Λ ∼ 1.1 × 10
-−52m−2, we find that the realistic
-estimates of the cosmological parameter parameter y are at
-most y ∼ 10−34. However, for the sake of illustration, we
-consider here values of the cosmological parametery,w h i c h
-are many orders of magnitude higher than the realistic ones,
-but which still correspond to class IV KdS spacetimes,
-according to the classification introduced in [28], which are
-the main object of our investigation and which give results
-qualitatively corresponding to the realistic values of y.
-The parameters of the KdS spacetimes of class IV
-correspond to the case y<y
-minðhÞða2Þ and we select
-(a)
-(b)
-FIG. 1. (a) Behavior of the function yhðr; a2Þ for typical values
-of the spin parameter a2. For a given cosmological parameter y0,
-the intersections of the horizontal line y ¼ y0 with the curves
-y ¼ yhðr; a2Þ give the number and locations of the event horizons
-of the corresponding spacetime. (b) Behavior of the functions
-ymaxðhÞða2Þ (full black curve) and yminðhÞða2Þ (dashed black curve)
-and the induced partitioning of the parameter plane ða2-yÞ into
-regions corresponding to the BH spacetimes (gray region) and NS
-spacetimes (white region).
-DANIEL CHARBULÁK and ZDEN Ě K STUCHLÍK PHYS. REV . D 110, 124050 (2024)
-124050-4
-
-parameters giving clear demonstration of the relevant
-optical phenomena.
-B. Superspinar boundary surface
-We assume, in accordance with other related papers
-[30,57,58,60], that the boundary surface is formed by a
-sphere of constant radius rðθÞ¼ R with properties similar
-to the BH event horizon. Although considerations that
-do not rule out the possibility of nonzero emissivity or
-reflectivity can be found in the literature [86], in the present
-paper we regard the superspinar surface acting as a one-way
-membrane, i.e., it absorbs all incoming radiation and matter
-and does not radiate itself. Therefore, we demand that
-photons with radial turning point at r ¼ r
-t can be detected
-by a distant observer if rt > R. We assume that the stringy
-effects are appreciable in the region where the curvature of
-the spacetime is comparable to the Planck scale, hence we
-fix the superspinar surface R ∼ 0 for our study.
-It is well known [87] that the complete Kerr NS space-
-times contain the causality violation region, where the axial
-Killing vector ξðϕ Þ ¼ ∂=∂ϕ becomes timelike and hence in
-principle allows the existence of closed timelike worldlines.
-As proved in [88], such pathological behavior persists in
-the presence of the cosmological constant in one of the
-special parts of the Kerr–de Sitter spacetimes, referred to as
-Carter’s blocks [89], which contain the ring singularity. It is
-shown that in this block there exists a nonempty region
-determined by
-ξ
-μ
-ðϕ Þξðϕ Þμ ¼ gϕϕ ¼ sin2 θ
-I2ρ2 A< 0; ð17Þ
-which acts as a so-called Carter ’s time machine, that
-generates closed timelike curves that can be extended
-through any point of the appropriate Carter ’s block. The
-analysis of the function A defined in Eq. (6) shows that the
-condition (17) can be met at small negative radii r< 0 in
-the vicinity of the ring singularity.
-C. Ergosphere
-The ergosphere region is given by the inequality
-gtt ≡ a2sin2 θΔθ − Δr
-I2ρ2 ≥ 0; ð18Þ
-where equality corresponds to the ergosphere boundary,
-i.e., the ergosurface. In the equatorial plane the radii of the
-ergosurface are given by the condition
-a2 − Δr ¼ 0; ð19Þ
-which is a quartic equation that always has a solution at
-r ¼ 0, and in the case of the KdS spacetimes with a2y< 1
-that we are dealing with in this paper, it has three other real
-roots rð−Þ
-erg , r/C6erg, where rð−Þ
-erg < 0 <r þerg <r −
-erg
-. The negative
-solution rð−Þ
-erg delimits the ergoregion in the region of
-negative radii, which spreads between the radii r−c ≤ r ≤
-rð−Þ
-erg < 0 in the equatorial plane, where r−c denotes the
-secondary cosmological horizon in the region r< 0.F o r
-more details on the properties of the ergosphere and its
-extension beyond the equatorial plane at r< 0, see [77].I n
-the region of positive radii r> 0, the inner radius r
-þerg
-delimits the boundary of the inner ergosphere, connected to
-the ring singularity which extends between radii 0 <r þerg,
-while the outer radius r−erg defines the boundary of the
-cosmological ergosphere, extending between the radii
-r−erg <r c. These radii are located at
-rð−Þ
-erg ¼ −2
-ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
-1 − a2y
-3y
-s
-cos
-/C201
-3 arccos
-ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ ﬃ
-27y
-ð1 − a2yÞ3
-s /C21
-ð20Þ
-and
-r/C6ergða2;y Þ ≡ 2
-ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
-1 − a2y
-3y
-s
-cos
-/C20π
-3 /C6 1
-3 arccos
-ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ ﬃ
-27y
-ð1 − a2yÞ3
-s /C21
-:
-ð21Þ
-The parameters a2;y of the spacetimes in which the two
-distinct radii r/C6erg exist are, according to Eq. (21), related by
-the condition
-27y
-ð1 − a2yÞ3 ≤ 1: ð22Þ
-The equality in the relation (22) defines the function
-yerg−sða2Þ ≡ 1
-a2 þ 3 × 21=3
-2a3
-21=3ð
-ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
-4 þ a2p
-−aÞ2=3 −2
-ð
-ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
-4 þ a2p
-−aÞ1=3 ; ð23Þ
-which in the ða2-yÞ parameter plane separates spacetimes
-with two separate ergospheres, the inner and the cosmo-
-logical one, from spacetimes with a single one ergosphere
-extending from the ring singularity to the cosmological
-horizon. The spacetimes with a single or two separate
-ergoregions correspond to the region above/below the y ¼
-y
-erg−sða2Þ curve in the ða2-yÞ parameter plane. The function
-yerg−sða2Þ is also related to the existence of the static radius
-(see subsection below), which explains the label used.
-Latitudinal coordinates θerg of the ergosurface outside
-the equatorial plane depend on the radial coordinate
-according to the equation
-θergðrÞ¼ arccos
-ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ ﬃ
-a2y − 1 þ
-ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ ﬃ
-I2 − 4yΔr
-p
-2a2y
-s
-: ð24Þ
-LIGHT ESCAPE CONES IN THE LOCALL Y NONROTA TING … PHYS. REV . D 110, 124050 (2024)
-124050-5
-
-A detailed discussion of the properties of the ergosphere
-for relevant possible combinations of the KdS spacetime
-parameters a2;y has been presented in [77] and will not be
-repeated here. We just recall that Eqs. (20), (21), and (24)
-hold assuming a2y< 1, which is the case of the class IV
-KdS spacetimes considered in this paper. The distribution
-of the ergosphere in the class IV KdS spacetimes is shown
-in Fig. 2; for other classes of the KdS spacetimes see [77].
-D. Static radius
-In this paper we intend to construct the shadows of
-superspinars observed by observers located at LNRFs at the
-so-called static radius rs, where the gravitational attraction
-due to the central mass M is just compensated by the
-cosmological repulsion governed by the cosmological
-constant Λ. At and near the static radius the KdS space-
-times are closest to the asymptotically flat region of the
-Kerr spacetimes, and the LNRFs are close to the frames of
-static observers [82,83].
-In dimensional units, the static radius depends on the
-mass and the cosmological constant as r
-s ¼ð 3GM2=Λc2Þ
-[81], which can be simplified to the form
-rs ¼ y−1=3 ð25Þ
-in the dimensionless quantities we use. From Eq. (21) it
-follows that the static radius coincides with the radius
-where the two radii r/C6erg coalesce in the borderline case of
-spacetimes with y ¼ yerg−sða2Þ. Since at the static radius
-the only nonzero component of the freely falling observer ’s
-four-momentum Pμ is its time component Pt, while the
-other spatial components are zero, Pi ¼ 0 [38], it follows
-that in the spacetimes with y>y erg−sða2Þ the static radius
-is limited outside the equatorial plane, since there is an
-ergosphere where necessarily Pϕ > 0.
-III. EQUATIONS OF PHOTON MOTION
-Since the components of the metric tensor gμν deter-
-mined by the line element (2) are independent of time and
-azimuthal coordinates ðt; ϕ Þ, the conjugate momenta
-kt ¼ gtα kα ≡ −E; ð26Þ
-kϕ ¼ gϕα kα ≡ ¼ Φ ð27Þ
-of the photon four-momentum kμ ≡ dxμ=dλ, xμ ∈
-ðt; r; θ; ϕ Þ are constants of motion. Here λ is the affine
-parameter and E, Φ are covariant “energy” and covariant
-“axial angular momentum ”—in the pure Kerr case y ¼ 0,
-where the spacetime is asymptotically flat, these are the
-energy and axial angular momentum as measured by
-distant static observers [87], while for y> 0 the spacetime
-is asymptotically de Sitter and these quantities are close to
-those measured by static observers at the static radius and
-its vicinity [81,82]. In addition to another motion constant,
-the rest mass m of the particle ( m ¼ 0 for photons), there is
-one more, the so-called fourth Carter constant K, related to
-the hidden symmetry of the geometry, which must be non-
-negative, K ≥ 0. The only case where K ¼ 0 occurs is
-for photons whose trajectories coincide with the spin axis
-θ ¼ 0; π or for the so-called principal null congruence
-photons whose trajectories lie on the cones θ ¼ const [90].
-As in previous works [28,68,77,81,91], for E ≠ 0 it is
-convenient to introduce the modified motion constants X, q
-by the relations
-X ≡ l − a; ð28Þ
-where
-l ≡ Φ=E ð29Þ
-is the impact parameter, and the modified fourth Carter
-constant
-q ≡
-K=I2E2 − X2; ð30Þ
-FIG. 2. Distribution of the ergosphere in KdS spacetime of
-class IV a with parameters a2 ¼ 1.2;y ¼ 0.02, represented in the
-Kerr-Schild coordinates x,y,z. The figure shows a section through
-the plane y ¼ 0 (here y not to be confused with the cosmological
-parameter y). The ergosphere is depicted as a gray area. The
-dashed vertical line depicts the spin axis, the black dots represent
-the incision through the ring singularity. The dashed ellipse
-depicts the static radius. The inner toruslike-shaped ergosphere
-connected to the ring singulrity can be seen, and the cosmological
-ergosphere, which spreads among the outer ergosurface and the
-cosmological horizon. The cosmological horizon is depicted as
-the outer black ellipse.
-DANIEL CHARBULÁK and ZDEN Ě K STUCHLÍK PHYS. REV . D 110, 124050 (2024)
-124050-6
-
-which must vanish for the motion confined to the equatorial
-plane. Using the above motion constants, the Carter
-equations for photon motion become
-ρ2
-I2E kt ¼ ðr2 þ a2Þðr2 − aXÞ
-Δr
-þ aðacos2 θ þ XÞ
-Δθ
-; ð31Þ
-ρ2
-I2E2 kr ¼/C6
-ﬃﬃﬃ ﬃ
-R
-p
-; ð32Þ
-ρ2
-I2E2 kθ ¼/C6
-ﬃﬃﬃﬃ ﬃ
-W
-p
-; ð33Þ
-ρ2
-I2E kϕ ¼ aðr2 − aXÞ
-Δr
-þ ða cos2 θ þ XÞ
-Δθ sin2 θ ; ð34Þ
-where
-RðrÞ ≡ ðr2 − aXÞ2 − ΔrðX2 þ qÞ; ð35Þ
-WðθÞ ≡ ðX2 þ qÞΔθ − ða cos2 θ þ XÞ2
-sin2 θ : ð36Þ
-A detailed discussion of these equations of motion
-related to the both the KdS BH and NS spacetimes can
-be found in [28,77].
-A. Allowed regions of motion constants
-The photon motion is fully governed by the motion
-constants X, q, which in turn are related to the directional
-angles of a photon with respect to an emitter fixed to an
-observer (frame) and which govern the construction of the
-LEC related to the observer. Therefore, we have to deter-
-mine for which values of these motion constants the motion
-of a photon released at a given position of the emitter,
-described by the pair ðr
-e; θeÞ of its radial and latitudinal
-coordinates, is actually allowed. At the starting point are the
-reality conditions
-Wðθe; X; qÞ ≥ 0; ð37Þ
-Rðre; X; qÞ ≥ 0: ð38Þ
-Using the linear dependence of the functions
-Rðr; X; qÞ;W ðθ; X; qÞ on the motion constant q, similar
-to [68,77], we can rewrite the conditions (37) and (38) in
-the form
-qminðX; θeÞ ≤ q ≤ qmaxðX; reÞ; ð39Þ
-where
-qminðX; θeÞ ≡ cot2θe
-Δθe
-/C2
-ð1 − a2ysin2 θeÞX2
-þ 2aX þ a2cos2 θe
-/C3
-ð40Þ
-and
-qmaxðX; reÞ ≡ ðr2e − aXÞ2
-Δre
-− X2: ð41Þ
-It follows from Eq. (39) that the motion constants of a
-photon reaching the surface of the superspinar at r ¼ R
-must satisfy the inequality
-q ≤ qmaxðX; RÞ: ð42Þ
-We now briefly outline some properties of the functions
-qminðX; θÞ, qmaxðX; rÞ for later reference.
-1. Latitudinal function q minðX; θeÞ
-For the spacetime parameters satisfying a2y< 1, the
-function qminðX; θeÞ is convex for 0 < θe < π=2, while for
-θe ¼ π=2 it holds qminðX; θe ¼ π=2Þ ≡ 0 [92]. The global
-minimum of the function qminðX; θeÞ is located at
-X ¼ XminðminÞðθeÞ ≡ −a
-1 − a2ysin2 θe
-; ð43Þ
-and its value is
-q ¼ qminðminÞðθeÞ ≡ −a2cos2 θe
-1 − a2ysin2 θe
-; ð44Þ
-where 0 < θe < π=2.F o r θe → 0 the following relations
-hold: XminðminÞðθeÞ → −a, qminðminÞðθeÞ → −a2, while for
-θe ¼ 0 (the motion along the spin axis) the reality condition
-Wðθ; X; qÞ ≥ 0 reduces to
-X ¼ −a ðl ¼ 0Þ; ð45Þ
-q ≥− a2: ð46Þ
-The behavior of the both functions XminðminÞðθeÞ;
-qminðminÞðθeÞ is shown in Figs. 3 and 4. A detailed
-discussion of the properties of the function qminðX; θÞ
-can be found, e.g., in [28,68,77].
-2. Radial function q maxðX; reÞ
-In general, the function qmaxðX; reÞ can be convex or
-concave depending on the sign of the coefficient qmaxð2Þ of
-the quadratic term, where
-LIGHT ESCAPE CONES IN THE LOCALL Y NONROTA TING … PHYS. REV . D 110, 124050 (2024)
-124050-7
-
-qmaxð2Þ ¼ a2 − Δre
-Δre
-: ð47Þ
-As follows from Eq. (47), at radii r> 0 that do (do not)
-interfere with the ergosphere, the function qmaxðX; reÞ is
-convex (concave). In the first case, as shown in [28], the
-part of the plane of the ( X-q) plane of motion constants
-described by the inequalities (39) and lying below the rising
-part of the function qmaxðX; reÞ corresponds to locally
-counterrotating photons with positive impact parameter X
-and with negative energy, which are of course trapped by
-the gravitational potential. The parts of the ( X-q) plane of
-motion constants described by the inequalities (39) and
-lying below the descending part of the qmaxðX; reÞ function
-correspond to photons with E> 0 which can be trapped or
-escaping. In the latter case, the parts of the ( X-q) plane of
-motion constants satisfying the inequalities (39) correspond
-only to photons with E> 0, which again can be escaping or
-trapped.
-A c c o r d i n gt ot h er e l a t i o n(47), the function qmaxðX; reÞ is
-concave atrðergÞ− <r< 0,a n da tr ¼ 0 it is qmaxðX;0 Þ¼ 0.
-B. Important cases of photon trajectories
-The specific types of photon trajectories that have a
-major impact on the design of the resulting LECs have been
-discussed in detail in our previous work [77]. Here we
-briefly recall their properties. Some of the concepts
-introduced here are needed for the basic classification of
-the null geodesics in Sec. III C.
-1. Spherical photon orbits
-The spherical photon orbits (SPOs) are determined by
-the conditions
-RðrÞ¼ 0; dR
-dr ¼ 0; ð48Þ
-which, when solved simultaneously, give the motion
-constants for the photons on the SPOs
-X ¼ XSPOðrÞ ≡ r½ð1 − ya2Þr2 − 3r þ 2a2/C138
-a½2yr3 þð ya2 − 1Þr þ 1/C138 ; ð49Þ
-or, alternatively,
-l ¼ lSPOðrÞ ≡ Ir3 − 3r2 þ a2Ir þ a2
-a½2yr3 þð ya2 − 1Þr þ 1/C138 ð50Þ
-and
-q ¼ qSPOðrÞ
-≡ − r3
-a2
-y2a4r3 þ 2ya2r2ðr þ 3Þþ rðr − 3Þ2 − 4a2
-½2yr3 þð ya2 − 1Þr þ 1/C138 2 : ð51Þ
-The zeros of the function qSPOðrÞ give the radii of the
-equatorial circular photon orbits (ECPOs). It can be shown
-that in the case of the NS spacetimes there is only one
-ECPO at r ¼ r−
-ph in the region of positive radii, which is
-locally counterrotating in the LNRFs and unstable with
-respect to the radial perturbations. It gives the boundary of
-the region of the SPOs at r> 0. However, its expression is
-rather complex and therefore will not be presented here.
-If a2y< 1, the functions XSPOðrÞ, lSPOðrÞ, qSPOðrÞ have
-common points of divergence at radii rð−Þ
-dðSPOÞ, r/C6
-dðSPOÞ,
-where
-rð−Þ
-dðSPOÞ ¼ −2
-ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ ﬃ
-1 − a2y
-6y
-s
-cos
-/C201
-3 arccos
-ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ ﬃ
-27y
-2ð1 − a2yÞ3
-s /C21
-; ð52Þ
-and
-r/C6
-dðSPOÞ ¼ 2
-ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
-1 − a2y
-6y
-s
-cos
-/C20π
-3 /C6 1
-3 arccos
-ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
-27y
-2ð1 − a2yÞ3
-s /C21
-;
-ð53Þ
-FIG. 3. Behavior of the function XminðminÞðθeÞ for fixed para-
-meter y ¼ 0.02 and varying parameter a2 ¼ 1.2 (full curve),
-a2 ¼ 4 (dashed curve), and a2 ¼ 9 (dotted curve).
-FIG. 4. Behavior of the function qminðminÞðθeÞ with the same
-styling and corresponding parameters as used in Fig. 3.
-DANIEL CHARBULÁK and ZDEN Ě K STUCHLÍK PHYS. REV . D 110, 124050 (2024)
-124050-8
-
-for which the inequality rð−Þ
-dðSPOÞ < 0 <r þ
-dðSPOÞ <r −
-dðSPOÞ
-holds.
-The radii r/C6
-dðSPOÞ coalesce for y ¼ ydðSPOÞðyÞ, where
-ydðSPOÞða2Þ ≡ 1
-a2 − 6ﬃﬃ ﬃ
-2
-p
-a3 sinh
-/C20
-1=3sinh−1
-ﬃﬃ ﬃ
-2
-p
-a
-2
-/C21
-: ð54Þ
-Note that the function ydðSPOÞðyÞ in the ðy − a2Þ plane
-determines the boundary between the KdS spacetime
-classes VI and VII, as introduced in [28]. For y ≶
-ydðSPOÞðyÞ, the functions XSPOðrÞ, qSPOðrÞ have two/no
-points of divergence [93].
-The condition for unstable spherical orbits
-d2R=dr2 < 0 ð55Þ
-implies the inequality
-8rð3yr4 − I2r3 þ 3ð1 − a2yÞr2 − 3r þ a2Þ > 0; ð56Þ
-to be evaluated at the radii of the appropriate spherical orbit
-r ¼ rSPO. Typical behavior of the functions lSPOðrÞ,
-qSPOðrÞ for spacetime parameters corresponding to the
-class IV , and the related significant radii of the SPOs, are
-shown in Fig. 5.
-The curve ðX
-SPOðrSPOÞ;q SPOðrSPOÞÞ [hereafter
-qSPOðXSPOÞ] parametrized by the radii rSPO of the unstable
-spherical photon orbits plays a crucial role in the construc-
-tion of LECs, since it gives the critical locus (cf., e.g., [94])
-in the X − q plane of the motion constants that determine the
-boundary between escaping and trapped photons.
-The critical locus has essential importance in Sec. IV F,
-where we construct the KdS superspinar shadow for an
-observer at radius r
-o >r −
-ph. This curve then corresponds to
-an arc or circle on the observer ’s celestial sky.
-In the vicinity of stable SPOs there are bounded orbits
-where the photons, which we will call “trapped” (see
-Sec. III C), oscillate radially between two radial turning
-points. These orbits can be occupied if the source is located
-between these radii. Such a situation can occur if there is an
-overlap of the SPOs with the equatorial circular orbits of
-the test particles, allowing the possible occurrence of a thin
-Keplerian disk. In such a case the construction of LECs is
-important for the study of special optical effects such as
-self-illumination and self-eclipse or light echo [29].
-2. Polar spherical photon orbits
-The polar spherical photon orbits are the special case of
-the SPOs orbiting over the poles, crossing the symmetry
-axis. They are determined by the condition
-l
-SPO ¼ 0; ð57Þ
-which can be expressed by the relation
-y ¼ ypolðr; a2Þ ≡ r2ð3 − rÞ − a2ð1 þ rÞ
-ra2ðr2 þ a2Þ : ð58Þ
-The behavior of the function ypolðr; a2Þ is shown in Fig. 6
-in comparison with the behavior of the function yhðr; a2Þ
-for some appropriately selected values of the spin a2.F o r
-given parameters a2
-0, y0, the intersection of the line y ¼ y0
-with the curve y ¼ ypolðr; a2
-0Þ gives the radii r/C6
-pol of the
-(a)
-(b)
-FIG. 5. Typical behavior of the functions XSPOðrÞ and qSPOðrÞ
-for parameters corresponding to class IV spacetime. The solid
-horizontal gray line in (a) indicates the value of X ¼ −a (l ¼ 0).
-The dark blue dashed parts of these curves determine the motion
-constants of photons with negative covariant energy E< 0,
-delimited by the point of divergence r
-þ
-dðSPOÞ of both functions.
-The red/blue parts correspond to locally corotating/counterrotat-
-ing SPOs, delimited by the radii r/C6
-pol of the polar SPOs, which are
-the zeros of the function lSPO. The dark/bright colors correspond
-to the stable/unstable SPOs that are separated by the radii rms of
-the marginally stable SPOs, which are the loci of the local
-maximum/minimum of the function l
-SPOðrÞ=qSPOðrÞ. The region
-of the SPOs is delimited by the radii of the equatorial circular
-photon orbit r
-−
-ph, which is a zero of the function qSPOðrÞ (for more
-details see [77]).
-LIGHT ESCAPE CONES IN THE LOCALL Y NONROTA TING … PHYS. REV . D 110, 124050 (2024)
-124050-9
-
-polar SPOs, which, as we have found in [77], reads
-r/C6
-pol ¼ 1
-I
-/C20
-1 þ 2
-ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ ﬃ
-1 − a2I2
-3
-r
-cos
-/C18π /C6 ψ
-3
-/C19/C21
-; ð59Þ
-where
-cos ψ ¼ a2I2 − 1/C0
-1 − a2I2
-3
-/C13=2 : ð60Þ
-Figure 7 shows that there are KdS superspinar (NS)
-spacetimes with two polar SPOs, an inner stable one and
-an outer unstable one, which is the case of the superspinar
-(NS) spacetimes of classes IV a and VIa, introduced in [28],
-BH spacetimes with one unstable SPO, which corresponds
-to classes I –III, and superspinar (NS) spacetimes without
-polar SPOs, which correspond to classes VII and VIII.
-Figure 8 shows the limiting case of the superspinar (NS)
-spacetime, separating the spacetimes of classes IV a and VIa
-from the superspinar (NS) spacetimes with no polar SPO
-that correspond to classes IVb, V , and VIb. In this limiting
-case, the two polar SPOs merge. The radius r
-maxðpolÞ of this
-single polar SPO is given by the local maximum of the
-function ypolðr; a2Þ, which, as follows from the analysis of
-Eqs. (59) and (60), increases linearly with the spin a as
-rmaxðpolÞðaÞ¼ a
-ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ ﬃ
-1 þ 2=
-ﬃﬃ ﬃ
-3
-pq
-: ð61Þ
-The minimum value for a ¼ acritðKdSÞ, y ¼ ycritðKdSÞ is the
-same as the merging event horizons (see the green curves in
-Fig. 6), i.e.,
-rmaxðpolÞðacritðKdSÞÞ¼ ri ¼ ro ¼ rc
-¼ 1
-4 ð3 þ 2
-ﬃﬃ ﬃ
-3
-p
-Þ¼ 1.616; ð62Þ
-while the maximum value occurs for a ¼ amaxðpolÞK ≡ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ ﬃ
-6
-ﬃﬃ ﬃ
-3
-p
-− 9
-p
-¼ 1.180, y ¼ 0, and reads
-rmaxðpolÞðamaxðpolÞK Þ¼ 1 þ
-ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ ﬃ
-4 − 2
-ﬃﬃ ﬃ
-3
-pq
-¼ 1.732; ð63Þ
-where amaxðpolÞK denotes the maximum spin that allows the
-existence of the polar SPOs, corresponding to the Kerr
-spacetime ( y ¼ 0) (cf. [29]). Its square is a2
-maxðpolÞK ¼
-6
-ﬃﬃ ﬃ
-3
-p
-− 9 ¼ 1.3923. The parameters of the superspinar (NS)
-spacetimes with the single polar SPO at radii rmaxðpolÞ are
-tied by the condition
-cos ψ ¼ 1 ð64Þ
-in (60), which can be written in the form
-ymaxðpolÞða2Þ ≡ a−2
-0
-@
-ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
-a2
-maxðpolÞK
-a2
-s
-− 1
-1
-A: ð65Þ
-The curve ymaxðpolÞða2Þ defines a boundary in the ðy-a2Þ
-plane between the spacetimes of classes IV a and IVb,
-FIG. 6. Behavior of the function ypolðr; a2Þ (full curves)
-compared to the function yhðr; a2Þ (dashed curves) for some
-representative values of the cosmological parameter a2. For a
-given parameter a2, both curves have the same color. It can be
-seen that the graph of the function ypolðr; a2Þ intersects the graph
-of function yhðr; a2Þ at its local extrema, if any.
-FIG. 7. Behavior of the function ypolðr; a2Þ (black full curve)
-for the spin parameter corresponding to the case a2
-SdS <a 2 <a 2
-crit
-.
-The horizontal gray lines represent the values yminðhÞða2Þ,
-ymaxðhÞða2Þ of the local minimum and maximum, respectively,
-of the function yhðr; a2Þ (black dashed curve). For 0 <y<
-yminðhÞða2Þ (blue region), the function ypolðr; a2Þ determines two
-polar SPOs (the inner one stable, the outer one unstable) in the NS
-spacetimes belonging to class IV a or VIa. For yminðhÞ <y<
-ymaxðhÞða2Þ it determines one polar SPO (unstable) in the sta-
-tionary region (gray area) of the BH spacetimes of class II or III.
-For ymaxðhÞða2Þ <y the curve y ¼ ypolðr; a2Þ is irrelevant, since
-this part lies completely in the dynamic region (red area) of the
-NS spacetimes of class VII or VIII. The white/green area
-corresponds to the stationary region below the inner (Cauchy)/
-cosmological horizon of the appropriate BH/NS spacetime.
-DANIEL CHARBULÁK and ZDEN Ě K STUCHLÍK PHYS. REV . D 110, 124050 (2024)
-124050-10
-
-which correspond to the superspinar (NS) spacetimes with
-two polar SPOs, and the spacetimes of classes VIa and VIb,
-corresponding to the superspinar (NS) spacetimes with no
-polar SPOs, as introduced in [28].
-In this paper, we do not address all the properties that
-trigger this classification, except for the presence/absence
-of polar SPOs. In Fig. 9 we therefore present the classi-
-fication of spacetimes only in terms of the number of
-horizons and polar SPOs.
-C. Classification of the KdS superspinar (NS)
-spacetimes
-The classification of KdS superspinar (NS) spacetimes
-into classes IV–VIII, some of which are indicated in Fig. 9,
-is determined by the nature of the radial motion of the
-photons. This motion is determined by the behavior of the
-effective potentials X
-/C6 ðr; q; y; a2Þ, where the equality
-X ¼ X/C6 ðr; q; y; a2Þ ≡ ar2 /C6
-ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
-Δr½r4 þ qða2 − ΔrÞ/C138
-p
-a2 − Δr
-ð66Þ
-gives the turning points in the radial direction for photons
-with the impact parameter X. Equation (66) follows from
-the inequality (38) by inserting an equal sign and express-
-ing the parameter X.
-The curves X ¼ X/C6 ðr; q; y; a2Þ delimit the region of
-forbidden values of the impact parameter X in the ( r-X)
-plane, where the inequality (38) is not met, acting as a
-repulsive potential barrier of the radial photon motion. It
-follows from the definition in Eq. (66) and from the dis-
-cussion made in Sec. II C that the function Xþðr; q; y; a2Þ
-can have up to two divergent points in the region r> 0 [95]
-that coincide with the solution of Eq. (19), i.e., with radii
-given by Eq. (21). Note that these radii depend only on the
-spacetime parameters a2;y . If these two real solutions exist,
-we have the KdS spacetimes with the divergent repulsive
-barrier (DRB) of the radial photon motion. Thus, it further
-follows from Sec. II C that spacetimes with DRB corre-
-spond to spacetimes with two separate ergospheres —the
-inner one and the cosmological one. On the other hand,
-if there is no real solution of Eq. (19), the function
-X
-þðr; q; y; a2Þ has no points of divergence and we have
-the KdS spacetimes with the restricted repulsive barrier
-(RRB) of the radial photon motion. It therefore corres-
-ponds to the spacetimes with a single ergosphere.
-The limiting cases between the KdS spacetimes with
-DRB and RRB, where the radii given by Eq. (21) merge,
-have spacetime parameters restricted by the relation
-y ¼ y
-erg−sða2Þ, which is represented by the red curve in
-Fig. 9. The spacetimes with DRB/RRB correspond to the
-region below/above the curve y ¼ yerg−sða2Þ in the ða2-yÞ
-parameter plane.
-A detailed analysis of the X/C6 ðr; q; y; a2Þ functions has
-been carried out in [28] for r> 0 and will not be repeated
-here. Using the typical behavior of the potentials shown in
-Fig. 10, we briefly outline here the basic characteristics of
-FIG. 9. Functions ymaxðhÞða2Þ (black curve), yminðhÞða2Þ (gray
-curve), ymaxðpolÞða2Þ (black dashed curve), yerg−sða2Þ (red curve),
-ydðSPOÞða2Þ (blue curve) and the corresponding division of the
-parameter plane ðy-a2Þ into sections corresponding to BH and NS
-spacetimes with appropriate number of polar SPOs. The coloring
-of each region is chosen to be consistent with Figs. 7 and 8. The
-red and blue curves represent the subdivision of the parameter
-plane according to the classification introduced in [28], which is
-recalled below and in the commentary to Fig. 10. Note that the
-values on the y axis are plotted on a logarithmic scale.
-FIG. 8. Behavior of the function ypolðr; a2Þ (full curve) for the
-spin parameter corresponding to the case a2
-crit <a 2 <a 2
-maxðpolÞK .
-The horizontal gray line represents the value ymaxðpolÞða2Þ of the
-local maximum of the function ypolðr; a2Þ. The loci of this
-maximum represent the radius rmaxðpolÞðyÞ of the marginally
-stable polar SPO. This line separates the spacetimes with two
-polar SPOs, which belong to the class IV a or VIa, from the
-spacetimes with no polar SPOs, which correspond to the class
-IVb or VIb. For a
-2
-maxðpolÞK <a 2, ymaxðpolÞða2Þ < 0, so there
-are no polar SPOs in the spacetimes with a2
-maxðpolÞK <a 2. The
-coloring has the same meaning as in the previous figure. The
-division of the parameter plane ðy − a2Þ into regions correspond-
-ing to the different types of KdS spacetimes discussed above is
-shown in Fig. 9.
-LIGHT ESCAPE CONES IN THE LOCALL Y NONROTA TING … PHYS. REV . D 110, 124050 (2024)
-124050-11
-
-(a) (b)
-(c) (d)
-FIG. 10. Basic types of photon orbits in individual classes of the KdS superspinar (NS) spacetimes with appropriately chosen
-parameters y; a2 in relation to the effective potentials Xþðr; q; y; a2Þ (red curve) and X−ðr; q; y; a2Þ (blue curve). The motion constant q
-is chosen to highlight the different types of orbits. The curves X/C6 delimit the region of forbidden values of the impact parameter X (dark
-gray region), acting as a barrier of radial motion, which can be divergent (DRB) or restricted (RRB). The blue region corresponds to
-bound orbits occupied by trapped photons with negative covariant energy E< 0 (see [28] for details), the green region corresponds to
-unbound orbits occupied by photons with E< 0 but escaping toward the cosmological horizon. Light gray regions mark the trapped
-photons with E> 0, yellow regions mark the escaping photons with at most one turning point, if initially directed inward. Black full
-vertical lines at the common points of the functions X
-/C6 ðrÞ mark the loci of the cosmological horizon. Black dashed vertical lines are the
-asymptotes of the function XþðrÞ at r ¼ r/C6erg, delimiting the radial extent of the ergosurface in the equatorial plane. Only class IV is
-relevant from an astrophysics perspective, since the other classes correspond to enormously high values of a cosmological parameter that
-is inconsistent with observations and will therefore not be discussed in detail. The range and structure of the photon orbits in the case of
-class IV a are as follows. The local minima of the function X
-þðrÞ correspond to the stable spherical photon orbits with E< 0, which
-appear to be retrograde in the LNRFs. V arying the motion constant q, these minima correspond to the blue dashed part of the curve
-XSPOðrÞ in Fig. 5(a). Their radii rE<0
-SPOs are in the range 0 <r E<0
-SPOs <r þ
-dðSPOÞ. The local maxima of the function X−ðrÞ correspond to the
-stable SPOs with E> 0, which can be either retrograde or prograde in the LNRFs, with the polar spherical orbit at r ¼ rþ
-pol as being the
-boundary between these directions. V arying the motion constant q, these local maxima correspond to the dark blue and red parts of the
-curve XSPOðrÞ in Fig. 5(a). The radii rE>0
-SPOs are in the range rþ
-dðSPOÞ <r E>0
-SPOs <r ms. The local maxima of the function XþðrÞ and the local
-minima of the function X−ðrÞ represent the unstable SPOs. With varying motion constant q, these extremes correspond to the light blue
-and red parts of the XSPOðrÞ curve in Fig. 5(a). These extrema meet each other at r ¼ rmax
-SPO, where rmax
-SPO is the local maximum of the
-function qSPOðrÞ. V arying the motion constantq, the projection of these maxima onto the ( q-X) motion constant plane forms the critical
-locus. The radii rSPO of the unstable SPOs are in the range rms <r SPO <r −
-ph, where r−
-ph is the radii of the equatorial circular photon
-orbit, which is counterrotating. The structure of the photon orbits in other cases can be found, e.g., in [28,77]. (a) IV a:
-y ¼ 0.02;a 2 ¼ 1.2; q ¼ 60. (b) V: y ¼ 0.001;a 2 ¼ 20. (c) VIb: y ¼ 0.04;a 2 ¼ 1.5; q ¼ 500. (c) VII: y ¼ 0.02;
-a2 ¼ 50; q ¼ 0.1.
-DANIEL CHARBULÁK and ZDEN Ě K STUCHLÍK PHYS. REV . D 110, 124050 (2024)
-124050-12
-
-the individual KdS superspinar (NS) spacetimes for the
-following suitably chosen representatives:
-(i) Class IV a, represented by the spacetime with param-
-eters y ¼ 0.02, a2 ¼ 1.2 [see Fig. 10(a)], corre-
-sponding to the spacetimes with DRB and the
-regions of trapped photon orbits with both positive
-and negative covariant energy (see the comment on
-Fig. 10). The label “a” marks the presence of two
-polar SPOs, which is manifested by the fact that
-local extrema X
-exð−Þ of the function X−ðr; q; y; a2Þ
-can take the value Xexð−Þ ¼ XSPO ¼ −a. The behav-
-ior of the effective potentials corresponding to
-Class IVb, not shown in Fig. 10, where the label
-“b” corresponds to the absence of the polar SPOs,
-is qualitatively the same as for class IV a. The
-absence of the polar SPOs is manifested by the
-extrema Xexð−Þ < −a.
-(ii) Class V , represented by the spacetime with param-
-eters y ¼ 0.001, a2 ¼ 20 [see Fig. 10(b)], corre-
-sponding to the spacetimes with the same properties
-of the radial photon motion as in the previous case,
-but besides that it contains a small region of unusual
-bound orbits with X
-þ <X< 0 and E> 0 (see detail
-in the cutout) —for re <r max
-SPO the critical locus
-XSPOðqSPOÞ is partly hidden in the forbidden region.
-(iii) Class VIb, represented by the spacetime with
-parameters y ¼ 0.04, a2 ¼ 1.5 [see Fig. 10(c)],
-corresponding to the spacetimes with RRB of the
-radial photon motion and the regions of trapped
-photon orbits with both positive and negative covar-
-iant energy. The label b again corresponds to the
-absence of the polar SPOs. The behavior of the
-effective potentials for the both classes VIa and VIb
-differs in the same manner as in the cases of IV a
-and IVb.
-(iv) Class VII, represented by the spacetime with param-
-eters y ¼ 0.02, a
-2 ¼ 50 [see Fig. 10(d)], corre-
-sponding to the spacetimes with no trapped
-photon orbits with positive covariant energy. The
-other properties of the photon motion are the same
-as for class VI.
-Class VIII corresponds to spacetimes with extremely
-high spacetime parameters, for which a
-2y> 1. It is not
-shown in Fig. 10, since the behavior of the effective poten-
-tials is qualitatively the same as for class VII. However, it
-differs from the class VII by the properties of the latitudinal
-photon motion (for more details see [28]).
-In the present paper we do not construct LECs for the
-KdS spacetime classes VI –VIII because of the extremely
-outlying values of the spacetime parameters relative to
-the parameters corresponding to cosmological observations
-of the relict cosmological constant [96], for which any
-connection with real observations is excluded.
-IV. LIGHT ESCAPE CONES AND KDS
-SUPERSPINAR SHADOWS IN THE LNRFS
-In this section, we present the resulting LECs/shadows
-for some selected KdS superspinar (NS) spacetimes that
-belong to classes IV and V , with astrophysically acceptable
-values of the cosmological parameter. However, in order to
-highlight the optical effects, we use a cosmological para-
-meter many orders of magnitude above the realistic values,
-which qualitatively does not change the result. Emitters ’
-positions are chosen to give qualitatively different result-
-ing LECs.
-The shape of the LEC for a given spacetime depends on
-the latitudinal and radial position of the emitter. We present
-the construction of the LEC for the special latitudinal
-positions, namely, on the spin axis ( θ
-e ¼ 0°), in the
-equatorial plane ( θe ¼ 90°), and we choose characteristic
-latitudinal coordinates of θe ¼ 60°o r θe ¼ 70° representing
-a general position of the observer, depending on the better
-representation of the shadow structure. In order to clearly
-display a continuous progression of the shape of the LEC as
-the latitude increases, some specific latitudes are used in
-addition to those mentioned above.
-The LECs are constructed in greatest detail for accord-
-ingly chosen radii in the case of the spacetimes of class IV a,
-which has the most complex structure of null geodesics
-according to the radial photon motion. The outstanding
-radii, which give some qualitative changes of the LECs, are
-presented in Tables I–III.
-TABLE I. Significant radii related to the photon motion in the
-KdS spacetime of class IV a.
-ya 2 rþ
-dðSPOÞ rþ
-pol rms r−
-pol rþerg r−
-ph rs r−erg rc
-0.02 1.2 1.08 1.28 1.59 2.08 2.30 3.51 3.68 5.55 5.77
-TABLE II. Significant radii related to the photon motion in the
-KdS spacetime of class IVb.
-ya 2 rþ
-dðSPOÞ rms rþerg r−
-ph rs r−erg rc
-0.02 2 1.10 1.93 2.36 3.58 3.68 5.44 5.81
-TABLE III. Significant radii related to the photon motion in the
-KdS spacetime of class V .
-ya 2 rþ
-dðSPOÞ rþerg rmax
-SPO rms r−
-ph rs r−erg rc
-0.001 20 1.02 2.05 3.06 3.57 6.24 10 30.23 30.59
-LIGHT ESCAPE CONES IN THE LOCALL Y NONROTA TING … PHYS. REV . D 110, 124050 (2024)
-124050-13
-
-A. Directional angles of photons in LNRFs
-Using the locally measured photon four-momentum
-components kðaÞ, the standard ( α, β, γ) directional angles
-can be introduced using the relations [30]
-cos α ¼ kðrÞ=kðtÞ; ð67Þ
-sin α cos β ¼ kðθÞ=kðtÞ; ð68Þ
-sin α sin β ¼ cos γ ¼ kðϕ Þ=kðtÞ: ð69Þ
-The frame and the coordinate components are related by
-the general formula
-kðaÞ ¼ ω ðaÞ
-μ kμ; ð70Þ
-where the differential 1-forms of the LNRFs are given by
-relations
-ω ðtÞ ¼
-ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
-ΔrΔθρ2
-I2A
-r
-dt; ð71Þ
-ω ðrÞ ¼
-ﬃﬃﬃﬃﬃ ﬃ
-ρ2
-Δr
-s
-dr; ð72Þ
-ω ðθÞ ¼
-ﬃﬃﬃﬃﬃ ﬃ
-ρ2
-Δθ
-s
-dθ; ð73Þ
-ω ðϕ Þ ¼
-ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
-Asin2 θ
-I2ρ2
-s
-ðdϕ − ΩLNRF dtÞð 74Þ
-and the coordinate four-momentum components kμ ¼ dxμ
-dλ ,
-xμ ∈ ft; r; θ; ϕ g are given by Eqs. (31)–(36).
-For completeness, we present the orthonormal tetrad of
-basis vectors,
-eðtÞ ¼
-ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
-I2A
-ΔrΔθρ2
-s /C18∂
-∂t þ ΩLNRF
-∂
-∂ϕ
+All finite-mass Dirac monopoles
+Filip Blaschke 1,2,* and Petr Bene š 2,†
+1Research Centre for Theoretical Physics and Astrophysics, Institute of Physics,
+Silesian University in Opava, Bezru čovo nám ěstí 1150/13, 746 01 Opava, Czech Republic
+2Institute of Experimental and Applied Physics, Czech Technical University in Prague,
+Husova 240/5, 110 00 Prague 1, Czech Republic
+(Received 3 November 2022; accepted 7 December 2022; published 27 December 2022)
+We present a “primitive” way of realizing finite-mass Dirac monopoles in Uð1Þ gauge theories involving
+a single nonminimally interacting scalar field. Typically, the energy density of this type of monopole is not
+concentrated at its core, but it is distributed in a spherical shell, as we illustrate on several exact solutions
+in the Bogomol'nyi-Prasad-Sommerfield limit. We show that our construction can be interpreted
+as a limit of infinitely massive W bosons coupled to electromagnetic field strength via a dipole moment.
+Combining our approach with ideas of Weinberg and Lee, we present a general landscape of Uð1Þ gauge
+models that support a finite-mass Dirac monopole. In fact, all classical monopoles, i.e., Wu-Yang, ’t Hooft-
+Polyakov, Cho-Maison, etc., are special points on this landscape.
+DOI: 10.1103/PhysRevD.106.125014
+I. BARE AND DRESSED MONOPOLES
+In the classical Maxwell theory ( e denotes the electric
+charge)
+L ¼ − 1
+2e2 FμνFμν; ð1Þ
+a magnetic monopole is a singular configuration of Uð1Þ
+gauge fields, i.e., the solution of ⃗∇ × ⃗A ¼ q⃗r=r3, with q
+being a dimensionless constant. As is well known, the vector
+potential can be described everywhere except on a line going
+from the monopole to infinity, the so-called Dirac string [1].
+For instance, a static monopole at the origin with a Dirac
+string lying on negative z axis is given as
+A
+D
+i ¼ q εi3jxj
+rðr þ zÞ : ð2Þ
+The shape of the string can be changed via gauge
+transformation.
+The above description, which we dub a “bare monop-
+ole,” is singular in three logically distinct ways. Namely,
+1. there is an unphysical singularity along the Dirac string,
+2. there is a physical singularity at the origin in both gauge
+fields and in the magnetic field ⃗B ¼ q⃗r=r
+3 (we define
+Bi ≡ 1
+2 εijkFjk), and 3. the energy density E ¼ q2=ð2e2r4Þ
+diverges at the origin in such a way that the total energy
+(i.e., the classical mass of the monopole) is infinite.
+These singularities are invariably clues that point to the
+incompleteness of the theoretical model. However, in so far
+as physics is concerned, they are not equivalently serious.
+The presence of Dirac string is simply a failure of global
+description of the Uð1Þ fiber bundle. The singularity in ⃗B is
+a result of taking the bird’s eye point of view and describing
+the monopole as a point particle. By itself, this is not a
+problem as we can reasonably expect that in a more
+fundamental theory this singularity will be smoothed out
+by monopole’s microscopic degrees of freedom. However,
+the real red flag is the absence of finite energy solutions.
+All in all, we are compelled to depart from the pure
+Maxwell theory. Fortunately, unlike the case of electric
+monopoles, we do not have to abandon classical field
+theory to establish the existence of finite-mass Dirac
+monopoles.
+Let us now follow the (somewhat chronological) path
+that leads to finite-mass field-theoretical descriptions. First,
+there was an observation of Wu and Yang [2] that one can
+get rid of a Dirac string by embedding (2) into an SUð2Þ
+gauge field ( q ¼ 1):
+A
+WY
+i ¼ εiajσaxj
+2r2 ¼ AD
+i Uσ3U† − iU∂iU†; ð3Þ
+where σa are the Pauli matrices and where
+U ¼
+/C18cosðθ=2Þ − sinðθ=2Þe−iφ
+sinðθ=2Þeiφ cosðθ=2Þ
 /C19
-; ð75Þ
-eðrÞ ¼
-ﬃﬃﬃﬃﬃ ﬃ
-Δr
-ρ2
-s
-∂
-∂r ; ð76Þ
-eðθÞ ¼
-ﬃﬃﬃﬃﬃ ﬃ
-Δθ
-ρ2
-s
-∂
-∂θ ; ð77Þ
-eðϕ Þ ¼
-ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
-I2ρ2
-Asin2 θ
-s
-∂
-∂ϕ : ð78Þ
-Here ΩLNRF is the angular velocity of the LNRF relative
-to distant static observers, which is given by the relation
-ΩLNRF ¼ − gtϕ
-gϕϕ
-¼ a½Δθðr2 þ a2Þ − Δr/C138
-A : ð79Þ
-Through Eqs. (67)–(74) and the associated relations,
-there is a correspondence between the triad of the direc-
-tional angles ( α, β, γ) and the double of the motion
-constants ( X, q). In fact, any two directional angles from
-this triad are sufficient; the standard choice is the pair (α, β).
-The construction of the LECs can thus be regarded as a
-transformation of the ( X-q) plane of the motion constants
-onto the directional angles [68]. To give an insight into the
-notion of the motion constants, we present the correspond-
-ing ( X-q) plane together with each constructed LEC.
-B. Representation of the LECs
-In the present paper, we represent the LECs as two-
-spheres represented in 3D, following the work [68], where
-we were more concerned by their performance in 2D mode.
-These spheres consist of the end points of the photon ’s
-three-momentum vector of unit magnitude k
-ðtÞ ¼ 1 located
-at its center, where the emitter resides; the directional
-angles are given by the relations (67)–(69) corresponding to
-all the motion constants ðX; qÞ allowing the motion at the
-considered emitter ’s location. This embodiment allows us
-to show more details of a given situation without distortion,
-but the disadvantage is that we need two views for each
-situation so that no hidden parts of the spheres remain.
-Therefore, in the figures below we present for each
-situation the plane of motion constant ( X-q) and the
-corresponding two-sphere shown from two different views.
-C. Complementary cones to the LECs
-When constructing the LECs, we can distinguish the
-photons that escape toward the cosmological horizon from
-those that do not, thus forming a complementary cone to
-the LEC. While the concept of the LEC is clear for both
-black holes and superspinars (NSs), in the case of com-
-plementary cones there are differences between the BH,
-superspinar, and NS spacetimes.
-In the case of BH spacetimes the situation is much
-simpler due to the presence of the BH event horizon, which
-acts as a one-way membrane, and due to the absence of
-stable SPOs and related bound photon orbits —the photon
-trajectories in BH spacetimes can have at most one radial
-turning point. The total light flux from a light emitter
-consists of photons escaping to the cosmological horizon,
-either directly or after passing through some pericenter,
-forming thus the LEC, and photons absorbed by the black
-hole, which again reach the event horizon either directly or
-after passing through some apocenter; these photons form
-the complementary cone to the LEC, i.e., the captured cone.
-The boundary between these cones is given by the photons
-emitted toward the unstable SPOs.
-DANIEL CHARBULÁK and ZDEN Ě K STUCHLÍK PHYS. REV . D 110, 124050 (2024)
-124050-14
+ð4Þ
+*filip.blaschke@fpf.slu.cz
+†petr.benes@utef.cvut.cz
+Published by the American Physical Society under the terms of
+the Creative Commons Attribution 4.0 International license.
+Further distribution of this work must maintain attribution to
+the author(s) and the published article ’s title, journal citation,
+and DOI. Funded by SCOAP 3.
+PHYSICAL REVIEW D 106, 125014 (2022)
+2470-0010=2022=106(12)=125014(5) 125014-1 Published by the American Physical Society
 
-1. Classification of the complementary cones
-in superspinar (NS) spacetimes
-In the case of the superspinar (NS) spacetimes, the notion
-of the LECs is the same as in the case of BH spacetimes.
-However, the cone complementary to the LEC has a more
-complex character even in the case of KdS superspinars,
-where the surface is assumed to serve as a one-way
-membrane, similar to the BH spacetimes, because of the
-existence of stable SPOs. The case of the KdS NSs is even
-more complex, as there is no surface serving as a one-way
-membrane. We propose the following classification of the
-complementary cones to the LECs in the case of super-
-spinars and NSs.
-KdS superspinars:
-(i) “trapped cones, ” formed by bound trajectories of
-photons that oscillate between two radial turning
-points r
-1, r2, 0 <r 1 <r 2 < þ∞ , i.e., the pericenter
-and apocenter, around some stable SPO; in this case,
-the light source must be in a region of stable
-SPOs; and
-(ii) “engrossed cones,” formed by trajectories terminat-
-ing on the superspinar surface.
-KdS NS spacetimes:
-(i) “repelled escape cones, ” consisting of photons
-passing through the interior of the ring singularity
-at r ¼ 0; 0 ≤ θ < π=2 into the region of negative
-radii and, after passing through a certain radial
-turning point at rt < 0, finally repelled back to
-r> 0; and
-(ii) “oppositely escape cones ” composed of photons
-passing through the interior of the ring singularity
-at r ¼ 0; 0 ≤ θ < π=2 into the region of negative
-radii and continuing to the other infinity r → −∞.
-In the present article we will not discuss the last two
-classes (NS spacetime) of light cones in detail, as we have
-covered them in [77]. Here we assume that light does not
-reach the negative radius region, since the surface of the
-superspinar prevents it.
-2. Negative energy light cones
-It should be added that there is another criterion for
-classifying photon orbits according to the sign of their
-covariant energy E. As we have found in [28], in each KdS
-spacetime there exist orbits, where the photons have
-positive impact parameter X, but appear to move in retro-
-grade direction as seen in the LNRFs. These orbits must be
-located in the ergosphere, and the photons must have
-negative covariant energy E< 0 [97].I n [28] we found that
-their impact parameter X must satisfy X>X
-þðre; q ≥ 0Þ.
-In spacetimes with DRB of the radial photon motion, i.e., in
-the case of classes IV and V , there are two spatially
-separated ergoregions (see Fig. 2). The inner ergoregion
-is occupied by the trapped negative energy photons, which
-we have shown in Figs. 10(a) and 10(b) as the blue part
-of the ( X-r) plane, while the cosmological ergoregion
-(see Sec. II C) is occupied by the negative energy photons
-escaping toward the cosmological horizon, which we
-have depicted as the green part of the ( X-r) plane in
-Figs. 10(c) and 10(d).
-In spacetimes with RRB of the radial photon motion, i.e.,
-in the case of classes VI –VIII, the ergoregion spreads along
-whole equatorial plane. For r
-e <r −
-dðSPOÞ there are photons
-with E< 0 which can be trapped or escape, for r−
-dðSPOÞ <
-re <r c there exist only escaping photons with E< 0 [see
-Figs. 10(c) and 10(d)].
-D. Description of the light cones
-We give the structure of the light cones for the KdS
-superspinars, and for comparison we also include the parts
-corresponding to the KdS NSs, where the photon can reach
-the region of negative radii.
-The escape cones in Figs. 13–24 are shown as the yellow
-part of the two-sphere, which we can regard as the emitter ’s
-local celestial sphere, the trapped cones are shown in gray.
-The blue parts correspond to the trapped photons with
-negative covariant energy E< 0, which occurs when the
-source is in the inner ergosphere. The green parts depict the
-photons with negative covariant energy escaping toward
-the cosmological horizon when the source is in the outer
-ergosphere. The boundary between the trapped and escape
-light cones, given by a beam directed toward the unstable
-spherical photon orbits, i.e., with motion constants X
-SPO,
-qSPO, is illustrated by full or dashed orange curves. The
-dashed curve denotes that the photon has a radial turning
-point before it reaches the unstable SPO. The darker purple
-parts correspond to the escape cones to the other infinity;
-the lighter purple parts correspond to the repelled photons
-with radial turning points at negative radii r< 0. The
-engrossed cones are depicted in red; in Figs. 13–24 the
-surface radius of the superspinar is set to R ¼ 0.1.
-Note that the coloring in Figs. 13–24 is chosen to match
-the coloring in the attached ( X-q) planes and the corre-
-sponding parts in the ( X − r) plots in Fig. 10.
-E. Dependence of LEC’s shape on the emitter ’s position
-1. Latitudinal position on the spin axis
-If the emitter is located on the spin axis, then all emitted
-photons have the impact parameter X ¼ −a (l ¼ 0) and
-the motion constant q can take the values −a
-2 ≤ q ≤
-qmaxðX ¼ −a; reÞ [see Figs. 11(a), 13(a), 16(a), 17(a),
-19(a), 22(a), and 23(a)]. The inward directed photons with
-−a2 ≤ q< 0 enter the region of negative radii r< 0, from
-which the photons with −a2 ≤ q ≤ qSPOðrSPO < 0Þ
-escape to the other infinity ( r → −∞ ), photons with
-qSPOðrSPO < 0Þ <q< 0 have the radial turning point at
-rt < 0 and are repelled back to the r> 0 region, and pho-
-tons with q ¼ 0 hit the ring singularity. For 0 <q ≤
-qmaxðX ¼ −a; RÞ, the radiation is engrossed by the
-LIGHT ESCAPE CONES IN THE LOCALL Y NONROTA TING … PHYS. REV . D 110, 124050 (2024)
-124050-15
+is a (singular) SUð2Þ gauge transformation that relates the
+Wu-Yang monopole AWY
+i and the Dirac monopole AD
+i .B y
+itself, however, this enhancement of symmetry is not
+sufficient to get rid of other singularities, neither in the
+SUð2Þ “magnetic” fields, nor in the energy density.
+But, as was realized independently by ’t Hooft [3] and
+Polyakov [4], the Wu-Y ang monopole can be made
+completely regular via spontaneous symmetry breaking
+instigated by adjoint scalars. Loosely speaking, these
+additional fields condense at monopole ’s core and smooth
+out the r ¼ 0 singularity—the monopole becomes dressed.
+Due to this field-dressing, the ’t Hooft-Polyakov monopole
+has none of the three singularities and represents the best
+classical description of a magnetic monopole.
+However, as E. Weinberg and K. Lee pointed out [5]—
+and what we want to propagate in this paper as well —it is
+also possible to come up with finite-mass monopoles
+without resorting to non-Abelian gauge fields (2).
+The key idea of [5] is to couple an Uð1Þ gauge field
+to a complex vector field W
+μ with nonzero dipole
+moment tensor dμν ¼ iðW†
+μWν − WμW†
+νÞ that screens the
+bare monopole ’s charge via dipole moment interactions.
+In other words:
+L ¼ − 1
+4g2 F2μν − η
+2 dμνFμν − χg2
+4 d2μν
+− 1
+2 jDμWν − DνWμj2 þ m2jWμj2; ð5Þ
+where DμWν ¼ð ∂μ þ iAμÞWν. The parameter η measures
+the strength of the dipole interactions with external electro-
+magnetic field, while χ measures the dipole-dipole self-
+interactions. For a static configuration, the energy density
+can be rewritten as
+E ¼
+χ
+4
+/C18
+gdij þ η
+χg Fij
+/C19 2
+þ 1
+4g2
+/C18
+1 − η2
+χ
+/C19
+F2
+ij
+þ 1
+2 jDiWj − DjWij2 þ m2jWij2: ð6Þ
+In order to cancel the singularity in Fij we need dij to have
+the same type of singularity and —as we see —we must
+require η2 ¼ χ. However, by itself this is not enough to
+make E regular [5]. Critically, the mass term would still
+give us ∼1=r2. Furthermore, simply setting m ¼ 0 from
+the beginning would not help either. This can be seen in
+the limit η ¼ λ ¼ 1, where the above model can be
+rewritten as pure SUð2Þ model upon identifications A
+μ ¼
+A3μ and Wμ ¼ð A1μ þ iA2μÞ=ð
+ﬃﬃﬃ
+2
+p
+gÞ. The static solution is
+gauge equivalent to Wu-Yang monopole, which we know
+has divergent energy.
+Thus a further field must be added, namely a real scalar
+field ϕ that develops a nonzero expectation value at the
+vacuum, but which vanishes at the monopole ’s core.
+The idea is to make mass of Wμ dependent on ϕ in such
+a way that m2ðϕ Þ → m2ð0Þ¼ 0 as r → 0.
+All in all, the Weinberg-Lee ’s procedure for regularizing
+magnetic monopole can be encompassed by the following
+Lagrangian:
+LWL ¼ − 1
+4g2 F2μν − η
+2 dμνFμν − χg2
+4 d2μν
+− 1
+2 jDμWν − DνWμj2 þ m2ðϕ ÞjWμj2
+þ 1
+2 ð∂μϕ Þ2 − λ
+2 ðϕ 2 − v2Þ2: ð7Þ
+The total energy of a monopole solution is finite and regular
+if we take η2 ¼ χ and make an appropriate choice of m2ðϕ Þ.
+In [5], these solutions were dubbed nontopological mag-
+netic monopoles, as the mechanism that renders monopoles
+in these models to have finite classical masses has nothing
+to do with topological reasoning ál a ’t Hooft-Polyakov.
+Nevertheless, the ’t Hooft-Polyakov monopole is, in fact, a
+special point in the above family of models, namely η ¼
+χ ¼ 1 and m2ðϕ Þ¼ g2ϕ 2. Indeed, with these assignments
+(7) becomes a unitary gauge of SUð2Þ theory with an
+adjoint scalar Φ ¼ 1
+2 σ3ϕ.
+To summarise, Eq. (7) gives us finite-mass magnetic
+monopoles that, compared to bare monopoles of Eq. (1),
+are dressed in complex vector fields Wμ with explicit dipole
+moment interactions and a scalar field ϕ that controls the
+mass of Wμs, making it effectively zero at the monopole ’s
+core. This idea can be depicted as in Fig. 1.
+In the next section, we introduce a “primitive” way of
+regularizing magnetic monopole’s energy that is seemingly
+unrelated to these arguments. Our construction will lead us
+to novel solutions that can be described exactly in the
+Bogomol'nyi-Prasad-Sommerfield (BPS) limit λ → 0.
+However, in Sec. III we will unify our and Weinberg-
+Lee’s points of view into a much broader landscape of
+theories that support finite-mass Dirac monopoles.
+II. A PRIMITIVE WAY
+The core idea of this paper is to have a real scalar field ϕ
+interact directly with the electric magnetic field via a
+noncanonical kinetic term:
+FIG. 1. Transition from a bare monopole of (1) to a “dressed”
+monopole of (7).
+FILIP BLASCHKE and PETR BENE Š PHYS. REV . D 106, 125014 (2022)
+125014-2
 
-superspinar surface at r ¼ R. Other photons may escape or
-be trapped depending on the radial position with respect to
-the radii of the outer polar unstable SPO at r
-−
-pol, if it exists.
-In Figs. 11(a) and 12(a) the outstanding values of
-the motion constant q, i.e., −a2, qSPOðrSPO < 0Þ,0 ,
-qmaxðX ¼ −a; RÞ, qmaxðX ¼ −a; reÞ are denoted as q−2,
-q−1, q0, q1, q2, respectively.
-If re <r þ
-pol is small enough such that qmaxðX ¼
-−a; reÞ <q SPOðXSPO ¼ −aÞ [Fig. 11(a) left] or there are
-no polar SPOs [Fig. 23(a) left], then all photons with q> 0
-escape [Figs. 12(a) and 23(a) right].
-For larger values of re, but still satisfying the condition
-re <r −
-pol, such that qmaxðX ¼ −a; reÞ >q SPOðXSPO ¼ −aÞ
-[cf. black and orange points of the ( X − q) motion constant
-plane in Figs. 13(a) and 16(a)], there are trapped cones,
-which are depicted as a spherical belt. They are delimited
-by photons emitted directly outward to r
-−
-pol, represented by
-full orange circles, and indirectly inward with radial turning
-point rt, rt <r e, which are represented by the dashed
-orange circles [Figs. 13(a) and 16(a)]. The trapped cones
-then exist for any latitude.
-If re >r −
-pol, there are no trapped photons, but there are
-inward directed photons terminating on the outer polar SPO
-[see the orange circle in Figs. 17(a), 19(a), and 20(a)].
-In the spacetimes without polar SPOs, all photons either
-escape or are engrossed by the superspinar surface, inde-
-pendent of the radial position of the emitter [see Fig. 23(a)].
-2. General latitudinal position
-Depending on the latitude of the emitter, the trapped
-cones can take the shape of a spherical belt [see Figs. 13
-and 16(a)], biangle [Figs. 14(a), 16(b), and 16(c)], spherical
-canopy (Fig. 24), or cover substantial part of the emitter ’s
-sky on a hemisphere oriented in the direction opposite
-to that of the LNRF ’s motion [see Figs. 12(b), 14(b), 15,
-and 18]. The boundary of the cone is made up of two lines,
-one corresponding to photons with no radial turning point
-before reaching the unstable SPOs, which we present as a
-full orange curve, and the other corresponding to photons
-with one radial turning point, which we present as a dashed
-orange curve.
-If the emitter is in the region of stable SPOs, i.e., under
-the radii r
-ms in spacetimes of classes IV –VI, or under the
-radii rmax
-SPO in the case of classes VII and VIII (see the
-comment to Fig. 10), then all the unstable SPOs are located
-above the emitter, and for every outward photon that
-directly reaches an unstable SPO, there exists an inward
-photon with the same motion constants X
-SPO, qSPO that
-reaches the same orbit after passage through some radial
-turning point. The two lines forming the boundary of the
-trapped cone are then placed symmetrically on the emitter ’s
-sky with respect to the ðe
-θ-eϕ Þ plane of his local vector
-basis (see Figs. 13–15). The photon sent on the actual stable
-SPO, thus maintaining the actual radius re, is represented
-by a blue dot.
-If the emitter is located in the region of unstable SPOs,
-i.e., at rms <r e <r −
-ph for class IV a, some unstable SPOs
-are located below the emitter ’s location and can only be
-reached directly by photons emitted in the radial inward
-direction, while the unstable SPOs located above can be
-reached directly by outwardly directed photons, or indi-
-rectly by inwardly directed photons, as described above.
-The full orange curve then exceeds the dashed one and
-forms an arc [see Figs. 16(c), 17(c), 18, and 20]. The
-trapped cone appears for latitudes exceeding some critical
-value θ
-maxðcircÞ and has a shape of spherical biangle. The
-tips of the biangles, depicted as white dots, represent the
-directions of photons sent into the currently occupied
-unstable SPO.
-For the location of the emitter above the region of
-unstable SPOs, i.e., at re >r −
-ph, only inwardly directed
-photons can reach the unstable SPOs, hence the dashed
-orange line and the trapped cone disappear. The full orange
-curve then forms a circle for 0 ≤ θe < θmaxðcircÞ or an arc
-for θmaxðcircÞ ≤ θe ≤ π=2 about the engrossed cone (see
-Figs. 21 and 22).
-We can emphasize that in the spacetimes with the polar
-SPOs there exist some maximum angle θmaxðcircÞ for which
-the circular edges of the trapped cones making the biangles
-disconnect [Figs. 14(a), 16(a), 18, and 17(c)], or the circle
-around the engrossed cone splits into an arc [cf. Figs. 21(a)
-and 21(b)].
-In the spacetime with no polar SPOs, there exists some
-minimum angle θminðarcÞ which must be exceeded for
-occurrence of the arc [cf. Figs. 23(b) and 23(c)].
-Since the LECs are closely related to the superspinar
-shadows, it is more interesting from an astrophysical point
-of view that the angle θ
-maxðcircÞ can be regarded as a
-maximum angle for which an observer in a spacetime with
-the polar SPOs at ro >r −
-ph can see a distortion of the
-celestial background along a circular contour on his
-celestial sphere, which changes to an arc at larger latitudes.
-Observing the circle can thus give upper bounds either on
-the latitude of the observer or on the spin of the observed
-object for a known value of the second parameter.
-Accordingly, the angle θ
-minðarcÞ can be regarded as the
-minimum angle at which an observer at ro >r −
-ph can see
-the arc in spacetimes without polar SPOs. Observing an arc
-with a small central angle ξ can give a lower limit on the
-spin parameter a2 (see Sec. IV F).
-Note that in all types of the KdS superspinar (NS)
-spacetimes there is a limiting angle θmaxðellÞ for which the
-shadow of a superspinar observed by a distant observer, i.e.,
-at re >r −
-ph, has the shape of an ellipse (Fig. 21). At larger
-observer latitudes, the shadow gradually transforms into a
-wedge shape.
-DANIEL CHARBULÁK and ZDEN Ě K STUCHLÍK PHYS. REV . D 110, 124050 (2024)
-124050-16
+L ¼ − h02ðϕ =vÞ
+4g2 F2μν þ 1
+2 ð∂μϕ Þ2 − λ
+2 ðϕ 2 − v2Þ2: ð8Þ
+From the outset, there seems to be no need for the complex
+vector field Wμ and dipole moment interactions (but see
+Sec. III). Indeed, this model can yield finite-energy
+magnetic monopole solutions for appropriate choices of
+so-far arbitrary function h
+0ðϕ =vÞ (this notation with the
+prime denoting a derivative becomes obvious when we
+discuss the BPS limit). Without loss of generality we take
+the normalization h
+0ð1Þ¼ 1.
+We can depict this primitive way of a field-dressing by
+means of just a scalar field as in Fig. 2.
+Let us analyze the full equations of motion for a static
+configuration:
+⃗∇ × ðh02ðϕ =vÞ ⃗BÞ¼ 0; ð9aÞ
+⃗∇2ϕ ¼ h0ðϕ =vÞh00ðϕ =vÞ
+g2v
+⃗B2 þ 2λϕðϕ 2 − v2Þ: ð9bÞ
+We see that in the monopole background, ⃗B ¼ q⃗r=r3, the
+first equation is solved identically if the scalar field depend
+only on the (dimensionless) radius, i.e., ϕ ≡ vσðρÞ, where
+ρ ¼ gvr. The second equation (subject to the boundary
+conditions σð0Þ¼ 0 and σð∞ Þ¼ 1) then reads
+1
+ρ2 ∂ρðρ2∂ρσÞ¼ q2 h0ðσÞh00ðσÞ
+ρ4 þ 2λ
+g2 σðσ2 − 1Þ: ð10Þ
+From the expression for the energy density
+E
+g2v4 ¼ q2 h02ðσÞ
+2ρ4 þ 1
+2 ð∂ρσÞ2 þ λ
+2g2 ðσ2 − 1Þ2 ð11Þ
+it is clear that a necessary condition for E to be regular at
+origin is h0ð0Þ¼ 0. It is not a sufficient condition, though,
+as can be seen by assuming a leading power dependence
+h0 ∼ h0σα as σ → 0. In this case one must additionally
+assume α ∈ ½1; 2/C138 in order to maintain regularity of E. The
+asymptotic behavior of σ and E near the origin then falls
+into two categories:
+1 < α ≤ 2∶
+8
+>>
+<
+>>
+:
+σ ∼
+h
+ρ
+qh0ðα−1Þ
+i 1
+α−1
+E
+g2v4 ∼
+h
+ρ2−α
+qh0ðα−1Þα
+i 2
+α−1
+ð12aÞ
+and
+α ¼ 1∶
+8
+<
+:
+σ ∼ σ0 exp
+/C16
+− jqh0j
+ρ
+/C17
+E
+g2v4 ∼
+q2h2
+0σ2
+0
+ρ4 exp
+/C16
+−2 jqh0j
+ρ
+/C17 : ð12bÞ
+In the first category ( 1 < α ≤ 2) both σ and E fall off in the
+origin as a power law with a positive exponent. In the
+second category ( α ¼ 1), which is just a limit case α → 1,
+both σ and E develop nonanalytic profiles ∼e−1=ρ.A sw e
+shall see, this behavior is indicative of a maximal region
+around monopole’s core where almost no energy is stored.
+Thus, this kind of monopole is “hollow” (a term that we
+adopt from [6]). It should be also pointed out, that only in
+the case α ¼ 2, the energy density does not vanish at the
+origin. In all other cases, the energy is stored in a
+spherical shell.
+A. The BPS limit
+In the BPS limit λ → 0, the energy density can be
+completed into a total square as
+E ¼
+1
+2
+/C18
+⃗∇ϕ − h0ðϕ =vÞ
+g
+⃗B
+/C19 2
+þ v
+g
+⃗∇ðhðϕ =vÞ ⃗BÞ; ð13Þ
+where we used hðϕ =vÞ ⃗∇ · ⃗B ¼ hð0Þqδ3ð⃗rÞ¼ 0. Thus, we
+demand that the primitive function of h0 is zero at each zero
+of ϕ , namely hð0Þ¼ 0. Notice that this fixes the constant of
+integration. With this additional condition, one can easily
+derive the formula for mass of the BPS monopole:
+MBPS ¼ 4πvq
+g hð1Þ¼ 4πvq
+g
+Z 1
+0
+h0ðσÞdσ: ð14Þ
+Let us illustrate the BPS solutions on a particular family
+of functions
+h0ðσÞ¼ σ1þ1=n; ð15Þ
+where n ≥ 1. The BPS equation ⃗∇ϕ ¼ h0ðϕ =vÞ ⃗B=g can be
+easily integrated. For instance, taking a single monopole at
+the origin, 1 i.e., ⃗B ¼ q⃗r=r3, the result reads
+FIG. 2. Transition from a bare monopole of (1) to a “dressed”
+monopole of (8).
+1Exact multimonopole solutions can be readily obtained as
+well, simply by taking ⃗B ¼ qP
+ið⃗r − ⃗riÞ=j⃗r − ⃗rij3, where the
+sum goes over positions ⃗ri of the monopoles.
+ALL FINITE-MASS DIRAC MONOPOLES PHYS. REV . D 106, 125014 (2022)
+125014-3
 
-(a) (b)
-(c)
-FIG. 11. Planes of motion constants ( X-q) for the displayed latitudinal coordinates θe corresponding to special location on the spin
-axis, in the equatorial plane, and one general location in between. The chosen radial coordinate fulfils re <r þ
-dðsphÞ, which corresponds to
-the region of the inner ergosphere with stable locally counterrotating SPOs with negative covariant energy E< 0. The coloring reflects
-different properties of the photon motion in the same manner as in Fig. 10: yellow parts distinguish the motion constants of photons
-escaping to r → þ∞ , either directly, or with one turning point if inward directed; light gray parts correspond to the captured photons
-with positive covariant energy E, blue parts correspond to the captured photons with negative covariant energy E< 0, dark gray parts
-mark the forbidden regions due to the reality conditions (37) and (38). For q< 0, the light purple part corresponds to photons entering
-the region of negative radii r< 0 and repelled back to positive radii, the dark purple part corresponds to photons escaping to r → −∞ .
-The light red part corresponds to photons engrossed by the surface of the superspinar if they are initially directed inward or to escaping
-photons if they are initially directed outward. The rich red part corresponds to photons absorbed by the surface of the superspinar
-independent of their initial radial motion. Full orange curves designate the critical locus corresponding to the unstable SPOs, dashed
-orange curve corresponds to the stable SPOs with E< 0, dot-dashed curve corresponds to the stable SPOs with E> 0. The stable SPOs
-are always hidden for photons by the potential barrier, the only exception being the photon emitted with the motion constants
-highlighted by the blue point, which denotes the touch point of the displayed curves. It stays on the stable SPO with the current radius r
-e.
-For θe ¼ 0°, the condition (37) implies X ¼ −a, hence the allowed region has shrunk to an abscissa X ¼ −a, −a2 ≤ q ≤ qmaxð−a; reÞ.
-For a better understanding of the meaning of the motion constants, Figs. 12 and 20 explicitly show the photon directions corresponding
-to the prominence curves X ¼ const and q ¼ const, marked here by the red vertical lines and the black horizontal lines. Note that with
-the same labels they can have different meanings for different latitudes θe. It should be emphasised that here, and in all other figures
-below, the surface of the superspinar at radius R ¼ 0.1 is considered. (a) θe ¼ 0°. (b) θe ¼ 90°. (c) θe ¼ 60°.
-LIGHT ESCAPE CONES IN THE LOCALL Y NONROTA TING … PHYS. REV . D 110, 124050 (2024)
-124050-17
-
-(a)
-(b)
-(c)
-FIG. 12. Light escape cones represented by the spherical surface formed by the end points of the unit three-momentum vectors of the
-photons emitted by the source located at its center, corresponding to Fig. 11, i.e., the chosen radial coordinate re corresponds to the
-region of the inner ergosphere with negative covariant energy SPOs. The angle of view is apparent from the orientation of the local basis
-vectors. The meaning of the individual spherical sectors, curves, points, and their coloring can be read in the comments to Fig. 11. The
-light purple part corresponds to photons entering the region of negative radii r< 0 and repelled back to positive radii, the dark purple
-part corresponds to photons escaping to r → −∞ . The boundary of this part represents photons that hit the ring singularity. For θ
-e ¼ 90°
-it shrinks to an arc in the equatorial plane depicted in magenta. A photon emitted in the direction represented by the blue point follows
-the stable SPO at the current coordinate r
-e ¼ 0.9. The actual observed shadow of the superspinar corresponds to the red region, while the
-shadow of the NS corresponds to the purple region; the dark purple represents a dark spot flanked by a circle (a) or sickle-shaped
-(b) bright fringe, represented by the light purple region. The shadow of the NS observed from the equatorial plane corresponds to the arc
-in magenta, but it is practically unobservable due to its infinitesimal thickness. The same conclusions apply to the shadows in the
-following images. (a) θ
-e ¼ 0°. (b) θe ¼ 60°. (c) θe ¼ 90°.
-DANIEL CHARBULÁK and ZDEN Ě K STUCHLÍK PHYS. REV . D 110, 124050 (2024)
-124050-18
-
-(a)
-(b)
-FIG. 13. Planes of motion constants ( X-q) and affiliated LECs for rþ
-dðSPOÞ <r e ¼ 1.25 <r þ
-pol corresponding to the region of the inner
-ergosphere with stable locally counterrotating SPOs with positive covariant energy E> 0. In the left column, the full/dashed orange
-curves in the ( X-q) plane for q> 0 correspond to the unstable/stable SPOs in the region r> 0, the full orange curves with q< 0
-correspond to the unstable SPOs at r< 0. The meaning of the other curves follows from the captions. The yellow, light gray, light red,
-light purple, and purple region depicts the motion constants of the escaping, trapped, engrossed, repelled, and escaping to the other
-infinity photons, respectively. The coloring of the individual parts of the local celestial spheres of the emitter in the middle and right
-columns are chosen correspondingly. Dashed orange curves correspond to photons which reach some radial turning point and finally
-wind to the unstable polar SPO, while the full orange curve matches the photons that reach it directly. In the case θ
-e ¼ 0°, the unstable
-SPO is the polar SPO at r−
-pol ¼ 2.08. The blue dot in the figures below represents a photon maintaining the current stable spherical orbit.
-(a) θe ¼ 0°. (b) θe ¼ 2.40°
-LIGHT ESCAPE CONES IN THE LOCALL Y NONROTA TING … PHYS. REV . D 110, 124050 (2024)
-124050-19
-
-There is an outstanding region of the stable SPOs
-separated by the forbidden region in the spacetimes of
-class V (see Fig. 24), located under the radii r
-max
-SPO, while the
-unstable orbits are in the range as in the classes VII and
-VIII. For emitters located at radii re ≲ rmax
-SPO, the cone of
-trapped photons is delimited by a circle on the two-sphere,
-which occurs for latitude greater than a certain minimum,
-θ
-e > θminðcircÞ; for θe ¼ θminðcircÞ this cone shrinks to an
-infinitesimal extent in the negative ϕ direction. For details
-about class V spacetime, see [28].
-3. Position in the equatorial plane
-In the most interesting case re >r −
-ph the photons
-escaping toward the unstable SPOs always make an arc,
-which central angle ξ we investigate below. We also
-investigate the central angle η of the wedge-shaped shadow
-of the superspinar.
-In the NS spacetimes, the ring singularity is reached by
-photons with motion constants q ¼ 0 and XSPOðr−
-phÞ ≤
-X ≤ 0. They are depicted in magenta as an arc in the
-equatorial plane.
-(a)
-(b)
-FIG. 14. Continuation of Fig. 13. The latitude in the upper figure is chosen so that a continuous transition of the shape of the trapped
-cone from the spherical belt to the spherical biangle can be seen, whose circular edges finally disconnect for θmaxðcircÞ. In the figure
-below, the source is inside the ergoregion θe > θerg ¼ 22.3°, so there are photons detected with E< 0, corresponding to the blue regions
-on the ( X-q) plane and on the celestial sphere. The light/rich red parts of the ( X-q) plane correspond to engrossed photons reaching the
-superspinar surface directly/after passing through a radial turning point. The exact value of the latitude corresponds to the marginal case,
-when negative energy photons start to reach the superspinar surface. (a) θ
-e ¼ θmaxðcircÞ ¼ 5.74°. (b) θe ¼ 66.28°.
-DANIEL CHARBULÁK and ZDEN Ě K STUCHLÍK PHYS. REV . D 110, 124050 (2024)
-124050-20
-
-F. Relation between the LECs
-and the superspinar shadows
-The LECs constructed in the 3D mode presented below
-can also be used as a representation of the observer ’s local
-sky including the superspinar shadow. The construction of
-the shadows in the 3D mode would proceed in an analogous
-way using the analysis of photon motion above. Each
-incoming photon is associated with a point on the celestial
-sphere where the associated ray of light would pass through
-the sphere. Since with the same motion constants X, q, the
-incoming photon would pass through the sphere symmet-
-rically with respect to the apparent image of the spin axis as
-related to the leaving photon, the emitter ’s LEC and the
-observer’s celestial sky are symmetric overall. However,
-what appears to be symmetric from the center looks as if it
-were seen from the outside of the sphere. Hence, the below
-constructed 3D LECs can be viewed as the observer ’s star
-globes, depicting his celestial sky viewed from the point
-of his residence. This is the another advantage of this
-embodiment.
-Whatever is shown on the LECs has a counterpart on the
-globe. For instance, the engrossed cones correspond to the
-superspinar shadow, since no photons with the appropriate
-motion constants can come to the observer from far
-distances from the corresponding directions. Further-
-more, if there were no source of radiation in the direc-
-tions of the trapped cones at 0 <r
-e <r −
-ph, the observer at
-ro ¼ re should see a dark sky in directions that are axially
-symmetric with respect to the apparent image of the spin
-axis. On the other hand, if there were a source, e.g., hot
-matter from the accretion disk, there would be a large
-amount of radiation coming from these directions.
-If the observer is located at r ¼ r
-o >r −
-ph, then he sees an
-arc as a part of the superspinar shadow. The arc itself is
-infinitesimally thin, but it is conspicuous due to the
-distortion of star patterns, which images lie along the
-arc, as the photons with motion constants X ≈ XSPO,
-q ≈ qSPO emitted from the far stars must go many times
-around some unstable SPO corresponding to the arc before
-they reach the observer.
-(a)
-(b)
-FIG. 15. Continuation of Fig. 14. The surface of the superspinar with increasing latitude toward the equatorial plane is successively
-impacted by the negative energy photons in both positive ( kðrÞ > 0) and negative ( kðrÞ < 0) locally measured radial directions. The
-meaning of the coloring is the same as in the previous figures. (a) θe ¼ 72.86°. (b) θe ¼ 90°.
-LIGHT ESCAPE CONES IN THE LOCALL Y NONROTA TING … PHYS. REV . D 110, 124050 (2024)
-124050-21
-
-(a)
-(b)
-(c)
-FIG. 16. LECs for re ¼ 1.8 representing the case rms <r e <r −
-pol, corresponding to the region of the inner ergosphere with unstable
-corotating SPOs with positive covariant energy E> 0. For θe ¼ 0° the there exist a trapped cone as in previous case. Since re <r −
-pol, the
-trapped cone exists for any latitude. A photon emitted in the direction represented by the white point follows the unstable SPO at the
-current coordinate re. As a result of emitter ’s radial position, the lower SPOs are reached only by inward photons, so the full orange
-curve exceeds the dashed one and for latitude θmaxðcircÞ it disconnects and an arc appears. (a) θe ¼ 0°. (b) θe ¼ 6.36°.
-(c) θe ¼ θmaxðcircÞ ¼ 8.29°.
-DANIEL CHARBULÁK and ZDEN Ě K STUCHLÍK PHYS. REV . D 110, 124050 (2024)
-124050-22
-
-(a)
-(b)
-(c)
-FIG. 17. LECs for re ¼ 2.2 representing the case r−
-pol <r e <r þerg, corresponding to the region of the inner ergosphere with unstable
-counterrotating SPOs. There are no trapped cones on the spin axis, since all photons emitted to the polar SPO are directed inward. For
-θ
-e ¼ 3.32° there is a photon directed on the actual unstable SPO, represented by the white dot. For θe > θmaxðcircÞ ¼ 8.29° the orange
-curve disconnects and an arc is formed. (a) θe ¼ 0°. (b) θe ¼ 3.32°. (c) θe ¼ θmaxðcircÞ ¼ 8.29°.
-LIGHT ESCAPE CONES IN THE LOCALL Y NONROTA TING … PHYS. REV . D 110, 124050 (2024)
-124050-23
-
-When constructing the shadow of a superspinar, we
-consider for comparison the situation where there is a
-naked singularity in its position. Apart from the arc, there is
-a direct silhouette of the NS given by the null geodesics
-connecting the ring singularity and its interior with the
-observer. The dark spot is seen in the directions where the
-photons escape to the other infinity (at negative radii sheet),
-its boundary is determined by photons with the motion
-constants X
-SPOðrSPO < 0Þ;q SPOðrSPO < 0Þ. The null geo-
-desics from the remaining part have a turning point in
-region r< 0, so if there is a source of illumination, the
-region on the observer ’s sky corresponding to photons
-coming from the directions between the ring singularity and
-the boundary of the dark spot could be visible.
-G. Relevance of the polar SPOs with construction
-of the LECs/shadows
-From the above we can summarize that the relevance of
-the polar SPOs with the construction of the LECs and
-superspinar/NS shadows is as follows. If a spacetime is
-endowed with the polar SPOs, then the critical locus
+ϕ ¼ v
+ð1 þ q
+nρÞn and E
+g2v4 ¼ q2
+ρ4ð1 þ q
+nρÞ2nþ2 ; ð16aÞ
+in full accordance with our asymptotic formulas (12a).
+The limit n → ∞ takes us directly to the “hollow”
+monopole case:
+ϕ ¼ ve−q=ρ and E
+g2v4 ¼ q2
+ρ4 e−2q=ρ; ð16bÞ
+corresponding to the asymptotic behavior (12b). We dis-
+play the energy densities (16) in Fig. 3. The mass of the
+monopole follows from (14) as
+M ¼ 4πvq
+g
+n
+2n þ 1 : ð17Þ
+III. OUTLOOK: BROADENING THE LANDSCAPE
+At first, it seems that our primitive approach of the
+previous section runs orthogonal to the Weinberg-Lee ’s
+ideas of charge screening via dipole moment interactions.
+However, there is a natural connection between the two that
+results from the following observation. We can rewrite
+Eq. (8) as
+L ¼ −
+1
+4g2 F2μν − ηðϕ =vÞ
+2
+˜dμνFμν − g2 χðϕ =vÞ
+4
+˜d2
+μν
+þ 1
+2 ð∂μϕ Þ2 − λ
+2 ðϕ 2 − v2Þ2: ð18Þ
+Indeed, upon eliminating ˜dμν via its equation of motion
+∂˜dμν
+L ¼ 0, we obtain
+L ¼ − 1
+4g2
+/C20
+1 − η2ðϕ =vÞ
+χðϕ =vÞ
+/C21
+F2μν þ 1
+2 ð∂μϕ Þ2 − λ
+2 ðϕ 2 − v2Þ2:
+ð19Þ
+Hence we return to the original Lagrangian (8) if2
+η2 ¼ χð1 − h02Þ: ð20Þ
+Furthermore, we can identify ˜dμν with the dipole moment
+tensor of the vector field Wμ in the limit of infinite mass. 3
+It is in this sense that our primitive approach falls into the
+same purview as the Weinberg-Lee ’s procedure, namely
+that the finiteness of the monopole ’s mass is realized by
+screening of the magnetic charge via dipole moment
+interactions.
+There is, however, one important difference. Notice
+that our approach calls for field-dependent η and χ
+couplings that were, however, kept constant in (7). From
+the formula (20), we see that at the monopole ’s position
+η2ð0Þ¼ χð0Þ, namely the same condition required by the
+Weinberg-Lee scheme for eliminating the singularity in
+energy density. On the other hand, in the vacuum ηð1Þ¼ 0,
+i.e., the dipole moment interactions are shut down. This is
+physically different process then having field-dependent
+mass of W
+μ fields.
+Thus, we see that ours and Weinberg-Lee ’s approach are
+not equivalent, but they are a special cases of a yet more
+general procedure that can be subsumed by the following
+landscape of Uð1Þ gauge theories:
+L ¼ −
+f2
+1ðϕ =vÞ
+4g2 F2μν − ηðϕ =vÞ
+2 dμνFμν − χðϕ =vÞg2
+4 d2μν
+− f2
+2ðϕ =vÞ
+2 jDμWν − DνWμj2 þ m2ðϕ =vÞjWμj2
+þ 1
+2 ð∂μϕ Þ2 − λ
+2 ðϕ 2 − v2Þ2: ð21Þ
+In this landscape both approaches are combined: both mass
+and dipole couplings are taken as functions of ϕ =v (again,
+some redundancy exists as one of those functions can be
+FIG. 3. Energy density profiles (16) for various n. We take
+q ¼ 1.
+2One can absorb either η or χ into the definition of ˜dμν,
+hence there is no ambiguity in the correspondence between
+(18) and (8).
+3By this, we mean that Wμ fields are frozen so that their
+kinetic term vanishes. Moreover, a similar Lagrangian as in
+Eq. (18) can be obtained by starting with the Weinberg-
+Lee model (7) and dropping the kinetic term jD½μWν/C138 j2 there.
+Of course, the functions mðϕ =vÞ, χðϕ =vÞ,a n d ηðϕ =vÞ are
+different, but the structure is similar, which is what we
+emphasize. The mass term m2jWj2, which is present in (7)
+but not in (18), can be accounted for (at least in local patches)
+by assigning ˜dμν ¼ dμν þ mðϕ =vÞ
+g2χðϕ =vÞ gμν
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+−W†
+ρWρ
 q
-SPOðXSPOÞ in the corresponding ( X-q) plane of motion
-constants is defined for XSPO ¼ −a ðlSPO ¼ 0Þ. It then
-intersects the degenerated graph of the function
-qminðX; θe → 0Þ defined by the relations (45) and (46).
-As the photon emitter moves away from the spacetime
-symmetry axis, i.e., as θ
-e grows, the parabola qminðX; θeÞ
-cuts an arc at the critical locus. According to the radial
-position of the emitter relative to the outer unstable
-(a)
-(b)
-FIG. 18. Continuation of Fig. 17. Since re <r −
-ph there is a trapped cone for sufficiently large latitudes. Furthermore, due to the
-position of the emitter in the ergosphere, there is a marginal latitude θergðrÞ¼ 69.5°, so that for θe > θergðrÞ there is a flux of trapped
-photons with E< 0. In the figure below, all photons with negative energy are absorbed by the surface of the superspinar, which is shown
-by the blue region being covered by the red. (a) θe ¼ 65°. (b) θe ¼ 90°.
-DANIEL CHARBULÁK and ZDEN Ě K STUCHLÍK PHYS. REV . D 110, 124050 (2024)
-124050-24
+,w h e r e dμν ¼
+iðW†
+μWν − W†
+νWμÞ as in (7).
+FILIP BLASCHKE and PETR BENE Š PHYS. REV . D 106, 125014 (2022)
+125014-4
 
-(a)
-(b)
-(c)
-FIG. 19. Planes of the motion constants ( X-q) for the case a2 ¼ 1.2, y ¼ 0.02, re ¼ 2.65. The latitudinal coordinates correspond to
-special cases on the spin axis, in the equatorial plane, and in the general position. The radial coordinate corresponds to case
-rþerg <r e <r −
-ph, i.e., the region of unstable counterrotating SPOs with positive covariant energy E> 0 outside the ergosphere, hence,
-the function qmaxðX; reÞ is now concave. The label X−3 in the detail on the right denotes two close lines, namely, X ¼ −1.116 (red),
-which is local minimum of qminðX; θÞ, and X ¼ a ¼ −1.095, i.e., l ¼ 0 (blue, dotted). (a) θe ¼ 0°. (b) θe ¼ 70°. (c) θe ¼ 90°.
-LIGHT ESCAPE CONES IN THE LOCALL Y NONROTA TING … PHYS. REV . D 110, 124050 (2024)
-124050-25
-
-(a)
-(b)
-(c)
-FIG. 20. Light escape cones associated with the planes of motion constants ( X-q) in Fig. 19. (a) θe ¼ 0°, (b) θe ¼ 70°, and
-(c) θe ¼ 90°.
-DANIEL CHARBULÁK and ZDEN Ě K STUCHLÍK PHYS. REV . D 110, 124050 (2024)
-124050-26
-
-(a)
-(b)
-(c)
-FIG. 21. LECs for the case r−
-ph <r e <r −erg, i.e., the region outside the ergosphere and SPOs and close to the static radius at rs ¼ 3.68.
-There are no trapped cones and an arc appears for latitudes large enough, θe > θmaxðcircÞ ¼ 8.29°. The middle figure introduces the
-limiting angle θmaxðellÞ, for which the cone of absorbed photons is still elliptical. In the equatorial plane in the figure below, this cone
-transforms into a wedge shape. The cone of light escaping to r → −∞ and the repelled cone degenerate into the shape of a line in the
-equatorial plane, shown in magenta. (a) θe ¼ θmaxðcircÞ ¼ 8.29°. (b) θe ¼ θmaxðellÞ ¼ 64.39°. (c) θe ¼ 90°.
-LIGHT ESCAPE CONES IN THE LOCALL Y NONROTA TING … PHYS. REV . D 110, 124050 (2024)
-124050-27
-
-(a)
-(b)
-(c)
-FIG. 22. LECs for the case r−erg <r e <r c, corresponding to the cosmological ergosphere, where the photons with negative locally
-measured azimuthal component kðϕ Þ < 0 of their four-momentum and with negative covariant energy E< 0 occur. These photons
-correspond to the regions depicted in green. The meaning of the remaining coloring is the same as in the previous case. (a) θe ¼ 0°.
-(b) θe ¼ 70°. (c) θe ¼ 90°.
-DANIEL CHARBULÁK and ZDEN Ě K STUCHLÍK PHYS. REV . D 110, 124050 (2024)
-124050-28
-
-(a)
-(b)
-(c)
-FIG. 23. LECs in spacetime with DRB and no polar SPOs. The radii of the observers are chosen to be at the static radius rs ¼ 3.68.
-Since there are no polar SPOs, there is neither a trapped cone nor critical locus for an observer located on the polar axis, but it appears as
-an arc for θ
-e > θminðarcÞ ¼ 21.79°. Otherwise, the appearance of the LECs for θe > θminðarcÞ remains similar to the case of the spacetimes
-of the class IV a and angles θe > θmaxðcircÞ as presented in the figures above. (a) θe ¼ 0°. (b) θe ¼ θminðarcÞ ¼ 21.79°. (c) θe ¼ 45°.
-LIGHT ESCAPE CONES IN THE LOCALL Y NONROTA TING … PHYS. REV . D 110, 124050 (2024)
-124050-29
-
-spherical photon orbit r−
-pol and the equatorial circular photon
-orbit r−
-ph, this may cause a spherical belt or biangle to form
-on the emitter’s celestial sphere, where the emitted photons
-are trapped, or just a circle separating the two cones of the
-escaping photons (see, e.g., Figs. 14, 16,a n d 17 and the
-comments). Then there exists a critical angle θ
-maxðcircÞ for
-which the circle disconnects and an arc appears [cf., e.g.,
-Figs. 18(a) and 18(b) or Figs. 21(b) and 21(c)].
-On the other hand, if there are no polar SPOs in the
-spacetime, then the intersection of the graph of the function
-qminðX; θeÞ with the critical locus appears after a certain
-minimum angle is attained. We denoted it θminðarcÞ in the
-spacetimes of class IVb or VIb, since for θe > θminðarcÞ an
-arc occurs (see Fig. 23), and θminðcircÞ for the spacetimes of
-class V , since for θe > θminðcircÞ a circlelike-shaped boun-
-dary of the trapped cone occurs (see Fig. 24). Then there is
-neither a belt nor an arc for θe < θminðarc=circÞ.
-V. ASTROMETRIC OBSERVABLES
-We can now relate our constructions to the notion of the
-KdS superspinar shadow to the astrophysical context,
-namely, to coordinates used by nearly static observers at
-a large distance from the superspinar.
-A. Celestial coordinates
-In the following we shall focus on the detail of the
-observer’s celestial sphere containing the superspinar shad-
-ows for an observer at a large distance. For our purposes it is
-convenient to introduce the celestial coordinates ˜α; ˜β,w h i c h
-are related to the directional angles α, β by the relations
-˜α ¼ − sin α sin β ¼ −kðϕ Þ=kðtÞ;
-˜β ¼ sin α cos β ¼ kðθÞ=kðtÞ: ð80Þ
-These angles are, as in the Kerr case, y ¼ 0, proportional
-to 1=r, however, here we cannot use the usual formula (see,
-e.g., [37,43,85])
-˜α ¼ lim
-ro→∞
-ð−rokðϕ Þ=kðtÞÞ; ð81Þ
-˜β ¼ lim
-ro→∞
-ðrokðθÞ=kðtÞÞ; ð82Þ
-as we cannot place the observer at arbitrary distances due to
-the presence of the cosmological horizon at r ¼ rc.W e
-shall deal with a distant observer, by which we mean an
-observer located outside the region of the SPOs, i.e., at
-r
-−
-ph <r o <r c. Following our previous work [77],w e
-choose the family of LNRFs near the static radius in
-Kerr–de Sitter spacetimes, since they exhibit characteristics
-similar to those of static observers at large distances in
-asymptotically flat spacetimes [81,82].
-B. Observable quantities
-In Fig. 25 we present the observables that we shall
-investigate below. These observables depend on the space-
-time parameters and both the latitudinal and radial position
-of the observer. In Figs. 26–28 we show the radial
-dependence of some observables for several values of
-the dimensionless cosmological constant and for two
-FIG. 24. LEC in the case of class V spacetime with small region of unusual bound orbits with Xþ <X< 0 and E> 0 [see the detail in
-Fig. 10(b)]. It causes that for re ≲ rmax
-SPO the critical locus XSPOðqSPOÞ is partly hidden in the forbidden region (detail in the figure left). As
-a consequence, there exists a minimal angle θminðcircÞ, such that for θe > θminðcircÞ, here θminðcircÞ ¼ 60.7°, a light cone of the trapped
-photons appears, which is bounded by a circlelike-shaped rim on the sphere (figure right). For θe ¼ θminðcircÞ this cone shrinks to an
-infinitesimal extent directed in the negative ϕ direction.
-DANIEL CHARBULÁK and ZDEN Ě K STUCHLÍK PHYS. REV . D 110, 124050 (2024)
-124050-30
-
-representative spin parameters corresponding to the class
-IV a and VIa KdS superspinar (NS) spacetimes, i.e., both
-with DRB but the former with the polar SPOs, the latter
-without the polar SPOs. We shall not deal with the
-spacetimes with RRB, as they are not astrophysically
-relevant due to implausibly high values of the dimension-
-less cosmological constant.
-The fixed value a
-2 ¼ 1.2 ≈ a2
-crit was chosen as a
-“medium” spin value of class IV a KdS spacetimes,
-allowing the existence of the polar SPOs. In such space-
-times, the shadow consists of the dark spot surrounded by a
-full “circle,” observed for latitudes θ
-o smaller than some
-critical maximum θmaxðcircÞ allowing the appearance of the
-circle. For θo > θmaxðcircÞ, the circle splits into an arc (see
-Fig. 21). The dependence of the angle θmaxðcircÞ on the
-spacetime parametersa2;y i ss h o w ni nF i g .30(a). The central
-angle ξ of the arc decreases with latitude θo and it reaches
-its minimum value ξmin for some latitude θξðminÞ, 0 <
-θξðminÞ < 90°, from which it grows slightly to its local maxi-
-mum ξeq in the equatorial plane θo ¼ 90°[ s e eF i g .29(a)].
-The dependence of the angles θξðminÞ, ξmin on the spacetime
-parameters a2;y i ss h o w ni nF i g s .30(b)–30(d).
-The fixed value a2 ¼ 2 corresponds to a spacetime
-without the polar SPOs. In such spacetimes there is no
-arc for latitudes less than some critical minimum θ
-minðarcÞ
-close to the spin axis, θo < θminðarcÞ.F o r θo ¼ θminðarcÞ
-a degenerate arc appears which appears as a spot [see
-Fig. 23(b)], i.e., with the central angle ξ ¼ 0.F o r
-θminðarcÞ < θo the arc increases and its central angle grows
-monotonically to its maximum value ξeq in the equatorial
-plane θo ¼ 90° [see Fig. 29(b)]. The dependence of the
-angles θminðarcÞ, ξeq on the spacetime parameters a2;y is
-shown in Fig. 31.
-In Fig. 32 we plot the dependence of the angle θmaxðellÞ
-on the spacetime parameters, which represents the maxi-
-mum angle at which the observer can still see the elliptical
-shadow of the superspinar, which appears to be the largest
-[see Fig. 21(b)].
-Figure 33 shows the dependence of the ratio of the
-quantities b
-s, ba, defined in Fig. 25(b), on the spacetime
-parameters for different radii of the superspinar surface R.
-The maximum peak angle η of the wedge-shaped shadow
-of the superspinar as seen by the observers in the equatorial
-plane is plotted as a function of the spacetime parameters
-in Fig. 34.
-Figures 35 and 36 show the comparison of the superspinar
-shadows versus the NS shadows for a fixed value of the
-parameter a
-2=y while varying the parameter y=a2,r e s p e c -
-tively. We used the radial position on the static radius
-r
-o ¼ rs, as its vicinity represents the best local approxima-
-tion to the asymptotically flat region of the Kerr spacetime
-[82,83], and two representative observer latitudes, i.e., 60°,
-representing the position outside the equatorial plane, and
-the second latitude corresponding to the equatorial plane.
-In Figs. 37 and 38 we investigate the influence of the
-observer latitude on the observed images of the superspinar
-(NS) for both fixed spacetime parameters a
-2;y as seen on
-0.5 0.0 0.5 1.0
-1.0
-0.5
-0.0
-0.5
-1.0
-0.0 0.5 1.0 1.5
-1.0
-0.5
-0.0
-0.5
-1.0
-0.0 0.5 1.0 1.5
-1.0
-0.5
-0.0
-0.5
-1.0
-(a) (b) (c)
-FIG. 25. The observables investigated below: (a) the radius R of the osculating circle, approximating the light arc, lining either the
-shadow of the superspinar with surface at radius R ¼ 0.1 (red curve), or the NS shadow, consisting of the dark spot corresponding to
-photons escaping to the region of negative radii (darker purple curve) and photons entering the r< 0 region but repelled back to the
-r> 0 region (region between the darker and the light purple curve, which corresponds to photons terminating at the ring singularity);
-the diameter Ds of the dark spot, the diameter Da of the arc, the distance δs between the left end point of the spot and the center of the
-osculating circle, and the central angle ζ of the arc; (b) the “vertical” diameter bs of the largest elliptical shadow of the superspinar just
-reaching the arc with vertical diameter ba, observed at some critical latitude θmaxðellÞ to be investigated below; (c) the angle η of the
-wedge representing the shadow of the superspinar observed from the equatorial plane. Note that all the quantities are measured in
-radians.
-LIGHT ESCAPE CONES IN THE LOCALL Y NONROTA TING … PHYS. REV . D 110, 124050 (2024)
-124050-31
-
-0 50 100 150 200 250 300
-0.00
-0.05
-0.10
-0.15
-0.20
-0.25
-0.30
-r
-Da
-0 50 100 150 200 250 300
-0.00
-0.05
-0.10
-0.15
-0.20
-r
-R
-0 50 100 150 200 250 300
-0.00
-0.02
-0.04
-0.06
-0.08
-r
-0 50 100 150 200 250 300
-0.00
-0.01
-0.02
-0.03
-0.04
-0.05
-0.06
-r
-0 50 100 150 200 250 300
-0.00
-0.05
-0.10
-0.15
-0.20
-r
-Da
-0 50 100 150 200 250 300
-0.00
-0.05
-0.10
-0.15
-0.20
-r
-R
-0 50 100 150 200 250 300
-0.00
-0.05
-0.10
-0.15
-r
-0 50 100 150 200 250 300
-0.00
-0.02
-0.04
-0.06
-0.08
-r
-0
-30
-45
-60
-85
-FIG. 26. Comparison of the dependence of the observables on the radial position of an observer for some selected values of its
-latitudinal position for the case of the KdS spacetimes with (left) and without (right) polar SPOs.
-DANIEL CHARBULÁK and ZDEN Ě K STUCHLÍK PHYS. REV . D 110, 124050 (2024)
-124050-32
-
-4 5 6 7 8
-0.0
-0.5
-1.0
-1.5
-r
-Da
-4 5 6 7 8
-0.0
-0.2
-0.4
-0.6
-0.8
-1.0
-1.2
-r
-R
-4 5 6 7 8
-0.0
-0.1
-0.2
-0.3
-0.4
-0.5
-0.6
-r
-4 5 6 7 8
-0.00
-0.05
-0.10
-0.15
-0.20
-0.25
-r
-4 5 6 7 8
-0.0
-0.2
-0.4
-0.6
-0.8
-1.0
-1.2
-r
-Da
-4 5 6 7 8
-0.0
-0.2
-0.4
-0.6
-0.8
-1.0
-r
-R
-4 5 6 7 8
-0.0
-0.2
-0.4
-0.6
-0.8
-r
-4 5 6 7 8
-0.00
-0.05
-0.10
-0.15
-0.20
-0.25
-0.30
-0.35
-r
-0
-30
-45
-60
-85
-FIG. 27. Comparison of the dependence of the observables on the radial position of an observer for some selected values of its
-latitudinal position for the case of the KdS spacetimes with (left) and without (right) polar SPOs.
-LIGHT ESCAPE CONES IN THE LOCALL Y NONROTA TING … PHYS. REV . D 110, 124050 (2024)
-124050-33
-
-0 50 100 150 200 250 300240
-260
-280
-300
-320
-340
-360
-r
-4 5 6 7 8240
-260
-280
-300
-320
-340
-360
-r
-5
-10
-30
-45
-60
-90
-0 50 100 150 200 250 30050
-100
-150
-200
-250
-r
-4 5 6 7 850
-100
-150
-200
-250
-r
-20
-25
-30
-45
-60
-90
-FIG. 28. Dependence of the central angle ξ of the arc on the radial position of the observer for some selected values of his latitudinal
-position. The top row corresponds to the NS spacetimes with polar SPOs, hence for θo < θmaxðcircÞðy; a2Þ it is ξðrÞ¼ 360°. Here
-θmaxðcircÞð10−5; 1.2Þ¼ 9.74°, θmaxðcircÞð10−2; 1.2Þ¼ 9.04°. The bottom row corresponds to the NS spacetimes without polar SPOs,
-hence for θo < θminðarcÞðy; a2Þ there is no arc. Here θminðarcÞð10−5; 2Þ¼ 15.5°, θminðarcÞð10−2; 2Þ¼ 18.5°.
-20 30 40 50
-(a) (b)
-60 70 80 90
-240
-270
-300
-330
-360
-20 30 40 50 60 70 80 900
-30
-60
-90
-120
-150
-180
-210
-240
-FIG. 29. Comparison of the dependence of the central angle ξ on the latitude of the observer at the appropriate static radius rsðyÞ for
-some selected spacetimes with polar SPOs (a) and for spacetimes with the same cosmological parameter y but different spin parameter
-a2, corresponding to spacetimes with no polar SPOs (b). It can be seen that in the case of spacetimes with polar SPOs there is a certain
-local minimum ξmin for a certain angle θξðminÞ (highlighted by dots), while in the case of spacetimes without polar SPOs the angle ξ
-increases monotonically up to the value ξeq corresponding to the latitudinal coordinate in the equatorial plane θ ¼ 90°. The magnitude of
-both angles θ and ξ is plotted in degrees on both axes.
-DANIEL CHARBULÁK and ZDEN Ě K STUCHLÍK PHYS. REV . D 110, 124050 (2024)
-124050-34
-
-1.05 1.10 1.15 1.20 1.25 1.30 1.35
-220
-240
-260
-280
-300
-(a) (b)
-(c) (d)
-FIG. 30. Dependence of the characteristic angles on the spacetime parameters corresponding to class IV a: (a) the maximum angle
-θmaxðcircÞ under which the observer can see the light circle lining the superspinar/NS shadow, as described, e.g., in Fig. 21(b); (b) the
-observer’s latitude θξðminÞ at which he sees the local minimum ξmin of the angle ξ of the arc [cf. Fig. 29(a)]; (c) the value ξmin of the
-minimum angle ξ of the arc; (d) slices of the 3D graph in (c) through the planes of the constant parameter y for some appropriate values.
-For y ≪ 10−2 the curves almost overlap.
-LIGHT ESCAPE CONES IN THE LOCALL Y NONROTA TING … PHYS. REV . D 110, 124050 (2024)
-124050-35
-
-FIG. 31. Dependence of the characteristic angles on the spacetime parameters corresponding to class IVb: (a) the minimum observer ’s
-latitude θminðarcÞ allowing the observer to see the light arc lining the superspinar/NS shadow, as described, e.g., in Fig. 23(b); (b) the
-maximum angle ξeq of the arc seen in the equatorial plane [cf. Fig. 29(b)].
-FIG. 32. Dependence of the angle θmaxðellÞ, at which the observer sees the elliptical shadow of the superspinar touching the light arc, on
-the spacetime parameters corresponding to class IV . The superspinar boundary surface is set to R ¼ 0.1 (a), R ¼ 0.01 (b), and
-R ¼ 0.001 (c).
-FIG. 33. Dependence of the ratio bs=ba as defined in Fig. 25(b). The superspinar boundary surface is set to R ¼ 0.1 (a), R ¼ 0.01 (b),
-and R ¼ 0.001 (c). It can be seen that the smaller the value of the radius R of the superspinar surface, the narrower its elliptical shadow
-relative to the appropriate light arc.
-DANIEL CHARBULÁK and ZDEN Ě K STUCHLÍK PHYS. REV . D 110, 124050 (2024)
-124050-36
-
-FIG. 34. Dependence of the angle η, which defines the maximum shadow of the superspinar observed in the equatorial plane, on the
-spacetime parameters corresponding to class IV . The superspinar boundary surface is set to R ¼ 0.1 (a), R ¼ 0.01 (b),
-and R ¼ 0.001 (c).
-FIG. 35. Superspinar vs NS shadows for fixed spin parameter a2 ¼ 1.2 and different values of the cosmological parameter y as seen by
-an observer located at the static radius rs ¼ y−1=3 with latitude θo ¼ 60° (left) and at the equatorial plane θo ¼ 90° (middle). To clearly
-show the influence of the cosmological parameter on the shape of the shadow, the images are resized by the multiplicative factor
-Γ ¼ 1= ˜α
-max, so that the modified dimensionless coordinate ˜α= ˜αmax of their left end point is normalized to 1. The shadows contain the
-arcs determined by photons with motion constants XSPOðrSPO > 0Þ;q SPOðrSPO > 0Þ, which enclose the elliptical (left figure) or wedge-
-shaped (middle figure) shadows of the superspinar with surface at radius R ¼ 0.1. In the left figure, for comparison with the naked
-singularity case, we show the images of the dark spots, represented by smaller inner ellipses, through which the light can enter the region
-of negative radii, enclosed by photons with motion constants X
-SPOðrSPO < 0Þ;q SPOðrSPO < 0Þ. In the case θo ¼ 90° these spots
-disappear. Note that the red and orange curves almost overlap, so that for realistic values of the cosmological parameter y ≲ 10−22, where
-the upper limit corresponds to the most massive objects observed so far, these shadows are indistinguishable from those in the case of
-pure Kerr spacetime. The right panel gives the corresponding values of y; r
-s and the factor Γ by which each corresponding image should
-be resized to obtain the real angular coordinate ˜α; ˜β in radians.
-LIGHT ESCAPE CONES IN THE LOCALL Y NONROTA TING … PHYS. REV . D 110, 124050 (2024)
-124050-37
-
-0.2 0.0 0.2 0.4 0.6 0.8 1.0
-0.5
-0.0
-0.5
-0.2 0.0 0.2 0.4 0.6 0.8 1.0
-0.5
-0.0
-0.5 1.05
-1.20
-1.35
-1.50
-1.65
-0.86
-0.85
-0.84
-0.84
-0.83
-0.82
-0.80
-0.79
-0.79
-0.78
-FIG. 36. Superspinar vs NS shadows for fixed cosmological parameter y ¼ 0.01 and different values of the spin parameter a2 as seen
-by an observer located at the static radius rs ¼ y−1=3 ¼ 4.6 with latitude θo ¼ 60° (left) and in the equatorial plane θo ¼ 90° (middle).
-The description of the shadows is the same as in the previous figure. In order to clearly display the influence of the spin parameter on the
-shape of the shadow, the images are resized by multiplicative factor Γ ¼ 1= ˜α
-max so that the modified dimensionless coordinate ˜α= ˜αmax of
-their left end point is normalized to 1. The right panel gives the corresponding values of a2 and the factor Γ by which each image should
-be resized to obtain the real angular coordinate ˜α; ˜β in radians. The first three values of the parameter a2 correspond to spacetimes with
-polar SPOs, while the remaining two values correspond to spacetimes without polar SPOs. The middle value is close to the marginal
-value a2
-maxðpolÞðy ¼ 0.01Þ ≈ 1.355, where a2
-maxðpolÞðyÞ denotes the inverse of the function ymaxðpolÞða2Þ defined in (65).
-0.5 0.0 0.5 1.0
-0.5
-0.0
-0.5
-10
-15
-30
-45
-60
-63.4
-75
-90
-FIG. 37. Superspinar shadows for fixed cosmological parameters y ¼ 0.01, a2 ¼ 1.2, corresponding to spacetime IV a with polar SPOs
-and for different values of the observer ’s latitude θ, as seen by an observer located at the static radius rs ¼ 0.01−1=3 ¼ 4.6. The
-description of the shadows is the same as in the previous figure. The first value of the observer latitude used is close to the critical
-value θ
-maxðcircÞ ¼ 9.04°.
-DANIEL CHARBULÁK and ZDEN Ě K STUCHLÍK PHYS. REV . D 110, 124050 (2024)
-124050-38
-
-the static radius. The spacetime parameters in Fig. 37
-correspond to class IV a, while in Fig.38 they correspond to
-class IVb. It can be seen that while the dependence on the
-spin parameter is significant, the influence of the astro-
-physically acceptable values of the cosmological parameter
-is quite negligible.
-VI. CONCLUDING REMARKS
-In the present paper we have performed an analysis
-allowing us to construct the light escape cones and related
-shadows in the Kerr–de Sitter superspinar (NS) spacetimes.
-The main results obtained can be summarized as follows.
-(1) For emitters located under the radii of the equatorial
-circular photon orbit at r ¼ r
-−
-ph, there exist a wide
-variety of shapes of light cones containing the pho-
-tons emitted to bound orbits, which we call trapped
-cones. In the 3D depiction they can take the shapes
-of spherical belts [see Figs. 13(a) and 16(a)], spheri-
-cal biangles [see Figs. 14(a), 16(b), 16(c), 17(c), 18,
-and 20], or spherical canopy with an elliptical base
-(Fig. 24), in dependence on both the radial and
-latitudinal position coordinates. The crucial role
-plays the relative radial position with respect to
-the outer unstable polar SPO at radii r
-−
-pol, if it exists,
-and the radius of the equatorial circular photon orbit
-r−
-ph. The trapped cones are relevant for the study of
-self-illumination and self-eclipse effects in the pres-
-ence of radiating matter, e.g., in an accretion disk.
-(2) In Sec. IV C 1 we introduced a subdivision of the
-complementary cones to the LECs, i.e., the trapped
-cones, the cones of light escaping to the other
-infinity, the repelled cones, and the engrossed cones,
-which for r
-e <r −
-ph are separated from the LECs by
-photons emitted toward the unstable SPOs. For
-emitters at re >r −
-ph there are no trapped cones.
-(3) In the ergoregion there are photon orbits with nega-
-tive energy. In the case of spacetimes with DRB of
-the radial photon motion, there is an inner ergo-
-region, where the corresponding light cones are
-depicted in Figs. 12–15 in blue, and the outer
-ergoregion, where the corresponding light cones
-are shown in Fig. 22 in green.
-(4) The 3D representations of the LECs can also be
-regarded as the star globes showing the celestial sky
-and the superspinar (NS) shadows viewed from the
-point where the emitter (observer) resides. The light
-gray areas, originally representing the trapped cones,
-should then be understood as the dark sky on the
-observer’s celestial sphere, since no photons from
-distant radii can come from these directions. Sim-
-ilarly, the red areas on the globe, originally repre-
-senting the engrossed cones, have the meaning of the
-superspinar shadow.
-(5) For the astrophysically relevant case of a distant
-observer at r
-o >r −
-ph, the superspinar (NS) shadow
-consists of the dark spot as described above, the
-silhouette of the ring singularity itself, which is
-FIG. 38. Superspinar shadows for fixed cosmological parameters y ¼ 0.01, a2 ¼ 1.5, corresponding to spacetime IVb without polar
-SPOs, and for different values of the observer latitude θ as seen by an observer located at the static radius rs ¼ 0.01−1=3 ¼ 4.6. The first
-value of the observer latitude used is close to the critical value θminðarcÞ ¼ 5.85°.
-LIGHT ESCAPE CONES IN THE LOCALL Y NONROTA TING … PHYS. REV . D 110, 124050 (2024)
-124050-39
-
-one-dimensional and hence not observable, and
-an arc or circle on the observer ’s celestial sky,
-along which the images of distant stars are distorted,
-as the photons coming from such directions had to
-circle many times around the appropriate spherical
-orbits.
-The appearance of the arc is strongly affected by
-the spacetime parameters and the observer ’s latitude
-θ
-o. In the spacetimes with the polar SPOs and for
-observers on and near the spin axis, the shadow
-constitutes from the spot and a circle, which sepa-
-rates for some critical angle θ
-maxðcircÞ into an arc
-[cf. Figs. 21(a) and 21(b)]. Such separating angle
-exists even for trapped cones [cf., e.g., Figs. 14(a),
-14(b), and 15(a)].
-In the spacetimes without the polar SPOs there is
-neither a circle nor an arc seen from the spin axis or
-its vicinity, until a minimum angle θ
-minðarcÞ is
-attained [cf. Figs. 23(b) and 23(c)]. For larger
-latitude θo > θminðarcÞ an arc appears.
-(6) We have introduced observable parameters of the
-shadows (see Fig. 25), the measurement of which
-can in principle be used to identify the observed
-object and to determine its real parameters. We have
-studied the influence of the spacetime parameters on
-these observables. We found some influence of the
-cosmological constant on the shape of the shadows,
-but the influence of the spin is clearly dominant.
-For instance, an arc indicates the presence of a
-naked singularity whose central angle ξ, defined in
-Fig. 25(a), is highly sensitive on the spin. From
-Fig. 29 it follows that for y<y
-maxðpolÞða2Þ, i.e., in
-the spacetimes with the polar SPOs, there is some
-minimum value of the central angle for any latitude
-of the observation, under which the central angle
-cannot decrease. At least, the detection of an arc with
-ξ → 360° points to a small latitude (high inclination)
-of the observation and gives a strong upper limit on
-the spin. On the other hand, under the same con-
-ditions, the observation of an arc with ξ → 0°
-indicates the spin y>y maxðpolÞða2Þ. Moreover, the
-latitude of the observation can be inferred from the
-shape of the superspinar shadow (elliptical or wedge
-shaped). Of course, a practical measurement of such
-an arc from the distortion of the celestial background
-is rather a task for advanced devices in the future.
+eliminated by redefinition of Wμ fields). Furthermore, the
+kinetic terms of both Aμ and Wμ have field-dependent
+prefactors.
+Equation (21) represents a vast territory. It contains
+Wu-Yang, ’t Hooft-Polyakov, Weinberg-Lee ’s, and our
+primitive monopoles as special cases. As already noted
+in [5], by adding additional real vector field Zμ together
+with appropriate interaction terms, the above theory can be
+easily mapped to the bosonic sector of the electroweak
+model (or some of its modification). In this way, both the
+so-called Cho-Maison monopole [7] and all its finite-mass
+incarnations [8–10] are naturally contained in this con-
+ceptual scheme.
+Further, if we allow for more scalar fields, we can
+incorporate various nonlinear electrodynamics theories.
+For instance, to obtain a Born-Infeld electromagnetism,
+we simply use a nondynamical scalar field, say φ,a sa
+Lagrange multiplier:
+L ⊃−
+φ
+4g2 F2μν − β2
+2
+/C18
+φ þ 1
+φ
+/C19
+þ 2β2 ð22Þ
+⟶
+½∂φ L¼0/C138
+β2
+ 
+1 −
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+1 þ 1
+2g2β2 F2μν
+s !
+: ð23Þ
+Notice that (21) also contains non-Abelian theories with
+nonminimally coupled adjoint scalars. This can be seen by
+writing down such models in unitary gauge and figuring
+our relations between field-dependent functions. In this
+way, the following sublandscape can be derived:
+L ¼ v2
+2 f2
+1ðϕ =vÞðDμnÞ2
+− 1
+4g2 ½f2
+2ðϕ =vÞF2μν þ f3ðϕ =vÞðn · FμνÞ2/C138
+þ 1
+2 ð∂μϕ Þ2 − λ
+2 ðϕ 2 − v2Þ2; ð24Þ
+where we decomposed the adjoint triplet ϕ ¼ ϕ n into a
+scalar field ϕ and a unit isovector n2 ¼ 1. Here, we employ
+SOð3Þ notation.
+We plan to investigate the monopole solutions of these
+models in a separate publication.
 ACKNOWLEDGMENTS
-The authors acknowledge support of the Research Centre
-for Theoretical Physics and Astrophysics, Institute of
-Physics, Silesian University in Opava.
-[1] K. Akiyama et al. , First M87 Event Horizon Telescope
-results. I. The shadow of the supermassive black hole,
-Astrophys. J. Lett. 875, L1 (2019) .
-[2] K. Akiyama et al. , First M87 Event Horizon Telescope
-results. II. Array and instrumentation, Astrophys. J. Lett.
-875, L2 (2019) .
-[3] K. Akiyama et al. , First M87 Event Horizon Telescope
-results. III. Data processing and calibration, Astrophys. J.
-Lett. 875, L3 (2019) .
-[4] K. Akiyama et al. , First M87 Event Horizon Telescope
-results. IV . Imaging the central supermassive black hole,
-Astrophys. J. Lett. 875, L4 (2019) .
-[5] K. Akiyama et al. , First M87 Event Horizon Telescope
-results. V . Physical origin of the asymmetric ring,
-Astrophys. J. Lett. 875, L5 (2019) .
-[6] K. Akiyama et al. , First M87 Event Horizon Telescope
-results. VI. The shadow and mass of the central black hole,
-Astrophys. J. Lett. 875, L6 (2019) .
-[7] K. Akiyama et al. , First M87 Event Horizon Telescope
-results. VII. Polarization of the ring, Astrophys. J. Lett. 910,
-L12 (2021) .
-[8] K. Akiyama et al. , First M87 Event Horizon Telescope
-results. VIII. Magnetic field structure near the event horizon,
-Astrophys. J. Lett. 910, L13 (2021) .
-[9] C. Bambi, K. Freese, S. V agnozzi, and L. Visinelli, Testing
-the rotational nature of the supermassive object M87* from
-the circularity and size of its first image, Phys. Rev. D 100,
-044057 (2019) .
-[10] K. Akiyama et al. , First Sagittarius A* Event Horizon
-Telescope results. I. The shadow of the supermassive black
-hole in the center of the Milky Way, Astrophys. J. Lett. 930,
-L12 (2022) .
-[11] K. Akiyama et al. , First Sagittarius A* Event Horizon
-Telescope results. II. EHT and multiwavelength observa-
-tions, data processing, and calibration, Astrophys. J. Lett.
-930, L13 (2022) .
-[12] K. Akiyama et al., First Sagittarius A* Event Horizon Tele-
-scope Results. III. Imaging of the Galactic center super-
-massive black hole, Astrophys. J. Lett. 930, L14 (2022) .
-[13] K. Akiyama
-et al. , First Sagittarius A* Event Horizon
-Telescope results. IV . V ariability, morphology, and black
-hole mass, Astrophys. J. Lett. 930, L15 (2022) .
-[14] K. Akiyama et al. , First Sagittarius A* Event Horizon
-Telescope results. V . Testing astrophysical models of the
-galactic center black hole,Astrophys. J. Lett.930, L16 (2022).
-[15] K. Akiyama et al. , First Sagittarius A* Event Horizon
-Telescope results. VI. Testing the black hole metric,
-Astrophys. J. Lett. 930, L17 (2022) .
-DANIEL CHARBULÁK and ZDEN Ě K STUCHLÍK PHYS. REV . D 110, 124050 (2024)
-124050-40
-
-[16] S. V agnozzi et al. , Horizon-scale tests of gravity theories
-and fundamental physics from the Event Horizon Telescope
-image of Sagittarius A, Classical Quantum Gravity 40,
-165007 (2023) .
-[17] R. Penrose, Gravitational collapse: The role of general
-relativity, Nuovo Cimento B 1, 252 (1969) .
-[18] Y . C. Ong, Spacetime singularities and cosmic censorship
-conjecture: A review with some thoughts, Int. J. Mod. Phys.
-A 35, 2030007 (2020) .
-[19] S. Shaymatov and N. Dadhich, Extending the weak cosmic
-censorship conjecture to the charged Buchdahl star by
-employing the Gedanken experiments, J. Cosmol. Astro-
-part. Phys. 06 (2023) 010.
-[20] I. Dwivedi and P . Joshi, Cosmic censorship violation in non-
-self-similar Tolman-Bondi models, Classical Quantum
-Gravity 9, L69 (1992) .
-[21] P . Joshi and I. Dwivedi, Naked singularities in spherically
-symmetric inhomogeneous Tolman-Bondi dust cloud col-
-lapse, Phys. Rev. D 47, 5357 (1993) .
-[22] P . S. Joshi, N. Dadhich, and R. Maartens, Why do naked
-singularities form in gravitational collapse?, Phys. Rev. D
-65, 101501 (2002) .
-[23] P . S. Joshi, R. Goswami, and N. Dadhich, Why do naked
-singularities form in gravitational collapse? II, Phys. Rev. D
-70, 087502 (2004) .
-[24] K. S. Virbhadra , Naked singularities and Seifert's conjec-
-ture, Phys. Rev. D 60, 104041 (1999) .
-[25] M. Calvani, F. de Felice, and L. Nobili, Photon trajectories
-in the Kerr-Newman metric, J. Phys. A 13, 3213 (1980) .
-[26] F. de Felice, Repulsive phenomena and energy emission in
-the field of a naked singularity, Astron. Astrophys. 34,1 5
-(1974).
-[27] Z. Stuchlík, Equatorial circular orbits and the motion of the
-shell of dust in the field of a rotating naked singularity, Bull.
-Astron. Inst. Czech. 31, 129 (1980).
-[28] D. Charbulák and Z. Stuchlík, Photon motion in Kerr –de
-Sitter spacetimes, Eur. Phys. J. C 77, 897 (2017) .
-[29] D. Charbulák and Z. Stuchlík, Spherical photon orbits in the
-field of Kerr naked singularities,Eur. Phys. J. C78, 879 (2018).
-[30] Z. Stuchlík and J. Schee, Appearance of Keplerian discs
-orbiting Kerr superspinars, Classical Quantum Gravity 27,
-215017 (2010) .
-[31] R. Konoplya, Z. Stuchlík, and A. Zhidenko, Echoes of
-compact objects: New physics near the surface and matter at
-a distance, Phys. Rev. D 99, 024007 (2019) .
-[32] U. Alam and V . Sahni, Confronting braneworld cosmology
-with supernova data and baryon oscillations,
-Phys. Rev. D
-73, 084024 (2006) .
-[33] V . Balek, J. Bi čák, and Z. Stuchlík, The motion of the
-charged particles in the field of rotating charged black holes
-and naked singularities. II. The motion in the equatorial
-plane, Bull. Astron. Inst. Czech. 40, 133 (1989).
-[34] M. Blaschke and Z. Stuchlík, Efficiency of the Keplerian
-accretion in braneworld Kerr-Newman spacetimes and
-mining instability of some naked singularity spacetimes,
-Phys. Rev. D 94, 086006 (2016) .
-[35] A. Kotrlová, Z. Stuchlík, and G. Török, Quasiperiodic
-oscillations in a strong gravitational field around neutron
-stars testing braneworld models, Classical Quantum Gravity
-25, 225016 (2008) .
-[36] J. Schee and Z. Stuchlík, Optical phenomena in the field of
-braneworld Kerr black holes, Int. J. Mod. Phys. D 18, 983
-(2009).
-[37] J. Schee and Z. Stuchlík, Profiles of emission lines gen-
-erated by rings orbiting braneworld Kerr black holes,
-Gen. Relativ. Gravit. 41, 1795 (2009) .
-[38] Petr Slaný and Zdenek Stuchlík, Equatorial circular orbits in
-Kerr-Newman–de Sitter spacetimes, Eur. Phys. J. C 80, 587
-(2020).
-[39] Z. Stuchlík, M. Blaschke, and J. Schee, Particle collisions
-and optical effects in the mining Kerr-Newman spacetimes,
-Phys. Rev. D 96, 104050 (2017) .
-[40] Z. Stuchlík and M. Calvani, Null geodesics in black-hole
-metrics with nonzero cosmological constant, Gen. Relativ.
-Gravit. 23, 507 (1991) .
-[41] N. Tsukamoto, Black hole shadow in an asymptotically flat,
-stationary, and axisymmetric spacetime: The Kerr-Newman
-and rotating regular black holes, Phys. Rev. D 97, 064021
+F. B. would like to thank M. Eto and M. Arai for valuable
+discussions and express gratitude for the institutional
+support of the Research Centre for Theoretical Physics
+and Astrophysics, Institute of Physics, Silesian University
+in Opava and to the Institute of Experimental and Applied
+Physics, Czech Technical University in Prague. P . B. is
+grateful to FSM and Aštar Šeran for support. This work was
+supported by the grant of the Ministry of Education, Y outh
+and Sports of the Czech Republic Grant No. LTT17018.
+[1] P . A. M. Dirac, Quantised singularities in the electromag-
+netic field, Proc. R. Soc. A 133, 60 (1931) .
+[2] T. T. Wu and C. N. Yang, Dirac monopole without strings:
+Monopole harmonics, Nucl. Phys. B107, 365 (1976) .
+[3] G. ’t Hooft, Magnetic monopoles in unified gauge theories,
+Nucl. Phys. B79, 276 (1974) .
+[4] A. M. Polyakov, Particle spectrum in quantum field theory,
+JETP Lett. 20, 194 (1974).
+[5] K.-M. Lee and E. J. Weinberg, Nontopological Magnetic
+Monopoles and New Magnetically Charged Black Holes,
+Phys. Rev. Lett. 73, 1203 (1994) .
+[6] D. Bazeia, M. A. Marques, and G. J. Olmo, Small and
+hollow magnetic monopoles, Phys. Rev. D 98, 025017
 (2018).
-[42] Z.-Y . Fan and X. Wang, Construction of regular black
-holes in general relativity, Phys. Rev. D 94, 124027
-(2016).
-[43] A. Abdujabbarov, M. Amir, B. Ahmedov, and S. G. Ghosh,
-Shadow of rotating regular black holes, Phys. Rev. D 93,
-104004 (2016) .
-[44] J. Bardeen, Non-singular general-relativistic gravita-
-tional collapse, in Proceedings of the 5th International
-Conference on Gravitation and the Theory of Relativity
-(House of Tbilisi University, Tbilisi, 1968), p. 87.
-[45] B. Toshmatov, Z. Stuchlík, and B. Ahmedov, Comment on
-“Construction of regular black holes in general relativity ”,
-Phys. Rev. D 98, 028501 (2018) .
-[46] Z. Stuchlík, J. Schee, and D. Ovchinnikov, Generic regular
-black holes related to nonlinear electrodynamics with
-Maxwellian weak-field limit: Shadows and images of
-Keplerian disks, Astrophys. J. 887, 145 (2019) .
-[47] Z. Stuchlík and J. Schee, Shadow of the regular Bardeen
-black holes and comparison of the motion of photons and
-neutrinos, Eur. Phys. J. C 79, 44 (2019)
-.
-[48] A. Abdujabbarov, B. Toshmatov, J. Schee, Z. Stuchlík, and
-B. Ahmedov, Gravitational lensing by regular black holes
-surrounded by plasma, Int. J. Mod. Phys. D 26, 1741011
-(2017).
-[49] K. S. Virbhadra, D. Narasimha, and S. M. Chitre, Role of the
-scalar field in gravitational lensing, Astron. Astrophys. 337,
-1 (1998).
-[50] K. S. Virbhadra and G. F. R. Ellis, Gravitational lensing by
-naked singularities, Phys. Rev. D 65, 103004 (2002) .
-[51] K. S. Virbhadra and C. R. Keeton, Time delay and magni-
-fication centroid due to gravitational lensing by black
-holes and naked singularities, Phys. Rev. D 77, 124014
-(2008).
-[52] K. S. Virbhadra, Distortions of images of Schwarzschild
-lensing, Phys. Rev. D 106, 064038 (2022) .
-[53] M. Calvani, F. de Felice, B. Muchotrzeb, and F. Salmistraro,
-Time machine and geodesic motion in Kerr metric, Gen.
-Relativ. Gravit. 9, 155 (1978) .
-[54] E. G. Gimon and P . Ho ˇrava, Astrophysical violations of the
-Kerr bound as a possible signature of string theory, Phys.
-Lett. B 672, 299 (2009) .
-LIGHT ESCAPE CONES IN THE LOCALL Y NONROTA TING … PHYS. REV . D 110, 124050 (2024)
-124050-41
-
-[55] E. K. Boyda, S. Ganguli, P . Ho ˇrava, and U. V aradarajan,
-Holographic protection of chronology in universes of the
-Gödel type, Phys. Rev. D 67, 106003 (2003) .
-[56] K.-i. Nakao, P . S. Joshi, J.-Q. Guo, P . Kocherlakota, H.
-Tagoshi, T. Harada, M. Patil, and A. Królak, On the stability
-of a superspinar, Phys. Lett. B 780, 410 (2018) .
-[57] Z. Stuchlík, S. Hledík, and K. Truparová, Evolution of Kerr
-superspinars due to accretion counterrotating thin discs,
-Classical Quantum Gravity 28, 155017 (2011) .
-[58] Z. Stuchlík and J. Schee, Observational phenomena related
-to primordial Kerr superspinars, Classical Quantum Gravity
-29, 065002 (2012) .
-[59] Z. Stuchlík and J. Schee, Ultra-high-energy collisions in the
-superspinning Kerr geometry, Classical Quantum Gravity
-30, 075012 (2013) .
-[60] J. Schee and Z. Stuchlík, Profiled spectral lines generated in
-the field of Kerr superspinars, J. Cosmol. Astropart. Phys.
-04 (2013) 005.
-[61] A. D. Dolgov, J. B. Zeldovich, and M. V . Sazhin, Kosmo-
-logia rannej vcelennoy (Moscow University Press, Moscow,
-1988).
-[62] M. Kamionkowski, T. Smith, and A. Heavens, The CMB
-bispectrum, trispectrum, non-Gaussianity, and the Cramer-
-Rao bound, Phys. Rev. D 83, 023007 (2010) .
-[63] P . Slaný and Z. Stuchlík, Relativistic thick discs in the Kerr –
-de Sitter backgrounds, Classical Quantum Gravity 22, 3623
-(2005).
-[64] Z. Stuchlík, Influence of the relict cosmological constant on
-accretion discs, Mod. Phys. Lett. A 20, 561 (2005) .
-[65] Z. Stuchlík, P . Slaný, and J. Ková ˇr, Pseudo-Newtonian and
-general relativistic barotropic tori in Schwarzschild–de Sitter
-spacetimes, Classical Quantum Gravity 26, 215013 (2009) .
-[66] Z. Stuchlík, M. Kolo š, J. Ková ˇr, P . Slaný, and A. Tursunov,
-Influence of cosmic repulsion and magnetic fields on
-accretion disks rotating around Kerr black holes, Universe
-6, 26 (2020) .
-[67] Z. Stuchlík and J. Schee, Influence of the cosmological
-constant on the motion of Magellanic clouds in the
-gravitational field of Milky Way, J. Cosmol. Astropart.
-Phys. 09 (2011) 018.
-[68] Z. Stuchlík, D. Charbulák, and J. Schee, Light escape cones
-in local reference frames of Kerr –de Sitter black hole
-spacetimes and related black hole shadows, Eur. Phys. J.
-C 78, 180 (2018) .
-[69] E. Omwoyo, H. Belich, J. C. Fabris, and H. V elten, Remarks
-on the black hole shadows in Kerr –de Sitter space times,
-Eur. Phys. J. C 82
-, 395 (2022) .
-[70] J. Ovalle, E. Contreras, and Z. Stuchlík, Kerr –de Sitter black
-hole revisited, Phys. Rev. D 103, 084016 (2021) .
-[71] Z. Chang and Q.-H. Zhu, The observer-dependent shadow
-of the Kerr black hole, J. Cosmol. Astropart. Phys. 09
-(2021) 003.
-[72] I. I. Cot ăescu, Light from Schwarzschild black holes in de
-Sitter expanding universe, Eur. Phys. J. C 81, 32 (2021) .
-[73] V . Perlick, O. Y . Tsupko, and G. S. Bisnovatyi-Kogan,
-Black hole shadow in an expanding universe with a
-cosmological constant, Phys. Rev. D 97, 104062 (2018) .
-[74] R. Roy and S. Chakrabarti, Study on black hole shadows in
-asymptotically de Sitter spacetimes, Phys. Rev. D 102,
-024059 (2020) .
-[75] A. Belhaj, M. Benali, A. El Balali, W. El Hadri, and H. El
-Moumni, Cosmological constant effect on charged and
-rotating black hole shadows, Int. J. Geom. Methods Mod.
-Phys. 18, 2150188 (2021) .
-[76] P .-C. Li, M. Guo, and B. Chen, Shadow of a spinning black
-hole in an expanding universe, Phys. Rev. D 101, 084041
-(2020).
-[77] Z. Stuchlík and D. Charbulák, Shadows of Kerr –de Sitter
-naked singularities, Phys. Rev. D 109, 064008 (2024) .
-[78] L. M. Krauss, The end of the age problem, and the case for a
-cosmological constant revisited,Astrophys. J.501, 461 (1998).
-[79] L. M. Krauss and M. S. Turner, The cosmological constant
-is back, Gen. Relativ. Gravit. 27, 1137 (1995) .
-[80] Z. Stuchlík, S. Hledík, and J. Novotný, General relativistic
-polytropes with a repulsive cosmological constant, Phys.
-Rev. D 94, 103513 (2016) .
-[81] Z. Stuchlík, The motion of test particles in black-hole
-backgrounds with non-zero cosmological constant, Bull.
-Astron. Inst. Czech. 34, 129 (1983).
-[82] Z. Stuchlík and S. Hledík, Some properties of the
-Schwarzschild–de Sitter and Schwarzschild-anti –de Sitter
-spacetimes, Phys. Rev. D 60, 044006 (1999) .
-[83] Z. Stuchlík and P . Slaný, Equatorial circular orbits in the
-Kerr–de Sitter spacetimes, Phys. Rev. D 69, 064001 (2004).
-[84] Z. Stuchlík, J. Schee, B. Toshmatov, J. Hladík, and J.
-Novotný, Gravitational instability of polytropic spheres
-containing region of trapped null geodesics: A possible
-explanation of central supermassive black holes in galactic
-halos, J. Cosmol. Astropart. Phys. 06 (2017) 056.
-[85] J. M. Bardeen, Timelike and null geodesics in the Kerr
-metric, in Black Holes (Les Astres Occlus) , edited by C.
-Dewitt and B. S. Dewitt (1973), pp. 215 –239.
-[86] V . Cardoso, P . Pani, M. Cadoni, and M. Cavagli`a, Instability
-of hyper-compact Kerr-like objects, Classical Quantum
-Gravity 25, 195010 (2008) .
-[87] B. Carter, Black hole equilibrium states, in Black Holes (Les
-Astres Occlus), edited by C. Dewitt and B. S. Dewitt (1973),
-pp. 57 –214.
-[88] T. Zannias, On causality violation on a Kerr –de Sitter
-spacetime, Gen. Relativ. Gravit. 50, 134 (2018) .
-[89] Carter ’s block is defined as a part of the Kerr–de Sitter space-
-time with the Boyer-Lindquist radii in any open interval
-ðri;r iþ1Þ, where ri;r iþ1 are consecutive roots ofΔr ¼ 0 [88].
-[90] J. Bi čák and Z. Stuchlík, On the latitudinal and radial
-motion in the field of a rotating black hole, Bull. Astron.
-Inst. Czech. 27, 129 (1976).
-[91] Z. Stuchlík and S. Hledík, Equatorial photon motion in the
-Kerr-Newman spacetimes with a non-zero cosmological
-constant, Classical Quantum Gravity 17, 4541 (2000) .
-[92] Since the spacetime is symmetric with respect to the
-reflection θ → π − θ, we can restrict our considerations to
-the range 0 ≤ θ
-e ≤ π=2.
-[93] Obviously, there is always zero of the function qSPOðrÞ at
-r ¼ 0, but such an orbit cannot be regarded as an orbit of
-any physical particles, since it coincides with the physical
-singularity of the KdS spacetimes.
-[94] S. U. Viergutz, Image generation in Kerr geometry. I.
-Analytical investigations on the stationary emitter-observer
-problem, Astron. Astrophys. 272, 355 (1993).
-[95] The function X
-−ðr; q; y; a2Þ cannot diverge.
-DANIEL CHARBULÁK and ZDEN Ě K STUCHLÍK PHYS. REV . D 110, 124050 (2024)
-124050-42
-
-[96] A. G. Riess et al. , Type Ia supernova discoveries at z> 1
-from the Hubble Space Telescope: Evidence for past
-deceleration and constraints on dark energy evolution,
-Astrophys. J. 607, 665 (2004) .
-[97] Note that such photons play a crucial role in the new version
-of the Penrose process of extraction of energy from rotating
-BH or superspinars, introduced in [98,99].
-[98] M. Kolo š, A. Tursunov, and Z. Stuchlík, Radiative Penrose
-process: Energy gain by a single radiating charged particle
-in the ergosphere of rotating black hole, Phys. Rev. D 103,
-024021 (2021) .
-[99] Z. Stuchlík, M. Kolo š, A. Tursunov, and D. Gal’tsov, On the
-role of the tail term in electromagnetic radiation reaction,
-Universe 10, 249 (2024) .
-LIGHT ESCAPE CONES IN THE LOCALL Y NONROTA TING … PHYS. REV . D 110, 124050 (2024)
-124050-43
+[7] Y . M. Cho and D. Maison, Monopoles in Weinberg-Salam
+model, Phys. Lett. B 391, 360 (1997) .
+[8] Y . M. Cho, K. Kim, and J. H. Y oon, Finite energy electro-
+weak dyon, Eur. Phys. J. C 75, 67 (2015) .
+[9] J. Ellis, N. E. Mavromatos, and T. Y ou, The price of an
+electroweak monopole, Phys. Lett. B 756, 29 (2016) .
+[10] F. Blaschke and P . Bene š, BPS Cho –Maison monopole,
+Prog. Theor. Exp. Phys. 2018, 073B03 (2018) .
+ALL FINITE-MASS DIRAC MONOPOLES PHYS. REV . D 106, 125014 (2022)
+125014-5
