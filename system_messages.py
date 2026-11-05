@@ -12,7 +12,9 @@ Write an article that:
 - Avoids jargon or explains technical terms simply but without lying
 - Uses storytelling and analogies, but without dumbing it down too much
 - Hooks readers with interesting opening without exaggeration of it's importance, no "breakthrough" headlines - keep it informative, please, the goal is to genuinely explain the research, not draw in attention
-- Explains why the research matters and what is it's possible future direction"""
+- Explains why the research matters and what is it's possible future direction
+- No diagrams or images, just text
+- Avoids plagiarism, and cites the original research paper in the text"""
 
 
 reviewer = """You are a critical pop-science editor. You will receive a Czech pop-science article and the original research paper.

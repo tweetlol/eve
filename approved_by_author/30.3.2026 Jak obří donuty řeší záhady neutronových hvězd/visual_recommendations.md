@@ -3,8 +3,9 @@
 ## 1. Hlavní obrázek: fragmentovaný torus kolem neutronové hvězdy
 
 - **Typ:** Ilustrace podle source paper.
-- **Krátký popis:** Neutronová hvězda je obklopena nepravidelným prstencem hmoty, jehož fragmenty zakrývají a znovu odhalují záření.
-- **Zdroj:** Preferovat hlavní schéma/model fragmentovaného toru ze source paper; při publikaci ověřit přesné číslo obrázku a licenci.
+- **Doporučení:** Použít redakčně překreslenou ilustraci **Modelu 2** ze source paper, nikoli přímo screenshot vědeckého grafu. Neutronová hvězda má být uprostřed, s jasnou mezní vrstvou; kolem ní je tlustý torus s viditelnou mezerou a odděleným fragmentem, který obíhá a periodicky odkrývá povrch.
+- **Přesná opora ve zdroji:** Figure 2, spodní řada, popsaná jako „Fragmented torus as a product of torus instability“; model je vysvětlen v oddílu 2.1 jako torus s mezerou, jejíž oběh odhaluje část povrchu neutronové hvězdy.
+- **Hotový podklad:** `main_image_1_fragmented_torus.png` (1600 × 900) a editovatelná verze `main_image_1_fragmented_torus.svg`.
 - **Doporučené umístění:** Pod titulkem.
 - **Titulek/námět popisku:** „Nepravidelný torus může fungovat jako kosmická závěrka: jeho fragmenty mění množství světla přicházejícího k pozorovateli.“
 
