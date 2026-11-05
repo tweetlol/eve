@@ -1,6 +1,6 @@
 
 
-# Jak zkrotit nekonečno: Sjednocená krajina magnetických monopolů s konečnou hmotností
+# Sjednocená krajina magnetických monopolů s konečnou hmotností
 
 Pokud jste si někdy v dětství hráli s běžnými magnety, pravděpodobně jste si všimli jedné jejich neústupné vlastnosti: každý magnet má dva póly. Severní a jižní. Když magnet rozříznete napůl, nezískáte jeden samostatný severní a jeden jižní pól. Namísto toho vám v ruce zůstanou dva menší magnety, z nichž každý má opět svůj vlastní severní a jižní pól. Můžete štípat magnet na čím dál menší kousky, ale až na úroveň atomů budete dostávat stále totéž – magnetické dipóly.
 
