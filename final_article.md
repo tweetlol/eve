@@ -36,15 +36,9 @@ Všechny tyto přístupy vypadaly jako zcela odlišné koncepty. A právě zde z
 
 ## Primitivní, ale mimořádně účinná cesta
 
-Blaschke a Beneš se rozhodli položit si zdánlivě jednoduchou otázku: *Jaký je nejjednodušší možný způsob, jak vytvořit magnetický monopol s konečnou hmotností, aniž bychom museli zavádět složité neabelovské symetrie nebo zástupy nových těžkých částic?*
+Blaschke a Beneš se rozhodli položit si zdánlivě jednoduchou otázku: *Jaký je nejjednodušší možný způsob, jak vytvořit magnetický monopol s konečnou hmotností, aniž bychom museli zavádět složité neabelovské symetrie nebo zástupy nových těžkých částic?* Odpověď našli v tom, co nazývají „primitivním způsobem“. Namísto přidávání celého zástupu složitých polí použili standardní Maxwellovu teorii elektromagnetismu a přidali k ní **jediné reálné skalární pole**. Skalární pole si můžete představit jako veličinu, která má v každém bodě prostoru svou hodnotu, ale nemá žádný směr – podobně jako je v místnosti v různých místech různá teplota. Klíčová vlastnost tohoto pole spočívá v jeho tzv. *nekanonické* neboli neobvyklé vazbě na elektromagnetické pole. 
 
-Odpověď našli v tom, co nazývají „primitivním způsobem“. Namísto přidávání celého zástupu složitých polí použili standardní Maxwellovu teorii elektromagnetismu a přidali k ní **jediné reálné skalární pole**. 
-
-Skalární pole si můžete představit jako veličinu, která má v každém bodě prostoru svou hodnotu, ale nemá žádný směr – podobně jako je v místnosti v různých místech různá teplota. Klíčová vlastnost tohoto pole spočívá v jeho tzv. *nekanonické* neboli neobvyklé vazbě na elektromagnetické pole. 
-
-V běžném světě se elektromagnetické pole šíří prostorem bez ohledu na to, jaké skalární pole je kolem. V modelu Blaschkeho a Beneše je však síla elektromagnetické interakce lokálně upravována hodnotou tohoto skalárního pole skrze vazební funkci, v článku označenou jako $h'(\phi/v)$.
-
-Funguje to podobně jako průchod světla prostředím s proměnlivým indexem lomu. Pokud se skalární pole v blízkosti středu monopolu nastaví na správnou hodnotu, doslova „vypne“ nebo dramaticky potlačí elektromagnetickou energii v samém jádru. Výsledek? Nekonečná energie okamžitě mizí a my získáváme stabilní částici s přesně spočitatelnou, konečnou hmotností.
+V běžném světě se elektromagnetické pole šíří prostorem bez ohledu na to, jaké skalární pole je kolem. V modelu Blaschkeho a Beneše je však síla elektromagnetické interakce lokálně upravována hodnotou tohoto skalárního pole skrze vazební funkci, v článku označenou jako $h'(\phi/v)$. Pokud se skalární pole v blízkosti středu monopolu nastaví na správnou hodnotu, doslova „vypne“ nebo dramaticky potlačí elektromagnetickou energii v samém jádru. Výsledek? Nekonečná energie okamžitě mizí a my získáváme stabilní částici s přesně spočitatelnou, konečnou hmotností.
 
 ---
 
