@@ -6,7 +6,7 @@ Pokud jste si někdy v dětství hráli s běžnými magnety, pravděpodobně js
 
 Tato zkušenost nás vede k přirozené otázce: Je možné, aby v přírodě existovala částice, která nese pouze jeden magnetický pól? Takovému objektu teoretičtí fyzici říkají **magnetický monopol**. Představa magnetického monopolu není nová. Slavný britský fyzik Paul Dirac již v roce 1931 ukázal, že existence monopólu by za určitých podmínek vysvětlila, proč je elektrický náboj v přírodě kvantovaný – tedy proč mají částice náboj jako násobky určitého základního množství. Diracův teoretický monopol měl však jeden zásadní problém: ve své nejprostší podobě měl nekonečně velkou energii.
 
-Výzkum opavských fyziků doc. RNDr. Filipa Blaschkeho, Ph.D., a Mgr. Petra Beneše, Ph.D., přináší nový pohled na tento starý problém. Autoři ukázali, jak lze v konkrétním modelu získat monopól s konečnou hmotností, a navrhli také elegantní teoretickou „mapu“ – krajinu, která propojuje několik známých modelů monopólů.
+Výzkum teoretických fyziků doc. RNDr. Filipa Blaschkeho, Ph.D., a Mgr. Petra Beneše, Ph.D., přináší nový pohled na tento starý problém. Autoři ukázali, jak lze v konkrétním modelu získat monopól s konečnou hmotností, a navrhli také elegantní teoretickou „mapu“ – krajinu, která propojuje několik známých modelů monopólů.
 
 ---
 
