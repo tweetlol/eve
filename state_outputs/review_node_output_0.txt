@@ -1,3 +1,3 @@
-Opravte chybné použití slova 'kazuistika' v sekci 'Primitivní, ale mimořádně účinná cesta' (vhodný výraz je například 'zvláštnost', 'klíčová vlastnost' nebo 'podstata').
-Opravte zavádějící vysvětlení termínu 'neabelovské symetrie' v bodě 1 sekce 'Historická šatna pro monopoly' – neabelovské symetrie jsou nekomutativní, nikoli 'neuspořádané'.
-Opravte jméno jednoho z autorů historické práce z roku 1994: zkratka K.-M. Lee označuje fyzika jménem Kimyeong Lee, nikoli Kyunghwan Lee.
+Opravte překlep 'teoretický objem' na 'teoretický objev' v druhém odstavci sekce 'Kvantový konflikt na prahu temnoty'.
+Opravte chybějící mezeru ve slově 'vpodobě' na 'v podobě' v sekci 'Vizuální otisk: Světelné kruhy uvnitř stínu'.
+Opravte chybné slovo v závěrečné větě článku 'na prahu samotného nákazu' na smysluplné spojení (např. 'na prahu samotného horizontu' nebo 'na prahu samotné temnoty').

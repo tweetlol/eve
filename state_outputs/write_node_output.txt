@@ -1,105 +1,107 @@
-# Jak zkrotit nekonečno: Sjednocená krajina magnetických monopolů s konečnou hmotností
+# Odraz v časoprostorovém zrcadle: Co by nám vizuální obraz černé díry mohla říct o kvantové gravitaci?
 
-Pokud jste si někdy v dětství hráli s běžnými magnety, pravděpodobně jste si všimli jedné jejich neústupné vlastnosti: každý magnet má dva póly. Severní a jižní. Když magnet rozříznete napůl, nezískáte jeden samostatný severní a jeden jižní pól. Namísto toho vám v ruce zůstanou dva menší magnety, z nichž každý má opět svůj vlastní severní a jižní pól. Můžete štípat magnet na čím dál menší kousky, ale až na úroveň atomů budete dostávat stále totéž – magnetické dipóly.
+Černé díry jsou v povědomí veřejnosti i v klasické fyzice zapsány jako absolutní pasti na světlo. Podle obecné teorie relativity Alberta Einsteina existuje kolem každé černé díry pomyslná hranice – horizont událostí. Jakmile přes ni jakákoliv částice nebo světelný paprsek překročí, už není návratu. Vše nenávratně mizí v centrální singularitě. 
 
-Tato zkušenost nás vede k přirozené otázce: Je možné, aby v přírodě existovala částice, která nese pouze jeden magnetický pól? Takovému objektu teoretičtí fyzici říkají **magnetický monopol**.
+Co když je ale tento klasický obraz neúplný? Co když se na samém okraji horizontu událostí odehrávají kvantové jevy, které mění pravidla hry a dělají z černé díry do jisté míry jakési „zrcadlo“?
 
-Představa magnetického monopolu není nová. Slavný britský fyzik Paul Dirac již v roce 1931 ukázal, že pokud by ve vesmíru existoval jediný magnetický monopol, vysvětlilo by to, proč je elektrický náboj v přírodě kvantovaný – tedy proč mají všechny částice náboj jako násobky určitého základního množství. Diracův teoretický monopol měl však jeden zásadní, takřka „smrtelný“ problém: ve své nejprostší podobě obsahoval fyzikální nesmysl v podobě nekonečně velké energie.
-
-Nedávný výzkum českých fyziků Filipa Blaschkeho a Petra Beneše, publikovaný v časopise *Physical Review D* (ročník 106, článek 125014, rok 2022), však přináší na tento starý problém zcela nový pohled. Autorům se podařilo ukázat nejen to, jak lze magnetickým monopolům dát zcela přirozeně konečnou hmotnost, ale také navrhli elegantní teoretickou „mapu“ – krajinu, která v sobě sjednocuje téměř všechny dosud známé modely monopolů.
+Právě touto fascinující myšlenkou se zabývá vědecká práce astrofyziků Jana Scheeho, Sudipty Henshe a Dmitrije Ovčinnikova s názvem *On Reflection of Torus in the Kerr “Mirror”*, publikovaná ve sborníku *Proceedings of RAGtime 23–25* (Slezská univerzita v Opavě, 2023). Autoři v ní podrobují teoretickému zkoumání model, v němž je rotující černá díra obklopena odrazivým povrchem – tzv. „firewallem“ či zrcadlem. Pomocí pokročilých počítačových simulací ukazují, jak by se takové zrcadlo projevilo na vizuálním obraze plynového prstence, který černou díru obklopuje, a jaké otisky by tento jev zanechal v teleskopech budoucnosti.
 
 ---
 
-## Problém s matematickým nekonečnem
+## Kvantový konflikt na prahu temnoty
 
-Abychom pochopili, v čem spočívá přínos nové práce, musíme se nejprve podívat na to, proč klasické teoretické modely narážely na překážky.
+Abychom pochopili, proč vědci vůbec uvažují o černé díře jako o zrcadle, musíme se vrátit o několik desetiletí zpět. V sedmdesátých letech 20. století teoretický fyzik Stephen Hawking ukázal, že díky kvantovým efektům by černé díry měly pomalu vyzařovat energii – tento jev dnes známe jako Hawkingovo záření.
 
-Představte si bodovou částici. Pokud ji v teorii popíšeme jako nekonečně malý bod, v němž je soustředěn náboj, intenzita pole v její těsné blízkosti roste nade všechny meze. V klasické elektrodynamice roste energie pole s přibližováním se ke středu tak rychle, že celková energie uložená v prostoru kolem tohoto bodu je nekonečná.
+Tento teoretický objem však přinesl hluboký rozpor, známý jako *paradox ztráty informací*. Obecná relativita tvrdí, že informace o všem, co do černé díry spadlo, je navždy ztracena. Kvantová mechanika naopak stojí na základním principu, že informace v vesmíru se nikdy ztratit nemůže. Pokud černá díra zcela se odpaří, kam se informace poděla?
 
-A protože podle Einsteinovy slavné rovnice $E = mc^2$ představuje energie hmotnost, znamená nekonečná energie také **nekonečnou hmotnost**. Tzv. „holý“ Diracův monopol by tak byl nepředstavitelně těžký – byl by to fyzikální objekt, který nemůže v reálném světě samostatně existovat, aniž by zhroutil časoprostor kolem sebe.
+V roce 2013 přišla skupina fyziků (Almheiri, Marolf, Polchinski a Sully – zkráceně AMPS) s kontroverzním řešením. Navrhli hypotézu tzv. *firewallu* (ohnivé zdi). Podle nich nemůže platit klasický předpoklad, že pozorovatel padající do černé díry na horizontu událostí neucítí nic zvláštního (tzv. hypotéza „no drama“). Umístili na horizont nebo těsně k němu extrémně energetickou kvantovou bariéru. Jakákoliv hmota či záření, které na tuto bariéru narazí, je zničeno nebo odraženo.
 
-V teoretické fyzice je výskyt nekonečna obvykle jasným signálem, že naše teorie je neúplná. Znamená to, že jsme přehlédli nějaké mikroskopické stupně volnosti, které v těsné blízkosti středu pole „uhlazují“ a zabraňují jeho nekonečnému nárůstu. Fyzikové proto začali hledat způsoby, jak monopol „obléknout“ – tedy obklopit ho dalšími fyzikálními poli, která by jeho energii udržela v rozumných, konečných mezích.
-
----
-
-## Historická šatna pro monopoly
-
-Během 20. století se objasňování hmotnosti monopolů vyvíjelo v několika vlnách:
-
-1. **Wu a Yang (1976):** Tito fyzikové ukázali, že jakousi matematickou Singularitu (tzv. Diracův provázek) lze schovat, pokud elektromagnetické pole zanoříme do složitější geometrické struktury neuspořádaných (neabelovských) symetrií. Fyzikální matematické nesmysly v samotném středu monopolu a nekonečná energie však zůstaly nevyřešeny.
-2. **’t Hooft a Polyakov (1974):** Gerard ’t Hooft a Alexander Polyakov nezávisle na sobě přišli s průlomovým nápadem. Pokud do teorie přidáme tzv. Higgsův mechanismus (známý z částicové fyziky) a necháme částice kondenzovat v jádru monopolu, nekonečno zmizí. Monopol dostane hladké jádro a jeho celková hmotnost je konečná. Tento model se stal zlatým standardem, vyžadoval však existenci složitých symetrií a nových částic.
-3. **Lee a Weinberg (1994):** Kyunghwan Lee a Erick J. Weinberg ukázali, že k získání monopolu s konečnou hmotností nemusíme nutně opouštět rámec obyčejného electromagnetismu (tzv. $U(1)$ teorie). Jejich myšlenka spočívala v tom, že monopol obklopili těžkými částicemi s magnetickým dipólovým momentem. Tyto dipóly působí jako jakýsi „štít“, který odstíní magnetický náboj v centru a zabrání energetické katastrofě.
-
-Všechny tyto přístupy vypadaly jako zcela odlišné koncepty. A právě zde začíná příběh výzkumu Filipa Blaschkeho a Petra Beneše.
+Vzhledem ke kvantovým nejistotám nemusí tato bariéra ležet přesně na geometrickém horizontu, ale může se nacházet těsně nad ním. A pokud se bariéra chová k dopadajícímu záření jako částečně nebo zcela odrazivý povrch, otevírá se pro astrofyziky zcela nová možnost: testovat existenci těchto kvantových efektů pomocí optických pozorování.
 
 ---
 
-## Primitivní, ale mimořádně účinná cesta
+## Jak vymodelovat odraz u rotující černé díry
 
-Blaschke a Beneš se rozhodli položit si zdánlivě jednoduchou otázku: *Jaký je nejjednodušší možný způsob, jak vytvořit magnetický monopol s konečnou hmotností, aniž bychom museli zavádět složité neabelovské symetrie nebo zástupy nových těžkých částic?*
+Většina černých děr v reálném vesmíru rotuje. Takové objekty popisujeme pomocí tzv. *Kerrova časoprostoru* (podle novozélandského matematika Roye Kerra). Rotace černé díry extrémně komplikuje okolní geometrii – doslova strhává samotný časoprostor s sebou.
 
-Odpověď našli v tom, co nazývají „primitivním způsobem“. Namísto přidávání celého zástupu složitých polí použili standardní Maxwellovu teorii elektromagnetismu a přidali k ní **jediné reálné skalární pole**. 
+Tým Jana Scheeho a jeho spolupracovníků se rozhodl vytvořit teoretický model, ve kterém Kerrovu černou díru obklopili sférickým zrcadlem umístěným těsně nad horizontem událostí. Polohu zrcadla definovali jako $r_f = r_h(1 + \epsilon)$, kde $r_h$ je poloměr horizontu a $\epsilon$ je nepatrné číslo představující vzdálenost zrcadla od horizontu (v řádu kvantových fluktuací).
 
-Skalární pole si můžete představit jako veličinu, která má v každém bodě prostoru svou hodnotu, ale nemá žádný směr – podobně jako je v místnosti v různých místech různá teplota. Kazuistika tohoto pole spočívá v jeho tzv. *nekanonické* neboli neobvyklé vazbě na elektromagnetické pole. 
+Jako zdroj světla posloužil model tzv. *základního torusu z dokonalé tekutiny*. Představit si ho můžete jako koblihovitý disk žhavého plynu, který obíhá kolem černé díry na stabilní dráze. Tento disk svítí a jeho záření šíří všemi směry.
 
-V běžném světě se elektromagnetické pole šíří prostorem bez ohledu na to, jaké skalární pole je kolem. V modelu Blaschkeho a Beneše je však síla elektromagnetické interakce lokálně upravována hodnotou tohoto skalárního pole skrze vazební funkci, v článku označenou jako $h'(\phi/v)$.
+Aby vědci zjistili, jak by takový systém vypadal pro vzdáleného pozorovatele, museli použít metodu *sledování paprsků v obecné relativitě* (general relativistic raytracing). Foton (částice světla) se v blízkosti masivního objektu nepohybuje po přímce, ale po zakřivené dráze zvané *nulová geodesika*. 
 
-Funguje to podobně jako průchod světla prostředím s proměnlivým indexem lomu. Pokud se skalární pole v blízkosti středu monopolu nastaví na správnou hodnotu, doslova „vypne“ nebo dramaticky potlačí elektromagnetickou energii v samém jádru. Výsledek? Nekonečná energie okamžitě mizí a my získáváme stabilní částici s přesně spočitatelnou, konečnou hmotností.
+Dráhy fotonů v simulaci autoři rozdělili do dvou hlavních skupin:
+1. **Paprsky s obratem:** Světlo vyzařované diskem je gravitací ohnuto, ale neprochází příliš blízko k horizontu. Zakřiví se a zamíří přímo k pozorovateli.
+2. **Paprsky bez obratu:** Světlo zamíří hluboko do gravitačního potenciálového údolí, směrem k horizontu. Zde narazí na zrcadlo (firewall), odrazí se a teprve poté putuje ven k pozorovateli.
 
----
-
-## „Duté“ monopoly: Bubliny energie v časoprostoru
-
-Jedním z nejúchvatnějších zjištění celého výzkumu je prostorové rozložení energie těchto nových monopolů.
-
-U běžných částic (nebo i u 't Hooftova-Polyakovova monopolu) očekáváme, že největší hustota energie bude v samém středu a směrem ven bude postupně klesat. Je to intuitivní: čím blíže jste k částici, tím je pole silnější.
-
-U primitivního modelu Blaschkeho a Beneše je tomu ale často úplně jinak. Pro širokou třídu nastavení vazební funkce se stane zvláštní věc: v samém středu monopolu ($r = 0$) je hustota energie rovna **nule**. 
-
-Energie není nahromaděna v bodě, ale je rozprostřena v kulové slupce kolem prázdného středu. Tento objekt připomíná jakousi mýdlovou bublinu nebo dutou kulovou slupku tvořenou čistou polem řízenou energií. V odborné literatuře se pro ně vžil přiléhavý název **duté monopoly** (*hollow monopoles*).
-
-V takzvaném BPS limitu (což je matematicky elegantní stav, kdy zanedbáme samointerakci skalárního pole a systém lze vyřešit zcela přesně) se autorům podařilo derivovat analytické vzorce pro profily polí i pro celkovou hmotnost monopolu. Výsledná hmotnost závisí pouze na základních konstantách teorie, magnetickém náboji a vlastnostech použité vazební funkce.
+Odraz fotonů vědci simulovali v tzv. *lokálně nerotujících souřadnicových systémech* (LNRF), což jim umožnilo fyzikálně korektně popsat zrcadlový odraz světla i v divoce rotujícím prostředí. Klíčovým parametrem simulace byla *účinnost odrazu* ($\eta$), kde $\eta = 0$ představuje klasickou černou díru (veškeré světlo je pohlceno) a $\eta = 1$ představuje dokonale lesklé zrcadlo (veškeré světlo se odrazí).
 
 ---
 
-## Velká sjednocená krajina
+## Vizuální otisk: Světelné kruhy uvnitř stínu
 
-Objev primitivního monopolu by sám o sobě byl pozoruhodným výsledkem. Autoři však zašli ještě dále a ukázali, jak tento jednoduchý přístup souvisí s kompletní historií výzkumu magnetických monopolů.
+Co přesně by vzdálený pozorovatel uviděl, pokud by se díval na černou díru se zrcadlem?
 
-Provedli matematický postup, při kterém ze složitějších teorií obsahujících těžké vektorové částice (vektorové bosony $W$) „integrovali“ tyto částice pryč v limitě jejich nekonečné hmotnosti. Ukázalo se, že těžké částice s dipólovým momentem zanechají v teorii přesně takový otisk, jaký autoři zavedli ve svém primitivním modelu – tedy skalární pole upravující elektromagnetickou interakci.
+Pokud pozorujeme klasickou černou díru ($\eta = 0$), vidíme na obloze zářící disk plynu a uprostřed něj temnou oblast – takzvaný *stín černé díry*. Tento stín je ohraničen jasným prstencem, kterému se říká *fotonová sféra*. To je oblast, kde gravitace ohýbá světlo natolik silně, že fotony před únikem do vesmíru mohou černou díru i několikrát oběhnout.
 
-Tento krok vedl k formulaci **obecné krajiny $U(1)$ gauge teorií** (popsané rovnicí číslo 21 v jejich článku). Tato obecná teorie v sobě kombinuje jak proměnlivé hmotnosti částic, tak proměnlivé dipólové interakce i nekanonické vazby.
+Když však výzkumníci ve své práci nastavili odrazivost zrcadla na vyšší hodnoty ($\eta = 0,4$ a $\eta = 1,0$), vizuální mapa se dramaticky změnila. 
 
-Ukázalo se, že tato jedinečná teoretická konstrukce funguje jako mapa celého vesmíru magnetických monopolů:
+Uvnitř původně temného stínu černé díry – tedy pod úrovní fotonové dráhy – se objevily **dodatečné struktury vpodobě soustředných světelných kruhů**. Tyto vnitřní prstence jsou tvořeny fotony, které opustily plynový disk, spadly hluboko k horizontu, odrazily se od zrcadlového firewallu a prošly zpět přes zakřivený časoprostor až k pozorovateli.
 
-* **'t Hooft-Polyakovův monopol** leží na této mapě jako jeden konkrétní, vysoce symetrický bod.
-* **Lee-Weinbergův monopol** představuje jinou oblast této mapy.
-* **Wu-Yangův monopol** tvoří její hranici.
-* **Cho-Maisonův monopol** (který je kandidátem na magnetický monopol v rámci Standardního modelu částicové fyziky) a jeho různé varianty se na této mapě rovněž přirozeně objevují.
-
-Místo toho, aby fyzikové nahlíželi na různé typy monopolů jako na zcela odlišné rodiny částic zrozené z různých matematických nápadů, Blaschke a Beneš ukázali, že jde pouze o různé tváře jednoho a téhož základního principu. Všechny tyto monopoly jsou udržovány při konečné hmotnosti díky mechanismu odstínění náboje – ať už prostřednictvím těžkých vektorových bosons, nebo pomocí skalárního pole.
+Jas těchto odražených prstenců je přímo úměrný účinnosti odrazu $\eta$. Pokud je odrazivost nulová, vnitřní prstence zmizí a model se hladce vrátí ke standardnímu obrazu Kerrovy černé díry podle Einsteinovy teorie. 
 
 ---
 
-## Proč na tom záleží a kam výzkum směřuje?
+## Úhel pohledu a relativistická kamufláž
 
-Může se zdát, že úvahy o magnetických monopolech jsou pouze estetickou hrou teoretických fyziků s pokročilou matematikou. Zde jsou však důvody, proč je tento výzkum důležitý pro naše chápání reálného světa:
+Jedním z nejzajímavějších zjištění studie Scheeho a jeho kolegů je způsob, jakým viditelnost odražených prstenců závisí na *inklinaci* – tedy na úhlu, pod kterým se pozorovatel na černou díru dívá.
 
-### 1. Řešení matematických patologií v klasické fyzice
-Fyzika se dlouho potýká s tím, že klasická nekvantová teorie pole naráží u bodových částic na nekonečna. Práce českých autorů ukazuje, že nekonečnou energii lze odstranit čistě klasickými mechanismy (pomocí neminimální vazby skalárních polí), aniž by bylo nutné okamžitě utíkat k extrémně složitým kvantovým teoriím strun či smyčkové kvantové gravitaci.
+Vědci testovali tři různé úhly pohledu:
+* $15^\circ$ (pohled téměř „shora“, neboli face-on),
+* $45^\circ$ (pohled ze šikmého úhlu),
+* $80^\circ$ (pohled téměř „z hrany“, neboli edge-on).
 
-### 2. Vodítko pro experimentální fyziky
-Po magnetických monopolech fyzikové intenzivně párají. Jedním z nejvýznamnějších experimentů dneška je **MoEDAL** u obřího urychlovače LHC v CERNu, který se specializuje na hledání vysoce ionizujících těžkých částic, jako jsou právě monopoly.
+Při pohledu z úhlu $15^\circ$ jsou odražené vnitřní prstence velmi dobře patrné a ostré. Jak se ale úhel pohledu zvyšuje směrem k $80^\circ$, odražené prstence relativně vůči zbytku obrazu slábnou a stávají se hůře viditelnými.
 
-Aby mohl experiment správně vyhodnotit data nebo nastavit své detektory, potřebují fyzikové vědět, jakou hmotnost a jaký tvar (rozložení energie) by teoretický monopol měl mít. Znalost toho, že monopol může mít strukturu „duté bubliny“, mění naše představy o tom, jak by taková částice interagovala s hmotou detektoru.
+Proč tomu tak je? Důvodem je efekt známý jako **relativistické Dopplerovo zesílení** (Doppler boosting). 
 
-### 3. Kosmologické důsledky
-V raném vesmíru, krátce po Velkém třesku, procházel časoprostor fázovými přechody. Během nich mohla vznikat nejrůznější skalární pole a s nimi i topologické či netopologické defekty. „Duté monopoly“ nabízejí kosmologům zcela nový stavební kámen pro modelování toho, jak mohl vypadat velmi raný vesmír a jaké stopy v něm mohla zanechat primordiální pole.
+Protože plyn v disku obíhá kolem černé díry obrovskou rychlostí (blížící se rychlosti světla), hmota, která se pohybuje směrem k pozorovateli, vyzařuje světlo posunuté k kratším vlnovým délkám a výrazně zjasňuje. Při pohledu z hrany ($80^\circ$) je tento efekt extrémní. Ta část disku, která se řítí směrem k nám, svítí tak intenzivně, že přezáří všechno ostatní. Odražené vnitřní prstence, ačkoliv tam stále jsou, se v porovnání s tímto gigantickým jasem ztratí jako blikající svíčka vedle reflektoru.
+
+Pro astronomy z toho plyne důležité poučení: pokud chceme hledat známky kvantových zrcadel u reálných černých děr, nejlepšími kandidáty jsou systémy, které vidíme téměř kolmo k jejich rotační ose.
 
 ---
 
-## Závěr
+## Časové ozvěny z hlubin gravitační studny
 
-Výzkum Filipa Blaschkeho a Petra Beneše z roku 2022 ukazuje krásu teoretické fyziky v celé její síle. Někdy ty nejhlubší poznatky nepřicházejí z přidávání dalších a složitějších matematických struktur, ale z toho, že se na starý problém podíváme z nového úhlu a najdeme to nejjednodušší možné řešení.
+Další klíčová otázka zní: závisí vizuální podoba odrazu na tom, jak blízko k horizontu se zrcadlo nachází?
 
-Odstraněním nekonečné hmotnosti u magnetických monopolů pomocí jediného skalárního pole a vytvořením sjednocené „krajiny“ pro všechny známé monopoly udělali autoři významný krok k pochopení toho, jak mohou být pole v našem vesmíru provázána. Ačkoli magnetický monopol v laboratoři dosud nikdo nespatřil, díky této práci už fyzikové mnohem lépe vědí, jaký šat si na sebe tento teoretický elegán obléká – a kde na něj v krajině fyzikálních teorií čekat.
+Studie ukázala překvapivý výsledek: pro stacionární (časově neměnný) disk plynu na přesné vzdálenosti zrcadla $r_f$ nezáleží. Pokud disk svítí stále stejně, intenzita odraženého světla pro vzdáleného pozorovatele zůstává stejná, ať už je zrcadlo milimetr nebo metr nad horizontem.
+
+Situace se ale zásadně změní v momentě, kdy disk není stálý. V reálném vesmíru jsou akreční disky černých děr velmi dynamické – objevují se v nich zjasnění, erupce nebo horké skvrny.
+
+Pokud plyn na disku znenadání blikne, pozorovatel uvidí nejprve přímé světlo z této erupce. Fotony, které zamířily dolů k zrcadlu, však musí sestoupit hluboko do gravitační studny, odrazit se a překonat gravitační časové zpoždění (tzv. Shapirovo zpoždění), než dorazí k pozorovateli.
+
+Vznikne tak **záření ozvěny** (radiation echo). Čím hlouběji u horizontu zrcadlo leží (čím menší je parametr $\epsilon$), tím déle fotonům trvá, než se z gravitačního sevření vrátí, a tím delší bude časová prodleva mezi přímým zábleskem a jeho odraženou ozvěnou. Měřením tohoto časového zpoždění u proměnných zdrojů by astronomové dokázali fyzickou polohu případného firewallu změřit s neuvěřitelnou přesností.
+
+---
+
+## Proč na tomto výzkumu záleží a kam směřujeme?
+
+Ačkoliv je práce Scheeho, Henshe a Ovčinnikova teoretickým modelem (tzv. „toy model“), má přímý dopad na současnou špičkovou astrofyziku. 
+
+Dlouhé desítky let byla teoretická fyzika vysokých energií (zabývající se kvantovou gravitací a strunovou teorií) zcela odtržena od pozorovatelské astronomie. Myšlenky jako firewally nebo kvantové informace byly považovány za matematické konstrukce, které nelze v praxi ověřit.
+
+Dnes se však situace mění díky projektům, jako je **Teleskop horizontu událostí** (Event Horizon Telescope – EHT). Tento globální síťový radioteleskop nám v roce 2019 přinesl historicky první snímek stínu černé díry v galaxii M87 a později i snímek objektu Sagittarius A* v centru naší vlastní Galaxie.
+
+Současné rozlišení EHT ještě nestačí na to, aby rozlišilo jemné sub-struktury uvnitř stínu černé díry. Nicméně plánované generace přístrojů, jako je *next-generation EHT* (ngEHT) nebo budoucí vesmírné interferometry, budou mít dostatečnou rozlišovací schopnost.
+
+Práce opavských a japonských vědců poskytuje jasné teoretické předpovědi:
+1. **Testování kvantové gravitace:** Pokud v budoucnu uvidíme uvnitř stínu černé díry soustředné odražené prstence, půjde o přesvědčivý důkaz, že horizont událostí není pouhou prázdnou branou, ale místem s exotickou kvantovou strukturou.
+2. **Rozlišení černých děr od exotických mimikerů:** Výzkum pomáhá odlišit standardní černé díry podle Einsteinovy teorie od alternativních teoretických objektů (např. gravastarů nebo červích děr bez horizontu), které by mohly vykazovat odrazivé vlastnosti.
+
+Místo pouhého filozofování o tom, zda se informace v černé díře ztrácí či nikoliv, tak dostáváme do rukou konkrétní optický test. Výzkum ukazuje, že odpovědi na nejhlubší otázky o podstatě prostoru, času a kvantové fyziky nemusí být navždy skryty v temnotě – možná se odrážejí přímo na prahu samotného nákazu.
+
+---
+
+*Odkaz na původní vědecký článek:*  
+*Schee, J., Hensh, S., & Ovchinnikov, D. (2023). On Reflection of Torus in the Kerr “Mirror”. In Z. Stuchlík, G. Török, V. Karas, & D. Lančová (Eds.), Proceedings of RAGtime 23–25 (pp. 75–81). Institute of Physics, Silesian University in Opava.*
